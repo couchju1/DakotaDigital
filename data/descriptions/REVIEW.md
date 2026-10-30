@@ -92,7 +92,7 @@ Six analog gauges fill the stock '55-56 Chevy dash, and a large TFT display adds
 
 It installs in your stock or reproduction bezel. The bezel isn't included, and reproduction chrome pieces are sold separately. So is the HLC clock, which is made to go with this system and isn't meant to be used alone. The system replaces the stock automatic gear indicator above the steering column, so add a gear shift sensor (sold separately) to show gear position. A metric version is a special order.
 
-Setup happens through touch buttons built into the face or the Bluetooth app for Apple and Android. A central control box takes signals from the car's harness and connects the included solid-state senders, which makes the install much simpler.
+Setup uses touch buttons in the face or the Bluetooth app for Apple and Android. A central control box takes signals from the car's harness and connects the included solid-state senders, which makes the install much simpler.
 
 ### Original
 
@@ -402,3 +402,393 @@ Water temperature and oil pressure sensors are in the box, plus a speed sensor t
 | Pushbuttons mounted within reach handle calibration and scroll the message centers | Specifications tab | "mount the included pushbuttons ... in a convenient and easily accessible location ... calibrate ... access ... the Digital Message Centers" |
 
 **Flags:** The description says "Full 5 Gauge", but the Specifications tab lists six readings and the Pictures tab calls the complete kit "Full 6 Gauge". The rewrite names the six readings from the spec tab and gives no count. The options also offer a clock (+$94) and a shaft radio, which belong to the glove box and center panel items. The rewrite leaves them out.
+
+# Batch 2
+
+Each product: the rewrite, the original description as it was on the page, and every fact in the rewrite with where it came from. Sources: Description (the main copy), Description footnote (the * notes), Specifications / Extra Items / Pictures tabs, Options and Versions in the buy box, and the product title. FLAG marks anything to double-check.
+
+## RTX-57C-X: 1957 Chevy Car RTX Instruments
+
+Page: `redesign/shop/1957-chevy-car-rtx-instruments-p1136.html` (product 1136)
+
+### Rewrite
+
+Only three gauges show on this stock-looking '57 Chevy cluster, but there are six readings inside. The tach, oil pressure and voltage are hidden LED bars that only appear when the key is on. A large TFT message center sits front and center, while the rest of the cluster looks straight out of 1957.
+
+It fits into your original cast housing. The gauge pod and chrome inserts aren't included, so you'll use OEM or reproduction parts. Replacement chrome inserts and the matching RLC-57C clock are sold separately. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. One central control box keeps installation and setup simple, and the LED backlighting comes on in the colors you choose.
+
+### Original
+
+> Looks like a stock cluster with just three gauges, but in fact there are six readings! The tach, oil pressure and voltage are made up of hidden LED bars, only visible when the key is on. A large TFT message center is front and center while the rest of the system looks straight out of 1957. Fits into your original cast housing; chrome rings available separately, as is the matching RLC-57C clock.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Gauge Pod and Chrome inserts not included, shown for visual/ presentation purposes. System use OEM or reproduction style gauge pod and chrome inserts.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Stock-looking cluster shows three gauges but has six readings | Description | "Looks like a stock cluster with just three gauges, but in fact there are six readings" |
+| Tach, oil pressure and voltage are hidden LED bars, visible only with the key on | Description / Specifications tab | "The tach, oil pressure and voltage are made up of hidden LED bars, only visible when the key is on"; Digital Bar Graph Gauges: Tachometer, Oil Pressure, Voltmeter |
+| Large TFT message center front and center; rest looks straight out of 1957 | Description | "A large TFT message center is front and center while the rest of the system looks straight out of 1957" |
+| Fits the original cast housing | Description | "Fits into your original cast housing" |
+| Gauge pod and chrome inserts not included; OEM or reproduction parts | Description footnote | "*Gauge Pod and Chrome inserts not included ... System use OEM or reproduction style gauge pod and chrome inserts" |
+| Replacement chrome inserts and matching RLC-57C clock sold separately | Description / Versions (buy box) | "chrome rings available separately, as is the matching RLC-57C clock"; BZL-57C Replacement Chrome Inserts; RLC-57C-X clock |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| CNC machined housings, in-house electronics, one central control box | Description (RTX series paragraph) | "Every RTX housing is CNC machined, and the electronics are designed and built in-house ... one central control box keeps installation and setup simple" |
+| LED backlighting in the colors you choose | Description (RTX series paragraph) | "the LED backlighting comes on in your colors" |
+
+**Flags:** None.
+
+## RTX-67C-PU-X: 1967-72 Chevy/ GMC Pickup RTX Instruments
+
+Page: `redesign/shop/1967-72-chevy-gmc-pickup-rtx-instruments-p1137.html` (product 1137)
+
+### Rewrite
+
+At a glance, or even a long look, this '67-72 Chevy and GMC pickup cluster passes for original equipment. Turn the key and the color-changing LED backlighting and dual TFT message centers come alive. Six gauges fill the cluster, and an analog clock sits in the center position.
+
+You'll need a stock or reproduction seven-hole bezel to install it. The bezel is sold separately, and a replacement bezel for these trucks is listed with this kit. It works with late-model drivetrains too. A metric version in km/h and Celsius is a special order.
+
+The housings are CNC machined, and the electronics are designed and built in-house. Wiring runs to one central control box, which keeps installation and setup simple.
+
+### Original
+
+> Stock, but not! With a quick glance, heck even a longing stare, you’d think these are original equipment, but when the key turns all bets are off. This is as close to stock as you can get while enjoying color-changing LED backlighting, dual TFT message centers and of course late-model drivetrain compatibility. The analog clock in the center position seals the deal; RTX is what you’ve been waiting for! Requires stock or reproduction seven-hole bezel for installation, available separately.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Passes for original equipment at a glance or a long look | Description | "With a quick glance, heck even a longing stare, you'd think these are original equipment" |
+| Color-changing LED backlighting and dual TFT message centers with the key on | Description | "when the key turns all bets are off ... color-changing LED backlighting, dual TFT message centers" |
+| Six gauges | Specifications tab | Analog Gauges: Speedometer, Tachometer, Oil Pressure, Water Temperature, Fuel Level, Voltmeter |
+| Analog clock in the center position | Description / Specifications tab | "The analog clock in the center position"; Clock: 12 Hr Analog Clock Movement |
+| Needs a stock or reproduction seven-hole bezel, sold separately | Description / Description footnote | "Requires stock or reproduction seven-hole bezel for installation, available separately" |
+| Replacement bezel listed with this kit | Versions (buy box) | "Replacement bezel for 1967-72 Chevy Pickup (ICM-67C-PU)" |
+| Works with late-model drivetrains | Description | "of course late-model drivetrain compatibility" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| CNC machined housings, in-house electronics, one central control box | Description (RTX series paragraph) | "Every RTX housing is CNC machined ... one central control box keeps installation and setup simple" |
+
+**Flags:** None.
+
+## HDX-57C: 1957 Chevy Car HDX Instruments
+
+Page: `redesign/shop/1957-chevy-car-hdx-instruments-p1035.html` (product 1035)
+
+### Rewrite
+
+The triple-round '57 Chevy cluster holds six analog gauge readings and a big TFT display in this HDX system. You can check nearly any drivetrain reading without giving up that famous dash. Choose black or silver faces, then set separate lighting colors for the readings, needles and message centers.
+
+It installs in the cast-metal housing, which is required. The gauge pod and chrome inserts aren't included, so you'll use OEM or reproduction pieces. Reproduction chrome trim is sold separately. Add the matching HLC-57C clock for the passenger side. It only works with an HDX system. A metric version is a special order.
+
+Touch buttons in the face, or the Bluetooth app for Apple and Android, handle calibration and settings. A central control box takes signals from the car's harness, so the install is much simpler.
+
+### Original
+
+> Transcending the hot rodding world, the ’57 Chevy car has become an American icon. Big tail fins, rockets on the hood and V8 power spells freedom on four wheels. For us, the triple-round gauge cluster is the perfect place to put six analog gauge readings, along with a big TFT display. You can view nearly any drivetrain parameter without sacrificing the world-class dashboard. Reproduction chrome trim is available separately; must use cast-metal housing for installation. Don’t forget to add the matching HLC clock for the passenger side. The HLC-57C clock cannot be used without an HDX system.
+>
+> Available with your choice of black or silver gauge-face styling, each HDX system allows the user to select independent illumination colors for the gauge readings and needles, as well as the message centers. Calibration and personal settings are manipulated with the built-in, capacitive-touch buttons, or the available Bluetooth app for Apple and Android devices. Each needle hub is black nickel plated spun-aluminum to match the buttons. All HDX instrument systems feature dead-faced indicators (turn signals, high beam, check engine, cruise control, parking brake, plus two user-definable), and a red, settable warning light for each gauge. With our central control box, installation is greatly simplified with vehicle-harness sourced signals and supplied, solid state sending units connecting cleanly to their respective terminal.
+>
+> *Gauge Pod and Chrome inserts not included, shown for visual/ presentation purposes. System use OEM or reproduction style bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Triple-round cluster holds six analog readings and a big TFT display | Description | "the triple-round gauge cluster is the perfect place to put six analog gauge readings, along with a big TFT display" |
+| Check nearly any drivetrain reading without giving up the dash | Description | "You can view nearly any drivetrain parameter without sacrificing the world-class dashboard" |
+| Black or silver faces; separate colors for readings, needles and message centers | Description / Options (buy box) | "your choice of black or silver gauge-face styling ... independent illumination colors for the gauge readings and needles, as well as the message centers"; Style: Black Alloy, Silver Alloy |
+| Must install in the cast-metal housing | Description | "must use cast-metal housing for installation" |
+| Gauge pod and chrome inserts not included; OEM or reproduction | Description footnote | "*Gauge Pod and Chrome inserts not included ... System use OEM or reproduction style bezel" |
+| Reproduction chrome trim sold separately | Description / Versions (buy box) | "Reproduction chrome trim is available separately"; BZL-57C Replacement Chrome Inserts |
+| Matching HLC-57C clock for the passenger side, only works with HDX | Description | "add the matching HLC clock for the passenger side. The HLC-57C clock cannot be used without an HDX system" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Touch buttons or Bluetooth app for Apple and Android for calibration and settings | Description | "Calibration and personal settings are manipulated with the built-in, capacitive-touch buttons, or the available Bluetooth app for Apple and Android devices" |
+| Central control box with harness signals simplifies the install | Description | "With our central control box, installation is greatly simplified with vehicle-harness sourced signals" |
+
+**Flags:** None.
+
+## HDX-47C-PU: 1947-53 Chevy/ GMC Pickup HDX Instruments
+
+Page: `redesign/shop/1947-53-chevy-gmc-pickup-hdx-instruments-p1036.html` (product 1036)
+
+### Rewrite
+
+No adapter rings or tiny round gauges here. Chrome-plated, machined aluminum housings replace the stock bezels and fit exactly into a stock 1947-53 Chevy or GMC pickup dash. Each gauge has a full-color TFT display and a pair of touch buttons, so you can set it up your way.
+
+The machined aluminum and chrome bezel is included. The system needs a 5.2 inch opening and measures 5.95 inches overall, and the depth usually matches the stock cluster. Fitting it to a different vehicle? Make any changes to the dash, not the HDX system, to keep warranty coverage. Faces come in black or silver alloy. A metric version is a special order.
+
+You can also set it up with the Bluetooth app for iPhone and Android. A central control box takes signals from the truck's harness and connects the included solid-state senders.
+
+### Original
+
+> Don’t settle for adapter rings and tiny round gauges crammed inside, go for a direct drop-in solution instead! Chrome plated, machined aluminum instrument housings replace the stock bezels for an exact fit into stock 1947-53 Chevy and GMC pickup dashboards. A pair of capacitive-touch buttons and a full-color TFT display in each gauge allows full personalization.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Machined aluminum and chrome bezel included.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| No adapter rings or tiny round gauges | Description | "Don't settle for adapter rings and tiny round gauges crammed inside" |
+| Chrome-plated machined aluminum housings replace stock bezels, exact fit in stock 1947-53 Chevy and GMC pickup dashes | Description | "Chrome plated, machined aluminum instrument housings replace the stock bezels for an exact fit into stock 1947-53 Chevy and GMC pickup dashboards" |
+| Each gauge has a full-color TFT display and a pair of touch buttons | Description | "A pair of capacitive-touch buttons and a full-color TFT display in each gauge allows full personalization" (FLAG: "in each gauge" is the page wording) |
+| Machined aluminum and chrome bezel included | Description footnote | "*Machined aluminum and chrome bezel included" |
+| 5.2 inch opening, 5.95 inches overall, depth usually like stock | Specifications tab | "Required opening: 5.2\" Overall Dimensions: 5.95\" Depth will generally mimic the stock gauge cluster" |
+| Fitting a different vehicle: change the dash, not the HDX system, to keep warranty coverage | Specifications tab | "any modifications should be done to the vehicle's dash or surrounding housings, rather than the HDX System, as to prevent damage and retain warranty coverage" |
+| Black or silver alloy faces | Description / Options (buy box) | "HDX comes with black or silver alloy faces" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Bluetooth app for iPhone and Android | Description | "Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android" |
+| Central control box, harness signals, included solid-state senders | Description | "A central control box takes signals from the vehicle harness and connects the included solid-state senders" |
+
+**Flags:** The page says the TFT display and touch buttons are "in each gauge". The rewrite repeats that wording.
+
+## VHX-57C: 1957 Chevy Car VHX Instruments
+
+Page: `redesign/shop/1957-chevy-car-vhx-instruments-p720.html` (product 720)
+
+### Rewrite
+
+Three times the information fits in the 1957 Chevy dash with this VHX system, and you don't have to modify anything. Real needles light up over backlit faces, and easy-to-read LCD message centers handle the rest.
+
+It fits the original gauge housing and works with factory or reproduction trim rings, sold separately. The bezel isn't included. Keep your stock indicators, or connect them to the VHX control box. Pick black alloy, silver alloy or a carbon fiber look, in blue or red. A clock made only for VHX gauges comes in analog or digital. A metric version is a special order.
+
+Inside are micro-controlled stepper motors and solid-state sensors. Like every Dakota Digital system, it's engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Arguably the pinnacle of 1950’s design, the 1957 Chevy dash is a favorite among builders. VHX-57C triples the amount of information available without modification. Stock indicators can be retained, or connected to VHX control box for full integration. Fits original gauge housing and can be used with factory or reproduction trim rings, sold separately.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Three times the information, no modification | Description | "VHX-57C triples the amount of information available without modification" |
+| Lit needles, backlit faces, easy-to-read LCD message centers | Description | "VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers" |
+| Fits the original gauge housing; factory or reproduction trim rings sold separately | Description | "Fits original gauge housing and can be used with factory or reproduction trim rings, sold separately" |
+| Bezel not included | Description footnote | "*Bezel not included; it's shown for presentation" |
+| Keep stock indicators or connect them to the VHX control box | Description | "Stock indicators can be retained, or connected to VHX control box for full integration" |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style: Black Alloy, Silver Alloy, Carbon Fiber Look; Color: Blue, Red (FLAG: color not explained) |
+| VHX-only clock, analog or digital | Versions (buy box) / Options (buy box) | "1957 Chevy Clock for VHX gauges only (VL)"; Clock type: Analog (Needles), Digital |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Micro-controlled stepper motors and solid-state sensors | Description | "micro-controlled precision stepper motors, solid-state sensors" |
+| Engineered and built in Sioux Falls, limited lifetime warranty | Description | "Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty" |
+
+**Flags:** Blue/Red option not explained on the page.
+
+## VHX-67C-CAM: 1967-68 Camaro/ Firebird VHX Instruments
+
+Page: `redesign/shop/1967-68-camaro-firebird-vhx-instruments-p721.html` (product 721)
+
+### Rewrite
+
+Update a first-gen 1967-68 Camaro or Firebird without losing its original style. Fully lit needles, backlit faces and easy-to-see LCD message centers give you full instrumentation, and admirers will look twice.
+
+Installation is simple with a stock or reproduction instrument bezel, sold separately. A reproduction bezel is listed with this kit. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
+
+Behind the faces are micro-controlled stepper motors, solid-state sensors and displays you can customize. It's engineered and built in Sioux Falls, South Dakota, and backed by a limited lifetime warranty.
+
+### Original
+
+> The first generation Camaro and Firebird started a legacy with unmatched popularity to this day. VHX-67C-CAM is a terrific way to update your pony car without losing its original style. Simple installation using a stock or reproduction instrument bezel (available separately) yielding full instrumentation will have admirers doing a double-take.
+>
+> Fully lit needles, backlit faces, and highly visible LCD message centers are a few of the things that you can see which set the VHX Series apart from yesterday’s traditional approach to instrumentation. A few of the features which you don’t normally see are the micro-controlled precision stepper motors, solid state sensors for unparalleled accuracy, and user-customizable display feedback, all supported by an unrivaled limited lifetime warranty which has become the standard for Dakota Digital instrumentation systems . Completely engineered and manufactured at our facility in Sioux Falls, South Dakota, the VHX Series has completely revolutionized the instrumentation industry! System fit stock or reproduction instrument housing (not included), reproduction model available below.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| First-gen 1967-68 Camaro or Firebird, keeps its original style | Title / Description | "The first generation Camaro and Firebird"; "update your pony car without losing its original style" |
+| Fully lit needles, backlit faces, LCD message centers, full instrumentation | Description | "Fully lit needles, backlit faces, and highly visible LCD message centers"; "yielding full instrumentation" |
+| Admirers will look twice | Description | "will have admirers doing a double-take" |
+| Simple install with a stock or reproduction instrument bezel, sold separately | Description | "Simple installation using a stock or reproduction instrument bezel (available separately)" |
+| Reproduction bezel listed with this kit | Description / Versions (buy box) | "reproduction model available below"; ICM-67C-CAM 67-68 Chevy Camaro bezel |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Stepper motors, solid-state sensors, customizable displays | Description | "micro-controlled precision stepper motors, solid state sensors ... and user-customizable display feedback" |
+| Built in Sioux Falls, limited lifetime warranty | Description | "Completely engineered and manufactured at our facility in Sioux Falls, South Dakota"; "limited lifetime warranty" |
+
+**Flags:** Blue/Red option not explained. The bezel listed is named "67-68 Chevy Camaro bezel", so the rewrite does not say it fits the Firebird.
+
+## GRFX-55C-PU: GRFX-55C-PU: 1955-59 Chevy Pickup, GRFX Instruments
+
+Page: `redesign/shop/grfx-55c-pu-1955-59-chevy-pickup-grfx-instruments-p1359.html` (product 1359)
+
+### Rewrite
+
+A backlit billet aluminum knob in the face of this cluster runs the whole show. Turn it to change readouts and reset timers, or go deeper for calibration and display setup. Each gauge position can show an analog, digital or bar-graph readout, and you pick the graphic theme and colors.
+
+It drops into the OEM front gauge bezel of a 1955-59 Chevy truck. The bezel isn't included, so use an OEM or reproduction one. It works with anything from the original engine to the latest LT power. The sensors come with full-length harnesses, and backup cameras are sold separately.
+
+Built-in GPS calibrates the speedometer for your tires and gearing. Bluetooth connects the Dakota Digital app, and a USB port takes updates. It's engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Dropping into the OEM front gauge bezel, the GRFX-55C-PU brings your 1955-59 Chevy Truck into the modern age. With a range of compatibility from the OEM engine to the latest LT power, this kit will provide detailed monitoring of your under-hood investment, while providing your eyes with the latest in technology and customization ability.
+>
+> With GRFX you can change nearly everything: pick a graphic theme, then set colors and warning modes for each element. Each gauge position can show an analog, digital or bar-graph readout, one reading at a time, two at once, or a different reading entirely.
+>
+> GRFX can also show a backup camera on its largest screen, right in the cluster. Dakota Digital backup cameras are sold separately and come with a full-length harness and a universal mount.
+>
+> Built-in GPS calibrates the speedometer automatically, whatever your tire size or gearing. A wired speed signal keeps the reading live while GPS serves as the reference, so there's nothing to calibrate by hand. Bluetooth connects the Dakota Digital app on your phone or tablet for setup, calibration, customization and troubleshooting with live gauge and sensor data. A USB port takes updates, including new graphic themes and future features.
+>
+> A built-in G-force meter shows the forces at work as you corner, launch and brake.
+>
+> The primary user-control is made with a fully-backlit rotary encoder. Conveniently located in the face of the instrument system, this billet-aluminum control knob provides access to readout changes, resetting of various timers or settings. Deeper yet, all calibration and display configuration can be done here as well, putting all system controls at the tip of your fingers!
+>
+> Like every Dakota Digital system, it uses a separate control module, so wiring stays tidy and less of it runs to the cluster. The sensors are included, each with a full-length harness: a water temperature probe with adapter bushings, a solid-state oil pressure sender and a speedometer pulse generator.
+>
+> Every Dakota Digital instrument system is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Backlit billet aluminum knob in the face controls the system | Description | "fully-backlit rotary encoder. Conveniently located in the face of the instrument system, this billet-aluminum control knob" |
+| Change readouts, reset timers, calibration and display setup | Description | "provides access to readout changes, resetting of various timers or settings. Deeper yet, all calibration and display configuration can be done here" |
+| Analog, digital or bar-graph readout per position; pick theme and colors | Description | "Each gauge position can show an analog, digital or bar-graph readout"; "pick a graphic theme, then set colors" |
+| Drops into the OEM front gauge bezel of a 1955-59 Chevy truck | Description / Title | "Dropping into the OEM front gauge bezel, the GRFX-55C-PU brings your 1955-59 Chevy Truck" (FLAG: the version in the buy box is named "1955-56 Chevy Pickup") |
+| Bezel not included; OEM or reproduction | Description footnote | "*Bezel not included ... The system uses your OEM or reproduction bezel" |
+| Original engine to the latest LT power | Description | "With a range of compatibility from the OEM engine to the latest LT power" |
+| Sensors with full-length harnesses; backup cameras sold separately | Description | "The sensors are included, each with a full-length harness"; "backup cameras are sold separately" |
+| GPS calibrates for tires and gearing; Bluetooth app; USB updates | Description | "Built-in GPS calibrates the speedometer automatically, whatever your tire size or gearing"; "Bluetooth connects the Dakota Digital app"; "A USB port takes updates" |
+| Built in Sioux Falls, limited lifetime warranty | Description | "engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty" |
+
+**Flags:** Title and description say 1955-59; the version name in the buy box says "1955-56 Chevy Pickup". The rewrite follows the title.
+
+## GRFX-60C-PU: GRFX-60C-PU: 1960-63 Chevy Pickup GRFX Instruments
+
+Page: `redesign/shop/grfx-60c-pu-1960-63-chevy-pickup-grfx-instruments-p1388.html` (product 1388)
+
+### Rewrite
+
+First-gen 1960-63 Chevy C/K trucks can now run the GRFX series of gauges. Pick a graphic theme, then set the colors and warning modes for each element. A gauge position can show one reading, two at once, or something else entirely. The largest screen can also show a backup camera.
+
+It uses your OEM or reproduction bezel, which isn't included. Backup cameras are sold separately and come with a full-length harness and a universal mount. The water temperature probe, oil pressure sender and speedometer pulse generator are all in the box.
+
+GPS sets the speedometer for you, so there's nothing to calibrate by hand. A G-force meter shows the pull when you corner, launch and brake. A separate control module keeps the wiring tidy, and the whole system is built in Sioux Falls, South Dakota.
+
+### Original
+
+> First Gen Chevy C/K trucks from 1960-63 can know enjoy the exciting GRFX series of gauges. Looking something for to set your dash apart from the others, look no further.
+>
+> With GRFX you can change nearly everything: pick a graphic theme, then set colors and warning modes for each element. Each gauge position can show an analog, digital or bar-graph readout, one reading at a time, two at once, or a different reading entirely.
+>
+> GRFX can also show a backup camera on its largest screen, right in the cluster. Dakota Digital backup cameras are sold separately and come with a full-length harness and a universal mount.
+>
+> Built-in GPS calibrates the speedometer automatically, whatever your tire size or gearing. A wired speed signal keeps the reading live while GPS serves as the reference, so there's nothing to calibrate by hand. Bluetooth connects the Dakota Digital app on your phone or tablet for setup, calibration, customization and troubleshooting with live gauge and sensor data. A USB port takes updates, including new graphic themes and future features.
+>
+> A built-in G-force meter shows the forces at work as you corner, launch and brake.
+>
+> Like every Dakota Digital system, it uses a separate control module, so wiring stays tidy and less of it runs to the cluster. The sensors are included, each with a full-length harness: a water temperature probe with adapter bushings, a solid-state oil pressure sender and a speedometer pulse generator.
+>
+> Every Dakota Digital instrument system is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| First-gen 1960-63 Chevy C/K trucks can now run GRFX | Description | "First Gen Chevy C/K trucks from 1960-63 can know enjoy the exciting GRFX series of gauges" |
+| Pick a theme, set colors and warning modes | Description | "pick a graphic theme, then set colors and warning modes for each element" |
+| One reading, two at once, or a different reading | Description | "one reading at a time, two at once, or a different reading entirely" |
+| Largest screen can show a backup camera | Description | "GRFX can also show a backup camera on its largest screen" |
+| OEM or reproduction bezel, not included | Description footnote | "*Bezel not included ... The system uses your OEM or reproduction bezel" |
+| Cameras sold separately with full-length harness and universal mount | Description | "backup cameras are sold separately and come with a full-length harness and a universal mount" |
+| Water temperature probe, oil pressure sender and pulse generator included | Description | "The sensors are included ... a water temperature probe with adapter bushings, a solid-state oil pressure sender and a speedometer pulse generator" |
+| GPS sets the speedometer, nothing to calibrate by hand | Description | "Built-in GPS calibrates the speedometer automatically ... nothing to calibrate by hand" |
+| G-force meter for cornering, launch and braking | Description | "A built-in G-force meter shows the forces at work as you corner, launch and brake" |
+| Separate control module keeps wiring tidy; built in Sioux Falls | Description | "uses a separate control module, so wiring stays tidy"; "engineered and built in Sioux Falls, South Dakota" |
+
+**Flags:** None.
+
+## VFD3-33C-S: 1933-35 Chevy Standard Digital Instrument System
+
+Page: `redesign/shop/1933-35-chevy-standard-digital-instrument-system-p39.html` (product 39)
+
+### Rewrite
+
+This 1933-35 Chevy Standard system shows six gauges on bright vacuum fluorescent displays in blue or teal. They're easy to read, and the message centers add an odometer, dual trip meters, a 0-60 timer and quarter-mile time and trap speed.
+
+A billet aluminum dash housing made to fit the 1933-35 Chevy Standard comes in the kit. Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. The speed sensor needs about 5 inches of clearance behind the cable drive. A metric version is a special order.
+
+Mount the included pushbuttons where you can reach them. They calibrate the speedometer and fuel gauge, set the cylinder count and then scroll through the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System includes Billet Aluminum dash housing to fit 1933- 35 Chevy Standard.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1933-35 Chevy Standard | Title / Description | "to fit 1933- 35 Chevy Standard" |
+| Six gauges | Description | "Full 6 Gauge Instrument System" |
+| Bright vacuum fluorescent displays, easy to read, blue or teal | Description / Specifications tab / Options (buy box) | "bright vacuum fluorescent displays: easy to read"; Standard Colors: Blue or Teal |
+| Odometer, dual trip meters, 0-60 timer, quarter-mile time and trap speed | Specifications tab | Odometer; Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time; 1/4 mile end speed (trap speed) |
+| Billet aluminum dash housing included | Description | "includes Billet Aluminum dash housing" |
+| Water temp, oil pressure and speed sensors, each with a 10 ft harness | Specifications tab | Included Sensors, each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "Sensor requires approximately 5\" clearance extending between the cable drive output and any obstruction" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Included pushbuttons mounted within reach calibrate, set cylinder count, scroll message centers | Specifications tab | "mount the included pushbuttons ... These buttons are used to calibrate your speedometer, set the cylinder count and the fuel level gauge ... access ... the Digital Message Centers" |
+
+**Flags:** None.
+
+## VFD3-37C: 1937-38 Chevy Digital Instrument System
+
+Page: `redesign/shop/1937-38-chevy-digital-instrument-system-p98.html` (product 98)
+
+### Rewrite
+
+Pick blue or teal for the vacuum fluorescent readouts in this 1937-38 Chevy system. Speed, rpm, oil pressure, water temp, fuel and volts all show in bright digits that are easy to see. The message centers add trip meters, a 0-60 timer and quarter-mile times.
+
+A billet aluminum dash housing made for the 1937-38 Chevy is included. Matching aluminum dash panels and a glove box door are sold separately. The dash panel comes for a shaft or DIN radio, with or without A/C vents. The glove box door comes plain or with a digital clock. Its handle is separate, and the covers may need some modification. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come in the box with 10 ft harnesses. Pushbuttons you mount within reach handle calibration and the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 5 Gauge Instrument System includes Billet Aluminum dash housing to fit 1937-38 Chevy.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1937-38 Chevy | Title / Description | "to fit 1937-38 Chevy" |
+| Blue or teal vacuum fluorescent readouts, bright and easy to see | Description / Specifications tab / Options (buy box) | "bright vacuum fluorescent displays: easy to read"; Color: Blue, Teal |
+| Speed, rpm, oil pressure, water temp, fuel and volts | Specifications tab | Digital Gauges: Speedometer, Tachometer, Oil Pressure, Water Temperature, Fuel Level, Voltmeter |
+| Trip meters, 0-60 timer, quarter-mile times | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time |
+| Billet aluminum dash housing included | Description | "includes Billet Aluminum dash housing to fit 1937-38 Chevy" |
+| Aluminum dash panels and glove box door sold separately | Extra Items tab / Versions (buy box) | CALR-37 dash panels; CALG-37 glove box door; listed as separate versions |
+| Dash panel for shaft or DIN radio, with or without A/C vents | Options (buy box) / Extra Items tab | Radio Type: Shaft Radio, DIN Radio (CD Player); A/C Vents: None, with A/C Vents |
+| Glove box door plain or with digital clock | Options (buy box) / Extra Items tab | Glove Box: Plain, with Digital Clock; CALG-37-CLK Glove Box Door with VFD Clock |
+| Handle separate; covers may need modification | Extra Items tab / Versions (buy box) | ALH Aluminum Glove Box Cover Handle; "Some modification to aluminum glove box covers may be required" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Sensors with 10 ft harnesses; pushbuttons for calibration and message centers | Specifications tab | Included Sensors "with a 10 ft harness"; Pushbutton calibration |
+
+**Flags:** The description says "Full 5 Gauge", but the Specifications tab lists six readings. The rewrite names the six readings and gives no count. CALR-37 (the radio panel) is one of the two items the offer classifier could not type, so it is not a schema offer.
