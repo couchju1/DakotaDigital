@@ -1,0 +1,9 @@
+{
+  "name": "dakotadigital-redesign",
+  "private": true,
+  "type": "module",
+  "description": "Static redesign in redesign/, plus api/submit.js which saves form entries to Neon.",
+  "dependencies": {
+    "@neondatabase/serverless": "1.0.2"
+  }
+}

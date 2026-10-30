@@ -3,3 +3,7 @@
 
 # Local tooling
 .claude/
+
+# Local secrets (database URL for the form function)
+.env*
+node_modules/

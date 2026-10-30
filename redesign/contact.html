@@ -168,7 +168,7 @@
     });
   </script>
   <script>
-    document.getElementById('contact-form').addEventListener('submit', (e) => {
+    document.getElementById('contact-form').addEventListener('submit', async (e) => {
       e.preventDefault();
       const f = e.target, err = document.getElementById('c-error');
       if (f.querySelector('[name="website"]').value) return; // honeypot: bots fill the hidden field
@@ -176,8 +176,25 @@
       if (missing.length) { err.textContent = 'Please fill in your name, email and message.'; err.hidden = false; return; }
       err.hidden = true;
       const sent = document.getElementById('c-sent');
-      sent.textContent = `Prototype: this would send your message to ${f.querySelector('#c-dept').value}. Nothing was sent.`;
-      sent.hidden = false;
+      const btn = f.querySelector('button[type="submit"]');
+      const val = (id) => f.querySelector('#' + id).value;
+      btn.disabled = true;
+      try {
+        const r = await fetch('/api/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ kind: 'contact', department: val('c-dept'), name: val('c-name'), email: val('c-email'), phone: val('c-phone'), message: val('c-msg') }),
+        });
+        const j = await r.json();
+        if (!j.ok) throw new Error(j.error);
+        sent.textContent = `Thanks. We got your message for ${val('c-dept')}.`;
+        sent.hidden = false;
+        f.querySelector('#c-msg').value = '';
+      } catch (ex) {
+        err.textContent = ex.message && !/fetch|JSON/i.test(ex.message) ? ex.message : 'That did not go through. Please try again or call (800) 852-3228.';
+        err.hidden = false;
+      }
+      btn.disabled = false;
     });
   </script>
 </body>

@@ -504,8 +504,8 @@
       if (e.target.closest('a')) { menuBtn.setAttribute('aria-expanded', 'false'); nav.classList.remove('open'); }
     });
 
-    // Anniversary signup (prototype: nothing is sent)
-    document.getElementById('anniv-signup').addEventListener('submit', (e) => {
+    // Mailing list signup, saved by api/submit.js
+    document.getElementById('anniv-signup').addEventListener('submit', async (e) => {
       e.preventDefault();
       if (document.getElementById('m-website').value) return; // honeypot: bots fill the hidden field
       const email = document.getElementById('anniv-email');
@@ -520,8 +520,20 @@
       }
       err.hidden = true;
       email.removeAttribute('aria-invalid');
-      done.textContent = `Prototype: ${email.value.trim()} would be added to the mailing list. Nothing was sent.`;
-      done.hidden = false;
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      try {
+        const r = await fetch('/api/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ kind: 'signup', email: email.value.trim() }) });
+        const j = await r.json();
+        if (!j.ok) throw new Error(j.error);
+        done.textContent = `Thanks. ${email.value.trim()} is on the list.`;
+        done.hidden = false;
+        email.value = '';
+      } catch (ex) {
+        err.textContent = ex.message && !/fetch|JSON/i.test(ex.message) ? ex.message : 'That did not go through. Please try again.';
+        err.hidden = false;
+      }
+      btn.disabled = false;
     });
   </script>
 </body>
