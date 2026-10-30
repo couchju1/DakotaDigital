@@ -1,0 +1,146 @@
+[
+ {
+  "cat": "Purchasing",
+  "items": [
+   {
+    "q": "How can I pay for my Dakota Digital order?",
+    "a": [
+     "We accept Visa, Mastercard, Amex or Discover. If you do not have a credit card, you can call us and we will give you the total with shipping that you can mail in to us. Unfortunately Dakota Digital does not ship COD."
+    ]
+   },
+   {
+    "q": "I don't see a kit for my vehicle. Can I still have Dakota Digital gauges?",
+    "a": [
+     "Most vehicles that we don't have a kit for can be handled by our custom shop. For most customs you will need to send in your original bezel and gauge housing so that we can remove the factory gauges and custom build our digital gauges into your bezel and housing. The bezel should be sent in \"ready to install\" condition so if it needs to be repainted, chromed etc. be sure to do it before you send it to Dakota Digital. For more information call Dakota Digital's custom shop at (800)593-4160."
+    ]
+   },
+   {
+    "q": "I ordered a motorcycle gauge from a dealer but I don't have the speed adaptor that's mentioned in the instructions. Why didn't I get one?",
+    "a": [
+     "The speed adaptors are a separate item that you need to order along with your gauge. They are not included, so that our dealers can stock one main unit and a few speed adaptors and have it work on many different applications. This keeps their inventory costs down and your final cost down. Just let your dealer know, and they can order the appropriate speed adaptor for your application."
+    ]
+   }
+  ]
+ },
+ {
+  "cat": "Durability and warranty",
+  "items": [
+   {
+    "q": "Are your digital and/or analog gauges reliable? Is there a warranty?",
+    "a": [
+     "Yes Dakota Digital gauges are reliable. Dakota Digital has been in business since 1986 and we have tens of thousands of units on the road. Over the years we have continued to improve our products with the help of feedback from our customers. The warranty on items purchased from Dakota Digital will vary depending on the item purchased. Full gauge systems (Items with part numbers starting \"STR, VFD, RET, VHX, HDX, RTX and GRFX\") are typically covered by a lifetime warranty, for the life of the vehicle, against manufacturers defects. Individual automotive gauges and all motorcycle products are typically covered for 24 months from the date of purchase."
+    ]
+   },
+   {
+    "q": "Will it wreck your gauges if my bike is in the rain?",
+    "a": [
+     "No. All Dakota Digital motorcycle gauges are designed to survive in the weather. The circuit boards are all internally coated for weather resistance so even if water gets into the housing they will not be damaged.",
+     "Dakota Digital does not recommend using automotive gauges in a motorcycle environment - only the gauges designed for this purpose."
+    ]
+   },
+   {
+    "q": "My bike vibrates like crazy! Can Dakota Digital gauges take vibration?",
+    "a": [
+     "Yes they can take it! Our gauges were designed with custom cycles in mind so they are beefed up internally to take the abuse that a big stroker motor puts out. Dakota Digital motorcycle gauges use machined aluminum housings and all the mounting points for the circuit boards are built into the machine work. While we do not recommend mounting the instruments directly to the engine, the more traditional approach of handlebar or tank mounting will work great."
+    ]
+   }
+  ]
+ },
+ {
+  "cat": "Repairs",
+  "items": [
+   {
+    "q": "The Dakota Digital technician told me that I'd need to send my unit in for repair. Where do I send it and what do I include?",
+    "a": [
+     "Send items that need repair to: Dakota Digital Inc., Attn: Repair Dept., 4510 W. 61st St North, Sioux Falls SD 57107. Be sure to include the complete unit to be repaired as well as your name, address, phone number and a description of the problem. Before returning the item, please contact Dakota Digital for an RMA number to properly route your package."
+    ]
+   },
+   {
+    "q": "How much will it cost to repair my unit?",
+    "a": [
+     "That will depend on the cause of the problem, which product, and if the unit is still covered under warranty. Typical non-warranty repairs start at $65. If the repair is covered under warranty there will, of course, be no charge."
+    ]
+   },
+   {
+    "q": "I have a vehicle with factory digital gauges but they don't work. Can Dakota Digital repair them?",
+    "a": [
+     "Unfortunately Dakota Digital can not repair OEM digital gauges. You will likely need to have them repaired or replaced by the manufacturer. However, we may be able to build you a custom set of Dakota Digital gauges into your original bezel and housing. Call (800)593-4160 and ask for the custom shop for more information."
+    ]
+   }
+  ]
+ },
+ {
+  "cat": "Installation",
+  "items": [
+   {
+    "q": "Can I install the gauges myself?",
+    "a": [
+     "Several of our customers install their gauges themselves, although depending upon your comfort level, skill and experience, it may be worth seeking out a qualified installer."
+    ]
+   },
+   {
+    "q": "I have an older bike with a cable driven speedo. Can I use your speedometer?",
+    "a": [
+     "Dakota Digital gauges can be used on cable drive or electronic speedo applications. Just be sure to order the appropriate speed adaptor for your application when you place the order. Our gauges can also be easily calibrated for any drive ratio, tire size, or gearing! All you need is a finger to push the button and a measured mile!"
+    ]
+   }
+  ]
+ },
+ {
+  "cat": "Gauge readings and display",
+  "items": [
+   {
+    "q": "Can I get a red digital display?",
+    "a": [
+     "This will depend on the item you are ordering. On automotive full gauge systems (items with part numbers starting \"VFD and RET\") you can get a red display as a custom color for an additional charge. However, we highly discourage it. Custom colors such as red have VERY poor daytime visibility. We recommend that you stick to the standard colors (blue or teal) for visibility reasons.",
+     "However, we now offer the VHX, HDX, RTX and GRFX series and some motorcycle and off-road products which utilize a high-brightness displays in a variety of colors. These new displays are extremely bright and will not suffer from the visibility issues mentioned above."
+    ]
+   },
+   {
+    "q": "Will I be able to see the automotive digital gauges during the day?",
+    "a": [
+     "As long as you stick to the standard colors (blue or teal) daylight visibility is very good. For the best visibility we recommend the teal display. The teal is recommended for convertible applications.",
+     "In terms of the VHX, HDX, RTX and GRFX Series of Analog/Digital instrument systems, they offer excellent daytime and nighttime visibility in any backlight color."
+    ]
+   },
+   {
+    "q": "How is visibility during the day and at night on my motorcycle?",
+    "a": [
+     "Night time visibility on all Dakota Digital gauges will be excellent. Daytime visibility will depend on the application. The MLX series of direct-plug in Harley Davidson instruments use high-visibility TFT displays and feature a high-contrast sunlight mode for great functionality even in direct sun. Most universal Dakota Digital motorcycle gauges use high contrast teal displays with non-glare lenses to provide the best daytime visibility possible. On bar mount systems and gauges mounted facing back toward the rider visibility is good at all times. Dash mount systems that face straight up into the sun will have lesser visibility when the sun is high and shining directly on the gauge. It can still be read but visibility under these conditions is slightly reduced."
+    ]
+   },
+   {
+    "q": "In the picture of the gauges that I want the fuel gauge reads 99. What does this mean?",
+    "a": [
+     "The fuel gauge reads as a percentage. 99 would mean that the tank is 99% full, 25 would mean that you have a quarter tank (25%)."
+    ]
+   },
+   {
+    "q": "I have higher gears than stock. Will the speedometer be accurate?",
+    "a": [
+     "Dakota Digital speedometers can be calibrated for nearly any tire/gearing combination. Once the gauges are installed you will calibrate them for your combination using a simple push button calibration routine."
+    ]
+   },
+   {
+    "q": "How high will the Dakota Digital speedometer go up to?",
+    "a": [
+     "Dakota Digital speedometers can read up to 199 or 255MPH (KPH) depending upon the model.",
+     "VHX, HDX, RTX and GRFX instrument systems will read up to 120/140/160MPH and up to 255MPH displayed in the digital information center."
+    ]
+   },
+   {
+    "q": "I am using Dakota Digital gauges and plan to disconnect my battery while storing the vehicle over the winter. Will I lose my odometer reading and settings?",
+    "a": [
+     "Your odometer reading and settings will be saved in hard memory so disconnecting the battery will not affect anything. Make sure your battery is fully charged when re-starting in the spring."
+    ]
+   },
+   {
+    "q": "Is it possible to put my vehicle's odometer reading on the Dakota Digital gauges or do I have to start at zero miles? I looked at the installation instructions but could not find how to set the odometer.",
+    "a": [
+     "Dakota Digital gauges come from the factory at zero miles unless you specify that you want the odometer set. Dakota Digital can set the odometer on our digital gauges to a specific mileage reading. It must be done at the factory and there is a $20 charge (Plus return shipping) for this service. If you do not specify that you want your odometer preset then it will be shipped from the factory at zero miles.",
+     "GRFX, RTX, HDX, VHX, VFD3 and RET series instruments and certain motorcycle products now allow for user programmable mileage to be set one (1) time during the initial setup before 100 miles. If this is not done or set incorrectly the control box will need to be returned for service and a $20 service charge will apply."
+    ]
+   }
+  ]
+ }
+]
