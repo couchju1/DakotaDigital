@@ -172,6 +172,13 @@ for pid, p in catalog['products'].items():
     listed_anywhere = any(int(pid) in c['products'] for c in catalog['cats'].values())
     if home and listed_anywhere and int(pid) not in home['products']:
         fail('product', pid, f'breadcrumb category {p["cat"]} does not list this product')
+    if p.get('rewrite'):
+        # Hand-written description (data/descriptions/): its facts are checked in REVIEW.md, so here just
+        # make sure it is on the page. The spec tabs are still compared through the tab count above.
+        for para in p['rewrite']:
+            if html.escape(para, quote=False) not in page:
+                fail('product', pid, f'rewrite paragraph not on page: "{para[:40]}"')
+        continue
     lw = words(expected_text(text_of(re.sub(r'<div id="thmprdparent".*|<section class="product_divider">.*?</section>', '', frag_text, flags=re.S))))
     lw -= {'your', 'browser', 'must', 'support', 'iframes', 'purchase', 'this', 'product', 'click', 'image', 'text', 'view', 'details'}
     pw = words(text)

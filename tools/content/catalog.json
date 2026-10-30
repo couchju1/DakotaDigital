@@ -3204,7 +3204,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1404": {
 "title": "GRFX-3200: Universal Rectangle, Digital GRFX Instruments",
@@ -3242,7 +3243,8 @@
 1376
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1202": {
 "title": "2-1/16\" Round Universal HDX Clock",
@@ -3270,7 +3272,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1227": {
 "title": "2-1/16\" Round Universal VHX Clock",
@@ -3307,7 +3310,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1013": {
 "title": "3\" Round Universal VHX Clock",
@@ -3345,7 +3349,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "845": {
 "title": "VHX-1019: Universal Single 7\" Round, Analog VHX Instrument",
@@ -3420,7 +3425,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "225": {
 "title": "VFD3-1005: Universal Single 6.75\" Round, Digital Instrument",
@@ -3480,7 +3486,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1076": {
 "title": "HDX-2014: Universal Dual 5.4\" Round, Analog HDX Instruments",
@@ -3537,7 +3544,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "726": {
 "title": "VHX-1014: Universal Dual 5.4\" Round, Analog VHX Instrument",
@@ -3612,7 +3620,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "224": {
 "title": "VFD3-1004: Universal Dual 4.5\" Round, Digital Instrument",
@@ -3674,7 +3683,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "725": {
 "title": "VHX-1013: Universal Triple Round, Analog VHX Instrument",
@@ -3749,7 +3759,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "851": {
 "title": "VHX-1020: Universal 5.4\" Round Trio, Analog VHX Instrument",
@@ -3824,7 +3835,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "790": {
 "title": "VHX-1015: Universal Five Gauge Round, Analog VHX Instrument",
@@ -3899,7 +3911,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "937": {
 "title": "VHX-1022: Universal Five Gauge Round, Analog VHX Instrument",
@@ -3974,7 +3987,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1201": {
 "title": "HDX-2024: Universal 6 Gauge Round, Analog HDX Instruments",
@@ -4031,7 +4045,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "973": {
 "title": "VHX-1024: Universal Six Gauge Round, Analog VHX Instrument",
@@ -4106,7 +4121,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1176": {
 "title": "HDX-2070: Universal 7 Gauge Round, Analog HDX Instruments",
@@ -4163,7 +4179,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1088": {
 "title": "HDX-2060: Universal 6 Gauge Round, Analog HDX Instruments",
@@ -4220,7 +4237,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "919": {
 "title": "VHX-1050/1060: Universal 5 and 6 Gauge Round, Analog VHX Instruments",
@@ -4345,7 +4363,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "311": {
 "title": "5 Gauge Kit",
@@ -4381,7 +4400,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "313": {
 "title": "6 Gauge Kit",
@@ -4417,7 +4437,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1403": {
 "title": "GRFX-3100: Universal Competition, Digital GRFX Instruments",
@@ -4455,7 +4476,8 @@
 1376
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1144": {
 "title": "HDX-2100: Universal Competition Analog HDX Instruments",
@@ -4512,7 +4534,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 11,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "878": {
 "title": "VHX-1100: Universal 6\" x 10.75\" Competition, Analog VHX Instrument",
@@ -4588,7 +4611,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1145": {
 "title": "HDX-2200: Universal 6 Gauge Competition Analog HDX Instruments",
@@ -4645,7 +4669,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "880": {
 "title": "VHX-1200: 1967-69 Marquez Designs Camaro",
@@ -4689,7 +4714,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "884": {
 "title": "VHX-1016: Universal 5\" x 10\" Multi-level Elliptical, Analog VHX Instrument",
@@ -4764,7 +4790,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "488": {
 "title": "VFD3-1009: Universal 5\" x 10\" Multi-level Elliptical, Digital Instrument",
@@ -4826,7 +4853,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "310": {
 "title": "Ion Series, 6 Gauge Kit",
@@ -4874,7 +4902,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "486": {
 "title": "VFD3-1011: Universal 4\" x 9.5\" Elliptical, Digital Instrument",
@@ -4950,7 +4979,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1075": {
 "title": "HDX-2017: Universal 5.75\" x 12\" Elliptical, Analog HDX Instruments",
@@ -5007,7 +5037,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "847": {
 "title": "VHX-1017: Universal 5.7\" X 12.05\" Elliptical, Analog VHX Instrument",
@@ -5082,7 +5113,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1351": {
 "title": "GRFX-2017: Universal 5.75\" x 12\" Elliptical, Digital GRFX Instruments",
@@ -5120,7 +5152,8 @@
 1376
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "487": {
 "title": "VFD3-1012: Universal 5\" x 12.25\" Elliptical, Digital Instrument",
@@ -5196,7 +5229,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "226": {
 "title": "RET-2000: 5-Hole RetroTech Digital Instrument System",
@@ -5248,7 +5282,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "227": {
 "title": "RET-2001-S: 3-Hole RetroTech Digital Instrument Panel",
@@ -5292,7 +5327,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "228": {
 "title": "VFD3X-1002B: Universal 2\" x 19\" Oval, Digital VFD Instrument",
@@ -5367,7 +5403,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1074": {
 "title": "HDX-2018: Universal 4.4\" x 11.4\" Rounded Rectangle, Analog HDX Instruments",
@@ -5424,7 +5461,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "846": {
 "title": "VHX-1018: Universal 4.4\" x 11.4\" Rounded Rectangle, Analog VHX Instrument",
@@ -5499,7 +5537,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "211": {
 "title": "VFD3-1008: Universal 4.25\" x 12\" Oval, Digital VFD Instrument",
@@ -5561,7 +5600,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "966": {
 "title": "VHX-1023: Universal 3.75\" x 19.5\" Rectangle, Analog VHX Instrument",
@@ -5636,7 +5676,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "229": {
 "title": "VFD3X-1002: Universal 3.5\" x 19\" Rectangle, Digital Instrument",
@@ -5696,7 +5737,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "218": {
 "title": "VFD3-1001-L: Universal 4.4\" x 18.5\" Rectangle, Digital Instrument",
@@ -5758,7 +5800,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "217": {
 "title": "VFD3-1000-L: Universal 4.3\" x 14\" Rectangle, Digital Instrument",
@@ -5820,7 +5863,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "220": {
 "title": "VFD3-1010: Universal 4.6\" x 10\" Rectangle, Digital Instrument",
@@ -5885,7 +5929,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "219": {
 "title": "VFD3-1007: Universal 3.8\" x 8.1\" Rectangle, Digital Instrument",
@@ -5948,7 +5993,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "222": {
 "title": "VFD3-CNTR-6: Universal 4\" x 18\" Street Rod Panel, Digital Instrument",
@@ -6008,7 +6054,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "370": {
 "title": "VFD3-CNTR-5: Universal 4\" x 14.5\" Street Rod Panel, Digital Instrument",
@@ -6069,7 +6116,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1425": {
 "title": "Bridge Module for EFI Systems",
@@ -6111,7 +6159,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1368": {
 "title": "RGB Lighting Control Module",
@@ -6143,7 +6192,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "837": {
 "title": "GPS Speed/ Compass Sender/ BIM",
@@ -6167,7 +6217,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "752": {
 "title": "OBD-II/ CAN Interface",
@@ -6188,7 +6239,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1104": {
 "title": "FAST XFI Interface Module",
@@ -6208,7 +6260,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1328": {
 "title": "J-1939 CAN Interface",
@@ -6228,7 +6281,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1106": {
 "title": "MSD Atomic EFI TBI Interface Module",
@@ -6248,7 +6302,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "753": {
 "title": "Pressure Module",
@@ -6276,7 +6331,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "755": {
 "title": "Temperature Module",
@@ -6304,7 +6360,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "756": {
 "title": "Voltage/ Current Module",
@@ -6325,7 +6382,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "758": {
 "title": "EGT, Head Temperature Module",
@@ -6370,7 +6428,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "785": {
 "title": "Wideband Air/ Fuel Module",
@@ -6390,7 +6449,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "759": {
 "title": "Clock Module",
@@ -6409,7 +6469,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "760": {
 "title": "Compass w/ Outside Temperature Module",
@@ -6429,7 +6490,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "761": {
 "title": "Quad Air Pressure Module",
@@ -6451,7 +6513,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1108": {
 "title": "Tire Pressure Monitoring System (TPMS)",
@@ -6473,7 +6536,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1363": {
 "title": "Big Oak 1961 Impala",
@@ -6486,7 +6550,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1362": {
 "title": "BBT Fabrications 1969 Firebird",
@@ -6499,7 +6564,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1361": {
 "title": "Rodney Kline 1955 Chevy",
@@ -6512,7 +6578,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1353": {
 "title": "Nichols Fab 1932 Ford Truck",
@@ -6525,7 +6592,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1350": {
 "title": "Estrada 1956 Chevy 3100",
@@ -6538,7 +6606,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1347": {
 "title": "Weaver Customs 75 Jeep Wagoneer",
@@ -6551,7 +6620,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1346": {
 "title": "Goodguys Columbus 2022",
@@ -6564,7 +6634,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1345": {
 "title": "Scott's Hotrods 'n Customs K5 Blazer",
@@ -6577,7 +6648,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1344": {
 "title": "Evans Sweet Patina 1957 Chevy",
@@ -6590,7 +6662,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1342": {
 "title": "ASC Bronco 'Ol Blue",
@@ -6603,7 +6676,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1329": {
 "title": "Painthouse '71 Ranchero",
@@ -6616,7 +6690,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1324": {
 "title": "Strange Motion 65 Chevelle",
@@ -6629,7 +6704,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1320": {
 "title": "Sculpt Garage 69 Charger",
@@ -6642,7 +6718,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1319": {
 "title": "Classy and Sassy Rydell 41 Chevy",
@@ -6655,7 +6732,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1316": {
 "title": "WD-40 Truck",
@@ -6668,7 +6746,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1309": {
 "title": "55 Chevy 210 Handyman",
@@ -6681,7 +6760,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1308": {
 "title": "Ring Brothers' 69 Camaro",
@@ -6694,7 +6774,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1306": {
 "title": "Kindig '67 C10 Crazy Cool",
@@ -6707,7 +6788,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1305": {
 "title": "Stoner's Speed Shop Black Cadillac",
@@ -6720,7 +6802,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1304": {
 "title": "1934 Ford Coupe",
@@ -6735,7 +6818,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1297": {
 "title": "Hot Rod Barn 'Vette",
@@ -6748,7 +6832,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1296": {
 "title": "Weaver Customs' Friction '50 Ford",
@@ -6761,7 +6846,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1292": {
 "title": "Rusty Red",
@@ -6774,7 +6860,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1289": {
 "title": "Roadster Shop Road Tour 2020",
@@ -6787,7 +6874,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1285": {
 "title": "Tri-Five Chevy",
@@ -6800,7 +6888,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1284": {
 "title": "Lucky no. 6",
@@ -6813,7 +6902,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1277": {
 "title": "Six Degrees Icon FJ Old School",
@@ -6826,7 +6916,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1276": {
 "title": "Tre5 454ss",
@@ -6839,7 +6930,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1270": {
 "title": "Squarebody Syndicate '73 C30",
@@ -6852,7 +6944,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1269": {
 "title": "Kindig 64 Ranchero",
@@ -6865,7 +6958,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1267": {
 "title": "1970 Plymouth Satellite",
@@ -6880,7 +6974,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1263": {
 "title": "Apicella Designs' Advance Design Chevy",
@@ -6893,7 +6988,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1261": {
 "title": "1 Wheel Revolution 2018 Harley Fat Bob",
@@ -6906,7 +7002,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1258": {
 "title": "Kindig 58 Lincoln",
@@ -6919,7 +7016,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1244": {
 "title": "Rockstar GRDLOC Jeep CJ7",
@@ -6932,7 +7030,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1242": {
 "title": "RMR Dreamcars Corvette",
@@ -6945,7 +7044,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1239": {
 "title": "Kindig '69 Camaro",
@@ -6958,7 +7058,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1232": {
 "title": "Street Rodder Road Tour 55 Ford",
@@ -6971,7 +7072,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1228": {
 "title": "Rides by Kam: Nova",
@@ -6984,7 +7086,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1223": {
 "title": "Stoner Speed Shop 1949 Chevy Pickup",
@@ -6997,7 +7100,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1218": {
 "title": "Revology Cars '68 Mustang Fastback",
@@ -7010,7 +7114,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1216": {
 "title": "Kindig '56 'Vette",
@@ -7023,7 +7128,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1212": {
 "title": "Charles McClendon '71 Chevelle",
@@ -7036,7 +7142,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1206": {
 "title": "Pro Performance '64 Suburban",
@@ -7049,7 +7156,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1204": {
 "title": "Rides By Kam '70 Dodge Challenger",
@@ -7062,7 +7170,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1200": {
 "title": "ICON '66-67 Bronco",
@@ -7075,7 +7184,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1195": {
 "title": "Kindig 68 Camaro",
@@ -7088,7 +7198,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1191": {
 "title": "Robby Keller C10",
@@ -7101,7 +7212,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "914": {
 "title": "1973-79 Ford Pickup, 78-79 Bronco",
@@ -7178,7 +7290,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\""
+"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\"",
+"rewrite": []
 },
 "1138": {
 "title": "1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans RTX Instruments",
@@ -7261,7 +7374,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\"",
+"rewrite": []
 },
 "1236": {
 "title": "1969-76 Chevy Nova, 73-75 Buick Apollo, 75-76 Skylark, 73-76 Olds Omega, 71-76 Pontiac Ventura",
@@ -7304,7 +7418,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\""
+"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\"",
+"rewrite": []
 },
 "1213": {
 "title": "1970-72 Chevy Malibu/ non SS Chevelle/ El Camino RTX Instruments",
@@ -7347,7 +7462,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 6,
-"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "1272": {
 "title": "1964-65 Ford Falcon, Ranchero and Mustang RTX Instruments",
@@ -7390,7 +7506,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"434\" data-years=\"1964,1965\""
+"fit": "data-cats=\"434\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "720": {
 "title": "1957 Chevy Car VHX Instruments",
@@ -7501,7 +7618,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1265": {
 "title": "1968-70 Dodge Charger, Super Bee, Coronet R/T, 1970 Plymouth GTX and Road Runner",
@@ -7544,7 +7662,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "896": {
 "title": "1987-89 Ford Mustang VHX Instruments",
@@ -7620,7 +7739,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1987,1988,1989\""
+"fit": "data-cats=\"434\" data-years=\"1987,1988,1989\"",
+"rewrite": []
 },
 "1042": {
 "title": "1969 Camaro HDX Instruments",
@@ -7679,7 +7799,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": []
 },
 "391": {
 "title": "Odyssey Series I, Quad Air Pressure Monitor",
@@ -7724,7 +7845,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1039": {
 "title": "1967-72 Chevy/ GMC Pickup HDX Instruments",
@@ -7784,7 +7906,12 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": [
+"Every opening in the original seven-hole '67-72 GM pickup cluster gets put to work. Six analog gauges and a clock fill the holes, and twin TFT message centers give you trip meters, miles to empty and 0-60 times. You pick black or silver alloy faces and your own lighting colors.",
+"It fits your stock or reproduction dash bezel, which is sold separately. A replacement bezel for these trucks is listed with this kit. A metric version in km/h and Celsius is a special order.",
+"Touch buttons on the face, or the Bluetooth app for iPhone and Android, handle setup. The needle hubs are black nickel-plated spun aluminum to match the buttons. Each gauge has its own red warning light you can set. A central control box takes signals from the truck's harness and connects the included solid-state senders, so the install stays simple."
+]
 },
 "1224": {
 "title": "1964-65 Chevy Chevelle/ Malibu/ El Camino RTX Instruments",
@@ -7844,7 +7971,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"424\" data-years=\"1964,1965\""
+"fit": "data-cats=\"424\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "1151": {
 "title": "1964-66 Chevy Pickup RTX Instruments",
@@ -7887,7 +8015,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\""
+"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\"",
+"rewrite": []
 },
 "1033": {
 "title": "1955-56 Chevy Car HDX Instruments",
@@ -7959,7 +8088,12 @@
 516
 ],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": [
+"Six analog gauges fill the stock '55-56 Chevy dash, and a large TFT display adds more readings on top of them. Pick black or silver gauge faces. Then set your own lighting colors for the readings, the needles and the message center.",
+"It installs in your stock or reproduction bezel. The bezel isn't included, and reproduction chrome pieces are sold separately. So is the HLC clock, which is made to go with this system and isn't meant to be used alone. The system replaces the stock automatic gear indicator above the steering column, so add a gear shift sensor (sold separately) to show gear position. A metric version is a special order.",
+"Setup happens through touch buttons built into the face or the Bluetooth app for Apple and Android. A central control box takes signals from the car's harness and connects the included solid-state senders, which makes the install much simpler."
+]
 },
 "1156": {
 "title": "1970-78 Camaro RTX Instruments",
@@ -8002,7 +8136,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978\""
+"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978\"",
+"rewrite": []
 },
 "781": {
 "title": "1982-89 Chevy Camaro VHX Instruments",
@@ -8078,7 +8213,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1982,1983,1984,1985,1986,1987,1988,1989\""
+"fit": "data-cats=\"422\" data-years=\"1982,1983,1984,1985,1986,1987,1988,1989\"",
+"rewrite": []
 },
 "1105": {
 "title": "Product 1105 (no longer listed)",
@@ -8091,7 +8227,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1127": {
 "title": "Product 1127 (no longer listed)",
@@ -8104,7 +8241,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1137": {
 "title": "1967-72 Chevy/ GMC Pickup RTX Instruments",
@@ -8149,7 +8287,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 11,
-"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "1152": {
 "title": "1966-67 Chevy Chevelle/ El Camino RTX Instruments",
@@ -8194,7 +8333,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"424\" data-years=\"1966,1967\""
+"fit": "data-cats=\"424\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "1069": {
 "title": "1961-62 Chevy Impala HDX Instruments",
@@ -8251,7 +8391,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1131": {
 "title": "1963-64 Cadillac VHX Instruments",
@@ -8323,7 +8464,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1185": {
 "title": "1960-63 Chevy Pickup RTX Instruments",
@@ -8366,7 +8508,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 5,
-"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\""
+"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\"",
+"rewrite": []
 },
 "1030": {
 "title": "1966-67 Ford Fairlane VHX Instruments",
@@ -8442,7 +8585,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "776": {
 "title": "1967-72 Chevy/ GMC Pickup VHX Instruments",
@@ -8545,7 +8689,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "948": {
 "title": "MCL-3014 and MCL-3014-R",
@@ -8561,7 +8706,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1067": {
 "title": "1969-70 Ford Mustang HDX Instruments",
@@ -8628,7 +8774,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"434\" data-years=\"1969,1970\""
+"fit": "data-cats=\"434\" data-years=\"1969,1970\"",
+"rewrite": []
 },
 "600": {
 "title": "Product 600 (no longer listed)",
@@ -8641,7 +8788,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1002": {
 "title": "2011-2024 Softail, 2012-2017 Dyna and 2014-2024 Road King. Direct Plug-in for 4-1/2\" tank",
@@ -8681,7 +8829,8 @@
 1313
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "824": {
 "title": "1961-62 Chevy Impala VHX Instruments",
@@ -8768,7 +8917,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "553": {
 "title": "1961 Impala/ Bel Air/ Biscayne",
@@ -8792,7 +8942,8 @@
 1069
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "988": {
 "title": "1964-65 Ford Falcon, Ranchero and Mustang VHX Instruments",
@@ -8868,7 +9019,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1964,1965\""
+"fit": "data-cats=\"434\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "844": {
 "title": "1953-54 Chevy Car VHX Instruments",
@@ -8955,7 +9107,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "789": {
 "title": "1964-65 Chevy Chevelle/ Malibu/ El Camino VHX Instruments",
@@ -9042,7 +9195,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1964,1965\""
+"fit": "data-cats=\"424\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "392": {
 "title": "Motorcycle Technical Manuals",
@@ -9059,7 +9213,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "393": {
 "title": "Automotive Technical Manuals",
@@ -9081,7 +9236,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1307": {
 "title": "1942-48 Ford Car RTX Instrument System",
@@ -9126,7 +9282,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1283": {
 "title": "1949-50 Ford Car RTX Instrument System",
@@ -9171,7 +9328,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1321": {
 "title": "1950-51 Mercury RTX Instrument System",
@@ -9214,7 +9372,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 11,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1287": {
 "title": "1951 Ford Car RTX Instruments",
@@ -9259,7 +9418,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 11,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1250": {
 "title": "1953-55 Ford Pickup RTX Instruments",
@@ -9302,7 +9462,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1341": {
 "title": "1953-57 Chevy Corvette HDX Instruments",
@@ -9359,7 +9520,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"427\" data-years=\"1953,1954,1955,1956,1957\""
+"fit": "data-cats=\"427\" data-years=\"1953,1954,1955,1956,1957\"",
+"rewrite": []
 },
 "1337": {
 "title": "1953-57 Chevy Corvette RTX Instruments",
@@ -9402,7 +9564,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"427\" data-years=\"1953,1954,1955,1956,1957\""
+"fit": "data-cats=\"427\" data-years=\"1953,1954,1955,1956,1957\"",
+"rewrite": []
 },
 "1402": {
 "title": "1955-59 GMC Pickup RTX Instruments",
@@ -9445,7 +9608,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\""
+"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\"",
+"rewrite": []
 },
 "1275": {
 "title": "1958-62 Chevy Corvette RTX Instruments",
@@ -9490,7 +9654,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\""
+"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\"",
+"rewrite": []
 },
 "1375": {
 "title": "1959 Cadillac RTX Instruments",
@@ -9533,7 +9698,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1355": {
 "title": "1960 Cadillac RTX Instruments",
@@ -9576,7 +9742,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1381": {
 "title": "1961-63 Lincoln RTX Instruments",
@@ -9619,7 +9786,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1322": {
 "title": "1962-63 Ford Fairlane VHX Instruments",
@@ -9691,7 +9859,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1234": {
 "title": "1963-65 Chevy Nova RTX Instruments",
@@ -9734,7 +9903,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\""
+"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\"",
+"rewrite": []
 },
 "1249": {
 "title": "1963-67 Chevy Corvette RTX Instruments",
@@ -9823,7 +9993,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\""
+"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\"",
+"rewrite": []
 },
 "1237": {
 "title": "1964-67 Pontiac GTO/ LeMans/ Tempest RTX Instruments",
@@ -9866,7 +10037,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1383": {
 "title": "1965 Chevy Caprice/ Impala RTX Instruments",
@@ -9909,7 +10081,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1380": {
 "title": "1965-66 Cadillac RTX Instruments",
@@ -9952,7 +10125,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1421": {
 "title": "1965-66 Ford Custom Cab Pickup RTX Instruments",
@@ -9995,7 +10169,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1282": {
 "title": "1965-66 Ford Custom Cab Pickup VHX Instruments",
@@ -10067,7 +10242,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1384": {
 "title": "1966 Chevy Caprice/Impala RTX Instruments",
@@ -10110,7 +10286,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1235": {
 "title": "1966-67 Chevy Nova RTX Instruments",
@@ -10153,7 +10330,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"426\" data-years=\"1966,1967\""
+"fit": "data-cats=\"426\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "1385": {
 "title": "1967 Chevy Caprice/Impala RTX Instruments",
@@ -10196,7 +10374,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1386": {
 "title": "1968 Chevy Caprice/Impala RTX Instruments",
@@ -10239,7 +10418,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1291": {
 "title": "1968-70 Mopar B-Body: Coronet, Belvedere, Satellite and Road Runner",
@@ -10282,7 +10462,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 4,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1413": {
 "title": "1969-70 Chevy Caprice/ Impala RTX Instruments",
@@ -10325,7 +10506,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1331": {
 "title": "1970-71 Ford Torino VHX Instruments",
@@ -10397,7 +10579,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1374": {
 "title": "1970-72 Oldsmobile Cutlass 442 RTX Instruments",
@@ -10440,7 +10623,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1356": {
 "title": "1971-74 B-Body Rallye: Plymouth GTX, RoadRunner and Dodge Charger, '71 SuperBee RTX Instruments",
@@ -10483,7 +10667,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1278": {
 "title": "1971-76 Chevy Caprice/ Impala RTX Instruments",
@@ -10509,7 +10694,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1409": {
 "title": "1971-80 International Scout II/ 1969-75 D Series Pickup and Travelall RTX Instruments",
@@ -10552,7 +10738,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1271": {
 "title": "1973-77 Chevy Malibu/ Monte Carlo/ El Camino/ GMC Sprint VHX Instruments",
@@ -10581,7 +10768,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"424,784\" data-years=\"1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"424,784\" data-years=\"1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "1253": {
 "title": "1973-79 Ford Pickup, 78-79 Bronco RTX Instruments",
@@ -10624,7 +10812,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 5,
-"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\""
+"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\"",
+"rewrite": []
 },
 "1366": {
 "title": "1973-85 Jeep Wagoneer/ Cherokee & J Trucks RTX Instrument System",
@@ -10667,7 +10856,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1298": {
 "title": "1977-90 Chevy Caprice/ Impala & 1984-86 Pontiac Parisienne RTX Instruments",
@@ -10693,7 +10883,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1262": {
 "title": "1978-82 Chevy Corvette RTX Instruments",
@@ -10736,7 +10927,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\""
+"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\"",
+"rewrite": []
 },
 "1372": {
 "title": "1979-86 Ford Mustang RTX Instruments",
@@ -10779,7 +10971,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"434\" data-years=\"1979,1980,1981,1982,1983,1984,1985,1986\""
+"fit": "data-cats=\"434\" data-years=\"1979,1980,1981,1982,1983,1984,1985,1986\"",
+"rewrite": []
 },
 "1405": {
 "title": "1980-86 Ford Pickup and Bronco RTX Instruments",
@@ -10822,7 +11015,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"830\" data-years=\"1980,1981,1982,1983,1984,1985,1986\""
+"fit": "data-cats=\"830\" data-years=\"1980,1981,1982,1983,1984,1985,1986\"",
+"rewrite": []
 },
 "1422": {
 "title": "1980-90 Toyota FJ60 RTX Instruments",
@@ -10885,7 +11079,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1358": {
 "title": "1981-93 Dodge Full-size Truck and Ramchargers VHX Instruments",
@@ -10957,7 +11152,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1407": {
 "title": "1982-89 Camaro RTX Instruments",
@@ -11000,7 +11196,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"422\" data-years=\"1982,1983,1984,1985,1986,1987,1988,1989\""
+"fit": "data-cats=\"422\" data-years=\"1982,1983,1984,1985,1986,1987,1988,1989\"",
+"rewrite": []
 },
 "1428": {
 "title": "1983-98 Land Rover Defender, Non Puma RTX Instruments",
@@ -11043,7 +11240,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1379": {
 "title": "1986-91 Jeep Wagoneer & 1986-88 J Trucks RTX Instrument System",
@@ -11086,7 +11284,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1315": {
 "title": "1987-89 Ford Mustang HDX Instruments",
@@ -11143,7 +11342,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 11,
-"fit": "data-cats=\"434\" data-years=\"1987,1988,1989\""
+"fit": "data-cats=\"434\" data-years=\"1987,1988,1989\"",
+"rewrite": []
 },
 "1354": {
 "title": "1987-89 Ford Mustang RTX Instruments",
@@ -11186,7 +11386,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"434\" data-years=\"1987,1988,1989\""
+"fit": "data-cats=\"434\" data-years=\"1987,1988,1989\"",
+"rewrite": []
 },
 "1310": {
 "title": "MLX-9000 Series Canbus/ Databus models",
@@ -11253,7 +11454,8 @@
 250
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1311": {
 "title": "MLX-9000 Series Universal Gauge",
@@ -11302,7 +11504,8 @@
 250
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1160": {
 "title": "MLX-8414",
@@ -11327,7 +11530,8 @@
 1313
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1159": {
 "title": "MLX-8600 Series",
@@ -11358,7 +11562,8 @@
 1313
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1161": {
 "title": "MLX-2000 Series",
@@ -11478,7 +11683,8 @@
 1313
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1162": {
 "title": "MLX-3000 Series",
@@ -11513,7 +11719,8 @@
 1313
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1312": {
 "title": "Boost Pressure Module",
@@ -11533,7 +11740,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1313": {
 "title": "GPS-Powered Compass Module",
@@ -11554,7 +11762,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1314": {
 "title": "Air Suspension Pressure Module",
@@ -11575,7 +11784,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "191": {
 "title": "1932 Chevy Digital Instrument System",
@@ -11636,7 +11846,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "96": {
 "title": "1933-34 Chevy Master Digital Instrument System",
@@ -11709,7 +11920,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "39": {
 "title": "1933-35 Chevy Standard Digital Instrument System",
@@ -11770,7 +11982,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "97": {
 "title": "1935 Chevy Master/1936 Chevy Digital Instrument System",
@@ -11843,7 +12056,12 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": [
+"Bright digital readouts replace the gauges in your 1935 Chevy Master or 1936 Chevy. This Series III system uses vacuum fluorescent displays that are easy to read, in blue or teal. You get six gauges, and the message centers add an odometer, two trip meters, a 0-60 timer and quarter-mile time and trap speed.",
+"The kit includes a billet aluminum dash housing made to fit the 1935 Master and 1936 Chevy. Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. A matching glove box door is sold separately, with or without a VFD clock. A metric version is a special order.",
+"You set it up with pushbuttons you mount where you can reach them. They calibrate the speedometer and fuel gauge and set the cylinder count. Later, the same buttons scroll through the message centers."
+]
 },
 "881": {
 "title": "1937-38 Chevy Car VHX Instruments",
@@ -11918,7 +12136,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "98": {
 "title": "1937-38 Chevy Digital Instrument System",
@@ -12007,7 +12226,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "971": {
 "title": "1939 Chevy Car VHX Instruments",
@@ -12082,7 +12302,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "99": {
 "title": "1939 Chevy Digital Instrument System",
@@ -12154,7 +12375,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "935": {
 "title": "1940 Chevy Car VHX Instruments",
@@ -12246,7 +12468,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "101": {
 "title": "1940 Chevy Original Bezel Digital Instrument System",
@@ -12307,7 +12530,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "950": {
 "title": "1941-48 Chevy Car VHX Instruments",
@@ -12399,7 +12623,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "102": {
 "title": "1941-48 Chevy Aluminum Bezel Digital Instrument System",
@@ -12477,7 +12702,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1286": {
 "title": "1949-50 Chevy Car RTX Instruments",
@@ -12520,7 +12746,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "778": {
 "title": "1949-50 Chevy Car VHX Instruments",
@@ -12595,7 +12822,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "394": {
 "title": "1949-1950 Chevy Digital Instrument System",
@@ -12656,7 +12884,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1273": {
 "title": "1951-52 Chevy Car RTX Instruments",
@@ -12701,7 +12930,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "958": {
 "title": "1951-52 Chevy Car VHX Instruments",
@@ -12793,7 +13023,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "161": {
 "title": "1951 -1952 Chevy Digital Instrument System",
@@ -12854,7 +13085,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1274": {
 "title": "1953-54 Chevy Car RTX Instruments",
@@ -12897,7 +13129,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1087": {
 "title": "1953-54 Chevy Car HDX Instruments",
@@ -12954,7 +13187,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "162": {
 "title": "1953 -1954 Chevy Digital Instrument System",
@@ -13029,7 +13263,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1396": {
 "title": "GRFX-55C: 1955-56 Chevy Car GRFX Instruments",
@@ -13073,7 +13308,8 @@
 1376
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1134": {
 "title": "1955-56 Chevy Car RTX Instruments",
@@ -13123,7 +13359,12 @@
 516
 ],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": [
+"Even the mesh pattern behind the speedometer needle matches the stock 1955-56 Chevy cluster. Most people will take it for factory until you turn the key. Then the LED backlighting comes on in the colors you pick, and a full-color TFT message center shows trip meters, miles to empty and 0-60 times.",
+"You'll use your stock or reproduction bezel, which isn't included. The system takes the place of the stock automatic gear indicator above the steering column, so add the GSS-3000 sensor (sold separately) if you want gear position on the screen. The matching RLC-55C clock finishes off the passenger side. A metric version is a special order.",
+"Every RTX housing is CNC machined, and the electronics are designed and built in-house. One central control box keeps installation and setup simple."
+]
 },
 "719": {
 "title": "1955-56 Chevy Car VHX Instruments",
@@ -13237,7 +13478,12 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": [
+"The '55-56 Chevy dash doesn't tell you much from the factory. This VHX system keeps that iconic cluster and fills it with six analog needles that light up, plus two LCD message centers. The faces are backlit, and the LCDs adjust their contrast so you can read them in bright sun.",
+"Use your factory or reproduction bezel. It's sold separately. The factory gear indicator goes away, so add the GSS-3000 if you want the gear shown in words in the message centers. Faces come in black alloy, silver alloy or a carbon fiber look, and you can order blue or red. A matching clock, analog or digital, is made for VHX gauges. A metric version is a special order.",
+"Precision stepper motors drive the needles, and the sensors are solid state. It's engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty."
+]
 },
 "163": {
 "title": "1955-56 Chevy Digital Instrument System",
@@ -13319,7 +13565,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1390": {
 "title": "GRFX-57C: 1957 Chevy Car GRFX Instruments",
@@ -13360,7 +13607,8 @@
 1376
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1136": {
 "title": "1957 Chevy Car RTX Instruments",
@@ -13409,7 +13657,8 @@
 517
 ],
 "themes": 11,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1035": {
 "title": "1957 Chevy Car HDX Instruments",
@@ -13479,7 +13728,8 @@
 517
 ],
 "themes": 4,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "164": {
 "title": "1957 Chevy Digital Instrument System",
@@ -13553,7 +13803,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1179": {
 "title": "1940-46 Chevy Pickup VHX Instruments",
@@ -13626,7 +13877,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1940,1941,1942,1943,1944,1945,1946\""
+"fit": "data-cats=\"421\" data-years=\"1940,1941,1942,1943,1944,1945,1946\"",
+"rewrite": []
 },
 "151": {
 "title": "1940-46 Chevy/ GMC Pickup Digital Instrument System",
@@ -13697,7 +13949,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1940,1941,1942,1943,1944,1945,1946\""
+"fit": "data-cats=\"421\" data-years=\"1940,1941,1942,1943,1944,1945,1946\"",
+"rewrite": []
 },
 "1389": {
 "title": "GRFX-47C-PU: 1947-53 Chevy/GMC Pickup GRFX Instruments",
@@ -13736,7 +13989,8 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\""
+"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\"",
+"rewrite": []
 },
 "1149": {
 "title": "1947-53 Chevy/ GMC Pickup RTX Instruments",
@@ -13779,7 +14033,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\""
+"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\"",
+"rewrite": []
 },
 "1036": {
 "title": "1947-53 Chevy/ GMC Pickup HDX Instruments",
@@ -13836,7 +14091,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 5,
-"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\""
+"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\"",
+"rewrite": []
 },
 "723": {
 "title": "1947-53 Chevy/ GMC Pickup VHX Instruments",
@@ -13912,7 +14168,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\""
+"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\"",
+"rewrite": []
 },
 "152": {
 "title": "1947-53 Chevy/ GMC Pickup Digital Instrument System",
@@ -13974,7 +14231,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\""
+"fit": "data-cats=\"421\" data-years=\"1947,1948,1949,1950,1951,1952,1953\"",
+"rewrite": []
 },
 "1231": {
 "title": "1954 Chevy Pickup RTX Instruments",
@@ -14017,7 +14275,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": "data-cats=\"421\" data-years=\"1954\""
+"fit": "data-cats=\"421\" data-years=\"1954\"",
+"rewrite": []
 },
 "1092": {
 "title": "1954 Chevy Pickup HDX Instruments",
@@ -14074,7 +14333,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"421\" data-years=\"1954\""
+"fit": "data-cats=\"421\" data-years=\"1954\"",
+"rewrite": []
 },
 "724": {
 "title": "1954 Chevy Pickup VHX Instruments",
@@ -14159,7 +14419,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1954\""
+"fit": "data-cats=\"421\" data-years=\"1954\"",
+"rewrite": []
 },
 "153": {
 "title": "1954 Chevy Series One Pickup Digital Instrument System",
@@ -14220,7 +14481,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1954\""
+"fit": "data-cats=\"421\" data-years=\"1954\"",
+"rewrite": []
 },
 "1359": {
 "title": "GRFX-55C-PU: 1955-59 Chevy Pickup, GRFX Instruments",
@@ -14259,7 +14521,8 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\""
+"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\"",
+"rewrite": []
 },
 "1135": {
 "title": "1955-59 Chevy Pickup RTX Instruments",
@@ -14302,7 +14565,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\""
+"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\"",
+"rewrite": []
 },
 "1037": {
 "title": "1955-59 Chevy Pickup HDX Instruments",
@@ -14359,7 +14623,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\""
+"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\"",
+"rewrite": []
 },
 "737": {
 "title": "1955-59 Chevy Pickup VHX Instruments",
@@ -14437,7 +14702,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\""
+"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\"",
+"rewrite": []
 },
 "154": {
 "title": "1955-59 Chevy Pickup Digital Instrument System",
@@ -14500,7 +14766,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\""
+"fit": "data-cats=\"421\" data-years=\"1955,1956,1957,1958,1959\"",
+"rewrite": []
 },
 "1388": {
 "title": "GRFX-60C-PU: 1960-63 Chevy Pickup GRFX Instruments",
@@ -14539,7 +14806,8 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\""
+"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\"",
+"rewrite": []
 },
 "1123": {
 "title": "1960-63 Chevy Pickup HDX Instruments",
@@ -14596,7 +14864,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\""
+"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\"",
+"rewrite": []
 },
 "774": {
 "title": "1960-63 Chevy Pickup VHX Instruments",
@@ -14682,7 +14951,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\""
+"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\"",
+"rewrite": []
 },
 "155": {
 "title": "1960-63 Chevy Pickup Digital Instrument System",
@@ -14744,7 +15014,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\""
+"fit": "data-cats=\"421\" data-years=\"1960,1961,1962,1963\"",
+"rewrite": []
 },
 "1395": {
 "title": "GRFX-64C-PU: 1964-66 Chevy Pickup GRFX Instruments",
@@ -14783,7 +15054,8 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\""
+"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\"",
+"rewrite": []
 },
 "1038": {
 "title": "1964-66 Chevy Pickup HDX Instruments",
@@ -14840,7 +15112,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\""
+"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\"",
+"rewrite": []
 },
 "775": {
 "title": "1964-66 Chevy Pickup VHX Instruments",
@@ -14927,7 +15200,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\""
+"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\"",
+"rewrite": []
 },
 "156": {
 "title": "1964-66 Chevy Pickup Digital Instrument System",
@@ -14989,7 +15263,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\""
+"fit": "data-cats=\"421\" data-years=\"1964,1965,1966\"",
+"rewrite": []
 },
 "1387": {
 "title": "GRFX-67C-PU: 1967-72 Chevy Pickup GRFX Instruments",
@@ -15030,7 +15305,12 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": [
+"The GRFX cluster fills your 1967-72 C10 bezel with graphic gauges you can set up your way. Every gauge position can show one reading, two at once, or a different reading entirely, as a needle, a number or a bar graph. Choose a theme, then pick the colors and warning modes yourself.",
+"It works with the original engine or the latest fuel injection you put under the hood. A replacement bezel for these trucks is listed with this kit. The largest screen can show a backup camera, sold separately. The included sensors each come with a full-length harness.",
+"GPS inside the cluster calibrates the speedometer for your tires and gears on its own. Use the Dakota Digital app over Bluetooth for setup and live sensor data, and load updates through the USB port. It's engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty."
+]
 },
 "157": {
 "title": "1967-72 Chevy/ GMC Pickup Digital Instrument System",
@@ -15109,7 +15389,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"421\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "1153": {
 "title": "1970-72 Chevy Chevelle SS/Monte Carlo/El Camino & 71 GMC Sprint SP RTX Instruments",
@@ -15137,7 +15418,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "1054": {
 "title": "1970-72 Chevy Chevelle SS/Monte Carlo/El Camino & 71 GMC Sprint SP HDX Instruments",
@@ -15196,7 +15478,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "803": {
 "title": "1970-72 Chevy Chevelle SS/Monte Carlo/El Camino & 71 GMC Sprint SP VHX Instruments",
@@ -15276,7 +15559,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "185": {
 "title": "1970-72 Chevy Chevelle SS/Monte Carlo/El Camino & 71 GMC Sprint SP Digital Instrument System",
@@ -15339,7 +15623,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"421,424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "1357": {
 "title": "GRFX-73C-PU: 1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans GRFX Instruments",
@@ -15379,7 +15664,12 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\"",
+"rewrite": [
+"Each gauge spot in this cluster can show an analog, digital or bar-graph readout, and you decide which. Start from a graphic theme, then set colors and warning modes for each piece. The largest screen can also show a backup camera, and a built-in G-force meter shows what's happening when you corner, launch and brake.",
+"It bolts directly into 1973-87 Chevy pickups and 1973-91 Chevy Blazer, GMC Jimmy and Suburban dashes, and it works with any drivetrain. Backup cameras are sold separately and come with a full-length harness and a universal mount. The sensors are in the box, each with a full-length harness.",
+"Built-in GPS calibrates the speedometer for your tire size and gearing, so there's nothing to set by hand. Bluetooth links the Dakota Digital app for setup and troubleshooting, and a USB port takes updates. A separate control module keeps wiring at the cluster tidy."
+]
 },
 "1040": {
 "title": "1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans HDX Instruments",
@@ -15436,7 +15726,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\"",
+"rewrite": []
 },
 "782": {
 "title": "1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans VHX Instruments",
@@ -15513,7 +15804,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\"",
+"rewrite": []
 },
 "158": {
 "title": "1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans Digital Instrument System",
@@ -15576,7 +15868,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1973,1974,1975,1976,1977,1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988,1989,1990,1991\"",
+"rewrite": []
 },
 "1188": {
 "title": "1978-88 Chevy Monte Carlo, 1978-87 Chevy El Camino/ Malibu/ Caballero RTX Instruments",
@@ -15606,7 +15899,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\""
+"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\"",
+"rewrite": []
 },
 "1055": {
 "title": "1978-88 Chevy Monte Carlo, 1978-87 Chevy El Camino/ Malibu/ Caballero HDX Instruments",
@@ -15632,7 +15926,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\""
+"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\"",
+"rewrite": []
 },
 "788": {
 "title": "1978-88 Chevy Monte Carlo, 1978-87 Chevy El Camino/ Malibu/ Caballero VHX Instrument System",
@@ -15665,7 +15960,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\""
+"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\"",
+"rewrite": []
 },
 "200": {
 "title": "1978-88 Chevy Monte Carlo, 1978-87 Chevy El Camino/ Malibu/ Caballero Digital Instrument System",
@@ -15695,7 +15991,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\""
+"fit": "data-cats=\"424,784\" data-years=\"1978,1979,1980,1981,1982,1983,1984,1985,1986,1987,1988\"",
+"rewrite": []
 },
 "1433": {
 "title": "1982-85 Chevy/ GMC S-10, S-15 Pickups and Blazers VHX Instruments",
@@ -15767,7 +16064,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1982,1983,1984,1985\""
+"fit": "data-cats=\"784\" data-years=\"1982,1983,1984,1985\"",
+"rewrite": []
 },
 "233": {
 "title": "1982-1985 Chevy/ GMC S-10, S-15 Pickups and Blazers Digital Instrument System",
@@ -15827,7 +16125,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1982,1983,1984,1985\""
+"fit": "data-cats=\"784\" data-years=\"1982,1983,1984,1985\"",
+"rewrite": []
 },
 "1288": {
 "title": "1986-93 Chevy/ GMC S-10/ S-15 Pickups and 1986-94 S-10/ S-15 Blazers/ Jimmy VHX Instruments",
@@ -15899,7 +16198,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1986,1987,1988,1989,1990,1991,1992,1993,1994\""
+"fit": "data-cats=\"784\" data-years=\"1986,1987,1988,1989,1990,1991,1992,1993,1994\"",
+"rewrite": []
 },
 "234": {
 "title": "1986-93 Chevy/ GMC S-10/ S-15 Pickups and 1986-94 S-10/ S-15 Blazers/ Jimmy's",
@@ -15960,7 +16260,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1986,1987,1988,1989,1990,1991,1992,1993,1994\""
+"fit": "data-cats=\"784\" data-years=\"1986,1987,1988,1989,1990,1991,1992,1993,1994\"",
+"rewrite": []
 },
 "1424": {
 "title": "1988-91 Chevy/ GMC Pickup/ Suburban/ Tahoe/ Yukon RTX Instruments",
@@ -16003,7 +16304,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991\"",
+"rewrite": []
 },
 "1086": {
 "title": "1988-94 Chevy/ GMC Pickup/SUV HDX Instruments",
@@ -16060,7 +16362,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991,1992,1993,1994\""
+"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991,1992,1993,1994\"",
+"rewrite": []
 },
 "911": {
 "title": "1988-1994 Chevy/ GMC Pickup/ SUV VHX Instruments",
@@ -16136,7 +16439,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991,1992,1993,1994\""
+"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991,1992,1993,1994\"",
+"rewrite": []
 },
 "159": {
 "title": "1988-91 Chevy/ GMC Pickup Digital Instrument System",
@@ -16197,7 +16501,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991\""
+"fit": "data-cats=\"784\" data-years=\"1988,1989,1990,1991\"",
+"rewrite": []
 },
 "1420": {
 "title": "1992-94 Chevy/ GMC Pickup/ Suburban/ Tahoe/ Yukon RTX Instruments",
@@ -16240,7 +16545,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"784\" data-years=\"1992,1993,1994\""
+"fit": "data-cats=\"784\" data-years=\"1992,1993,1994\"",
+"rewrite": []
 },
 "160": {
 "title": "1992-94 Chevy/ GMC Pickup/ Suburban/ Tahoe/ Yukon Digital Instrument System",
@@ -16302,7 +16608,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1992,1993,1994\""
+"fit": "data-cats=\"784\" data-years=\"1992,1993,1994\"",
+"rewrite": []
 },
 "1418": {
 "title": "1995-98 Full-size, 1995-00 SUV & HD Pickup Chevy/ GMC RTX Instruments",
@@ -16348,7 +16655,8 @@
 1398
 ],
 "themes": 13,
-"fit": "data-cats=\"784\" data-years=\"1995,1996,1997,1998\""
+"fit": "data-cats=\"784\" data-years=\"1995,1996,1997,1998\"",
+"rewrite": []
 },
 "1339": {
 "title": "1995-98 Full-size, 1995-00 SUV & HD Pickup Chevy/ GMC HDX Instruments",
@@ -16405,7 +16713,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"784\" data-years=\"1995,1996,1997,1998\""
+"fit": "data-cats=\"784\" data-years=\"1995,1996,1997,1998\"",
+"rewrite": []
 },
 "1110": {
 "title": "1995-98 Full-size, 1995-00 SUV & HD Pickup Chevy/ GMC VHX Instruments",
@@ -16477,7 +16786,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"784\" data-years=\"1995,1996,1997,1998\""
+"fit": "data-cats=\"784\" data-years=\"1995,1996,1997,1998\"",
+"rewrite": []
 },
 "1394": {
 "title": "GRFX-67C-CAM: 1967-68 Camaro/ Firebird GRFX Instruments",
@@ -16517,7 +16827,8 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1967,1968\""
+"fit": "data-cats=\"422\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "1154": {
 "title": "1967-68 Camaro/ Firebird RTX Instruments",
@@ -16582,7 +16893,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"422\" data-years=\"1967,1968\""
+"fit": "data-cats=\"422\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "1256": {
 "title": "1967 Camaro with Console gauges RTX Instruments",
@@ -16625,7 +16937,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"422\" data-years=\"1967\""
+"fit": "data-cats=\"422\" data-years=\"1967\"",
+"rewrite": []
 },
 "1257": {
 "title": "1968 Camaro with Console gauges RTX Instruments",
@@ -16670,7 +16983,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1968\""
+"fit": "data-cats=\"422\" data-years=\"1968\"",
+"rewrite": []
 },
 "1041": {
 "title": "1967-68 Camaro/ Firebird HDX Instruments",
@@ -16729,7 +17043,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"422\" data-years=\"1967,1968\""
+"fit": "data-cats=\"422\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "1111": {
 "title": "1967 Camaro with Console gauges HDX Instruments",
@@ -16786,7 +17101,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"422\" data-years=\"1967\""
+"fit": "data-cats=\"422\" data-years=\"1967\"",
+"rewrite": []
 },
 "1082": {
 "title": "1968 Camaro with Console gauges HDX Instruments",
@@ -16843,7 +17159,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"422\" data-years=\"1968\""
+"fit": "data-cats=\"422\" data-years=\"1968\"",
+"rewrite": []
 },
 "721": {
 "title": "1967-68 Camaro/ Firebird VHX Instruments",
@@ -16923,7 +17240,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1967,1968\""
+"fit": "data-cats=\"422\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "848": {
 "title": "1967 Camaro with Console gauges VHX Instruments",
@@ -17001,7 +17319,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1967\""
+"fit": "data-cats=\"422\" data-years=\"1967\"",
+"rewrite": []
 },
 "857": {
 "title": "1968 Camaro with Console gauges VHX Instruments",
@@ -17090,7 +17409,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1968\""
+"fit": "data-cats=\"422\" data-years=\"1968\"",
+"rewrite": []
 },
 "165": {
 "title": "1967-68 Camaro/ Firebird Digital Instrument System",
@@ -17158,7 +17478,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1967,1968\""
+"fit": "data-cats=\"422\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "1397": {
 "title": "GRFX-69C-CAM: 1969 Camaro GRFX Instruments",
@@ -17201,7 +17522,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": []
 },
 "1155": {
 "title": "1969 Camaro RTX Instruments",
@@ -17246,7 +17568,12 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": [
+"With the key off, it looks like the factory '69 cluster: big speedometer, big tach, stock layout and face styling. Turn the key and LED bar gauges light up for oil pressure, coolant temp, voltage and fuel. Two color message centers show what you choose, from trip meters and miles to empty to 0-60 times and quarter-mile trap speed.",
+"It drops into your stock or reproduction plastic bezel (sold separately) and uses an OEM or reproduction instrument carrier. The stock lenses and indicator rings are replaced by matte black aluminum trim rings, included in the box. A metric version in km/h and Celsius is a special order.",
+"The housings are CNC machined and the electronics are designed and built in-house in Sioux Falls. Everything wires to one control box, so install and setup stay simple."
+]
 },
 "1264": {
 "title": "1969 Camaro with Console gauges RTX Instruments",
@@ -17291,7 +17618,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": []
 },
 "1081": {
 "title": "1969 Camaro with Console gauges, HDX Instruments",
@@ -17355,7 +17683,8 @@
 105
 ],
 "themes": 10,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": []
 },
 "722": {
 "title": "1969 Camaro VHX Instruments",
@@ -17434,7 +17763,12 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": [
+"Lit needles and backlit faces bring a 1969 Camaro dash up to today's standards. The LCD message centers show trip meters, 0-60 times and quarter-mile times, and you can customize what they display.",
+"The system fits right into the stock Camaro gauge carrier and keeps your factory bezel. New clear lenses come in the kit, so the stock lenses aren't used. If you need a carrier, a reproduction one is sold separately. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.",
+"Micro-controlled stepper motors move the needles, and the sensors are solid state. The included pushbuttons calibrate the speedometer and fuel gauge. VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty."
+]
 },
 "849": {
 "title": "1969 Camaro with Console gauges VHX Instruments",
@@ -17519,7 +17853,8 @@
 761
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": []
 },
 "166": {
 "title": "1969 Camaro Digital Instrument Cluster",
@@ -17592,7 +17927,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1969\""
+"fit": "data-cats=\"422\" data-years=\"1969\"",
+"rewrite": []
 },
 "1435": {
 "title": "GRFX-70C-CAM: 1970-81 Chevy Camaro GRFX Instruments",
@@ -17628,7 +17964,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\""
+"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\"",
+"rewrite": []
 },
 "1053": {
 "title": "1970-81 Camaro HDX Instruments",
@@ -17690,7 +18027,8 @@
 105
 ],
 "themes": 6,
-"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\""
+"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\"",
+"rewrite": []
 },
 "777": {
 "title": "1970-81 Camaro VHX Instruments",
@@ -17768,7 +18106,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\""
+"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\"",
+"rewrite": []
 },
 "167": {
 "title": "1970-81 Camaro Digital Instrument Cluster",
@@ -17832,7 +18171,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\""
+"fit": "data-cats=\"422\" data-years=\"1970,1971,1972,1973,1974,1975,1976,1977,1978,1979,1980,1981\"",
+"rewrite": []
 },
 "168": {
 "title": "1982 -1989 Chevy Camaro Digital Instrument System",
@@ -17893,7 +18233,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1982,1983,1984,1985,1986,1987,1988,1989\""
+"fit": "data-cats=\"422\" data-years=\"1982,1983,1984,1985,1986,1987,1988,1989\"",
+"rewrite": []
 },
 "1408": {
 "title": "1990-92 Camaro RTX Instruments",
@@ -17936,7 +18277,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"422\" data-years=\"1990,1991,1992\""
+"fit": "data-cats=\"422\" data-years=\"1990,1991,1992\"",
+"rewrite": []
 },
 "962": {
 "title": "1990-92 Chevy Camaro VHX Instruments",
@@ -18012,7 +18354,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"422\" data-years=\"1990,1991,1992\""
+"fit": "data-cats=\"422\" data-years=\"1990,1991,1992\"",
+"rewrite": []
 },
 "1423": {
 "title": "1997-02 Camaro RTX Instruments",
@@ -18055,7 +18398,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"422\" data-years=\"\""
+"fit": "data-cats=\"422\" data-years=\"\"",
+"rewrite": []
 },
 "1290": {
 "title": "1958 Chevy Impala RTX Instruments",
@@ -18100,7 +18444,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1094": {
 "title": "1958 Chevy Impala HDX Instruments",
@@ -18166,7 +18511,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "877": {
 "title": "1958 Chevy Impala VHX Instruments",
@@ -18268,7 +18614,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "170": {
 "title": "1958 Chevy Impala Digital Instrument System",
@@ -18330,7 +18677,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1189": {
 "title": "1959-60 Chevy Impala/ El Camino RTX Instruments",
@@ -18373,7 +18721,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1068": {
 "title": "1959-60 Chevy Impala/ El Camino HDX Instruments",
@@ -18430,7 +18779,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "745": {
 "title": "1959-60 Chevy Impala/ El Camino VHX Instruments",
@@ -18507,7 +18857,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "171": {
 "title": "1959-60 Chevy Impala/ El Camino Digital Instrument System",
@@ -18570,7 +18921,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1198": {
 "title": "1961-62 Chevy Impala RTX Instruments",
@@ -18613,7 +18965,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "172": {
 "title": "1961-62 Chevy Impala Digital Instrument System",
@@ -18706,7 +19059,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1199": {
 "title": "1963-64 Chevy Impala RTX Instruments",
@@ -18769,7 +19123,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1070": {
 "title": "1963-64 Chevy Impala HDX Instruments",
@@ -18826,7 +19181,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "822": {
 "title": "1963-64 Chevy Impala VHX Instruments",
@@ -18913,7 +19269,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "173": {
 "title": "1963-64 Chevy Impala Digital Instrument System",
@@ -18991,7 +19348,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "860": {
 "title": "1965 Chevy Caprice/ Impala VHX Instruments",
@@ -19077,7 +19435,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "174": {
 "title": "1965 Chevy Caprice/ Impala Digital Instrument System",
@@ -19148,7 +19507,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "861": {
 "title": "1966 Chevy Caprice/ Impala VHX Instruments",
@@ -19234,7 +19594,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "175": {
 "title": "1966 Chevy Caprice/Impala Digital Instrument System",
@@ -19296,7 +19657,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "862": {
 "title": "1967 Chevy Caprice/ Impala VHX Instruments",
@@ -19383,7 +19745,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "176": {
 "title": "1967 Chevy Caprice/Impala Digital Instrument System",
@@ -19446,7 +19809,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "863": {
 "title": "1968 Chevy Caprice/ Impala VHX Instruments",
@@ -19534,7 +19898,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "177": {
 "title": "1968 Chevy Caprice/Impala Digital Instrument System",
@@ -19596,7 +19961,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "864": {
 "title": "1969-70 Chevy Caprice/Impala VHX Instruments",
@@ -19674,7 +20040,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "178": {
 "title": "1969-70 Chevy Caprice/Impala Digital Instrument System",
@@ -19736,7 +20103,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1084": {
 "title": "1971-76 Chevy Caprice/ Impala HDX Instruments",
@@ -19762,7 +20130,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "865": {
 "title": "1971-76 Chevy Caprice/ Impala VHX Instruments",
@@ -19791,7 +20160,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "179": {
 "title": "1971-76 Chevy Caprice/ Impala Digital Instrument System",
@@ -19827,7 +20197,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1182": {
 "title": "1977-90 Chevy Caprice/ Impala & 1984-86 Pontiac Parisienne HDX Instruments",
@@ -19853,7 +20224,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "866": {
 "title": "1977-90 Chevy Caprice/Impala & 1984-86 Pontiac Parisienne VHX Instruments",
@@ -19882,7 +20254,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "483": {
 "title": "1977-90 Chevy Caprice/ Impala Digital Instrument System",
@@ -19917,7 +20290,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "646": {
 "title": "1991-93 Chevy Caprice with Factory Analog Gauges",
@@ -19978,7 +20352,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "687": {
 "title": "1991-93 Chevy Caprice w/ OEM Digital Speedo, 91-93 Buick Roadmaster, 91-92 Olds Custom Cruiser",
@@ -20039,7 +20414,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1382": {
 "title": "1994-96 Chevy Caprice/ Impala SS HDX Instruments",
@@ -20065,7 +20441,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "869": {
 "title": "1994-96 Chevy Caprice/ Impala SS VHX Instruments",
@@ -20090,7 +20467,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "648": {
 "title": "1994-95 Chevy Impala SS Digital Instrument System",
@@ -20150,7 +20528,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "647": {
 "title": "1994-96 Chevy Caprice Digital Instrument System",
@@ -20211,7 +20590,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1058": {
 "title": "1964-65 Chevy Chevelle/ Malibu/ El Camino HDX Instruments",
@@ -20276,7 +20656,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"424\" data-years=\"1964,1965\""
+"fit": "data-cats=\"424\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "180": {
 "title": "1964-65 Chevy Chevelle/ El Camino Digital Instrument System",
@@ -20401,7 +20782,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1964,1965\""
+"fit": "data-cats=\"424\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "1400": {
 "title": "GRFX-66C-CVL: 1966-67 Chevy Chevelle/ El Camino GRFX Instruments",
@@ -20441,7 +20823,8 @@
 1376
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1966,1967\""
+"fit": "data-cats=\"424\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "1056": {
 "title": "1966-67 Chevy Chevelle/El Camino HDX Instruments",
@@ -20500,7 +20883,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"424\" data-years=\"1966,1967\""
+"fit": "data-cats=\"424\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "798": {
 "title": "1966-67 Chevy Chevelle/El Camino VHX Instruments",
@@ -20580,7 +20964,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1966,1967\""
+"fit": "data-cats=\"424\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "181": {
 "title": "1966-67 Chevy Chevelle/El Camino Digital Instrument System",
@@ -20643,7 +21028,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1966,1967\""
+"fit": "data-cats=\"424\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "1226": {
 "title": "1968 Chevy Chevelle/ El Camino RTX Instruments",
@@ -20686,7 +21072,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"424\" data-years=\"1968\""
+"fit": "data-cats=\"424\" data-years=\"1968\"",
+"rewrite": []
 },
 "1060": {
 "title": "1968 Chevy Chevelle/ El Camino HDX Instruments",
@@ -20743,7 +21130,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"424\" data-years=\"1968\""
+"fit": "data-cats=\"424\" data-years=\"1968\"",
+"rewrite": []
 },
 "747": {
 "title": "1968 Chevy Chevelle/ El Camino VHX Instruments",
@@ -20820,7 +21208,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1968\""
+"fit": "data-cats=\"424\" data-years=\"1968\"",
+"rewrite": []
 },
 "182": {
 "title": "1968 Chevy Chevelle/ El Camino Digital Instrument System",
@@ -20882,7 +21271,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1968\""
+"fit": "data-cats=\"424\" data-years=\"1968\"",
+"rewrite": []
 },
 "1233": {
 "title": "1969 Chevy Chevelle/ El Camino RTX Instruments",
@@ -20925,7 +21315,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"424\" data-years=\"1969\""
+"fit": "data-cats=\"424\" data-years=\"1969\"",
+"rewrite": []
 },
 "1059": {
 "title": "1969 Chevy Chevelle/ Malibu/ El Camino HDX Instruments",
@@ -20981,7 +21372,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"424\" data-years=\"1969\""
+"fit": "data-cats=\"424\" data-years=\"1969\"",
+"rewrite": []
 },
 "795": {
 "title": "1969 Chevy Chevelle/ Malibu/ El Camino VHX Instruments",
@@ -21072,7 +21464,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1969\""
+"fit": "data-cats=\"424\" data-years=\"1969\"",
+"rewrite": []
 },
 "183": {
 "title": "1969 Chevy Chevelle/ Malibu/ El Camino Digital Instrument System",
@@ -21142,7 +21535,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1969\""
+"fit": "data-cats=\"424\" data-years=\"1969\"",
+"rewrite": []
 },
 "1085": {
 "title": "1970-72 Chevy Malibu/ non SS Chevelle/ El Camino HDX Instruments",
@@ -21199,7 +21593,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "796": {
 "title": "1970-72 Chevy Malibu/ non SS Chevelle/ El Camino VHX Instruments",
@@ -21275,7 +21670,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "232": {
 "title": "1970-72 Chevy Malibu/ non SS Chevelle/ El Camino Digital Instrument System",
@@ -21338,7 +21734,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "1430": {
 "title": "GRFX-70C-CVL 1970-72 Chevy Chevelle SS/Monte Carlo/El Camino; 71 GMC Sprint SP GRFX Instruments",
@@ -21376,7 +21773,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\""
+"fit": "data-cats=\"424\" data-years=\"1970,1971,1972\"",
+"rewrite": []
 },
 "1080": {
 "title": "1958-62 Chevy Corvette HDX Instruments",
@@ -21442,7 +21840,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\""
+"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\"",
+"rewrite": []
 },
 "806": {
 "title": "1958-62 Chevy Corvette VHX Instruments",
@@ -21543,7 +21942,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\""
+"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\"",
+"rewrite": []
 },
 "186": {
 "title": "1958-62 Chevy Corvette Digital Instrument System",
@@ -21605,7 +22005,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\""
+"fit": "data-cats=\"427\" data-years=\"1958,1959,1960,1961,1962\"",
+"rewrite": []
 },
 "1089": {
 "title": "1963-67 Chevy Corvette HDX Instruments",
@@ -21671,7 +22072,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\""
+"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\"",
+"rewrite": []
 },
 "858": {
 "title": "1963-67 Chevy Corvette VHX Instruments",
@@ -21766,7 +22168,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\""
+"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\"",
+"rewrite": []
 },
 "187": {
 "title": "1963-67 Chevy Corvette Digital Instrument System",
@@ -21828,7 +22231,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\""
+"fit": "data-cats=\"427\" data-years=\"1963,1964,1965,1966,1967\"",
+"rewrite": []
 },
 "1252": {
 "title": "1968-77 Chevy Corvette RTX Instruments",
@@ -21871,7 +22275,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "1095": {
 "title": "1968-77 Chevy Corvette HDX Instruments",
@@ -21928,7 +22333,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "879": {
 "title": "1968-77 Chevy Corvette VHX Instruments",
@@ -22018,7 +22424,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "188": {
 "title": "1968-77 Chevy Corvette Digital Instrument System",
@@ -22079,7 +22486,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"427\" data-years=\"1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "1096": {
 "title": "1978-82 Chevy Corvette HDX Instruments",
@@ -22136,7 +22544,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 11,
-"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\""
+"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\"",
+"rewrite": []
 },
 "894": {
 "title": "1978-82 Chevy Corvette VHX Instruments",
@@ -22226,7 +22635,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\""
+"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\"",
+"rewrite": []
 },
 "189": {
 "title": "1978-82 Chevy Corvette Digital Instrument System",
@@ -22288,7 +22698,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\""
+"fit": "data-cats=\"427\" data-years=\"1978,1979,1980,1981,1982\"",
+"rewrite": []
 },
 "190": {
 "title": "1984-89 Chevy Corvette Digital Instrument System",
@@ -22349,7 +22760,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"427\" data-years=\"1984,1985,1986,1987,1988,1989\""
+"fit": "data-cats=\"427\" data-years=\"1984,1985,1986,1987,1988,1989\"",
+"rewrite": []
 },
 "1071": {
 "title": "1963-65 Chevy Nova HDX Instruments",
@@ -22406,7 +22818,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\""
+"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\"",
+"rewrite": []
 },
 "813": {
 "title": "1963-65 Chevy Nova VHX Analog Instruments",
@@ -22484,7 +22897,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\""
+"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\"",
+"rewrite": []
 },
 "201": {
 "title": "1963-65 Chevy Nova Digital Instrument System",
@@ -22546,7 +22960,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\""
+"fit": "data-cats=\"426\" data-years=\"1963,1964,1965\"",
+"rewrite": []
 },
 "1072": {
 "title": "1966-67 Chevy Nova HDX Instruments",
@@ -22603,7 +23018,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"426\" data-years=\"1966,1967\""
+"fit": "data-cats=\"426\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "814": {
 "title": "1966-67 Chevy Nova VHX Analog Instruments",
@@ -22680,7 +23096,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"426\" data-years=\"1966,1967\""
+"fit": "data-cats=\"426\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "202": {
 "title": "1966-67 Chevy Nova Digital Instrument System",
@@ -22775,7 +23192,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"426\" data-years=\"1966,1967\""
+"fit": "data-cats=\"426\" data-years=\"1966,1967\"",
+"rewrite": []
 },
 "1073": {
 "title": "1969-76 Chevy Nova, 73-75 Buick Apollo, 75-76 Skylark, 73-76 Olds Omega, 71-76 Pontiac Ventura",
@@ -22831,7 +23249,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\""
+"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\"",
+"rewrite": []
 },
 "815": {
 "title": "1969-76 Chevy Nova, 73-75 Buick Apollo, 75-76 Skylark, 73-76 Olds Omega, 71-76 Pontiac Ventura",
@@ -22909,7 +23328,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\""
+"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\"",
+"rewrite": []
 },
 "203": {
 "title": "1969-76 Chevy Nova, 73-75 Buick Apollo, 75-76 Skylark, 73-76 Olds Omega, 71-76 Pontiac Ventura",
@@ -22942,7 +23362,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\""
+"fit": "data-cats=\"426\" data-years=\"1969,1970,1971,1972,1973,1974,1975,1976\"",
+"rewrite": []
 },
 "997": {
 "title": "1963-65 Buick Riviera VHX Instruments",
@@ -23017,7 +23438,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "998": {
 "title": "1968-69 Buick Skylark VHX Instruments",
@@ -23092,7 +23514,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "949": {
 "title": "1970-72 Buick Skylark VHX Instruments",
@@ -23168,7 +23591,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "649": {
 "title": "1970-72 Buick Skylark Digital Instrument System",
@@ -23229,7 +23653,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1294": {
 "title": "1984-87 Buick Regal and Grand National RTX Instruments",
@@ -23259,7 +23684,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1190": {
 "title": "1984-87 Buick Regal and Grand National HDX Instruments",
@@ -23289,7 +23715,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "794": {
 "title": "1984-87 Buick Regal and Grand National VHX Instruments",
@@ -23322,7 +23749,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "497": {
 "title": "1984-87 Buick Regal/ Grand National/ T-Type/ GNX Digital Instrument System",
@@ -23357,7 +23785,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1143": {
 "title": "1965-66 Cadillac VHX Instruments",
@@ -23429,7 +23858,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "929": {
 "title": "1949-50 Oldsmobile VHX Instruments",
@@ -23505,7 +23935,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1000": {
 "title": "1966-67 Oldsmobile Cutlass VHX Instruments",
@@ -23581,7 +24012,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1141": {
 "title": "1968-69 Oldsmobile Cutlass, F-85 and 442 VHX Instruments",
@@ -23653,7 +24085,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "951": {
 "title": "1970-72 Oldsmobile Cutlass 442 VHX Instruments",
@@ -23682,7 +24115,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "625": {
 "title": "1970-72 Oldsmobile Cutlass and 442 Digital Instrument System",
@@ -23712,7 +24146,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "703": {
 "title": "1973-77 Oldsmobile Cutlass Digital Instrument System",
@@ -23741,7 +24176,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1197": {
 "title": "1978-88 Oldsmobile Cutlass HDX Instruments",
@@ -23767,7 +24203,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "921": {
 "title": "1978-88 Oldsmobile Cutlass VHX Instruments",
@@ -23796,7 +24233,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "485": {
 "title": "1978-88 Oldsmobile Cutlass Digital Instrument System",
@@ -23825,7 +24263,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "838": {
 "title": "1969 Pontiac Firebird VHX Instruments",
@@ -23902,7 +24341,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "484": {
 "title": "1969 Pontiac Firebird Digital Instruments",
@@ -23963,7 +24403,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1280": {
 "title": "1970-81 Pontiac Firebird RTX Instruments",
@@ -24006,7 +24447,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1180": {
 "title": "1970-81 Pontiac Firebird HDX Instruments",
@@ -24063,7 +24505,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "930": {
 "title": "1970-81 Pontiac Firebird VHX Instruments",
@@ -24139,7 +24582,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1417": {
 "title": "1982-92 Pontiac Firebird RTX Instruments",
@@ -24182,7 +24626,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1077": {
 "title": "1964-67 Pontiac GTO/ LeMans/ Tempest HDX Instruments",
@@ -24239,7 +24684,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "856": {
 "title": "1964-67 Pontiac GTO/ LeMans/ Tempest VHX Instruments",
@@ -24320,7 +24766,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "664": {
 "title": "1964-67 Pontiac GTO/ LeMans/ Tempest Digital Instruments",
@@ -24391,7 +24838,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "960": {
 "title": "1968 Pontiac GTO/ Lemans/ Tempest VHX Instruments",
@@ -24467,7 +24915,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "961": {
 "title": "1969 Pontiac GTO/ Le Mans VHX Instruments",
@@ -24543,7 +24992,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "924": {
 "title": "1970-72 Pontiac GTO/ LeMans VHX Instruments",
@@ -24619,7 +25069,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1210": {
 "title": "1932 Ford Car RTX Instruments",
@@ -24662,7 +25113,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 6,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "854": {
 "title": "1932 Ford Car VHX Instruments",
@@ -24739,7 +25191,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "132": {
 "title": "1932 Ford Digital Instrument System",
@@ -24800,7 +25253,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1240": {
 "title": "1933-34 Ford Car RTX Instruments",
@@ -24843,7 +25297,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 4,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "873": {
 "title": "1933-34 Ford Car VHX Instruments",
@@ -24919,7 +25374,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "133": {
 "title": "1933 -1934 Ford Digital Instrument System",
@@ -25015,7 +25471,12 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": [
+"Your 1933-34 Ford gets bright vacuum fluorescent readouts in blue or teal for speed, rpm, oil pressure, water temp, fuel and volts. The message centers add an odometer, two trip meters, a 0-60 timer and quarter-mile time and trap speed.",
+"A billet aluminum dash housing made for the '33-34 Ford comes with it. The glove box cover, center panel and glove box handle are sold separately, and the covers may need some modification. A complete kit option adds a VFD clock and the glove box cover with handle. A metric version is a special order.",
+"Water temperature and oil pressure sensors are in the box, plus a speed sensor that replaces a Ford or GM style speedometer cable. Pushbuttons you mount within reach handle calibration and scroll the message centers."
+]
 },
 "874": {
 "title": "1935 -36 Ford Car VHX Instruments",
@@ -25091,7 +25552,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "134": {
 "title": "1935 -1936 Ford Digital Instrument System",
@@ -25172,7 +25634,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "875": {
 "title": "1937-38 Ford Car VHX Instruments",
@@ -25248,7 +25711,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "135": {
 "title": "1937 -1938 Ford Digital Instrument System",
@@ -25338,7 +25802,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "876": {
 "title": "1939 Ford Car VHX Instruments",
@@ -25414,7 +25879,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "136": {
 "title": "1939 Ford Digital Instrument System",
@@ -25486,7 +25952,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1203": {
 "title": "1940 Ford Car and 1940-47 Ford Truck RTX Instruments",
@@ -25531,7 +25998,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1079": {
 "title": "1940 Ford Car and 1940-47 Ford Truck HDX Instruments",
@@ -25597,7 +26065,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "833": {
 "title": "1940 Ford Car VHX Instruments",
@@ -25697,7 +26166,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "137": {
 "title": "1940 Ford Digital Instrument System",
@@ -25790,7 +26260,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "138": {
 "title": "1941 Ford Digital Instrument System",
@@ -25852,7 +26323,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1003": {
 "title": "1942-48 Ford/ Mercury Car VHX Instruments",
@@ -25946,7 +26418,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "139": {
 "title": "1942 -1948 Ford/ Mercury Digital Instrument System",
@@ -26015,7 +26488,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "834": {
 "title": "1949-50 Ford Car VHX Instruments",
@@ -26115,7 +26589,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "140": {
 "title": "1949 -1950 Ford Digital Instrument System",
@@ -26185,7 +26660,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "797": {
 "title": "1950-51 Mercury VHX Instruments",
@@ -26261,7 +26737,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "209": {
 "title": "1950 -1951 Mercury Digital Instrument System",
@@ -26336,7 +26813,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "835": {
 "title": "1951 Ford Car VHX Instruments",
@@ -26436,7 +26914,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "141": {
 "title": "1951 Ford Digital Instrument System",
@@ -26496,7 +26975,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "740": {
 "title": "1952-53 Ford Digital Instrument System",
@@ -26557,7 +27037,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "739": {
 "title": "1954 Mercury Digital Instrument System",
@@ -26618,7 +27099,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "965": {
 "title": "1956 Ford Car VHX Instruments",
@@ -26694,7 +27176,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "964": {
 "title": "1957 Ford Car VHX Instruments",
@@ -26770,7 +27253,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "984": {
 "title": "1960-63 Ford Falcon and Ranchero VHX Instruments",
@@ -26847,7 +27331,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1960,1961,1962,1963\""
+"fit": "data-cats=\"434\" data-years=\"1960,1961,1962,1963\"",
+"rewrite": []
 },
 "1181": {
 "title": "1964-65 Ford Falcon, Ranchero and Mustang HDX Instruments",
@@ -26904,7 +27389,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": "data-cats=\"434\" data-years=\"1964,1965\""
+"fit": "data-cats=\"434\" data-years=\"1964,1965\"",
+"rewrite": []
 },
 "1209": {
 "title": "1965-66 Ford Mustang RTX Instruments",
@@ -26947,7 +27433,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"434\" data-years=\"1965,1966\""
+"fit": "data-cats=\"434\" data-years=\"1965,1966\"",
+"rewrite": []
 },
 "1065": {
 "title": "1965-66 Ford Mustang HDX Instruments",
@@ -27004,7 +27491,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"434\" data-years=\"1965,1966\""
+"fit": "data-cats=\"434\" data-years=\"1965,1966\"",
+"rewrite": []
 },
 "805": {
 "title": "1965-66 Ford Mustang VHX Instruments",
@@ -27081,7 +27569,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1965,1966\""
+"fit": "data-cats=\"434\" data-years=\"1965,1966\"",
+"rewrite": []
 },
 "205": {
 "title": "1965-66 Ford Mustang Digital Instrument System",
@@ -27160,7 +27649,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1965,1966\""
+"fit": "data-cats=\"434\" data-years=\"1965,1966\"",
+"rewrite": []
 },
 "1217": {
 "title": "1967-68 Ford Mustang RTX Instruments",
@@ -27203,7 +27693,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1967,1968\""
+"fit": "data-cats=\"434\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "1066": {
 "title": "1967-68 Ford Mustang HDX Instruments",
@@ -27260,7 +27751,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": "data-cats=\"434\" data-years=\"1967,1968\""
+"fit": "data-cats=\"434\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "804": {
 "title": "1967-68 Ford Mustang VHX Instruments",
@@ -27337,7 +27829,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1967,1968\""
+"fit": "data-cats=\"434\" data-years=\"1967,1968\"",
+"rewrite": []
 },
 "206": {
 "title": "1967 Ford Mustang Digital Instrument System",
@@ -27398,7 +27891,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1967\""
+"fit": "data-cats=\"434\" data-years=\"1967\"",
+"rewrite": []
 },
 "207": {
 "title": "1968 Ford Mustang Digital Instrument System",
@@ -27474,7 +27968,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1968\""
+"fit": "data-cats=\"434\" data-years=\"1968\"",
+"rewrite": []
 },
 "1221": {
 "title": "1969-70 Ford Mustang RTX Instruments",
@@ -27519,7 +28014,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"434\" data-years=\"1969,1970\""
+"fit": "data-cats=\"434\" data-years=\"1969,1970\"",
+"rewrite": []
 },
 "791": {
 "title": "1969-70 Ford Mustang VHX Instruments",
@@ -27619,7 +28115,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1969,1970\""
+"fit": "data-cats=\"434\" data-years=\"1969,1970\"",
+"rewrite": []
 },
 "208": {
 "title": "1969-70 Ford Mustang Digital Instrument System",
@@ -27689,7 +28186,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1969,1970\""
+"fit": "data-cats=\"434\" data-years=\"1969,1970\"",
+"rewrite": []
 },
 "922": {
 "title": "1971-73 Ford Mustang VHX Instruments",
@@ -27765,7 +28263,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1971,1972,1973\""
+"fit": "data-cats=\"434\" data-years=\"1971,1972,1973\"",
+"rewrite": []
 },
 "1392": {
 "title": "1971-73 Ford Mustang with Console VHX Instruments",
@@ -27837,7 +28336,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1971,1972,1973\""
+"fit": "data-cats=\"434\" data-years=\"1971,1972,1973\"",
+"rewrite": []
 },
 "489": {
 "title": "1971-73 Ford Mustang Digital Instrument System",
@@ -27946,7 +28446,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1971,1972,1973\""
+"fit": "data-cats=\"434\" data-years=\"1971,1972,1973\"",
+"rewrite": []
 },
 "895": {
 "title": "1979-86 Ford Mustang VHX Instruments",
@@ -28022,7 +28523,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1979,1980,1981,1982,1983,1984,1985,1986\""
+"fit": "data-cats=\"434\" data-years=\"1979,1980,1981,1982,1983,1984,1985,1986\"",
+"rewrite": []
 },
 "1360": {
 "title": "1990-93 Ford Mustang RTX Instruments",
@@ -28065,7 +28567,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"434\" data-years=\"1990,1991,1992,1993\""
+"fit": "data-cats=\"434\" data-years=\"1990,1991,1992,1993\"",
+"rewrite": []
 },
 "1317": {
 "title": "1990-93 Ford Mustang HDX Instruments",
@@ -28122,7 +28625,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"434\" data-years=\"1990,1991,1992,1993\""
+"fit": "data-cats=\"434\" data-years=\"1990,1991,1992,1993\"",
+"rewrite": []
 },
 "931": {
 "title": "1990-93 Ford Mustang VHX Instruments",
@@ -28198,7 +28702,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1990,1991,1992,1993\""
+"fit": "data-cats=\"434\" data-years=\"1990,1991,1992,1993\"",
+"rewrite": []
 },
 "1427": {
 "title": "1994-04 Ford Mustang RTX Instruments",
@@ -28260,7 +28765,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"434\" data-years=\"\""
+"fit": "data-cats=\"434\" data-years=\"\"",
+"rewrite": []
 },
 "1219": {
 "title": "1994-2004 Ford Mustang VHX Instruments",
@@ -28332,7 +28838,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"434\" data-years=\"1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004\""
+"fit": "data-cats=\"434\" data-years=\"1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004\"",
+"rewrite": []
 },
 "142": {
 "title": "1935 -1937 Ford Pickup Digital Instrument System",
@@ -28393,7 +28900,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "855": {
 "title": "1940-47 Ford Pickup VHX Instruments",
@@ -28469,7 +28977,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "230": {
 "title": "1940-47 Ford Pickup Digital Instrument System",
@@ -28543,7 +29052,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "859": {
 "title": "1948-50 Ford Truck VHX Instruments",
@@ -28619,7 +29129,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "144": {
 "title": "1948 -1950 Ford F1 Pickup Digital Instrument System",
@@ -28680,7 +29191,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "963": {
 "title": "1951-52 Ford Pickup VHX Instruments",
@@ -28756,7 +29268,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "231": {
 "title": "1951-1952 Ford Pickup Digital Instrument System",
@@ -28817,7 +29330,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1083": {
 "title": "1953-55 Ford Pickup HDX Instruments",
@@ -28874,7 +29388,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "820": {
 "title": "1953-55 Ford Pickup VHX Instruments",
@@ -28950,7 +29465,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "146": {
 "title": "1953-1955 Ford F100 Pickup Digital Instrument System",
@@ -29046,7 +29562,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1251": {
 "title": "1956 Ford Pickup RTX Instruments",
@@ -29089,7 +29606,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1078": {
 "title": "1956 Ford Pickup HDX Instruments",
@@ -29146,7 +29664,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "818": {
 "title": "1956 Ford Pickup VHX Instruments",
@@ -29222,7 +29741,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "147": {
 "title": "1956 Ford Pickup Digital Instrument System",
@@ -29283,7 +29803,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1434": {
 "title": "1957-60 Ford Pickup & 1961-67 Econoline Van RTX Instruments",
@@ -29326,7 +29847,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1010": {
 "title": "1957-60 Ford Pickup & 1961-67 Econoline Van VHX Instruments",
@@ -29402,7 +29924,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "148": {
 "title": "1957-60 Ford Pickup & 1961-67 Econoline Van/ Pickup Digital Instrument System",
@@ -29463,7 +29986,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1187": {
 "title": "1961-66 Ford Pickup RTX Instruments",
@@ -29506,7 +30030,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1064": {
 "title": "1961-66 Ford Pickup HDX Instruments",
@@ -29563,7 +30088,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "779": {
 "title": "1961-66 Ford Pickup VHX Instruments",
@@ -29640,7 +30166,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "149": {
 "title": "1961 -1966 Ford Pickup Digital Instrument System",
@@ -29700,7 +30227,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1175": {
 "title": "1966-77 Ford Bronco RTX Instruments",
@@ -29742,7 +30270,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "1061": {
 "title": "1966-77 Ford Bronco HDX Instruments",
@@ -29799,7 +30328,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "780": {
 "title": "1966-77 Ford Bronco VHX Instruments",
@@ -29876,7 +30406,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "150": {
 "title": "1966-77 Ford Bronco Digital Instrument System",
@@ -29939,7 +30470,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\""
+"fit": "data-cats=\"830\" data-years=\"1966,1967,1968,1969,1970,1971,1972,1973,1974,1975,1976,1977\"",
+"rewrite": []
 },
 "1260": {
 "title": "1967-72 Ford Pickup RTX Instruments",
@@ -29982,7 +30514,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "1093": {
 "title": "1967-72 Ford Pickup HDX Instruments",
@@ -30039,7 +30572,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "898": {
 "title": "1967-72 Ford Pickup VHX Instruments",
@@ -30115,7 +30649,8 @@
 105
 ],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "504": {
 "title": "1967-72 Ford Pickup Digital Instrument System",
@@ -30177,7 +30712,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\""
+"fit": "data-cats=\"830\" data-years=\"1967,1968,1969,1970,1971,1972\"",
+"rewrite": []
 },
 "1091": {
 "title": "1973-79 Ford Pickup, 78-79 Bronco",
@@ -30234,7 +30770,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\""
+"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\"",
+"rewrite": []
 },
 "604": {
 "title": "1973-79 Ford Pickup, Van and 78-79 Bronco Digital Instrument System",
@@ -30296,7 +30833,8 @@
 759
 ],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\""
+"fit": "data-cats=\"830\" data-years=\"1973,1974,1975,1976,1977,1978,1979\"",
+"rewrite": []
 },
 "1215": {
 "title": "1980-86 Ford Pickup and Bronco VHX Analog Instruments",
@@ -30368,7 +30906,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1980,1981,1982,1983,1984,1985,1986\""
+"fit": "data-cats=\"830\" data-years=\"1980,1981,1982,1983,1984,1985,1986\"",
+"rewrite": []
 },
 "1406": {
 "title": "1987-91 Ford Pickup and Bronco RTX Instruments",
@@ -30411,7 +30950,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"830\" data-years=\"1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"830\" data-years=\"1987,1988,1989,1990,1991\"",
+"rewrite": []
 },
 "1340": {
 "title": "1987-91 Ford Pickup and Bronco VHX Analog Instruments",
@@ -30483,7 +31023,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": "data-cats=\"830\" data-years=\"1987,1988,1989,1990,1991\""
+"fit": "data-cats=\"830\" data-years=\"1987,1988,1989,1990,1991\"",
+"rewrite": []
 },
 "1411": {
 "title": "1992-96 Ford Pickup, and Bronco RTX Instruments",
@@ -30526,7 +31067,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"830\" data-years=\"1992,1993,1994,1995,1996\""
+"fit": "data-cats=\"830\" data-years=\"1992,1993,1994,1995,1996\"",
+"rewrite": []
 },
 "1412": {
 "title": "1997-04 Ford Full Size Pickup, and Expedition RTX Instruments",
@@ -30569,7 +31111,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": "data-cats=\"830\" data-years=\"\""
+"fit": "data-cats=\"830\" data-years=\"\"",
+"rewrite": []
 },
 "1116": {
 "title": "1960 Ford Galaxie VHX Instruments",
@@ -30641,7 +31184,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1023": {
 "title": "1961 Ford Galaxie, 1961 Mercury Monterey and Meteor 600 VHX Instruments",
@@ -30717,7 +31261,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1117": {
 "title": "1962 Ford Galaxie VHX Instruments",
@@ -30789,7 +31334,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1043": {
 "title": "1963-64 Ford Galaxie VHX Instruments",
@@ -30861,7 +31407,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1118": {
 "title": "1965-66 Ford Galaxie VHX Instruments",
@@ -30933,7 +31480,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1326": {
 "title": "1968-69 Ford Torino, Fairlane and Ranchero VHX Instruments",
@@ -31005,7 +31553,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1063": {
 "title": "1961-63 Lincoln Continental",
@@ -31081,7 +31630,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1114": {
 "title": "1964-65 Lincoln Continental",
@@ -31153,7 +31703,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1115": {
 "title": "1966-69 Lincoln Continental",
@@ -31225,7 +31776,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1164": {
 "title": "1968-70 Mopar B-Body: Coronet, Belvedere, Satellite and Road Runner",
@@ -31297,7 +31849,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1090": {
 "title": "1968-70 Dodge Charger, Super Bee, Coronet R/T, 1970 Plymouth GTX and Road Runner",
@@ -31354,7 +31907,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 9,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "939": {
 "title": "1968-70 Dodge Charger, Super Bee, Coronet R/T, 1970 GTX and Road Runner",
@@ -31430,7 +31984,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1165": {
 "title": "1970-74 Mopar E-Body: Challenger & Barracuda",
@@ -31502,7 +32057,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1266": {
 "title": "1970-74 Dodge Challenger and 1970-74 Cuda with Rallye dash",
@@ -31545,7 +32101,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 10,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1167": {
 "title": "1970-74 Dodge Challenger and 1970-74 Plymouth Cuda with Rallye dash",
@@ -31602,7 +32159,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 12,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1027": {
 "title": "1970-74 Dodge Challenger and 1970-74 Plymouth Cuda with Rallye dash",
@@ -31678,7 +32236,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "836": {
 "title": "1955-86 Jeep CJ VHX Instruments",
@@ -31754,7 +32313,8 @@
 105
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "210": {
 "title": "1955-86 Jeep CJ Series Digital Instrument System",
@@ -31815,7 +32375,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1330": {
 "title": "1963-72 Jeep Wagoneer/ J Trucks, 67-72 Jeepster Commando VHX Instruments",
@@ -31887,7 +32448,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "500": {
 "title": "1963-72 Jeep Wagoneer/ J-Trucks, 1967-72 Jeepster Commando Digital Instrument System",
@@ -31956,7 +32518,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1048": {
 "title": "1973-85 Jeep Wagoneer/ Cherokee & J Trucks VHX Instrument System",
@@ -32028,7 +32591,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "498": {
 "title": "1973-85 Jeep Wagoneer/ Cherokee/ J-Trucks Digital Instrument System",
@@ -32099,7 +32663,8 @@
 325
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1133": {
 "title": "1986-91 Jeep Wagoneer & 1986-88 J Trucks VHX Instrument System",
@@ -32171,7 +32736,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "499": {
 "title": "1986-91 Jeep Wagoneer/ 1986-88 J-Trucks Digital Instrument System",
@@ -32232,7 +32798,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1333": {
 "title": "1996-03 Jeep TJ and 1997-01 Jeep Cherokee XJ HDX Instrument System",
@@ -32289,7 +32856,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1184": {
 "title": "1962-84 Toyota FJ RTX Instruments",
@@ -32332,7 +32900,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 8,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1062": {
 "title": "1962-84 Toyota FJ HDX Instruments",
@@ -32389,7 +32958,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 7,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "923": {
 "title": "1962-84 Toyota FJ40 VHX Instruments",
@@ -32475,7 +33045,8 @@
 761
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1414": {
 "title": "1991-97 Toyota FJ RTX Instruments",
@@ -32518,7 +33089,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 13,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "235": {
 "title": "1958-77 Volkswagen Beetle Digital Instruments",
@@ -32579,7 +33151,8 @@
 759
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "216": {
 "title": "Digital Clock Custom Mounted into Original Bezel",
@@ -32592,7 +33165,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "388": {
 "title": "Odyssey Series I, Air Pressure",
@@ -32628,7 +33202,8 @@
 124
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "389": {
 "title": "2-1/16\" Air Pressure",
@@ -32667,7 +33242,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1211": {
 "title": "DCC-4000: HDX/RTX Style Climate Controls Air Gen-IV and V",
@@ -32702,7 +33278,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "821": {
 "title": "DCC-2500: Digital Climate Controller for Vintage Air Gen IV and V",
@@ -32747,7 +33324,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "897": {
 "title": "Three-Knob Digital Climate Controller for Vintage Air Gen IV and V",
@@ -32790,7 +33368,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "475": {
 "title": "DCC-2200: Digital Climate Control for Vintage Air Gen II",
@@ -32825,7 +33404,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1192": {
 "title": "SGI-100BT: Universal Speedometer and Tachometer Interface",
@@ -32847,7 +33427,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "886": {
 "title": "ECD-200BT: Electronic Signal to Mechanical Cable Drive Adaptor",
@@ -32877,7 +33458,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "825": {
 "title": "OBD II Speedometer/ Tachometer Interface",
@@ -32896,7 +33478,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1429": {
 "title": "SGI-20: GMR TACH ADAPTER",
@@ -32915,7 +33498,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1103": {
 "title": "CDI Ignition Tach Adaptor.",
@@ -32932,7 +33516,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1222": {
 "title": "Universal Gear Shift Sending Unit",
@@ -32952,7 +33537,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "64": {
 "title": "Alpha-Numeric L.E.D. Gear Indicator",
@@ -32980,7 +33566,8 @@
 1222
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "63": {
 "title": "Round Gear/Misc. Indicator",
@@ -33017,7 +33604,8 @@
 1222
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "62": {
 "title": "Oval Gear/Misc Indicators",
@@ -33054,7 +33642,8 @@
 1222
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "482": {
 "title": "LED Gear Position Indicator",
@@ -33090,7 +33679,8 @@
 1222
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "59": {
 "title": "Kugel Nut",
@@ -33109,7 +33699,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "58": {
 "title": "Linear Actuator",
@@ -33143,7 +33734,8 @@
 465
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "464": {
 "title": "Single Linear Actuator Controller",
@@ -33162,7 +33754,8 @@
 58
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "465": {
 "title": "Dual Linear Actuator Controller",
@@ -33183,7 +33776,8 @@
 58
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "460": {
 "title": "Automatic Door Lock Controller",
@@ -33200,7 +33794,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1207": {
 "title": "Electronic Fan Controller 70 Amp with Bluetooth Control",
@@ -33227,7 +33822,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "42": {
 "title": "Retained ACC Power w/ Headlight & Dome Light Control",
@@ -33244,7 +33840,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1436": {
 "title": "Billet LS Oil Pressure Sensor Adapter Plate",
@@ -33264,7 +33861,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1254": {
 "title": "Small Block Chevy Oil Pressure Adaptor",
@@ -33281,7 +33879,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1255": {
 "title": "Ford Gen1 and Gen2 Coyote Oil Pressure Adaptor",
@@ -33298,7 +33897,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1214": {
 "title": "Speed Sensor Adaptors",
@@ -33325,7 +33925,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "916": {
 "title": "128k High Frequency GM Pulse Generator",
@@ -33349,7 +33950,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1140": {
 "title": "7\" GM 7/8\"M-7/8\"F Speedometer Cable extension",
@@ -33366,7 +33968,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "109": {
 "title": "Speedometer 8K Pulse Generator",
@@ -33400,7 +34003,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "57": {
 "title": "Pass-through Pulse Generator",
@@ -33424,7 +34028,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "110": {
 "title": "Oil Pressure Sender for individual Dakota Digital Gauges",
@@ -33449,7 +34054,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "124": {
 "title": "Air Pressure Sender",
@@ -33468,7 +34074,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "111": {
 "title": "Water/Oil/Trans Temperature Sender",
@@ -33501,7 +34108,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "113": {
 "title": "Oil Temperature Sender",
@@ -33518,7 +34126,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "114": {
 "title": "Transmission Temperature Sender",
@@ -33539,7 +34148,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "112": {
 "title": "Universal Fuel Level Sender",
@@ -33556,7 +34166,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "117": {
 "title": "Vacuum/Boost and Fuel Pressure Sender",
@@ -33575,7 +34186,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "115": {
 "title": "Cylinder Head Temperature Sender",
@@ -33600,7 +34212,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "116": {
 "title": "Exhaust Gas Temperature Sender",
@@ -33623,7 +34236,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "120": {
 "title": "Ambient Air Temperature Sender",
@@ -33640,7 +34254,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "123": {
 "title": "Amp Current Sender",
@@ -33657,7 +34272,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "121": {
 "title": "Nitrous Pressure Sender",
@@ -33674,7 +34290,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "87": {
 "title": "Door Popper",
@@ -33691,7 +34308,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1113": {
 "title": "Single Rotor Trunk Latch",
@@ -33710,7 +34328,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "395": {
 "title": "Super Door Popper",
@@ -33727,7 +34346,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "94": {
 "title": "Dual Rotor Door Latches",
@@ -33744,7 +34364,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "404": {
 "title": "Light Dimming Kit",
@@ -33761,7 +34382,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "105": {
 "title": "Electric Antenna -Automotive",
@@ -33781,7 +34403,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "103": {
 "title": "Magnum Shooters/ W.I.D.E. Contact",
@@ -33813,7 +34436,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1437": {
 "title": "GRFX Replacement Parts",
@@ -33859,7 +34483,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1248": {
 "title": "RTX Replacement Parts",
@@ -33920,7 +34545,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1247": {
 "title": "HDX Replacement Parts",
@@ -33987,7 +34613,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "730": {
 "title": "VHX Replacement Parts",
@@ -34066,7 +34693,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "729": {
 "title": "VFD3 and VFD3x Second Series Replacement Parts",
@@ -34123,7 +34751,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1318": {
 "title": "DCC Climate Control",
@@ -34179,7 +34808,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "983": {
 "title": "DHC Ride Height Controller",
@@ -34198,7 +34828,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1245": {
 "title": "ECD-100 and ECD-200BT Replacement Parts",
@@ -34219,7 +34850,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "588": {
 "title": "Ford Speed Couplers and Cables",
@@ -34250,7 +34882,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1246": {
 "title": "LED lights and plate for DGS-12 and DGS-13",
@@ -34279,7 +34912,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1196": {
 "title": "Linear Actuator Hardware -LACT",
@@ -34301,7 +34935,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "620": {
 "title": "SEN-01-1",
@@ -34330,7 +34965,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1142": {
 "title": "Universal Flywheel Tachometer Pickup Sensor",
@@ -34349,7 +34985,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "583": {
 "title": "VFD3 and VFD3x First Series Replacement Parts",
@@ -34400,7 +35037,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "582": {
 "title": "STR-D/ Series II Replacement Parts",
@@ -34449,7 +35087,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "581": {
 "title": "STR-C Replacement Parts",
@@ -34484,7 +35123,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "580": {
 "title": "STR-B Replacement Parts",
@@ -34519,7 +35159,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "579": {
 "title": "STR-A Replacement Parts",
@@ -34554,7 +35195,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "578": {
 "title": "Gift Certificate",
@@ -34580,7 +35222,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "888": {
 "title": "MVX-8K Series, Analog/Digital Plug-in Instrumentation",
@@ -34611,7 +35254,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "928": {
 "title": "MVX A La Carte Bagger Gauges",
@@ -34723,7 +35367,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "772": {
 "title": "MCL Series: A La Carte and Accessory Digital Dresser Gauges",
@@ -34757,7 +35402,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "953": {
 "title": "GPS-Powered Compass, Altimeter and Ambient Air Temp Gauge to match '96-13 HD OEM gauges",
@@ -34785,7 +35431,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "952": {
 "title": "GPS-Powered Digital Compass and Ambient Air Temp for MCL-3000 and MCL-3006 Series gauges",
@@ -34820,7 +35467,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "934": {
 "title": "Harley 4-1/2\" Analog Replacement w/ Direct ECM Plug-In, 2004-2013 Models w/ Tank Mounted Gauge",
@@ -34866,7 +35514,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "977": {
 "title": "Harley 4 1/2\" Analog Replacement Cut & Splice, 1996-2003 Models w/Tank Mounted Gauge",
@@ -34924,7 +35573,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1393": {
 "title": "MLX-5000 Series Universal Gauge",
@@ -34972,7 +35622,8 @@
 250
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "598": {
 "title": "MCL-5100",
@@ -35005,7 +35656,8 @@
 250
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "599": {
 "title": "MCL-5200",
@@ -35035,7 +35687,8 @@
 250
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "241": {
 "title": "Electric Antenna -Motorcycle",
@@ -35054,7 +35707,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "496": {
 "title": "PGR-1000 Series",
@@ -35103,7 +35757,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1011": {
 "title": "Electronic Speedometer Adjustment Module",
@@ -35122,7 +35777,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "240": {
 "title": "Electronic Speedometer Adjustment Module for Honda Goldwings",
@@ -35141,7 +35797,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "239": {
 "title": "Electronic Speedometer Adjustment Module for Sportbike and Metric Crusiers.",
@@ -35160,7 +35817,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "735": {
 "title": "Harley-Davidson Aftermarket Speedometer/ Tachometer Interface",
@@ -35177,7 +35835,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "592": {
 "title": "CUP-3001 Replacement Parts",
@@ -35208,7 +35867,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "597": {
 "title": "CUP-3301 Replacement Parts",
@@ -35231,7 +35891,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "715": {
 "title": "Bar Mounting Brackets for 2-1/16 Round Gauges",
@@ -35250,7 +35911,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "708": {
 "title": "HLY-3000 Series 2-1/16 Speedometer or Tachometer",
@@ -35269,7 +35931,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "709": {
 "title": "HLY-3000 Series 3-3/8 Speedometer/ Tachometer and Combo",
@@ -35288,7 +35951,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "593": {
 "title": "HLY-5000X Replacement Parts",
@@ -35319,7 +35983,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "704": {
 "title": "MCL-3000-OT and MCL-3000-R '96-03 Baggers",
@@ -35354,7 +36019,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "706": {
 "title": "MCL-3006-OT and MCL-3006-R '04-'13 Baggers",
@@ -35379,7 +36045,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "711": {
 "title": "MCL-4000 Series 1-7/8 gauges",
@@ -35406,7 +36073,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1279": {
 "title": "MLX Touring Direct-Fit Packages",
@@ -35437,7 +36105,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "707": {
 "title": "PGR-1000 Series",
@@ -35462,7 +36131,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "716": {
 "title": "Push Button w/ boot",
@@ -35479,7 +36149,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "291": {
 "title": "Ion Series, Speedometer/Tachometer",
@@ -35529,7 +36200,8 @@
 109
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "324": {
 "title": "Ion Series, Oil Pressure",
@@ -35574,7 +36246,8 @@
 110
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "362": {
 "title": "Ion Series, Water Temperature",
@@ -35623,7 +36296,8 @@
 111
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "356": {
 "title": "Ion Series, Voltmeter",
@@ -35657,7 +36331,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "353": {
 "title": "Ion, Fuel Level",
@@ -35694,7 +36369,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "542": {
 "title": "Ion Series, Ambient Air Temperature",
@@ -35730,7 +36406,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "543": {
 "title": "Ion Series, Amplifier Temperature",
@@ -35766,7 +36443,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "505": {
 "title": "Ion Series, Digital Clock",
@@ -35785,7 +36463,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "544": {
 "title": "Ion Series, Amp Current",
@@ -35821,7 +36500,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "296": {
 "title": "Odyssey Series I, Mini Speedometer",
@@ -35873,7 +36553,8 @@
 109
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "297": {
 "title": "Odyssey Series I, Mini Tachometer",
@@ -35907,7 +36588,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "321": {
 "title": "Odyssey Series I, Oil Pressure",
@@ -35954,7 +36636,8 @@
 110
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "383": {
 "title": "Odyssey Series I, Water Temperature",
@@ -35990,7 +36673,8 @@
 111
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "357": {
 "title": "Odyssey Series I, Voltmeter",
@@ -36009,7 +36693,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "380": {
 "title": "Odyssey Series I, Fuel Level",
@@ -36046,7 +36731,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "325": {
 "title": "Odyssey Series I, Oil Temperature",
@@ -36082,7 +36768,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "377": {
 "title": "Odyssey Series I, Vacuum/ Boost",
@@ -36117,7 +36804,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "381": {
 "title": "Odyssey Series I, High Resolution Fuel Pressure",
@@ -36153,7 +36841,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "379": {
 "title": "Odyssey Series I, Exhaust Gas Temperature",
@@ -36198,7 +36887,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "316": {
 "title": "Odyssey Series I, Ambient Air Temp",
@@ -36234,7 +36924,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "318": {
 "title": "Odyssey Series I, Amplifier Temp",
@@ -36259,7 +36950,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "344": {
 "title": "Odyssey Series I, Digital Clock",
@@ -36291,7 +36983,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "744": {
 "title": "Odyssey Series I, Amp Current",
@@ -36316,7 +37009,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "574": {
 "title": "Dual 3-3/8\" Round Gauge Kit",
@@ -36351,7 +37045,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "285": {
 "title": "Round 3-3/8\" Performance Speedometer",
@@ -36388,7 +37083,8 @@
 109
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "292": {
 "title": "Mini 2-1/16\" Speedometer",
@@ -36441,7 +37137,8 @@
 109
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "287": {
 "title": "Round 3-3/8\" Performance Tachometer",
@@ -36476,7 +37173,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "294": {
 "title": "Mini 2-1/16\" Tachometer",
@@ -36511,7 +37209,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "289": {
 "title": "Performance 3-3/8\" Speedometer/Tachometer",
@@ -36548,7 +37247,8 @@
 109
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "322": {
 "title": "2-1/16\" Oil Pressure",
@@ -36594,7 +37294,8 @@
 110
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "363": {
 "title": "2-1/16\" Water Temperature",
@@ -36644,7 +37345,8 @@
 111
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "358": {
 "title": "2-1/16\" Voltmeter",
@@ -36679,7 +37381,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "349": {
 "title": "2-1/16\" Fuel Level",
@@ -36716,7 +37419,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "326": {
 "title": "2-1/16\" Oil Temperature",
@@ -36755,7 +37459,8 @@
 111
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "365": {
 "title": "2-1/16\" Transmission Temperature",
@@ -36797,7 +37502,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "332": {
 "title": "2-1/16\" Vacuum/ Boost",
@@ -36833,7 +37539,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "397": {
 "title": "2-1/16\" High Resolution Fuel Pressure",
@@ -36870,7 +37577,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "347": {
 "title": "2-1/16\" Cylinder Head Temperature",
@@ -36918,7 +37626,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "345": {
 "title": "2-1/16\" Exhaust Gas Temperature",
@@ -36964,7 +37673,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "315": {
 "title": "2-1/16\" Ambient Air Temp",
@@ -37001,7 +37711,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "319": {
 "title": "2-1/16\" Amplifier Temp",
@@ -37038,7 +37749,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "360": {
 "title": "2-1/16\" Amp Current",
@@ -37075,7 +37787,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "308": {
 "title": "2-1/16\" Nitrous Pressure",
@@ -37112,7 +37825,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "368": {
 "title": "3-3/8\" Fuel/ Volts/ Oil Pressure/ Water Temperature",
@@ -37149,7 +37863,8 @@
 112
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "396": {
 "title": "Chevy Truck Overhead Console Plate",
@@ -37166,7 +37881,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "515": {
 "title": "1955 Chevrolet Car",
@@ -37190,7 +37906,8 @@
 1033
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "516": {
 "title": "1956 Chevrolet Car",
@@ -37214,7 +37931,8 @@
 1033
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "517": {
 "title": "1957 Chevrolet Car",
@@ -37238,7 +37956,8 @@
 164
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "518": {
 "title": "1958 Chevrolet Car/ Biscayne",
@@ -37262,7 +37981,8 @@
 1094
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "551": {
 "title": "1959 Impala/ Bel Air/ Biscayne",
@@ -37286,7 +38006,8 @@
 1068
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "552": {
 "title": "1960 Impala/ Bel Air/ Biscayne",
@@ -37310,7 +38031,8 @@
 1068
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "554": {
 "title": "1962 Impala/ Bel Air/ Biscayne",
@@ -37334,7 +38056,8 @@
 1069
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "519": {
 "title": "1963 Impala",
@@ -37358,7 +38081,8 @@
 1070
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "520": {
 "title": "1964 Impala",
@@ -37382,7 +38106,8 @@
 1070
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "521": {
 "title": "1965 Impala/ Caprice",
@@ -37405,7 +38130,8 @@
 174
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "555": {
 "title": "1966 Impala/ Caprice",
@@ -37428,7 +38154,8 @@
 175
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "523": {
 "title": "1967 Caprice",
@@ -37451,7 +38178,8 @@
 176
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "522": {
 "title": "1967 Impala",
@@ -37474,7 +38202,8 @@
 176
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "556": {
 "title": "1968 Impala/ Caprice",
@@ -37497,7 +38226,8 @@
 177
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "557": {
 "title": "1969 Impala/ Caprice",
@@ -37520,7 +38250,8 @@
 178
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "577": {
 "title": "1970 Bel Air",
@@ -37543,7 +38274,8 @@
 178
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "558": {
 "title": "1970 Impala/ Caprice",
@@ -37566,7 +38298,8 @@
 178
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "609": {
 "title": "1971 Bel Air",
@@ -37590,7 +38323,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "608": {
 "title": "1971 Impala/ Caprice",
@@ -37614,7 +38348,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "632": {
 "title": "1972 Impala/ Caprice",
@@ -37638,7 +38373,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "635": {
 "title": "1973 Impala/ Caprice",
@@ -37662,7 +38398,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "634": {
 "title": "1974 Caprice",
@@ -37686,7 +38423,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "633": {
 "title": "1974-76 Impala",
@@ -37710,7 +38448,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "601": {
 "title": "1975-76 Caprice",
@@ -37734,7 +38473,8 @@
 865
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "610": {
 "title": "1977 Impala",
@@ -37757,7 +38497,8 @@
 866
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "636": {
 "title": "1977-1979 Caprice",
@@ -37780,7 +38521,8 @@
 866
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "611": {
 "title": "1978 Impala",
@@ -37803,7 +38545,8 @@
 866
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "612": {
 "title": "1980-85 Caprice",
@@ -37826,7 +38569,8 @@
 866
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "637": {
 "title": "1980-85 Impala",
@@ -37849,7 +38593,8 @@
 866
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "613": {
 "title": "1986-90 Caprice",
@@ -37872,7 +38617,8 @@
 866
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "565": {
 "title": "1961-62 Corvette",
@@ -37895,7 +38641,8 @@
 806
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "566": {
 "title": "1963-67 Corvette",
@@ -37919,7 +38666,8 @@
 1089
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "527": {
 "title": "1962-64 Nova",
@@ -37943,7 +38691,8 @@
 1071
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "528": {
 "title": "1965 Nova",
@@ -37967,7 +38716,8 @@
 1071
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "529": {
 "title": "1966-67 Nova/ Nova Wagon",
@@ -37991,7 +38741,8 @@
 1072
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "530": {
 "title": "1968-69 Nova",
@@ -38015,7 +38766,8 @@
 1073
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "531": {
 "title": "1970-72 Nova",
@@ -38039,7 +38791,8 @@
 1073
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "614": {
 "title": "1973-74 Nova",
@@ -38063,7 +38816,8 @@
 1073
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "546": {
 "title": "1964 Chevelle",
@@ -38087,7 +38841,8 @@
 789
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "547": {
 "title": "1965 Chevelle",
@@ -38111,7 +38866,8 @@
 789
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "524": {
 "title": "1966 Chevelle",
@@ -38135,7 +38891,8 @@
 1056
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "525": {
 "title": "1967 Chevelle",
@@ -38159,7 +38916,8 @@
 1056
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "548": {
 "title": "1968 Chevelle",
@@ -38184,7 +38942,8 @@
 1060
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "549": {
 "title": "1969 Chevelle",
@@ -38208,7 +38967,8 @@
 1059
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "550": {
 "title": "1970 Chevelle",
@@ -38235,7 +38995,8 @@
 1054
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "526": {
 "title": "1971-72 Chevelle",
@@ -38259,7 +39020,8 @@
 1054
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "532": {
 "title": "1967-68 Camaro RS",
@@ -38287,7 +39049,8 @@
 1082
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "533": {
 "title": "1967-68 Camaro SS & Standard",
@@ -38315,7 +39078,8 @@
 1082
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "534": {
 "title": "1969 Camaro SS & RS",
@@ -38341,7 +39105,8 @@
 1081
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "535": {
 "title": "1970-73 Camaro",
@@ -38365,7 +39130,8 @@
 1053
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "638": {
 "title": "1974-77 Camaro",
@@ -38389,7 +39155,8 @@
 1053
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "561": {
 "title": "1940-53 Pickup",
@@ -38414,7 +39181,8 @@
 1036
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "562": {
 "title": "1960-66 Fleetside Pickup",
@@ -38440,7 +39208,8 @@
 1038
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "536": {
 "title": "1967-72 Fleetside Pickup",
@@ -38464,7 +39233,8 @@
 1039
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "563": {
 "title": "1973-87 Fleetside Pickup",
@@ -38488,7 +39258,8 @@
 1040
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "564": {
 "title": "1987-91 Suburban/ Blazer",
@@ -38508,7 +39279,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "569": {
 "title": "1964-72 Pickup",
@@ -38535,7 +39307,8 @@
 898
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "570": {
 "title": "1964-66 Mustang",
@@ -38560,7 +39333,8 @@
 1065
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "571": {
 "title": "1967-68 Mustang",
@@ -38585,7 +39359,8 @@
 207
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "572": {
 "title": "1969 Mustang",
@@ -38609,7 +39384,8 @@
 791
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "573": {
 "title": "1971-73 Mustang",
@@ -38632,7 +39408,8 @@
 922
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "568": {
 "title": "1965-74 Econoline",
@@ -38652,7 +39429,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "567": {
 "title": "1966-77 Bronco",
@@ -38676,7 +39454,8 @@
 780
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "627": {
 "title": "1965 GTO",
@@ -38700,7 +39479,8 @@
 1077
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "628": {
 "title": "1965 Tempest",
@@ -38724,7 +39504,8 @@
 1077
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "629": {
 "title": "1966 GTO",
@@ -38748,7 +39529,8 @@
 1077
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "631": {
 "title": "1966 LeMans",
@@ -38772,7 +39554,8 @@
 1077
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "679": {
 "title": "1967 GTO",
@@ -38796,7 +39579,8 @@
 1077
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "559": {
 "title": "1967-68 Firebird",
@@ -38820,7 +39604,8 @@
 1041
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "560": {
 "title": "1969 Firebird",
@@ -38843,7 +39628,8 @@
 484
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "630": {
 "title": "1983-84 Parisienne",
@@ -38863,7 +39649,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "652": {
 "title": "LAT-NLF",
@@ -38882,7 +39669,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1398": {
 "title": "Velocity Cruise Commander for Drive by Wire (DBW) Throttle Bodies",
@@ -38938,7 +39726,8 @@
 49
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1399": {
 "title": "Velocity Cruise Control for Mechanical CableThrottle Bodies",
@@ -38981,7 +39770,8 @@
 49
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1431": {
 "title": "VCM Series Column-Mounted Cruise Control Switch",
@@ -39003,7 +39793,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "49": {
 "title": "VCM Series Dash-Mounted Cruise Control Switch",
@@ -39025,7 +39816,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "56": {
 "title": "Braided Cable for Cruise Control Kits",
@@ -39044,7 +39836,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "83": {
 "title": "Single Relay with Socket 30 amp",
@@ -39061,7 +39854,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "91": {
 "title": "Four-Function Remote System",
@@ -39081,7 +39875,8 @@
 395
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "92": {
 "title": "Four-Function Remote Entry Kits",
@@ -39114,7 +39909,8 @@
 395
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "89": {
 "title": "Ten-Function Remote Entry Systems",
@@ -39148,7 +39944,8 @@
 395
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "90": {
 "title": "6-12 Function Remote Accessory Controller",
@@ -39168,7 +39965,8 @@
 395
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "85": {
 "title": "10lb. Door/Trunk Actuator",
@@ -39190,7 +39988,8 @@
 92
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "86": {
 "title": "35lb. Door/Trunk Solenoid",
@@ -39207,7 +40006,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "84": {
 "title": "Dual Relay Pack",
@@ -39224,7 +40024,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "642": {
 "title": "70 Amp Relay",
@@ -39241,7 +40042,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "81": {
 "title": "4-Button Replacement Transmitter",
@@ -39258,7 +40060,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "80": {
 "title": "6-Button Replacement Transmitter",
@@ -39277,7 +40080,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "694": {
 "title": "6-Button Replacement Transmitter",
@@ -39296,7 +40100,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "262": {
 "title": "Round Performance Speedometer with Indicators",
@@ -39324,7 +40129,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "260": {
 "title": "Round Mini Speedometer",
@@ -39361,7 +40167,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "537": {
 "title": "1-7/8\" Mini Speedometer",
@@ -39407,7 +40214,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "263": {
 "title": "Round Performance Tachometer",
@@ -39430,7 +40238,8 @@
 503
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "261": {
 "title": "Round Mini Tachometer",
@@ -39453,7 +40262,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "538": {
 "title": "1-7/8\" Mini Tachometer",
@@ -39484,7 +40294,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "264": {
 "title": "Round Performance Speed/Tach with Indicators",
@@ -39512,7 +40323,8 @@
 246
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "270": {
 "title": "Round Oil Pressure",
@@ -39539,7 +40351,8 @@
 328
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "539": {
 "title": "1-7/8\" Mini Oil/ Air Pressure",
@@ -39574,7 +40387,8 @@
 328
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "425": {
 "title": "Round Water Temperature",
@@ -39599,7 +40413,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "280": {
 "title": "Round Voltmeter",
@@ -39621,7 +40436,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "282": {
 "title": "Round Fuel Level",
@@ -39643,7 +40459,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "272": {
 "title": "Round Oil Temperature",
@@ -39668,7 +40485,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "576": {
 "title": "1-7/8\" Mini Temperature",
@@ -39701,7 +40519,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "490": {
 "title": "Round Performance Multi-function Gauge",
@@ -39723,7 +40542,8 @@
 503
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "331": {
 "title": "Round Multifunction Gauge",
@@ -39746,7 +40566,8 @@
 328
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "276": {
 "title": "Round Cylinder Head Temperature",
@@ -39771,7 +40592,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "274": {
 "title": "Round Air Pressure",
@@ -39796,7 +40618,8 @@
 328
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1335": {
 "title": "MLX-9000 Series Universal Gauge",
@@ -39846,7 +40669,8 @@
 1313
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "623": {
 "title": "MCL-5000 Series Speedometer",
@@ -39902,7 +40726,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "668": {
 "title": "Big Dog Direct Fit Speedometer",
@@ -39930,7 +40755,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1338": {
 "title": "MLX-9000 Series Universal Gauge",
@@ -39984,7 +40810,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "653": {
 "title": "MCL-5000 Series Speedometer",
@@ -40038,7 +40865,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "242": {
 "title": "Mechanical Speedometer Cable Adaptors",
@@ -40059,7 +40887,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "243": {
 "title": "Electronic Speed Sensor Adaptors and Extension",
@@ -40080,7 +40909,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "244": {
 "title": "Transmission Speed Sensors",
@@ -40099,7 +40929,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "245": {
 "title": "Rear Wheel Speed Sensors",
@@ -40118,7 +40949,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "246": {
 "title": "Universal Inductive Speed Sensors",
@@ -40139,7 +40971,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "328": {
 "title": "Oil and Air Pressure Senders",
@@ -40158,7 +40991,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "1018": {
 "title": "Oil and Air Pressure Sensor",
@@ -40175,7 +41009,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "329": {
 "title": "Oil and Water Temperature Sensor",
@@ -40196,7 +41031,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "330": {
 "title": "Cylinder Head Temperature Sensor",
@@ -40213,7 +41049,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "247": {
 "title": "Turn Signal Interface Module",
@@ -40230,7 +41067,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "502": {
 "title": "3-3/8\" Performance Gauge Cups",
@@ -40251,7 +41089,8 @@
 503
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "254": {
 "title": "2-1/16\" Gauge Cups",
@@ -40275,7 +41114,8 @@
 253
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "545": {
 "title": "1-7/8\" Mounting Cup",
@@ -40294,7 +41134,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "503": {
 "title": "3-3/8\" Cup Mounting Brackets",
@@ -40321,7 +41162,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "253": {
 "title": "2-1/16\" and 1-7/8\" Cup Mounting Brackets",
@@ -40348,7 +41190,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "248": {
 "title": "Bar Mounts",
@@ -40380,7 +41223,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "249": {
 "title": "Riser Mounts",
@@ -40406,7 +41250,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "252": {
 "title": "Harley Sportster Custom Mounts",
@@ -40423,7 +41268,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "250": {
 "title": "Harley Top Clamps",
@@ -40459,7 +41305,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "251": {
 "title": "Honda VTX Top Clamp Mounts",
@@ -40478,7 +41325,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "255": {
 "title": "Raw Steel Housings",
@@ -40503,7 +41351,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "748": {
 "title": "1955-58 Cameo",
@@ -40523,7 +41372,8 @@
 "empty_tabs": 0,
 "related": [],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 },
 "705": {
 "title": "1970 Mustang",
@@ -40547,7 +41397,8 @@
 791
 ],
 "themes": 0,
-"fit": ""
+"fit": "",
+"rewrite": []
 }
 }
 }

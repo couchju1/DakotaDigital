@@ -83,6 +83,9 @@ dakotadigital.com.
 - **Copy**: the 26 most repeated old-site paragraphs are rewritten in `tools/content/rewrites.json`
   (facts kept); old instructions like "Click the tabs below" are removed; tabs became always-visible
   sections with a jump menu.
+- **Product description rewrites**: `data/descriptions/<main sku>.md` replaces a product's description
+  paragraphs (photos stay) and its schema description becomes the first two sentences. Products
+  without a file keep the original. `data/descriptions/REVIEW.md` traces every fact to the page.
 - **Structured data**: Product schema on every product page, with only the product's own versions as
   offers (no carriers, bezels or clocks) and descriptions written from the cleaned copy; FAQPage on the FAQ and the RTX page;
   Organization logo points at this site. Absolute URLs use `SITE_URL` in `tools/build_pages.py`.

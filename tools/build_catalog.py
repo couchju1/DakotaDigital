@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / 'redesign'
 SHOP = SITE / 'shop'
 CONTENT = ROOT / 'tools' / 'content'
+DESCRIPTIONS = ROOT / 'data' / 'descriptions'  # hand-written rewrites, <main sku>.md
 LIVE = 'https://www.dakotadigital.com/'
 
 cache = Path(sys.argv[1])
@@ -713,6 +714,37 @@ def describe(title, body_html, skus):
     return short, long
 
 
+def load_rewrite(sku):
+    """Paragraphs of data/descriptions/<sku>.md (front matter dropped), or None when there is no rewrite."""
+    f = DESCRIPTIONS / f'{sku}.md'
+    if not sku or not f.exists():
+        return None
+    text = re.sub(r'\A---\n.*?\n---\n', '', f.read_text(encoding='utf-8').replace('\r\n', '\n'), flags=re.S)
+    return [' '.join(p.split()) for p in re.split(r'\n\s*\n', text.strip()) if p.strip()]
+
+
+def apply_rewrite(body, paras):
+    """Put the rewrite where the original description paragraphs were. Photos and videos stay."""
+    new = '\n'.join(f'<p>{html.escape(p, quote=False)}</p>' for p in paras)
+    placed = False
+
+    def repl(m):
+        nonlocal placed
+        if placed:
+            return ''
+        placed = True
+        return new
+    body = re.sub(r'<p>(?:(?!<img|<iframe|<p>).)*?</p>', repl, body, flags=re.S)
+    return body if placed else new + '\n' + body
+
+
+def first_sentences(paras, n=2, limit=300):
+    """The first n sentences of a rewrite for the Product schema, fewer if they run past the limit."""
+    sentences = re.split(r'(?<=[.?])\s+', ' '.join(paras))
+    out = ' '.join(sentences[:n])
+    return out if len(out) < limit else sentences[0]
+
+
 def theme_switcher(html_text):
     """Real 'Theme:' photos from the gallery -> a lighting theme switcher."""
     seen, themes = set(), []
@@ -787,6 +819,9 @@ def build_product(p):
         body = ('<p>This product is no longer listed on dakotadigital.com. It may have been discontinued or replaced.</p>'
                 '<p>Search above for a current part, or <a href="contact.html">ask the people who build these</a> what replaced it.</p>')
     skus = [it['sku'] for it in items if it['sku']]
+    rewrite = load_rewrite(skus[0] if skus else '')
+    if rewrite:
+        body = apply_rewrite(body, rewrite)
     themes = theme_switcher(body + tabs)
     fit = fit_attrs(p)
     CATALOG['products'][p] = {'title': info['title'], 'path': info['path'], 'cat': info['cat'], 'skus': skus,
@@ -794,7 +829,7 @@ def build_product(p):
                               'steps': [[s['title'], [o['t'] for o in s['options']]] for it in items for s in it['steps']],
                               'tabs': re.findall(r'<h2 id="sec-[^"]+-h">(.*?)</h2>', tabs), 'empty_tabs': empty_tabs,
                               'related': [r['id'] for r in related], 'themes': len(re.findall('theme-chip', themes)),
-                              'fit': fit.strip()}
+                              'fit': fit.strip(), 'rewrite': rewrite or []}
     INDEX.append({'k': 'Part', 't': info['title'], 'u': info['path'], 's': ', '.join(skus[:2]) or 'Product', 'x': ' '.join(skus)})
     buy = buy_box(p, items, live_url)
     fit_strip = f'      <div class="fit" id="fit"{fit} aria-live="polite"></div>\n' if fit else ''
@@ -815,6 +850,8 @@ def build_product(p):
                      + '\n'.join(thumb_card(r) for r in related) + '\n      </ul>\n    </section>')
     parts.append(f'''    <div class="wrap"><p class="fine">Also on <a href="{live_url}">dakotadigital.com</a>.</p></div>''')
     desc, long_desc = describe(info['title'], body, skus)
+    if rewrite:
+        long_desc = first_sentences(rewrite)
     # Product structured data so search results can show price
     imgs = re.findall(r'<img src="([^"]+)"', themes + body + tabs)
     ld = {'@context': 'https://schema.org', '@type': 'Product', 'name': info['title'], 'description': long_desc,
