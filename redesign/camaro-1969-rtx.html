@@ -105,6 +105,8 @@
       </ol>
     </nav>
 
+    <div class="fit" id="fit" data-pid="camaro" data-years="1969" data-series="R" aria-live="polite"></div>
+
     <div class="product-grid">
       <div class="product-main">
         <p class="eyebrow">RTX series · 1969 Camaro</p>
@@ -316,6 +318,33 @@
     </div>
   </footer>
 
+  <script src="garage.js"></script>
+  <script>
+    // Fitment check against the saved car
+    (() => {
+      const fit = document.getElementById('fit');
+      const { pid, years, series } = fit.dataset;
+      const target = DDGarage.PLATFORMS.find((p) => p.id === pid);
+      const forLabel = `${years} ${target.label}`;
+      const CHECK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>';
+      const WARN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20zM12 10v4M12 17v.5"/></svg>';
+      const CAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 17h14M3 13l2-6a2 2 0 0 1 1.9-1.4h10.2A2 2 0 0 1 19 7l2 6v4H3z"/></svg>';
+      DDGarage.onChange((car) => {
+        if (!car) {
+          fit.className = 'fit fit-unknown';
+          fit.innerHTML = `${CAR}<p><strong>Will it fit?</strong> This kit is for the ${forLabel}. <button type="button" class="fit-add">Add your car</button> and we'll check.</p>`;
+          fit.querySelector('.fit-add').addEventListener('click', () => document.querySelector('.garage-btn').click());
+        } else if (car.pid === pid && car.years === years) {
+          fit.className = 'fit fit-yes';
+          fit.innerHTML = `${CHECK}<p><strong>Fits your ${car.label}.</strong> Drops into your stock or reproduction bezel.</p>`;
+        } else {
+          const other = car.codes.includes(series);
+          fit.className = 'fit fit-no';
+          fit.innerHTML = `${WARN}<p><strong>Doesn't fit your ${car.label}.</strong> This kit is for the ${forLabel} only. <a href="index.html#finder">${other ? 'See the RTX for your car' : 'See what fits your car'}</a></p>`;
+        }
+      });
+    })();
+  </script>
   <script>
     // Mobile menu
     const menuBtn = document.querySelector('.menu-btn');

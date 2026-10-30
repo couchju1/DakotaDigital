@@ -189,6 +189,7 @@
     </div>
   </footer>
 
+  <script src="garage.js"></script>
   <script>
     // Mobile menu
     const menuBtn = document.querySelector('.menu-btn');
@@ -314,6 +315,13 @@
     const params = new URLSearchParams(location.search);
     if (params.get('car')) $('car').value = params.get('car');
     if (params.get('system')) $('system').value = params.get('system');
+    // Otherwise fill the car from My Garage
+    DDGarage.onChange((car) => {
+      if (car && !params.get('car') && (!$('car').value || $('car').dataset.fromGarage)) {
+        $('car').value = car.label;
+        $('car').dataset.fromGarage = '1';
+      }
+    });
     renderShops($('zip').value);
   </script>
 </body>

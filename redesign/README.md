@@ -12,7 +12,18 @@ no build step, no frameworks.
 | `camaro-1969-rtx.html` | Product page for the 1969 Camaro RTX: real photos, Turn the key, backlight colors, buy box with live total |
 | `dealers.html` | Find a dealer: ZIP search, pick up to 3 shops, install quote form |
 
-Shared files: `styles.css` (all styles), `dash-finder.js` (finder logic), `img/` (WebP images).
+Shared files: `styles.css` (all styles), `garage.js` (My Garage and the shared fitment data),
+`dash-finder.js` (finder logic), `img/` (WebP images).
+
+## My Garage
+
+Every page has a garage button in the header. Pick a car once (in the finder or from the
+button) and the site remembers it in this browser:
+
+- The finder opens on your car.
+- Product pages say "Fits your 1969 Camaro", or warn when the kit is for a different car
+  and link to what fits.
+- The dealer quote form fills in your car.
 
 ## View it
 

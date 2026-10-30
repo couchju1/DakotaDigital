@@ -4,17 +4,8 @@
   const root = document.getElementById('finder');
   if (!root) return;
 
-  // Each range: [years, series codes that fit]. cat = store category id.
-  const PLATFORMS = [
-    { id: 'camaro', label: 'Camaro', cat: 422, r: [['1967-68', 'GRHVD'], ['1969', 'GRHVD'], ['1970-81', 'RHVD'], ['1982-89', 'RVD'], ['1990-92', 'RV'], ['1997-02', 'R']] },
-    { id: 'chevelle', label: 'Chevelle / El Camino', cat: 424, r: [['1964-65', 'RHVD'], ['1966-67', 'GRHVD'], ['1968', 'RHVD'], ['1969', 'RHVD'], ['1970-72', 'RHVD'], ['1973-77', 'V'], ['1978-88', 'RHVD']] },
-    { id: 'nova', label: 'Nova', cat: 426, r: [['1963-65', 'RHVD'], ['1966-67', 'RHVD']] },
-    { id: 'corvette', label: 'Corvette', cat: 427, r: [['1953-57', 'RH'], ['1958-62', 'RHVD'], ['1963-67', 'RHVD'], ['1968-77', 'RHVD'], ['1978-82', 'RHVD'], ['1984-89', 'D']] },
-    { id: 'gmtruck', label: 'Chevy / GMC truck', cat: 421, r: [['1940-46', 'VD'], ['1947-53', 'GRHVD'], ['1954', 'RHVD'], ['1955-59', 'GRHVD'], ['1960-63', 'GRHVD'], ['1964-66', 'GRHVD'], ['1967-72', 'GRHVD']] },
-    { id: 'squarebody', label: 'Square body truck', cat: 784, r: [['1973-87', 'GRHVD'], ['1988-94', 'RHVD'], ['1995-98', 'RHV']] },
-    { id: 'mustang', label: 'Mustang / Falcon', cat: 434, r: [['1960-63', 'V'], ['1964-65', 'RHV'], ['1965-66', 'RHVD'], ['1967-68', 'RHVD'], ['1969-70', 'RHVD'], ['1971-73', 'VD'], ['1979-86', 'RV'], ['1987-93', 'RHV'], ['1994-04', 'RV']] },
-    { id: 'fordtruck', label: 'Ford truck / Bronco', cat: 830, r: [['1967-72', 'RHVD'], ['1973-79', 'RD'], ['1980-86', 'RV'], ['1987-91', 'RV'], ['1992-96', 'R'], ['1997-04', 'R']] }
-  ];
+  // Fitment data lives in garage.js so every page shares it.
+  const PLATFORMS = window.DDGarage.PLATFORMS;
   const SERIES = {
     G: { name: 'GRFX', tag: 'Full screen', body: 'One color screen fills the whole cluster. Pick it if you want the dash to look as new as the drivetrain.' },
     R: { name: 'RTX', tag: 'Factory look', body: 'Looks like the original cluster until you turn the key. Behind the stock style you get a color message center, lighting you can change and setup from your phone.' },
@@ -28,6 +19,9 @@
   const LIGHTS = [['Ice blue', '#3A9BFF'], ['Red', '#FF4B3E'], ['Amber', '#FFB020'], ['White', '#F2F2EE'], ['Green', '#3DDC84']];
 
   const state = { pid: 'camaro', ri: 0, s: 'R', light: '#3A9BFF', speed: 65 };
+  // Start from the visitor's saved car, if any.
+  const saved = window.DDGarage.get();
+  if (saved) { state.pid = saved.pid; state.ri = saved.ri; }
 
   const $ = (sel) => root.querySelector(sel);
   const list = (name) => $(`[data-list="${name}"]`);
@@ -155,6 +149,8 @@
     const key = btn.dataset.key;
     if (which === 'car') { state.pid = key; state.ri = 0; keepSeries(codes()); }
     if (which === 'years') { state.ri = Number(key); keepSeries(codes()); }
+    // Picking a car or years saves it to the garage; render() runs from the garage listener.
+    if (which === 'car' || which === 'years') { window.DDGarage.set({ pid: state.pid, ri: state.ri }); return; }
     if (which === 'looks') state.s = key;
     if (which === 'lights') state.light = key;
     render();
@@ -163,5 +159,10 @@
   speedInput.addEventListener('input', () => { state.speed = Number(speedInput.value); updateSpeed(); });
 
   speedInput.value = state.speed;
-  render();
+  keepSeries(codes());
+  // Follow garage changes made from the header dialog too.
+  window.DDGarage.onChange((c) => {
+    if (c && (c.pid !== state.pid || c.ri !== state.ri)) { state.pid = c.pid; state.ri = c.ri; keepSeries(codes()); }
+    render();
+  });
 })();
