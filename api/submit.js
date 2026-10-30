@@ -2,7 +2,9 @@
 // into the form_entries table in Neon. DATABASE_URL uses the insert-only web_forms role.
 import { neon } from '@neondatabase/serverless';
 
-const sql = neon(process.env.DATABASE_URL);
+// Check the shape first: the driver's own error message prints the whole value, password included.
+const DB_URL = process.env.DATABASE_URL || '';
+const sql = /^postgres(ql)?:\/\//.test(DB_URL) ? neon(DB_URL) : null;
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const text = (v, max) => (typeof v === 'string' ? v.trim().slice(0, max) : '');
@@ -47,6 +49,10 @@ export default async function handler(req, res) {
   let page = '';
   try { page = new URL(req.headers.referer || '').pathname.slice(0, 300); } catch { page = ''; }
 
+  if (!sql) {
+    console.error('DATABASE_URL is missing or is not a postgresql:// address');
+    return res.status(500).json({ ok: false, error: 'We could not save that. Please call (800) 852-3228.' });
+  }
   try {
     await sql`
       INSERT INTO form_entries (kind, name, email, phone, message, details, page, user_agent)
