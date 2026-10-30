@@ -85,7 +85,9 @@ dakotadigital.com.
   sections with a jump menu.
 - **Product description rewrites**: `data/descriptions/<main sku>.md` replaces a product's description
   paragraphs (photos stay) and its schema description becomes the first two sentences. Products
-  without a file keep the original. `data/descriptions/REVIEW.md` traces every fact to the page.
+  without a file keep the original. When one kit is sold on several pages (same main SKU), name the
+  file `<main sku>-p<product id>.md`; a plain `<main sku>.md` applies only to the page on its
+  `product:` line. `data/descriptions/REVIEW.md` traces every fact to the page.
 - **Structured data**: Product schema on every product page, with only the product's own versions as
   offers (no carriers, bezels or clocks) and descriptions written from the cleaned copy; FAQPage on the FAQ and the RTX page;
   Organization logo points at this site. Absolute URLs use `SITE_URL` in `tools/build_pages.py`.

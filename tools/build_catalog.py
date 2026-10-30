@@ -715,10 +715,15 @@ def describe(title, body_html, skus):
 
 
 def load_rewrite(sku, pid):
-    """Paragraphs of data/descriptions/<sku>.md (front matter dropped), or None when there is no rewrite.
-    Some kits are sold on more than one product page; the file's "product:" line says which page it is for."""
-    f = DESCRIPTIONS / f'{sku}.md'
-    if not sku or not f.exists():
+    """Paragraphs of the product's rewrite (front matter dropped), or None when there is no rewrite.
+    Some kits are sold on more than one product page: data/descriptions/<sku>-p<id>.md is for that one
+    page, and <sku>.md applies only to the page its "product:" line names."""
+    if not sku:
+        return None
+    f = DESCRIPTIONS / f'{sku}-p{pid}.md'
+    if not f.exists():
+        f = DESCRIPTIONS / f'{sku}.md'
+    if not f.exists():
         return None
     text = f.read_text(encoding='utf-8').replace('\r\n', '\n')
     meant_for = re.search(r'\A---\n.*?^product:\s*(\d+)\s*$', text, flags=re.S | re.M)
