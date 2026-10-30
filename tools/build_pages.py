@@ -79,7 +79,7 @@ FOOTER = [
     ('Shop', [('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'), ('universal.html', 'Universal gauges'),
               ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'), ('sitemap.html', 'Site map')]),
     ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('builds-40.html', '40 builds for 40 years'), ('media.html', 'Media coverage'),
-                 ('builds-40.html', '40 builds for 40 years'), ('careers.html', 'Careers'), ('contact.html', 'Contact us')]),
+                 ('careers.html', 'Careers'), ('contact.html', 'Contact us')]),
     ('Help', [('support.html', 'Manuals and support'), ('faq.html', 'FAQ'), ('shipping.html', 'Shipping and returns'),
               ('dealers.html', 'Find a dealer'), ('privacy.html', 'Privacy and Prop 65'), ('terms.html', 'Terms and copyright')]),
 ]

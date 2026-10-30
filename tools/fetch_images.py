@@ -50,5 +50,9 @@ for n, (url, local) in enumerate(images.items(), 1):
     if n % 100 == 0:
         print(f'{n}/{len(images)} | new {done} | skipped {skipped} | failed {failed}', flush=True)
 
-(ROOT / 'tools' / 'content' / 'catalog_images_missing.json').write_text(json.dumps(missing, indent=0), encoding='utf-8')
+# Keep earlier failures too, so a later run doesn't forget images that are broken on the live site
+missing_path = ROOT / 'tools' / 'content' / 'catalog_images_missing.json'
+known = json.loads(missing_path.read_text(encoding='utf-8')) if missing_path.exists() else []
+merged = {u: e for u, e in known + missing}
+missing_path.write_text(json.dumps([[u, e] for u, e in merged.items()], indent=0), encoding='utf-8')
 print(f'IMAGES DONE new {done} skipped {skipped} failed {failed}', flush=True)
