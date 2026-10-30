@@ -31,6 +31,13 @@ def prd(pid, cid):
 
 
 PHONE = '(800) 852-3228'
+
+# Search index entries collected while pages are built: kind, title, sub, url, extra keywords.
+SEARCH = []
+
+
+def index(kind, title, url, sub='', keys=''):
+    SEARCH.append({'k': kind, 't': html.unescape(title), 'u': html.unescape(url), 's': sub, 'x': keys})
 TEL = 'tel:+18008523228'
 
 # ---------- Shared chrome ----------
@@ -134,6 +141,7 @@ def footer():
 
 
 MENU_JS = '''  <script src="garage.js"></script>
+  <script src="search.js"></script>
   <script>
     // Mobile menu
     const menuBtn = document.querySelector('.menu-btn');
@@ -241,6 +249,14 @@ def automotive():
            (400, 'Remote controls and accessories', ''), (402, 'Linear actuators and controllers', ''),
            (403, 'Accessory electronics controllers', ''), (311, 'Sending units', ''), (406, 'Automotive accessories', ''),
            (351, 'Replacement parts', ''), (350, 'Gift certificate', '')]
+    for c, l in gm:
+        index('Vehicle', l, cat(c), 'Chevy / GM', 'chevrolet chevy gm')
+    for c, l in ford:
+        index('Vehicle', l, cat(c), 'Ford', 'ford')
+    for c, l in other:
+        index('Vehicle', l, cat(c), 'Automotive')
+    for c, l, href in acc:
+        index('Accessory', l, href or cat(c), 'Automotive accessories')
     t = lambda xs: tiles([(cat(c), l, '') for c, l in xs], 'tiles tiles-compact')
     body = '\n'.join([
         hero('Automotive', 'Gauges for cars and trucks',
@@ -274,6 +290,8 @@ def motorcycle():
             (77, 'Mounts, cups and senders', ''), (519, 'Speedometer interface', ''), (517, 'Hidden antenna', ''),
             (371, 'American Ironhorse models', ''), (381, 'Big Dog models', ''), (375, 'Victory models', ''),
             (357, 'Replacement parts', ''), (711, 'New motorcycle products', '')]
+    for c, l, sub in cats:
+        index('Motorcycle', l, cat(c), sub or 'Motorcycle', 'motorcycle bike harley')
     dealers = [('https://www.dragspecialties.com', 'Drag Specialties'), ('https://www.mid-usa.com/', 'Mid-USA'),
                ('http://www.rollies.com.au/', 'Rollies'), ('http://www.zodiac.nl/en/locator/index.html', 'Zodiac'),
                ('http://mcas.com.au/pw/', 'Motorcycle Accessories Supermarket')]
@@ -317,6 +335,10 @@ def universal():
              (919, '5 and 6 gauge round, analog VHX', 'VHX-1050, VHX-1060'), (225, 'Single 6.75" round, digital', 'VFD3-1005'),
              (224, 'Dual 4.5" round, digital', 'VFD3-1004'), (1202, '2-1/16" round HDX clock', 'HLC-2162'),
              (1227, '2-1/16" round VHX clock', 'VLC-16-2'), (1013, '3" round VHX clock', 'VLC-16-1')]
+    for c, l in series:
+        index('Universal', l, cat(c), 'Universal gauges', 'universal custom')
+    for p, n, sku in items:
+        index('Part', n, prd(p, 69), sku, 'universal')
     rows = '\n'.join(f'          <tr><td><a href="{prd(p, 69)}">{esc(n)}</a></td><td>{s}</td></tr>' for p, n, s in items)
     body = '\n'.join([
         f'''    <div class="wrap page-hero page-hero-media">
@@ -354,6 +376,8 @@ def efi():
             (785, 'Wideband air/fuel module', 'BIM-13-2'), (759, 'Clock module', 'BIM-16-1'),
             (760, 'Compass with outside temperature', 'BIM-17-2'), (761, 'Quad air pressure module', 'BIM-19-2'),
             (1108, 'Tire pressure monitoring (TPMS)', 'BIM-22-3')]
+    for p, n, sku in mods:
+        index('Part', n, prd(p, 646), sku, 'efi bim module expansion add-on')
     body = '\n'.join([
         f'''    <div class="wrap page-hero page-hero-media">
       <div>
@@ -415,8 +439,13 @@ def support():
 def faq():
     faqs = load('faq')
     groups = []
+    n = 0
     for g in faqs:
-        items = '\n'.join(f'''        <details>
+        for i in g['items']:
+            n += 1
+            i['id'] = f'q{n}'
+            index('Help', i['q'], f'faq.html#{i["id"]}', g['cat'], ' '.join(i['a'])[:200])
+        items = '\n'.join(f'''        <details id="{i['id']}">
           <summary>{esc(i['q'])}</summary>
 {chr(10).join(f'          <p>{esc(p)}</p>' for p in i['a'])}
         </details>''' for i in g['items'])
@@ -427,7 +456,12 @@ def faq():
     body = '\n'.join([hero('Help', 'Frequently asked questions',
                            'Ordering, warranty, repairs, installation and how the gauges read. Still stuck? Call us.',
                            f'<a class="btn btn-ghost" href="{TEL}">Call {PHONE}</a>')] + groups + [help_band()])
-    script = f'  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+    script = f'  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n' + '''  <script>
+    // Open the question a search result or link points at
+    const openHash = () => { const d = location.hash && document.querySelector(location.hash); if (d && d.tagName === 'DETAILS') d.open = true; };
+    addEventListener('hashchange', openHash); openHash();
+  </script>
+'''
     return page('faq', 'Frequently Asked Questions | Dakota Digital',
                 'Answers about ordering, warranty, repairs, installation and gauge displays for Dakota Digital instruments.',
                 '', body, f'{LIVE}index.cfm?ptype=article&article_id=6', script)
@@ -582,6 +616,8 @@ def media():
 
 def builds():
     items = load('builds')
+    for b in items:
+        index('Build', b['name'], prd(b['id'], 643), 'Feature build')
     cards = '\n'.join(f'''        <li class="build build-sm">
           {f'<img src="{b["img"]}" alt="" loading="lazy">' if b['img'] else '<div class="build-noimg" aria-hidden="true"></div>'}
           <div class="build-body">
@@ -738,4 +774,24 @@ if __name__ == '__main__':
              careers(), media(), builds(), shipping(), privacy(), terms()]
     built.append(sitemap(built))
     sync_chrome()
+    pages = [('index.html#finder', 'Find gauges for your car', 'Dash Finder', 'shop by vehicle fitment fit'),
+             ('automotive.html', 'Automotive', 'All makes', 'car truck'), ('motorcycle.html', 'Motorcycle', 'Harley and custom bikes', 'bike'),
+             ('universal.html', 'Universal gauges', 'Custom dashes', 'custom street rod'), ('efi.html', 'EFI and add-ons', 'BIM expansion modules', 'efi obd'),
+             ('support.html', 'Manuals and support', 'Install help', 'manual install wiring video tech support help warranty repair'),
+             ('faq.html', 'FAQ', 'Common questions', 'questions help'), ('dealers.html', 'Find a dealer', 'Installers near you', 'installer install shop dealer quote'),
+             ('contact.html', 'Contact us', '(800) 852-3228', 'phone call email hours address'), ('shipping.html', 'Shipping and returns', 'Build times, returns', 'shipping return refund lead time order'),
+             ('about.html', 'About and shop tour', 'Since 1986', 'company factory history'), ('careers.html', 'Careers', 'Jobs', 'job hiring work'),
+             ('media.html', 'Media coverage', 'Magazine reviews', 'review press article magazine'), ('builds.html', 'Feature builds', '48 builds', 'gallery cars'),
+             ('clearance.html', 'Clearance', 'Sale', 'sale discount'), ('privacy.html', 'Privacy and Prop 65', 'Legal', 'privacy legal warranty liability'),
+             ('terms.html', 'Terms and copyright', 'Legal', 'terms legal'), ('sitemap.html', 'Site map', 'All pages', '')]
+    for u, t, sub, k in pages:
+        index('Page', t, u, sub, k)
+    for sku, name, url in [('RTX-69C-CAM-X', '1969 Camaro RTX Instruments', 'camaro-1969-rtx.html'),
+                           ('HDX-69C-CAM', '1969 Camaro HDX Instruments', prd(1042, 422)), ('VHX-69C-CAM', '1969 Camaro VHX Instruments', prd(722, 422)),
+                           ('GRFX-69C-CAM', '1969 Camaro GRFX Instruments', prd(1397, 422)), ('VFD3-69C-CAM', '1969 Camaro VFD3 Instruments', prd(166, 422)),
+                           ('ICM-69C-CAM', '1969 Camaro instrument carrier', 'camaro-1969-rtx.html'),
+                           ('GSS-3000', 'Gear position sensor', 'camaro-1969-rtx.html'), ('DIM-1', 'Dimmer knob', 'camaro-1969-rtx.html')]:
+        index('Part', name, url, sku, 'camaro 69')
+    (SITE / 'search-index.json').write_text(json.dumps(SEARCH, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'Search index: {len(SEARCH)} entries')
     print(f'Built {len(built)} pages:', ', '.join(built))
