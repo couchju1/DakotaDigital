@@ -50,6 +50,14 @@ ICON and others), each tagged with the system it uses. "Put this dash in my car"
 and system into the Dash Finder and saves the car to My Garage. Builds that match the saved car
 move to the front with a "Your car" badge. Data lives in `index.html`, behavior in `builds.js`.
 
+## Buy dock
+
+On the product page, once the buy box's Add to cart button scrolls out of view, a dock slides in
+(bottom of the screen on phones, under the header on desktop). It mirrors the buy box live: the
+gauge photo in the chosen backlight color, running total, item count and fit status for the saved
+car, with Add to cart and Options buttons. Logic is in `buy-dock.js`; it reads the buy box rather
+than duplicating its pricing.
+
 ## Compare all five looks
 
 The product page ends with "Every system for the 1969 Camaro": GRFX, RTX, HDX, VHX and VFD3
