@@ -19,7 +19,7 @@
       <img class="dock-thumb" alt="" width="240" height="163">
       <div class="dock-info">
         <p class="dock-title"></p>
-        <p class="dock-meta"><span class="dock-total"></span><span class="dock-fit"></span></p>
+        <p class="dock-meta"><span class="dock-total"></span><span class="dock-fit"></span><span class="dock-ship"></span></p>
         <p class="dock-note" role="status"></p>
       </div>
       <div class="dock-actions">
@@ -35,6 +35,8 @@
     $('.dock-title').textContent = title.textContent;
     $('.dock-total').textContent = total.textContent;
     $('.dock-add').textContent = addBtn.textContent;
+    const ship = document.querySelector('[data-ship="range"]');
+    $('.dock-ship').textContent = ship ? `Ships ${ship.textContent.replace(/^Est\. /, 'est. ')}` : '';
     const color = document.querySelector('.backlight .swatch[aria-pressed="true"]');
     $('.dock-thumb').src = `img/rtx69/${color ? color.dataset.color : 'blue'}-thumb.webp`;
     const f = $('.dock-fit');

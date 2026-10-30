@@ -50,6 +50,14 @@ ICON and others), each tagged with the system it uses. "Put this dash in my car"
 and system into the Dash Finder and saves the car to My Garage. Builds that match the saved car
 move to the front with a "Your car" badge. Data lives in `index.html`, behavior in `builds.js`.
 
+## Built to order
+
+The product page says up front that most RTX systems are built to order: under the price, a
+"Built to order in Sioux Falls" line turns the 8-10 week build estimate from the shipping policy
+into real dates (computed in the browser from today). It links to a "From our shop floor to your
+dash" timeline with factory photos, what happens if a date slips, how to ask for a ready-to-ship
+kit, and the lifetime warranty. The desktop buy dock repeats the ship window.
+
 ## Buy dock
 
 On the product page, once the buy box's Add to cart button scrolls out of view, a dock slides in

@@ -149,6 +149,10 @@
           <h2 id="buy-title">1969 Camaro RTX Instruments</h2>
           <p class="sku">SKU <span id="sku">RTX-69C-CAM-X</span> · trim rings included</p>
           <p class="price" id="kit-price">$1,765.00</p>
+          <a class="ship-window" href="#built">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg>
+            <span><strong>Built to order in Sioux Falls</strong><span data-ship="window">Usually ships 8 to 10 weeks after you order</span></span>
+          </a>
           <a class="cmp-jump" href="#compare">Compare all 5 looks for the '69 · from $995</a>
 
           <fieldset class="opt-group">
@@ -204,6 +208,45 @@
       </aside>
 
     <div class="product-details">
+      <section id="built" class="built" aria-labelledby="built-title">
+        <p class="eyebrow">Built for your car, not pulled off a shelf</p>
+        <h2 id="built-title">From our shop floor to your dash</h2>
+        <p class="built-lede">Most RTX systems are built to order. Here's what happens after you order, and when to expect it.</p>
+        <ol class="build-steps">
+          <li>
+            <span class="step-dot" aria-hidden="true"></span>
+            <p class="step-when" data-ship="today">Today</p>
+            <h3>You order</h3>
+            <p>Your order joins the build schedule. Your card may be charged the day you order.</p>
+          </li>
+          <li>
+            <img src="img/tour/art_12.webp" alt="CNC machining center" loading="lazy" width="1000" height="1000">
+            <span class="step-dot" aria-hidden="true"></span>
+            <p class="step-when">During the build</p>
+            <h3>Machined and built</h3>
+            <p>Housings are CNC machined, graphics are printed in-house, and the electronics are designed and built right here.</p>
+          </li>
+          <li>
+            <img src="img/tour/fac_12385.webp" alt="Circuit board under an inspection magnifier" loading="lazy" width="1000" height="667">
+            <span class="step-dot" aria-hidden="true"></span>
+            <p class="step-when">Before it leaves</p>
+            <h3>Assembled and tested</h3>
+            <p>Our production crew assembles and tests every product before it ships.</p>
+          </li>
+          <li>
+            <span class="step-dot is-goal" aria-hidden="true"></span>
+            <p class="step-when" data-ship="range">Weeks 8 to 10</p>
+            <h3>Ships to you</h3>
+            <p>By UPS or FedEx. Flat-fee shipping in the continental US, and a signature may be required.</p>
+          </li>
+        </ol>
+        <div class="built-notes">
+          <p><strong>If anything slips,</strong> we'll email you a new estimated date. Build times are estimates, not guarantees.</p>
+          <p><strong>Need it sooner?</strong> Some kits may be ready to ship. <a href="tel:+18008523228">Call (800) 852-3228</a> to check.</p>
+          <p><strong>Covered for life.</strong> Full gauge systems are typically covered by a lifetime warranty, for the life of the vehicle, against manufacturer's defects.</p>
+        </div>
+      </section>
+
       <section aria-labelledby="getting-title">
         <h2 id="getting-title">What you're getting</h2>
         <dl class="facts">
@@ -488,6 +531,18 @@
     keyBtn.addEventListener('click', () => show(view === color ? 'off' : color));
     swatches.forEach((s) => s.addEventListener('click', () => { color = s.dataset.color; show(color); }));
     thumbs.forEach((t) => t.addEventListener('click', () => show(t.dataset.view)));
+
+    // Ship window: turn the 8-10 week build estimate into real dates
+    (() => {
+      const fmt = (d, opts) => d.toLocaleDateString('en-US', opts);
+      const add = (weeks) => { const d = new Date(); d.setDate(d.getDate() + weeks * 7); return d; };
+      const a = add(8), b = add(10);
+      const sameYear = a.getFullYear() === b.getFullYear();
+      const range = `${fmt(a, { month: 'short', day: 'numeric', ...(sameYear ? {} : { year: 'numeric' }) })} to ${fmt(b, { month: 'short', day: 'numeric', year: 'numeric' })}`;
+      document.querySelectorAll('[data-ship="window"]').forEach((el) => { el.textContent = `Order today, estimated to ship ${range}`; });
+      document.querySelectorAll('[data-ship="range"]').forEach((el) => { el.textContent = `Est. ${range}`; });
+      document.querySelectorAll('[data-ship="today"]').forEach((el) => { el.textContent = `Today, ${fmt(new Date(), { month: 'short', day: 'numeric' })}`; });
+    })();
 
     // Buy box: running total and item count
     const form = document.getElementById('buy-form');
