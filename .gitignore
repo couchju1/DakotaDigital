@@ -1,0 +1,5 @@
+# Large or duplicate archives
+*.zip
+
+# Local tooling
+.claude/

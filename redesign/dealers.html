@@ -1,0 +1,320 @@
+<!doctype html>
+<!-- Redesign prototype for experimentation. Dealer list is sample data from the design file. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Find a Dakota Digital Dealer and Installer Near You</title>
+  <meta name="description" content="Enter your ZIP to find shops that install Dakota Digital gauges. Pick up to 3 and send one install quote request.">
+  <link rel="canonical" href="https://www.dakotadigital.com/index.cfm?ptype=locator">
+  <meta name="theme-color" content="#0E0F11">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="index.html" aria-label="Dakota Digital home">
+        <img src="img/logo.png" alt="Dakota Digital" width="382" height="85">
+      </a>
+
+      <form class="search" role="search" method="post" action="https://www.dakotadigital.com/index.cfm">
+        <input type="hidden" name="ptype" value="results_w">
+        <input type="hidden" name="mode" value="search">
+        <label class="sr-only" for="q">Search products</label>
+        <input id="q" name="keywords" type="search" placeholder="Search part # or vehicle">
+        <button type="submit" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        </button>
+      </form>
+
+      <div class="header-actions">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+          <span>Account</span>
+        </a>
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
+          <span>Cart</span>
+          <span class="badge" aria-label="0 items">0</span>
+        </a>
+        <button class="menu-btn" aria-expanded="false" aria-controls="nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          <span class="sr-only">Menu</span>
+        </button>
+      </div>
+    </div>
+
+    <nav id="nav" class="main-nav" aria-label="Main">
+      <ul class="wrap">
+        <li><a href="index.html#finder">Shop by vehicle</a></li>
+        <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=69/mode=cat/cat69.htm">Universal gauges</a></li>
+        <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=60/mode=cat/cat60.htm">Motorcycle</a></li>
+        <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=646/mode=cat/cat646.htm">EFI integration</a></li>
+        <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results_w/mode=clearance/clearance.htm">Clearance</a></li>
+        <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=255/mode=cat/cat255.htm">Manuals and support</a></li>
+        <li><a href="dealers.html" aria-current="page">Find a dealer</a></li>
+        <li class="nav-more"><a href="tel:+18008523228">Talk to a tech in Sioux Falls</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap dealers">
+    <p class="eyebrow">Find a dealer</p>
+    <h1>Who can put these in my car?</h1>
+    <p class="lede">Enter your ZIP. Pick up to 3 shops and send one request. They get your car and the system you want, so the first call is about price and timing, not twenty questions.</p>
+
+    <form class="zip-form" id="zip-form">
+      <label for="zip">Your ZIP</label>
+      <div class="zip-row">
+        <input id="zip" name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" required value="57107">
+        <button type="submit" class="btn btn-light">Show shops</button>
+        <p class="zip-note">Cars and trucks. <a href="https://www.dakotadigital.com/index.cfm?ptype=article&amp;article_id=13">Looking for a motorcycle dealer?</a></p>
+      </div>
+    </form>
+
+    <div class="dealer-layout">
+      <section class="results" aria-labelledby="results-title">
+        <h2 id="results-title" aria-live="polite"></h2>
+        <p class="results-sub" id="results-sub">Closest first. Tap a shop to add it to your request.</p>
+        <ol class="shops" id="shops"></ol>
+        <div class="no-data" id="no-data" hidden>
+          <p>This prototype only has sample shops for 57107. The live dealer locator has every ZIP.</p>
+          <form method="post" action="https://www.dakotadigital.com/index.cfm" target="_blank">
+            <input type="hidden" name="ptype" value="locator">
+            <input type="hidden" name="zip" id="live-zip">
+            <input type="hidden" name="distance" value="100">
+            <input type="hidden" name="maxrows" value="100">
+            <input type="hidden" name="rank" value="yes">
+            <input type="hidden" name="distanceinmiles" value="yes">
+            <input type="hidden" name="dealer_type_443" value="443">
+            <button type="submit" class="btn btn-ghost">Search the live locator</button>
+          </form>
+        </div>
+      </section>
+
+      <aside class="quote" aria-labelledby="quote-title">
+        <form class="quote-card" id="quote-form" novalidate>
+          <h2 id="quote-title">Get an install quote</h2>
+
+          <p class="field-label" id="sending-label">Sending to</p>
+          <ul class="sending" id="sending" aria-labelledby="sending-label"></ul>
+          <p class="sending-note" id="sending-note"></p>
+
+          <div class="qfield">
+            <label for="car">Year and car</label>
+            <input id="car" name="car" placeholder="1969 Camaro" autocomplete="off">
+          </div>
+          <div class="qfield">
+            <label for="system">System</label>
+            <select id="system" name="system">
+              <option>Not sure yet</option>
+              <option>RTX</option>
+              <option>HDX</option>
+              <option>VHX</option>
+              <option>GRFX</option>
+              <option>VFD3</option>
+            </select>
+          </div>
+          <div class="qfield">
+            <label for="fname">First name</label>
+            <input id="fname" name="fname" autocomplete="given-name" required>
+          </div>
+          <div class="qfield">
+            <label for="contact">Phone or email</label>
+            <input id="contact" name="contact" autocomplete="email" required>
+          </div>
+          <p class="form-error" id="form-error" role="alert" hidden></p>
+          <button type="submit" class="btn btn-primary btn-block" id="send-btn">Send request</button>
+          <p class="quote-fine">We pass your request to the shops you picked and nobody else.</p>
+          <p class="buy-note" id="sent-note" role="status" hidden></p>
+        </form>
+      </aside>
+    </div>
+
+    <a class="picked-bar" id="picked-bar" href="#quote-title" hidden></a>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <img src="img/logo.png" alt="Dakota Digital" width="191" height="42" loading="lazy">
+        <address>
+          Dakota Digital, Inc.<br>
+          4510 W. 61st St. N.<br>
+          Sioux Falls, SD 57107<br>
+          <a href="tel:+16053326513">(605) 332-6513</a>
+        </address>
+      </div>
+      <nav aria-label="Shop">
+        <h2>Shop</h2>
+        <ul>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=59/mode=cat/cat59.htm">Automotive</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=60/mode=cat/cat60.htm">Motorcycle</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results_w/mode=clearance/clearance.htm">Clearance</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results_w/mode=cat_directory/home.htm">Site map</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Company">
+        <h2>Company</h2>
+        <ul>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=page/page_cd=info/info.htm">About us</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=804/mode=cat/cat804.htm">Media coverage</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=373/mode=cat/cat373.htm">Careers</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=page/page_cd=contact/contact.htm">Contact us</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Help">
+        <h2>Help</h2>
+        <ul>
+          <li><a href="https://www.dakotadigital.com/index.cfm?ptype=article&amp;article_id=6">FAQ</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=page/page_cd=shipping/shipping.htm">Shipping</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=page/page_cd=legal/legal.htm">Prop 65 / Privacy</a></li>
+          <li><a href="https://www.dakotadigital.com/index.cfm/page/ptype=page/page_cd=copyright/copyright.htm">Copyright</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© Dakota Digital, Inc.</p>
+      <ul class="social" aria-label="Social media">
+        <li><a href="https://www.facebook.com/DakotaDigitalGauges/">Facebook</a></li>
+        <li><a href="https://instagram.com/dakota_digital">Instagram</a></li>
+        <li><a href="https://www.youtube.com/user/DakotaDigitalTV">YouTube</a></li>
+        <li><a href="https://x.com/dakotadigital">X</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.getElementById('nav');
+    menuBtn.addEventListener('click', () => {
+      const open = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open', !open);
+    });
+
+    // Sample shops near 57107 from the design file, closest first.
+    const SAMPLE = {
+      '57107': [
+        ['Excessive Autosports', 'Sioux Falls, SD'],
+        ['Straightlines Custom Resto', 'Tea, SD'],
+        ['Frankman Autobody and Kustoms', 'Harrisburg, SD'],
+        ['K&S Sheet Metal Restoration', 'Lennox, SD'],
+        ['King Series Trucks', 'Emery, SD'],
+        ['Lake Preston Auto', 'Lake Preston, SD'],
+        ['Dakota Muscle Cars', 'Sioux City, IA'],
+        ['CJ Motorsports', 'Mitchell, SD'],
+        ['Custom Image Corvettes', 'Watertown, SD'],
+        ['Dyno-Tune', 'Watertown, SD'],
+        ['The Body Shop', 'Bradley, SD'],
+        ['Tims Automotive Center', 'Springfield, MN']
+      ]
+    };
+    const MAX = 3;
+    let shops = [];
+    const picked = new Set();
+
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+
+    function renderShops(zip) {
+      shops = SAMPLE[zip] || [];
+      picked.clear();
+      $('results-title').textContent = shops.length ? `${shops.length} shops near ${zip}` : `Shops near ${zip}`;
+      $('results-sub').hidden = !shops.length;
+      $('no-data').hidden = !!shops.length;
+      $('live-zip').value = zip;
+      $('shops').innerHTML = shops.map(([name, city], i) => `
+        <li class="shop" data-i="${i}">
+          <span class="shop-num" aria-hidden="true">${i + 1}</span>
+          <div class="shop-body">
+            <h3>${esc(name)}</h3>
+            <p>${esc(city)}</p>
+            <div class="shop-actions">
+              <button type="button" class="add-btn" data-i="${i}" aria-pressed="false">Add to request</button>
+              <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(name + ', ' + city)}" target="_blank" rel="noopener">Directions<span class="sr-only"> to ${esc(name)} (opens Google Maps)</span></a>
+            </div>
+          </div>
+        </li>`).join('');
+      renderPicked();
+    }
+
+    function renderPicked() {
+      document.querySelectorAll('.shop').forEach((li) => {
+        const i = Number(li.dataset.i);
+        const on = picked.has(i);
+        const full = !on && picked.size >= MAX;
+        li.classList.toggle('picked', on);
+        const btn = li.querySelector('.add-btn');
+        btn.setAttribute('aria-pressed', String(on));
+        btn.innerHTML = on ? 'Added <span aria-hidden="true">✓</span>' : 'Add to request';
+        btn.disabled = full;
+      });
+      $('sending').innerHTML = [...picked].map((i) =>
+        `<li><span>${esc(shops[i][0])}</span><button type="button" data-remove="${i}" aria-label="Remove ${esc(shops[i][0])}">×</button></li>`).join('');
+      const left = MAX - picked.size;
+      $('sending-note').textContent = picked.size === 0
+        ? 'Add up to 3 shops from the list.'
+        : left ? `${left} more allowed.` : 'That\'s the max of 3.';
+      const n = picked.size;
+      $('send-btn').textContent = n ? `Send to ${n} shop${n > 1 ? 's' : ''}` : 'Send request';
+      $('picked-bar').hidden = !n;
+      $('picked-bar').textContent = `${n} shop${n > 1 ? 's' : ''} picked · Finish your request ↓`;
+      $('sent-note').hidden = true;
+    }
+
+    $('shops').addEventListener('click', (e) => {
+      const btn = e.target.closest('.add-btn');
+      if (!btn) return;
+      const i = Number(btn.dataset.i);
+      picked.has(i) ? picked.delete(i) : picked.add(i);
+      renderPicked();
+      btn.focus();
+    });
+    $('sending').addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-remove]');
+      if (!btn) return;
+      picked.delete(Number(btn.dataset.remove));
+      renderPicked();
+    });
+
+    $('zip-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const zip = $('zip').value.trim();
+      if (!/^\d{5}$/.test(zip)) { $('zip').focus(); return; }
+      renderShops(zip);
+    });
+
+    $('quote-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const err = $('form-error');
+      const missing = [];
+      if (!picked.size) missing.push('pick at least one shop');
+      if (!$('fname').value.trim()) missing.push('add your first name');
+      if (!$('contact').value.trim()) missing.push('add a phone or email');
+      if (missing.length) {
+        err.textContent = `To send, ${missing.join(', ')}.`;
+        err.hidden = false;
+        return;
+      }
+      err.hidden = true;
+      const names = [...picked].map((i) => shops[i][0]).join(', ');
+      const note = $('sent-note');
+      note.textContent = `Prototype: this would send your request to ${names}. Nothing was sent.`;
+      note.hidden = false;
+    });
+
+    // Prefill from links like dealers.html?car=1969%20Camaro&system=RTX
+    const params = new URLSearchParams(location.search);
+    if (params.get('car')) $('car').value = params.get('car');
+    if (params.get('system')) $('system').value = params.get('system');
+    renderShops($('zip').value);
+  </script>
+</body>
+</html>
