@@ -77,12 +77,14 @@ dakotadigital.com.
 - **My Garage fit** (`fit.js`): with a saved car, product pages say whether they fit, product cards
   get a "Fits your car" badge, and vehicle category pages filter to the car (with "Show all").
 - **Phone buy bar** (`buy-dock.js`): price, Add to cart and a Call button on every product page.
-- **40th anniversary**: homepage band, `builds-40.html`, and a mailing-list signup. The signup is a
-  prototype and the offer copy is a placeholder until Dakota Digital sets the offer.
+- **40th anniversary**: homepage band, `builds-40.html`, and a "Get new releases and build features"
+  mailing-list signup. Forms (signup, contact, install quote) have a honeypot field but no endpoint
+  yet; they show a prototype note until a destination is chosen.
 - **Copy**: the 26 most repeated old-site paragraphs are rewritten in `tools/content/rewrites.json`
   (facts kept); old instructions like "Click the tabs below" are removed; tabs became always-visible
   sections with a jump menu.
-- **Structured data**: Product schema on every product page; FAQPage on the FAQ and the RTX page;
+- **Structured data**: Product schema on every product page, with only the product's own versions as
+  offers (no carriers, bezels or clocks) and descriptions written from the cleaned copy; FAQPage on the FAQ and the RTX page;
   Organization logo points at this site. Absolute URLs use `SITE_URL` in `tools/build_pages.py`.
 
 ## Built with Dakota Digital

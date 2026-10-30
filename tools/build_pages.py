@@ -504,6 +504,7 @@ def contact():
         <div class="help-card"><h3>Custom shop</h3><p>No kit for your car? Call <a href="tel:+18005934160">(800) 593-4160</a> and ask for the custom shop.</p></div>
       </div>
       <form class="quote-card" id="contact-form" novalidate>
+        <div class="hp" aria-hidden="true"><label for="c-website">Website</label><input id="c-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
         <h2>Send a message</h2>
         <div class="qfield"><label for="c-dept">Send to</label><select id="c-dept">
 {opts}
@@ -522,6 +523,7 @@ def contact():
     document.getElementById('contact-form').addEventListener('submit', (e) => {
       e.preventDefault();
       const f = e.target, err = document.getElementById('c-error');
+      if (f.querySelector('[name="website"]').value) return; // honeypot: bots fill the hidden field
       const missing = ['c-name', 'c-email', 'c-msg'].filter((id) => !f.querySelector('#' + id).value.trim());
       if (missing.length) { err.textContent = 'Please fill in your name, email and message.'; err.hidden = false; return; }
       err.hidden = true;

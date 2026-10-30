@@ -450,7 +450,9 @@ def parse_items(pid):
     # The price frame holds the product itself; inline forms on the same page are companion
     # items (carrier, bezel). List the product first, then the companions.
     framed = list(items.values())
-    return framed + [it for it in inline if it['id'] not in items]
+    # Inline items are companions (carrier, bezel) when the page also has its own priced versions.
+    companions = [dict(it, companion=bool(framed)) for it in inline if it['id'] not in items]
+    return framed + companions
 
 
 def money(n):
@@ -617,6 +619,78 @@ def proof_html(items):
     return '<ul class="buy-proof">' + ''.join(lines) + '</ul>'
 
 
+# ---------- Descriptions (meta + Product schema) ----------
+
+# One line per series, using facts from the product copy and FAQ.
+SERIES_LINES = [
+    ('GRFX', 'A full-color screen with selectable graphic themes, GPS speed calibration and Bluetooth app setup.'),
+    ('RTX', 'The factory look with the key off; LED bar gauges, color message centers and lighting you choose with it on.'),
+    ('HDX', 'Real needles on black or silver alloy faces, with color message centers and Bluetooth app setup.'),
+    ('VHX', 'Lit needles, backlit faces and LCD message centers, with a limited lifetime warranty.'),
+    ('MLX', 'Plug-in motorcycle instruments with bright TFT displays and a high-contrast sunlight mode.'),
+    ('VFD', 'Bright vacuum fluorescent digital displays that are easy to read and built to last.'),
+]
+SERIES_RE = 'VHX|RTX|HDX|GRFX|VFD3?|MLX|Retrotech|Odyssey|Solarix|Ion'
+
+
+SYSTEM_PREFIXES = {'VFD3', 'MFD3', 'VFD', 'MFD', 'RTX', 'MTX', 'HDX', 'MDX', 'VHX', 'MHX', 'GRFX', 'STR', 'RET'}
+
+
+def is_version(it, main):
+    """True when an item is a version of the product itself (same part-number family, its metric
+    twin, or another gauge system), not a companion such as a carrier, bezel, clock or sender."""
+    if it is main:
+        return True
+    if it.get('companion'):
+        return False
+    a, b = it['sku'].split('-')[0].upper(), main['sku'].split('-')[0].upper()
+    if a == b or (a[:1] == 'M' and a[1:] == b[1:]) or (b[:1] == 'M' and b[1:] == a[1:]):
+        return True
+    return a in SYSTEM_PREFIXES and b in SYSTEM_PREFIXES
+
+
+def series_line(title, skus):
+    # Only full gauge systems get the series summary (not clocks, single gauges or accessories).
+    if not re.search(r'instrument|cluster|gauge system', title, re.I) or re.search(r'clock|single|individual', title, re.I):
+        return ''
+    hay = (title + ' ' + ' '.join(skus)).upper()
+    for key, line in SERIES_LINES:
+        if re.search(rf'\b{key}', hay) or (key == 'VFD' and 'DIGITAL INSTRUMENT' in hay):
+            return line
+    return ''
+
+
+def describe(title, body_html, skus):
+    """Short meta description (~155 chars) and a fuller Product schema description, from clean copy."""
+    # Paragraph text only: headings would run into the first sentence.
+    text = ' '.join(_norm(p) for p in re.findall(r'<p>(.*?)</p>', re.sub(r'<(figure|table)\b.*?</\1>', ' ', body_html, flags=re.S), re.S))
+    text = re.sub(r'^From Dakota Digital(?: (?:' + SERIES_RE + r'))?\b\s*', '', text)
+    sentences = []
+    for s in re.split(r'(?<=[.!?])\s+', text):
+        # Don't break after abbreviations like "Sr." or "St."
+        if sentences and re.search(r'\b(Sr|Jr|Mr|Mrs|Dr|St|No|vs|Inc|Co|approx)\.$', sentences[-1]):
+            sentences[-1] += ' ' + s.strip()
+        else:
+            sentences.append(s.strip())
+    sentences = [s for s in sentences if len(s) >= 25 and not s.startswith(('*', 'Click')) and s.endswith(('.', '!', '?'))]
+    head = title.rstrip('.') + '.'
+    line = series_line(title, skus)
+
+    def build(limit, parts):
+        out = head
+        for s in parts:
+            if len(out) + 1 + len(s) > limit:
+                break
+            out += ' ' + s
+        return out
+    short = build(160, ([line] if line else []) + sentences)
+    if short == head:  # nothing fit: trim the first sentence on a word boundary
+        first = (line or (sentences[0] if sentences else '')).rstrip('.')
+        short = (head + ' ' + first[:155 - len(head)].rsplit(' ', 1)[0] + '…') if first else f'{head} From Dakota Digital in Sioux Falls, South Dakota.'
+    long = build(600, ([line] if line else []) + sentences[:4])
+    return short, long
+
+
 def theme_switcher(html_text):
     """Real 'Theme:' photos from the gallery -> a lighting theme switcher."""
     seen, themes = set(), []
@@ -682,6 +756,9 @@ def build_product(p):
     frag = strip_inline_buy(frag)
     frag, tabs, empty_tabs = build_tabs(frag)
     body = modernize(sanitize(galleries(frag)))
+    # The old site's brand field ("From Dakota Digital RTX") ran into the first sentence; drop it.
+    if 'From Dakota Digital' in body[:1500]:
+        body = re.sub(r'From Dakota Digital(?: (?:' + SERIES_RE + r'))?\b\s*(?=<|[A-Z]|$)', '', body, count=1)
     body = re.sub(r'Your browser must support iframes to purchase this product', '', body)
     items = parse_items(p)
     if not body.strip() and not tabs and not items:
@@ -715,10 +792,10 @@ def build_product(p):
         parts.append('    <section class="wrap page-section" aria-labelledby="rel">\n      <h2 id="rel">Related products</h2>\n      <ul class="shop-grid">\n'
                      + '\n'.join(thumb_card(r) for r in related) + '\n      </ul>\n    </section>')
     parts.append(f'''    <div class="wrap"><p class="fine">Also on <a href="{live_url}">dakotadigital.com</a>.</p></div>''')
-    desc = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', body)).strip()[:155] or f'{info["title"]} from Dakota Digital.'
+    desc, long_desc = describe(info['title'], body, skus)
     # Product structured data so search results can show price
     imgs = re.findall(r'<img src="([^"]+)"', themes + body + tabs)
-    ld = {'@context': 'https://schema.org', '@type': 'Product', 'name': info['title'], 'description': desc,
+    ld = {'@context': 'https://schema.org', '@type': 'Product', 'name': info['title'], 'description': long_desc,
           'brand': {'@type': 'Brand', 'name': 'Dakota Digital'}, 'url': SITE_URL + info['path']}
     if imgs:
         ld['image'] = [SITE_URL + i for i in dict.fromkeys(imgs)][:5]
@@ -726,7 +803,8 @@ def build_product(p):
         ld['sku'] = skus[0]
     if items:
         offers = [{'@type': 'Offer', 'sku': it['sku'], 'name': it['name'] or info['title'], 'price': f'{it["price"]:.2f}',
-                   'priceCurrency': 'USD', 'url': SITE_URL + info['path']} for it in items if it['price']]
+                   'priceCurrency': 'USD', 'url': SITE_URL + info['path']}
+                  for it in items if it['price'] and is_version(it, items[0])]  # gauge versions only, not carriers/bezels/clocks
         if offers:
             ld['offers'] = offers if len(offers) > 1 else offers[0]
     script = f'  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n  <script src="shop.js"></script>\n  <script src="fit.js"></script>\n'

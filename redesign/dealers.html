@@ -99,6 +99,7 @@
 
       <aside class="quote" aria-labelledby="quote-title">
         <form class="quote-card" id="quote-form" novalidate>
+          <div class="hp" aria-hidden="true"><label for="q-website">Website</label><input id="q-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
           <h2 id="quote-title">Get an install quote</h2>
 
           <p class="field-label" id="sending-label">Sending to</p>
@@ -301,6 +302,7 @@
 
     $('quote-form').addEventListener('submit', (e) => {
       e.preventDefault();
+      if ($('q-website').value) return; // honeypot: bots fill the hidden field
       const err = $('form-error');
       const missing = [];
       if (!picked.size) missing.push('pick at least one shop');

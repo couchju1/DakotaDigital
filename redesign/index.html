@@ -156,7 +156,7 @@
       </div>
     </section>
 
-    <!-- 40th anniversary band. The signup offer copy is a placeholder until Dakota Digital sets the offer. -->
+    <!-- 40th anniversary band with mailing-list signup -->
     <section class="wrap anniv" aria-labelledby="anniv-title">
       <div class="anniv-mark" aria-hidden="true"><span>40</span><small>1986–2026</small></div>
       <div class="anniv-copy">
@@ -166,8 +166,9 @@
         <a class="btn btn-ghost" href="builds-40.html">See 40 builds for 40 years</a>
       </div>
       <form class="anniv-signup" id="anniv-signup" novalidate>
-        <h3>Get the anniversary offer</h3>
-        <p class="anniv-offer">Join the list by December 31, 2026 for a 40th-anniversary offer, plus new releases and builds. <span class="fine">Offer details to be announced.</span></p>
+        <div class="hp" aria-hidden="true"><label for="m-website">Website</label><input id="m-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <h3>Get new releases and build features</h3>
+        <p class="anniv-offer">Be first to hear about new gauge systems and the feature builds running them.</p>
         <label for="anniv-email">Email</label>
         <div class="anniv-row">
           <input id="anniv-email" type="email" autocomplete="email" required placeholder="you@example.com">
@@ -403,7 +404,7 @@
       <div class="wrap made-copy">
         <p class="eyebrow">Made in the USA</p>
         <h2 id="made-title">Engineered, assembled and supported in South Dakota.</h2>
-        <p>Nearly 40 years of building instruments for muscle cars, hot rods, street trucks and motorcycles, all from one shop in Sioux Falls.</p>
+        <p>40 years of building instruments for muscle cars, hot rods, street trucks and motorcycles, all from one shop in Sioux Falls.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="about.html#tour">Take the shop tour</a>
           <a class="btn btn-ghost" href="careers.html">Careers</a>
@@ -506,6 +507,7 @@
     // Anniversary signup (prototype: nothing is sent)
     document.getElementById('anniv-signup').addEventListener('submit', (e) => {
       e.preventDefault();
+      if (document.getElementById('m-website').value) return; // honeypot: bots fill the hidden field
       const email = document.getElementById('anniv-email');
       const err = document.getElementById('anniv-error');
       const done = document.getElementById('anniv-done');
@@ -518,7 +520,7 @@
       }
       err.hidden = true;
       email.removeAttribute('aria-invalid');
-      done.textContent = `Prototype: ${email.value.trim()} would be added to the anniversary list. Nothing was sent.`;
+      done.textContent = `Prototype: ${email.value.trim()} would be added to the mailing list. Nothing was sent.`;
       done.hidden = false;
     });
   </script>

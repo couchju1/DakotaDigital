@@ -1055,3 +1055,6 @@ body.has-dock .site-footer { padding-bottom: 84px; }
 .search input, .search button { height: 44px; }
 .footer-bottom .social { gap: 4px 20px; }
 .crumbs ol { row-gap: 0; }
+
+/* Honeypot: off screen for people, still in the form for bots */
+.hp { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
