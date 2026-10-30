@@ -43,6 +43,31 @@ the live store.
 Shared files: `styles.css` (all styles), `garage.js` (My Garage and the shared fitment data),
 `dash-finder.js` (finder logic), `img/` (WebP images).
 
+## Full catalog (shop/)
+
+Every category and product on dakotadigital.com is rebuilt in `shop/`: 212 category pages and 811
+product pages, with the live content (descriptions, specs, tabs, manuals, galleries, related
+products), real prices, SKUs, versions (e.g. metric), option pickers (style, color, bezel...) and
+add-on accessories with prices. Photos are copied into `img/shop/` as WebP.
+
+Pipeline (run from the repo root; `<cache>` is any scratch folder):
+
+1. `python tools/crawl_live.py <cache>`: crawls every category and product page (polite, cached).
+2. `python tools/crawl_items.py <cache>`: fetches each product's price/option steps
+   (authorized by the site owner).
+3. `python tools/build_catalog.py <cache>`: writes `shop/*.html`, `tools/content/catalog.json`
+   and the image list.
+4. `python tools/fetch_images.py <cache>`: downloads and converts the photos.
+5. `python tools/build_pages.py`: regenerates the site pages, links everything to the catalog and
+   rebuilds the search index.
+6. `python tools/verify_catalog.py <cache> [--refetch N]`: compares every generated page with its
+   live page (titles, links, SKUs, prices, options, tabs, manuals, related products, text coverage,
+   images) and writes `tools/content/verify_report.json`. `--refetch` re-downloads a random sample
+   of live pages to confirm the crawl is still current.
+
+Add to cart on catalog pages is a prototype: it confirms the selection and links to the product on
+dakotadigital.com.
+
 ## Built with Dakota Digital
 
 The homepage shows real feature builds from the live site (Ring Brothers, Kindig-It, Revology,

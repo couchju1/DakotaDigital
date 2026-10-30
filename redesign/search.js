@@ -2,6 +2,8 @@
 // people are looking for. Uses search-index.json (built by tools/build_pages.py) plus
 // the Dash Finder's cars from garage.js. Enter with nothing picked searches the full catalog.
 (() => {
+  // Site root, so pages in subfolders (shop/) resolve the same links
+  const BASE = new URL('.', document.currentScript.src).href;
   const form = document.querySelector('.header-row .search');
   if (!form) return;
   const input = form.querySelector('input[type="search"]');
@@ -51,7 +53,7 @@
     })));
   const load = () => {
     if (index) return Promise.resolve(index);
-    return fetch('search-index.json')
+    return fetch(BASE + 'search-index.json')
       .then((r) => r.json())
       .then((data) => (index = vehicles().concat(data.map((e) => prep({ ...e, g: KIND_GROUP[e.k] || 'help' })))))
       .catch(() => (index = vehicles()));
@@ -196,14 +198,14 @@
       input.value = '';
       if (window.DDFinder) { window.DDFinder.show(o.pid, o.ri, s); return; }
       window.DDGarage.set({ pid: o.pid, ri: o.ri });
-      location.href = 'index.html#finder';
+      location.href = BASE + 'index.html#finder';
       return;
     }
     close();
-    const here = location.pathname.split('/').pop() || 'index.html';
-    const [path, hash] = o.u.split('#');
-    location.href = o.u;
-    if (path === here && hash) location.hash = hash; // same page: still jump
+    const target = new URL(o.u, BASE);
+    const samePage = target.pathname === location.pathname;
+    location.href = target.href;
+    if (samePage && target.hash) location.hash = target.hash; // same page: still jump
   };
 
   // ---- Events ----

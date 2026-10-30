@@ -1,6 +1,8 @@
 // My Garage: remember the visitor's car across pages, show it in the header,
 // and let pages check fitment against it. Stored per browser in localStorage.
 (() => {
+  // Site root, so pages in subfolders (shop/) resolve the same links
+  const BASE = new URL('.', document.currentScript.src).href;
   // Each range: [years, series codes that fit]. cat = store category id.
   const PLATFORMS = [
     { id: 'camaro', label: 'Camaro', cat: 422, r: [['1967-68', 'GRHVD'], ['1969', 'GRHVD'], ['1970-81', 'RHVD'], ['1982-89', 'RVD'], ['1990-92', 'RV'], ['1997-02', 'R']] },
@@ -75,7 +77,7 @@
       </div>
       <button type="submit" class="btn btn-primary btn-block" id="g-save" disabled>Save my car</button>
       <div class="garage-foot">
-        <a href="index.html#finder" id="g-shop">See gauges that fit</a>
+        <a href="${BASE}index.html#finder" id="g-shop">See gauges that fit</a>
         <button type="button" class="garage-remove" id="g-remove">Remove car</button>
       </div>
     </form>`;

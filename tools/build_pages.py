@@ -22,12 +22,33 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+# Catalog pages built by tools/build_catalog.py (shop/...). Links go there when a page exists.
+_CATALOG_PATH = CONTENT / 'catalog.json'
+CATALOG = json.loads(_CATALOG_PATH.read_text(encoding='utf-8')) if _CATALOG_PATH.exists() else {'cats': {}, 'products': {}}
+
+
 def cat(cid):
-    return f'{LIVE}index.cfm/page/ptype=results/category_id={cid}/mode=cat/cat{cid}.htm'
+    c = CATALOG['cats'].get(str(cid))
+    return c['path'] if c else f'{LIVE}index.cfm/page/ptype=results/category_id={cid}/mode=cat/cat{cid}.htm'
 
 
 def prd(pid, cid):
-    return f'{LIVE}index.cfm/page/ptype=product/product_id={pid}/category_id={cid}/mode=prod/prd{pid}.htm'
+    p = CATALOG['products'].get(str(pid))
+    return p['path'] if p else f'{LIVE}index.cfm/page/ptype=product/product_id={pid}/category_id={cid}/mode=prod/prd{pid}.htm'
+
+
+def localize_links(s):
+    """Point live category/product URLs in hand-built pages at our catalog pages."""
+    def repl(m):
+        url = m.group(1)
+        pm = re.search(r'ptype=product/product_id=(\d+)', url)
+        if pm and CATALOG['products'].get(pm.group(1)):
+            return f'href="{CATALOG["products"][pm.group(1)]["path"]}"'
+        cm = re.search(r'ptype=results/category_id=(\d+)', url)
+        if cm and CATALOG['cats'].get(cm.group(1)):
+            return f'href="{CATALOG["cats"][cm.group(1)]["path"]}"'
+        return m.group(0)
+    return re.sub(r'href="(https://www\.dakotadigital\.com/index\.cfm/page/[^"]+)"', repl, s)
 
 
 PHONE = '(800) 852-3228'
@@ -766,7 +787,12 @@ def sync_chrome():
         s = p.read_text(encoding='utf-8')
         s = re.sub(r'  <header class="site-header">.*?</header>', lambda m: header(active), s, count=1, flags=re.S)
         s = re.sub(r'  <footer class="site-footer">.*?</footer>', lambda m: footer(), s, count=1, flags=re.S)
-        p.write_text(s, encoding='utf-8')
+        p.write_text(localize_links(s), encoding='utf-8')
+    # Dash Finder: car category -> local catalog page
+    df = SITE / 'dash-finder.js'
+    paths = {int(k): v['path'] for k, v in CATALOG['cats'].items()}
+    js = re.sub(r'const CAT_PATHS = \{.*?\};', 'const CAT_PATHS = {/*CAT_PATHS*/' + ','.join(f'{k}:{json.dumps(v)}' for k, v in sorted(paths.items())) + '};', df.read_text(encoding='utf-8'), count=1)
+    df.write_text(js, encoding='utf-8')
 
 
 if __name__ == '__main__':
@@ -792,6 +818,10 @@ if __name__ == '__main__':
                            ('ICM-69C-CAM', '1969 Camaro instrument carrier', 'camaro-1969-rtx.html'),
                            ('GSS-3000', 'Gear position sensor', 'camaro-1969-rtx.html'), ('DIM-1', 'Dimmer knob', 'camaro-1969-rtx.html')]:
         index('Part', name, url, sku, 'camaro 69')
+    cat_index = CONTENT / 'catalog_index.json'
+    if cat_index.exists():
+        seen = {e['u'] for e in SEARCH}
+        SEARCH.extend(e for e in json.loads(cat_index.read_text(encoding='utf-8')) if e['u'] not in seen)
     (SITE / 'search-index.json').write_text(json.dumps(SEARCH, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print(f'Search index: {len(SEARCH)} entries')
     print(f'Built {len(built)} pages:', ', '.join(built))
