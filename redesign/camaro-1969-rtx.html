@@ -24,7 +24,7 @@
     "name": "1969 Camaro RTX Instruments",
     "sku": "RTX-69C-CAM-X",
     "brand": { "@type": "Brand", "name": "Dakota Digital" },
-    "image": ["img/rtx69/key-off.webp", "img/rtx69/blue.webp", "img/rtx69/in-dash.webp"],
+    "image": ["https://dakotadigital-ten.vercel.app/img/rtx69/key-off.webp", "https://dakotadigital-ten.vercel.app/img/rtx69/blue.webp", "https://dakotadigital-ten.vercel.app/img/rtx69/in-dash.webp"],
     "description": "Drop-in RTX instrument system for the 1969 Chevy Camaro: analog speedometer and tach, LED bar gauges for oil pressure, coolant temp, voltage and fuel, and two color TFT message centers.",
     "offers": {
       "@type": "Offer",
@@ -38,10 +38,23 @@
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Automotive", "item": "https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=59/mode=cat/cat59.htm" },
       { "@type": "ListItem", "position": 2, "name": "Camaro", "item": "https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=422/mode=cat/cat422.htm" },
       { "@type": "ListItem", "position": 3, "name": "1969 RTX" }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Does it fit my original bezel?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It drops into a stock or reproduction plastic bezel. If yours is cracked, ask us about a new one." } },
+      { "@type": "Question", "name": "Can I reuse my instrument carrier?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The system uses an OEM or reproduction carrier. Only add ours if yours is missing or damaged." } },
+      { "@type": "Question", "name": "Can I change the lighting color?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The LED backlighting is adjustable, with over 30 colors and separate day and night themes, so you can match the interior or keep it close to factory." } },
+      { "@type": "Question", "name": "Will it show my gear position?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, with the GSS-3000 gear position sensor for automatic transmissions." } }
     ]
   }
   </script>
@@ -66,11 +79,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -202,7 +215,12 @@
           </div>
           <button type="submit" class="btn btn-primary btn-block" id="add-btn">Add 1 item to cart</button>
           <p class="buy-note" id="buy-note" role="status" hidden></p>
-          <p class="buy-help">Not sure about your carrier or bezel? <a href="contact.html">Ask the people who build these</a>.</p>
+          <ul class="buy-proof">
+            <li><strong>Lifetime warranty</strong> on full gauge systems. <a href="faq.html#q4">Details</a></li>
+            <li><strong>Built in Sioux Falls</strong>, South Dakota, since 1986</li>
+            <li><strong>2 SEMA Show awards in 2024</strong>: Best Engineered Product (Velocity Commander cruise control) and Best New Powersports Product (MLX-5000). <a href="https://www.sema.org/news-media/press-release/sema-announces-new-product-award-winners-5" target="_blank" rel="noopener">Source</a></li>
+          </ul>
+          <p class="buy-help">Not sure about your carrier or bezel? <a href="tel:+18008523228">Call (800) 852-3228</a> or <a href="contact.html">send a message</a>.</p>
           <p class="buy-help">Want a shop to install it? <a href="dealers.html?car=1969%20Camaro&amp;system=RTX">Get an install quote</a>.</p>
         </form>
       </aside>
@@ -424,7 +442,9 @@
         <ul>
           <li><a href="about.html">About and shop tour</a></li>
           <li><a href="builds.html">Feature builds</a></li>
+          <li><a href="builds-40.html">40 builds for 40 years</a></li>
           <li><a href="media.html">Media coverage</a></li>
+          <li><a href="builds-40.html">40 builds for 40 years</a></li>
           <li><a href="careers.html">Careers</a></li>
           <li><a href="contact.html">Contact us</a></li>
         </ul>

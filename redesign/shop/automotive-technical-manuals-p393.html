@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -77,9 +77,10 @@
       </div>
 
     </div>
-    <section class="wrap page-section ptabs" aria-label="Product details">
-      <details class="ptab" open>
-        <summary>Current</summary>
+    <div class="wrap page-section psecs">
+      <nav class="psec-nav" aria-label="On this page"><ul><li><a href="#sec-current">Current</a></li><li><a href="#sec-grfx">GRFX</a></li><li><a href="#sec-rtx">RTX</a></li><li><a href="#sec-hdx">HDX</a></li><li><a href="#sec-vhx">VHX</a></li><li><a href="#sec-vfd">VFD</a></li><li><a href="#sec-led">LED</a></li><li><a href="#sec-legacy-manuals">Legacy Manuals</a></li></ul></nav>
+      <section class="psec" id="sec-current" aria-labelledby="sec-current-h">
+        <h2 id="sec-current-h">Current</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -432,7 +433,7 @@
 			<td> Hidden Antenna</td>
 		</tr>
 		<tr>
-			<td> <a href="https://www.dakotadigital.com/img/ANT-1000.gif">ANT-1000</a></td>
+			<td> <a href="../img/shop/ant-1000-d40008.webp">ANT-1000</a></td>
 			<td> Hidden Antenna</td>
 		</tr>
 		<tr>
@@ -1162,9 +1163,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>GRFX</summary>
+      </section>
+      <section class="psec" id="sec-grfx" aria-labelledby="sec-grfx-h">
+        <h2 id="sec-grfx-h">GRFX</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -1298,9 +1299,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>RTX</summary>
+      </section>
+      <section class="psec" id="sec-rtx" aria-labelledby="sec-rtx-h">
+        <h2 id="sec-rtx-h">RTX</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -1895,9 +1896,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>HDX</summary>
+      </section>
+      <section class="psec" id="sec-hdx" aria-labelledby="sec-hdx-h">
+        <h2 id="sec-hdx-h">HDX</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -2304,9 +2305,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>VHX</summary>
+      </section>
+      <section class="psec" id="sec-vhx" aria-labelledby="sec-vhx-h">
+        <h2 id="sec-vhx-h">VHX</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -3101,9 +3102,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>VFD</summary>
+      </section>
+      <section class="psec" id="sec-vfd" aria-labelledby="sec-vfd-h">
+        <h2 id="sec-vfd-h">VFD</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -3333,9 +3334,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>LED</summary>
+      </section>
+      <section class="psec" id="sec-led" aria-labelledby="sec-led-h">
+        <h2 id="sec-led-h">LED</h2>
         <div class="rich">
 <p>Please select the manual that you would like to download.<br>
 * If you are using Firefox, you may need to switch to Internet Explorer to download manuals.</p>
@@ -3563,9 +3564,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>Legacy Manuals</summary>
+      </section>
+      <section class="psec" id="sec-legacy-manuals" aria-labelledby="sec-legacy-manuals-h">
+        <h2 id="sec-legacy-manuals-h">Legacy Manuals</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -3898,8 +3899,8 @@
 </table>
 <br><br>
         </div>
-      </details>
-    </section>
+      </section>
+    </div>
     <div class="wrap"><p class="fine">Also on <a href="https://www.dakotadigital.com/index.cfm/page/ptype=product/product_id=393/mode=prod/prd393.htm">dakotadigital.com</a>.</p></div>
   </main>
 
@@ -3930,7 +3931,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -3970,6 +3973,8 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Automotive Technical Manuals", "description": "From Dakota Digital Please select the manual that you would like to download. * If you are using Firefox, you may need to switch to Internet Explorer to do", "brand": {"@type": "Brand", "name": "Dakota Digital"}, "url": "https://dakotadigital-ten.vercel.app/shop/automotive-technical-manuals-p393.html", "image": ["https://dakotadigital-ten.vercel.app/img/shop/prd-393-2fdb01.webp"]}</script>
   <script src="../shop.js"></script>
+  <script src="../fit.js"></script>
 </body>
 </html>

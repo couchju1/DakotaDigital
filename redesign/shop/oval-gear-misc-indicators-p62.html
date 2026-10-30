@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -72,7 +72,7 @@
       <div class="shop-main rich">
 <br> From Dakota Digital<br> 
 <br>
-			<a href="https://www.dakotadigital.com/cartimages/prd_zm_62.jpg?id=202410091106360">
+			<a href="../img/shop/prd-zm-62-3660aa.webp">
 			<img src="../img/shop/prd-62-304bef.webp" alt="  Oval Gear/Misc Indicators" loading="lazy">
 			</a>
 			<p>The <strong>DGS-4</strong> offers display of automatic gear position (using Dakota Digital <strong>GSS-3000</strong> Sender), turn signal indicators, high beam indicator along with a miscellaneous indicator to be used for check engine, 4wd, cruise control, security or anything else necessary. The <strong>DGS-4</strong> requires a cutout measuring 1-1/16" tall by 2-5/16" wide.  Display color available in either red, blue or green, with the front housing finish options of brushed aluminum (shown) or chrome.</p>
@@ -88,14 +88,16 @@
           <div class="total"><span>Your total</span><strong data-b="total" aria-live="polite">$125.00</strong></div>
           <button type="submit" class="btn btn-primary btn-block" id="add-btn">Add to cart</button>
           <p class="buy-note" data-b="note" role="status" hidden></p>
-          <p class="buy-help">Questions? <a href="../contact.html">Ask the people who build these</a>.</p>
+          <ul class="buy-proof"><li><strong>Built in Sioux Falls</strong>, South Dakota, since 1986</li><li><strong>2 SEMA Show awards in 2024</strong>: Best Engineered Product (Velocity Commander cruise control) and Best New Powersports Product (MLX-5000). <a href="https://www.sema.org/news-media/press-release/sema-announces-new-product-award-winners-5" target="_blank" rel="noopener">Source</a></li></ul>
+          <p class="buy-help">Questions? <a href="tel:+18008523228">Call (800) 852-3228</a> or <a href="../contact.html">send a message</a>.</p>
           <script type="application/json" data-b="items">[{"id":"73","sku":"DGS-4","name":"Oval Gear Position","price":125.0,"label":"Only","steps":[{"type":"select","title":"Please Select Bezel/Trim/Finish","options":[{"v":"6","t":"Brushed/ Satin","d":0},{"v":"8","t":"Chrome","d":0}]},{"type":"select","title":"Please Select Color","options":[{"v":"2","t":"Blue","d":0},{"v":"3","t":"Green","d":0},{"v":"79","t":"Red","d":0}]}]}]</script>
         </form>
       </aside>
     </div>
-    <section class="wrap page-section ptabs" aria-label="Product details">
-      <details class="ptab" open>
-        <summary>Manuals</summary>
+    <div class="wrap page-section psecs">
+      <nav class="psec-nav" aria-label="On this page"><ul><li><a href="#sec-manuals">Manuals</a></li></ul></nav>
+      <section class="psec" id="sec-manuals" aria-labelledby="sec-manuals-h">
+        <h2 id="sec-manuals-h">Manuals</h2>
         <div class="rich">
 <p><u><strong><a href="https://www.dakotadigital.com/pdf/DGS-3.pdf">DGS-4: Gear Position with Indicators - Wiring Manual</a></strong></u></p>
 <hr> 
@@ -103,8 +105,8 @@
 				Your browser must support iframes to purchase this product
 <br><br>
         </div>
-      </details>
-    </section>
+      </section>
+    </div>
     <section class="wrap page-section" aria-labelledby="rel">
       <h2 id="rel">Related products</h2>
       <ul class="shop-grid">
@@ -141,7 +143,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -181,6 +185,9 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Oval Gear/Misc Indicators", "description": "From Dakota Digital The DGS-4 offers display of automatic gear position (using Dakota Digital GSS-3000 Sender), turn signal indicators, high beam indicator", "brand": {"@type": "Brand", "name": "Dakota Digital"}, "url": "https://dakotadigital-ten.vercel.app/shop/oval-gear-misc-indicators-p62.html", "image": ["https://dakotadigital-ten.vercel.app/img/shop/prd-62-304bef.webp", "https://dakotadigital-ten.vercel.app/img/shop/faq-icon-81ba14.webp"], "sku": "DGS-4", "offers": {"@type": "Offer", "sku": "DGS-4", "name": "Oval Gear Position", "price": "125.00", "priceCurrency": "USD", "url": "https://dakotadigital-ten.vercel.app/shop/oval-gear-misc-indicators-p62.html"}}</script>
   <script src="../shop.js"></script>
+  <script src="../fit.js"></script>
+  <script src="../buy-dock.js" defer></script>
 </body>
 </html>

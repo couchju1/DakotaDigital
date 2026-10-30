@@ -6,8 +6,18 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/shop/sqaurebody-syndicate-73-c30-p1270.html",
+      "destination": "/shop/squarebody-syndicate-73-c30-p1270.html",
+      "permanent": true
     }
   ]
 }

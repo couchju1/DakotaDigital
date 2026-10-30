@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -100,14 +100,16 @@
           <div class="total"><span>Your total</span><strong data-b="total" aria-live="polite">$99.95</strong></div>
           <button type="submit" class="btn btn-primary btn-block" id="add-btn">Add to cart</button>
           <p class="buy-note" data-b="note" role="status" hidden></p>
-          <p class="buy-help">Questions? <a href="../contact.html">Ask the people who build these</a>.</p>
+          <ul class="buy-proof"><li><strong>Built in Sioux Falls</strong>, South Dakota, since 1986</li><li><strong>2 SEMA Show awards in 2024</strong>: Best Engineered Product (Velocity Commander cruise control) and Best New Powersports Product (MLX-5000). <a href="https://www.sema.org/news-media/press-release/sema-announces-new-product-award-winners-5" target="_blank" rel="noopener">Source</a></li></ul>
+          <p class="buy-help">Questions? <a href="tel:+18008523228">Call (800) 852-3228</a> or <a href="../contact.html">send a message</a>.</p>
           <script type="application/json" data-b="items">[{"id":"2795","sku":"SGI-20","name":"GMR TACH ADAPTER","price":99.95,"label":"Only","steps":[]}]</script>
         </form>
       </aside>
     </div>
-    <section class="wrap page-section ptabs" aria-label="Product details">
-      <details class="ptab" open>
-        <summary>Manuals</summary>
+    <div class="wrap page-section psecs">
+      <nav class="psec-nav" aria-label="On this page"><ul><li><a href="#sec-manuals">Manuals</a></li></ul></nav>
+      <section class="psec" id="sec-manuals" aria-labelledby="sec-manuals-h">
+        <h2 id="sec-manuals-h">Manuals</h2>
         <div class="rich">
 <p><u><strong>
 <a href="https://www.dakotadigital.com/pdf/SGI-20.pdf">
@@ -116,8 +118,8 @@
 		<h2><a href="../shop/technical-support-manuals-c255.html"><strong><img src="../img/shop/faq-icon-81ba14.webp" alt="" loading="lazy">Technical Support</strong> </a></h2>
 <br><br>
         </div>
-      </details>
-    </section>
+      </section>
+    </div>
     <div class="wrap"><p class="fine">Also on <a href="https://www.dakotadigital.com/index.cfm/page/ptype=product/product_id=1429/mode=prod/prd1429.htm">dakotadigital.com</a>.</p></div>
   </main>
 
@@ -148,7 +150,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -188,6 +192,9 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "SGI-20: GMR TACH ADAPTER", "description": "From Dakota Digital Take the guesswork out of tachometer signal conversion. The Dakota Digital SGI-20 uses an advanced GMR (Giant Magnetoresistance) pickup", "brand": {"@type": "Brand", "name": "Dakota Digital"}, "url": "https://dakotadigital-ten.vercel.app/shop/sgi-20-gmr-tach-adapter-p1429.html", "image": ["https://dakotadigital-ten.vercel.app/img/shop/prd-1429-499fd4.webp", "https://dakotadigital-ten.vercel.app/img/shop/manual-icon-09be79.webp", "https://dakotadigital-ten.vercel.app/img/shop/faq-icon-81ba14.webp"], "sku": "SGI-20", "offers": {"@type": "Offer", "sku": "SGI-20", "name": "GMR TACH ADAPTER", "price": "99.95", "priceCurrency": "USD", "url": "https://dakotadigital-ten.vercel.app/shop/sgi-20-gmr-tach-adapter-p1429.html"}}</script>
   <script src="../shop.js"></script>
+  <script src="../fit.js"></script>
+  <script src="../buy-dock.js" defer></script>
 </body>
 </html>

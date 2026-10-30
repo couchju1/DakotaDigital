@@ -63,13 +63,44 @@ def main_content(page):
     return page[a:b]
 
 
+# Spelling mistakes in the live data, fixed in titles and URLs (old URLs get a redirect).
+TYPOS = {'Sqaurebody': 'Squarebody'}
+
+
 def clean_title(t):
-    return ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', t)).split()).replace('- ', '-').replace(' /', '/')
+    t = ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', t)).split()).replace('- ', '-').replace(' /', '/')
+    for bad, good in TYPOS.items():
+        t = t.replace(bad, good)
+    return t
+
+
+SITE_URL = bp.SITE_URL
+REWRITES = {k: v for k, v in json.loads((CONTENT / 'rewrites.json').read_text(encoding='utf-8')).items() if not k.startswith('_')}
+_norm = lambda t: ' '.join(html.unescape(re.sub(r'<[^>]+>', ' ', t)).split())
+
+
+def modernize(s):
+    """Swap the old site's repeated copy for the rewrites and drop its navigation instructions."""
+    def para(m):
+        new = REWRITES.get(_norm(m.group(1)))
+        return f'<p>{html.escape(new, quote=False)}</p>' if new else m.group(0)
+    s = re.sub(r'<p>(.*?)</p>', para, s, flags=re.S)
+    s = re.sub(r'\s*Click the tabs below[^.!<]*[.!]', '', s, flags=re.I)
+    s = re.sub(r'\s*Click Here to See More\.?', '', s, flags=re.I)
+
+    def link_text(m):
+        href, attrs, text = m.group(1), m.group(2), _norm(m.group(3))
+        if re.fullmatch(r'(click here( for more information)?|more info(rmation)?|click here to see more)[.!]?', text, re.I):
+            target = TITLE_BY_PATH.get(href)
+            label = f'More about the {target}' if target else 'Learn more'
+            return f'<a href="{href}"{attrs}>{html.escape(label)}</a>'
+        return m.group(0)
+    return re.sub(r'<a href="([^"]+)"([^>]*)>(.*?)</a>', link_text, s, flags=re.S)
 
 
 # ---------- First pass: names and paths for every page ----------
 
-CAT_INFO, PRD_INFO = {}, {}
+CAT_INFO, PRD_INFO, REDIRECTS = {}, {}, {}
 for c, info in CATS.items():
     page = raw(f'cat{c}')
     t = re.search(r'<title>(.*?)</title>', page, re.S)
@@ -82,6 +113,11 @@ for p, c in PRODS.items():
     if not title:  # discontinued: the live page is empty
         title = f'Product {p} (no longer listed)'
     PRD_INFO[p] = {'title': title, 'cat': c, 'path': f'shop/{slugify(title)}-p{p}.html'}
+    raw_title = clean_title(h.group(1)) if h else ''
+    for bad, good in TYPOS.items():  # remember the old, misspelled URL so it can redirect
+        if good in raw_title and h and bad in ' '.join(html.unescape(h.group(1)).split()):
+            REDIRECTS[f'/shop/{slugify(raw_title.replace(good, bad))}-p{p}.html'] = '/' + PRD_INFO[p]['path']
+TITLE_BY_PATH = {i['path']: i['title'] for i in PRD_INFO.values()}
 
 
 # Parent of each category, read from its own breadcrumb (the last link is the parent).
@@ -202,7 +238,9 @@ class Sanitizer(HTMLParser):
             return
         attr = ''
         if tag == 'a':
-            href = local_link(a.get('href') or '')
+            orig = a.get('href') or ''
+            # Full-size photo links open our local copy instead of the old site
+            href = local_img(orig) if re.search(r'\.(jpe?g|png|gif|webp)$', orig.split('?')[0], re.I) else local_link(orig)
             if not href:
                 self.stack.append(('unwrap', tag))
                 return
@@ -434,7 +472,14 @@ def thumb_card(it):
         meta = ''
     img = local_img(it['thumb'])
     pic = f'<img src="{img}" alt="" loading="lazy">' if img else '<span class="card-noimg" aria-hidden="true"></span>'
-    return f'''        <li class="shop-card"><a href="{href}">{pic}<span class="card-body"><span class="card-name">{html.escape(it["name"])}</span>{meta}</span></a></li>'''
+    fit = fit_attrs(it['id']) if it['kind'] == 'p' and it['id'] in PRD_INFO else ''
+    return f'''        <li class="shop-card"{fit}><a href="{href}">{pic}<span class="card-body"><span class="card-name">{html.escape(TYPO_FIX(it["name"]))}</span>{meta}</span></a></li>'''
+
+
+def TYPO_FIX(t):
+    for bad, good in TYPOS.items():
+        t = t.replace(bad, good)
+    return t
 
 
 def tree_crumbs(c, include_self):
@@ -457,7 +502,7 @@ def build_category(c):
     frag, prds_block = cut_block(frag, r'<div id="thmprdparent"')
     subs, prds = grid_items(subs_block), grid_items(prds_block)
     frag = re.sub(r'<section class="product_divider">.*?</section>', '', frag, flags=re.S)
-    intro = sanitize(galleries(frag))
+    intro = modernize(sanitize(galleries(frag)))
     intro = re.sub(r'Click image or text to view details', '', intro)
     INDEX.append({'k': 'Category', 't': info['title'], 'u': info['path'], 's': f'{len(prds)} products' if prds else 'Category', 'x': ''})
     parts = [f'''    <div class="wrap page-hero shop-hero">
@@ -470,12 +515,13 @@ def build_category(c):
         parts.append('    <section class="wrap page-section" aria-labelledby="subs">\n      <h2 id="subs">Shop by category</h2>\n      <ul class="shop-grid">\n'
                      + '\n'.join(thumb_card(s) for s in subs) + '\n      </ul>\n    </section>')
     if prds:
-        parts.append(f'    <section class="wrap page-section" aria-labelledby="prods">\n      <h2 id="prods">{len(prds)} product{"s" if len(prds) != 1 else ""}</h2>\n      <ul class="shop-grid">\n'
+        parts.append(f'    <section class="wrap page-section" aria-labelledby="prods">\n      <h2 id="prods">{len(prds)} product{"s" if len(prds) != 1 else ""}</h2>\n'
+                     '      <div class="fit-filter" hidden></div>\n      <ul class="shop-grid">\n'
                      + '\n'.join(thumb_card(p) for p in prds) + '\n      </ul>\n    </section>')
     parts.append(bp.help_band())
     CATALOG['cats'][c] = {'title': info['title'], 'path': info['path'], 'subs': [s['id'] for s in subs], 'products': [p['id'] for p in prds]}
     write(info['path'], f'{info["title"]} | Dakota Digital', f'Shop {info["title"]} from Dakota Digital: gauges, instruments and accessories.',
-          '\n'.join(parts), f'{LIVE}index.cfm/page/ptype=results/category_id={c}/mode=cat/cat{c}.htm')
+          '\n'.join(parts), f'{LIVE}index.cfm/page/ptype=results/category_id={c}/mode=cat/cat{c}.htm', script='  <script src="fit.js"></script>\n')
 
 
 ACRONYMS = {'hdx', 'vhx', 'rtx', 'grfx', 'vfd', 'vfd3', 'mlx', 'mcl', 'bim', 'faq', 'pdf', 'led', 'obd', 'gps', 'efi', 'tpms', 'ls', 'gm', 'usb', 'app', 'diy'}
@@ -494,21 +540,103 @@ def build_tabs(frag):
     """Turn the live page's tabs into open/close sections."""
     m = re.search(r'<div class="tab_container">', frag)
     if not m:
-        return frag, ''
+        return frag, '', 0
     frag = re.sub(r'<ul class="tabs">.*?</ul>', '', frag, flags=re.S)
     # The live markup has unbalanced divs inside tabs, so take everything from the container on
     # (it is the last block once related products are cut out).
     i = re.search(r'<div class="tab_container">', frag).start()
     frag, block = frag[:i], frag[i:]
     heads = list(re.finditer(r'<h3 class="[^"]*tab_drawer_heading[^"]*"[^>]*>(.*?)</h3>', block, re.S))
-    out = []
+    sections, empty = [], 0
     for i, h in enumerate(heads):
         body = block[h.end(): heads[i + 1].start() if i + 1 < len(heads) else len(block)]
         label = tab_label(clean_title(h.group(1)))
-        content = sanitize(galleries(body))
-        if content.strip():
-            out.append(f'      <details class="ptab"{" open" if i == 0 else ""}>\n        <summary>{html.escape(label)}</summary>\n        <div class="rich">\n{content}\n        </div>\n      </details>')
-    return frag, '\n'.join(out)
+        content = modernize(sanitize(galleries(body)))
+        if not _norm(content) and not re.search(r'<(img|iframe)\b', content):
+            empty += 1  # empty on the live site too; leave it out
+            continue
+        sid = 'sec-' + slugify(label)
+        sections.append((sid, label, content))
+    if not sections:
+        return frag, '', empty
+    nav = ''.join(f'<li><a href="#{sid}">{html.escape(label)}</a></li>' for sid, label, _ in sections)
+    out = [f'      <nav class="psec-nav" aria-label="On this page"><ul>{nav}</ul></nav>']
+    for sid, label, content in sections:
+        out.append(f'      <section class="psec" id="{sid}" aria-labelledby="{sid}-h">\n        <h2 id="{sid}-h">{html.escape(label)}</h2>\n        <div class="rich">\n{content}\n        </div>\n      </section>')
+    return frag, '\n'.join(out), empty
+
+
+# ---------- My Garage fit data ----------
+
+PLATFORM_CATS = {int(c) for c in re.findall(r'cat: (\d+)', (SITE / 'garage.js').read_text(encoding='utf-8'))}
+
+
+def product_platforms(p):
+    cats = set(GRID_LISTED.get(p, [])) | set(LISTED_IN.get(p, []))
+    cats -= SHOWCASE
+    full = set()
+    for c in cats:
+        full |= {c, *chain(c)}
+    return sorted(full & PLATFORM_CATS)
+
+
+def title_years(t):
+    years = set()
+    for m in re.finditer(r'\b((?:19|20)\d\d)\s*-\s*((?:19|20)?\d\d)\b|\b((?:19|20)\d\d)\b', t):
+        if m.group(1):
+            a, b = int(m.group(1)), m.group(2)
+            b = int(b) if len(b) == 4 else int(str(a)[:2] + b)
+            if a <= b <= a + 60:
+                years.update(range(a, b + 1))
+        else:
+            years.add(int(m.group(3)))
+    return sorted(years)
+
+
+def fit_attrs(p):
+    cats = product_platforms(p)
+    if not cats:
+        return ''
+    ys = title_years(PRD_INFO[p]['title'])
+    return f' data-cats="{",".join(map(str, cats))}" data-years="{",".join(map(str, ys))}"'
+
+
+# ---------- Proof, themes ----------
+
+LIFETIME = ('STR', 'VFD', 'RET', 'VHX', 'HDX', 'RTX', 'GRFX')  # full systems, per the FAQ
+SEMA_URL = 'https://www.sema.org/news-media/press-release/sema-announces-new-product-award-winners-5'
+
+
+def proof_html(items):
+    main = items[0]['sku'].upper() if items else ''
+    lines = []
+    if main.startswith(LIFETIME):
+        lines.append('<li><strong>Lifetime warranty</strong> on full gauge systems. <a href="faq.html#q4">Details</a></li>')
+    lines.append('<li><strong>Built in Sioux Falls</strong>, South Dakota, since 1986</li>')
+    lines.append(f'<li><strong>2 SEMA Show awards in 2024</strong>: Best Engineered Product (Velocity Commander cruise control) and Best New Powersports Product (MLX-5000). <a href="{SEMA_URL}" target="_blank" rel="noopener">Source</a></li>')
+    return '<ul class="buy-proof">' + ''.join(lines) + '</ul>'
+
+
+def theme_switcher(html_text):
+    """Real 'Theme:' photos from the gallery -> a lighting theme switcher."""
+    seen, themes = set(), []
+    for src, alt in re.findall(r'<img src="([^"]+)" alt="(Theme\s*:[^"]*)"', html_text):
+        name = re.sub(r'^Theme\s*:\s*', '', html.unescape(alt)).strip()
+        if name and name.lower() not in seen:
+            seen.add(name.lower())
+            themes.append((src, name))
+    if len(themes) < 2:
+        return ''
+    chips = ''.join(f'<button type="button" class="theme-chip" data-src="{src}" aria-pressed="{"true" if i == 0 else "false"}">{html.escape(name)}</button>'
+                    for i, (src, name) in enumerate(themes))
+    first_src, first_name = themes[0]
+    return f'''<section class="themes" aria-labelledby="themes-h">
+  <h2 id="themes-h" class="themes-title">Lighting themes</h2>
+  <div class="theme-stage"><img src="{first_src}" alt="Lit up in the {html.escape(first_name)} theme" data-theme-img></div>
+  <div class="theme-chips" role="group" aria-label="Pick a lighting theme">{chips}</div>
+  <p class="fine">Real photos of this system in each factory color theme. Most systems also let you set your own colors.</p>
+</section>
+'''
 
 
 def buy_box(pid, items, live_url):
@@ -531,7 +659,8 @@ def buy_box(pid, items, live_url):
           <div class="total"><span>Your total</span><strong data-b="total" aria-live="polite">{money(first["price"])}</strong></div>
           <button type="submit" class="btn btn-primary btn-block" id="add-btn">Add to cart</button>
           <p class="buy-note" data-b="note" role="status" hidden></p>
-          <p class="buy-help">Questions? <a href="contact.html">Ask the people who build these</a>.</p>
+          {proof_html(items)}
+          <p class="buy-help">Questions? <a href="tel:+18008523228">Call (800) 852-3228</a> or <a href="contact.html">send a message</a>.</p>
           <script type="application/json" data-b="items">{data}</script>
         </form>
       </aside>'''
@@ -551,38 +680,59 @@ def build_product(p):
     # Price frames: drop the tags one by one (a greedy match would swallow the tabs between them)
     frag = re.sub(r'<iframe[^>]*p_item\.cfm[^>]*>(\s*Your browser must support iframes to purchase this product\s*)?(</iframe>)?', '', frag, flags=re.I)
     frag = strip_inline_buy(frag)
-    frag, tabs = build_tabs(frag)
-    body = sanitize(galleries(frag))
+    frag, tabs, empty_tabs = build_tabs(frag)
+    body = modernize(sanitize(galleries(frag)))
     body = re.sub(r'Your browser must support iframes to purchase this product', '', body)
     items = parse_items(p)
     if not body.strip() and not tabs and not items:
         body = ('<p>This product is no longer listed on dakotadigital.com. It may have been discontinued or replaced.</p>'
                 '<p>Search above for a current part, or <a href="contact.html">ask the people who build these</a> what replaced it.</p>')
     skus = [it['sku'] for it in items if it['sku']]
+    themes = theme_switcher(body + tabs)
+    fit = fit_attrs(p)
     CATALOG['products'][p] = {'title': info['title'], 'path': info['path'], 'cat': info['cat'], 'skus': skus,
                               'prices': [it['price'] for it in items],
                               'steps': [[s['title'], [o['t'] for o in s['options']]] for it in items for s in it['steps']],
-                              'tabs': re.findall(r'<summary>(.*?)</summary>', tabs), 'related': [r['id'] for r in related]}
+                              'tabs': re.findall(r'<h2 id="sec-[^"]+-h">(.*?)</h2>', tabs), 'empty_tabs': empty_tabs,
+                              'related': [r['id'] for r in related], 'themes': len(re.findall('theme-chip', themes)),
+                              'fit': fit.strip()}
     INDEX.append({'k': 'Part', 't': info['title'], 'u': info['path'], 's': ', '.join(skus[:2]) or 'Product', 'x': ' '.join(skus)})
     buy = buy_box(p, items, live_url)
+    fit_strip = f'      <div class="fit" id="fit"{fit} aria-live="polite"></div>\n' if fit else ''
     parts = [f'''    <div class="wrap page-hero shop-hero">
 {crumbs_html(crumbs, info["title"])}
       <h1>{html.escape(info["title"])}</h1>
-    </div>''',
+{fit_strip}    </div>''',
              f'''    <div class="wrap shop-product{" has-buy" if buy else ""}">
       <div class="shop-main rich">
-{body}
+{themes}{body}
       </div>
 {buy}
     </div>''']
     if tabs:
-        parts.append(f'    <section class="wrap page-section ptabs" aria-label="Product details">\n{tabs}\n    </section>')
+        parts.append(f'    <div class="wrap page-section psecs">\n{tabs}\n    </div>')
     if related:
         parts.append('    <section class="wrap page-section" aria-labelledby="rel">\n      <h2 id="rel">Related products</h2>\n      <ul class="shop-grid">\n'
                      + '\n'.join(thumb_card(r) for r in related) + '\n      </ul>\n    </section>')
     parts.append(f'''    <div class="wrap"><p class="fine">Also on <a href="{live_url}">dakotadigital.com</a>.</p></div>''')
     desc = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', ' ', body)).strip()[:155] or f'{info["title"]} from Dakota Digital.'
-    write(info['path'], f'{info["title"]} | Dakota Digital', desc, '\n'.join(parts), live_url, script='  <script src="shop.js"></script>\n')
+    # Product structured data so search results can show price
+    imgs = re.findall(r'<img src="([^"]+)"', themes + body + tabs)
+    ld = {'@context': 'https://schema.org', '@type': 'Product', 'name': info['title'], 'description': desc,
+          'brand': {'@type': 'Brand', 'name': 'Dakota Digital'}, 'url': SITE_URL + info['path']}
+    if imgs:
+        ld['image'] = [SITE_URL + i for i in dict.fromkeys(imgs)][:5]
+    if skus:
+        ld['sku'] = skus[0]
+    if items:
+        offers = [{'@type': 'Offer', 'sku': it['sku'], 'name': it['name'] or info['title'], 'price': f'{it["price"]:.2f}',
+                   'priceCurrency': 'USD', 'url': SITE_URL + info['path']} for it in items if it['price']]
+        if offers:
+            ld['offers'] = offers if len(offers) > 1 else offers[0]
+    script = f'  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n  <script src="shop.js"></script>\n  <script src="fit.js"></script>\n'
+    if buy:
+        script += '  <script src="buy-dock.js" defer></script>\n'
+    write(info['path'], f'{info["title"]} | Dakota Digital', desc, '\n'.join(parts), live_url, script=script)
 
 
 def write(path, title, desc, body, canonical, script=''):
@@ -629,5 +779,10 @@ for c in CATS:
 (CONTENT / 'catalog.json').write_text(json.dumps(CATALOG, ensure_ascii=False, indent=0), encoding='utf-8')
 (CONTENT / 'catalog_index.json').write_text(json.dumps(INDEX, ensure_ascii=False), encoding='utf-8')
 img_map_path.write_text(json.dumps(IMAGES, indent=0), encoding='utf-8')
+# Old (misspelled) URLs -> new ones, as permanent redirects on Vercel
+vj = ROOT / 'vercel.json'
+conf = json.loads(vj.read_text(encoding='utf-8'))
+conf['redirects'] = [{'source': s, 'destination': d, 'permanent': True} for s, d in sorted(REDIRECTS.items())]
+vj.write_text(json.dumps(conf, indent=2) + '\n', encoding='utf-8')
 print(f'Built {len(CATALOG["cats"])} category pages and {len(CATALOG["products"])} product pages; {len(IMAGES)} images referenced; '
       f'{len(PRICES)} products priced')

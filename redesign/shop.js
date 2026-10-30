@@ -53,3 +53,19 @@
   renderSteps();
   update();
 })();
+
+// Lighting theme switcher: real "Theme:" photos from the product gallery
+(() => {
+  const box = document.querySelector('.themes');
+  if (!box) return;
+  const img = box.querySelector('[data-theme-img]');
+  const chips = [...box.querySelectorAll('.theme-chip')];
+  chips.forEach((c) => { const pre = new Image(); pre.src = c.dataset.src; });
+  box.addEventListener('click', (e) => {
+    const chip = e.target.closest('.theme-chip');
+    if (!chip) return;
+    img.src = chip.dataset.src;
+    img.alt = `Lit up in the ${chip.textContent} theme`;
+    chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+  });
+})();

@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -75,9 +75,10 @@
       </div>
 
     </div>
-    <section class="wrap page-section ptabs" aria-label="Product details">
-      <details class="ptab" open>
-        <summary>Current</summary>
+    <div class="wrap page-section psecs">
+      <nav class="psec-nav" aria-label="On this page"><ul><li><a href="#sec-current">Current</a></li><li><a href="#sec-utv">Utv</a></li><li><a href="#sec-legacy-manuals">Legacy Manuals</a></li></ul></nav>
+      <section class="psec" id="sec-current" aria-labelledby="sec-current-h">
+        <h2 id="sec-current-h">Current</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -392,9 +393,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>Utv</summary>
+      </section>
+      <section class="psec" id="sec-utv" aria-labelledby="sec-utv-h">
+        <h2 id="sec-utv-h">Utv</h2>
         <div class="rich">
 <table>
 	<p><strong>Please select the manual that you would like to download.</strong><br>
@@ -447,9 +448,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>Legacy Manuals</summary>
+      </section>
+      <section class="psec" id="sec-legacy-manuals" aria-labelledby="sec-legacy-manuals-h">
+        <h2 id="sec-legacy-manuals-h">Legacy Manuals</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -701,8 +702,8 @@
 <img src="../img/shop/ban-485-56fea2.webp" alt="" loading="lazy">
 <br><br>
         </div>
-      </details>
-    </section>
+      </section>
+    </div>
     <div class="wrap"><p class="fine">Also on <a href="https://www.dakotadigital.com/index.cfm/page/ptype=product/product_id=392/mode=prod/prd392.htm">dakotadigital.com</a>.</p></div>
   </main>
 
@@ -733,7 +734,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -773,6 +776,8 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Motorcycle Technical Manuals", "description": "From Dakota Digital", "brand": {"@type": "Brand", "name": "Dakota Digital"}, "url": "https://dakotadigital-ten.vercel.app/shop/motorcycle-technical-manuals-p392.html", "image": ["https://dakotadigital-ten.vercel.app/img/shop/prd-392-3a5a2d.webp", "https://dakotadigital-ten.vercel.app/img/shop/ban-553-36b350.webp", "https://dakotadigital-ten.vercel.app/img/shop/ban-508-2f6fc1.webp", "https://dakotadigital-ten.vercel.app/img/shop/ban-485-56fea2.webp"]}</script>
   <script src="../shop.js"></script>
+  <script src="../fit.js"></script>
 </body>
 </html>

@@ -23,6 +23,15 @@ LIVE = 'https://www.dakotadigital.com/'
 UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36'
 
 fails = []
+REWRITES = {k: v for k, v in json.loads((ROOT / 'tools' / 'content' / 'rewrites.json').read_text(encoding='utf-8')).items() if not k.startswith('_')}
+
+
+def expected_text(t):
+    """Live text as it should read here: rewritten copy swapped in, old-site instructions dropped."""
+    for old, new in REWRITES.items():
+        t = t.replace(old, new)
+    t = re.sub(r'Click the tabs below[^.!]*[.!]|Click Here to See More\.?|CLICK HERE FOR MORE INFORMATION|Click here for more information|Click Here', ' ', t)
+    return t.replace('Sqaurebody', 'Squarebody')
 
 
 def fail(kind, ident, msg):
@@ -124,7 +133,7 @@ for pid, p in catalog['products'].items():
     frag = content(live)
     text = text_of(page)
     h1 = re.search(r'<h1[^>]*black_headline[^>]*>(.*?)</h1>', live, re.S)
-    if h1 and norm(text_of(h1.group(1))) not in norm(text):
+    if h1 and norm(expected_text(text_of(h1.group(1)))) not in norm(text):
         fail('product', pid, f'title "{text_of(h1.group(1))}" not on page')
     for sku in p['skus']:
         if sku and sku not in page:
@@ -137,9 +146,16 @@ for pid, p in catalog['products'].items():
             if html.escape(o, quote=False) not in page and o not in page and json.dumps(o)[1:-1] not in page:
                 fail('product', pid, f'option "{o}" ({title}) not on page')
     live_tabs = re.findall(r'<li[^>]*rel="view\d+"[^>]*>(.*?)</li>', frag)
-    if len(live_tabs) != len(p['tabs']):
-        empty = len(live_tabs) - len(p['tabs'])
-        fail('product', pid, f'{len(live_tabs)} tabs live, {len(p["tabs"])} here ({empty} empty or missing)')
+    if len(live_tabs) - p.get('empty_tabs', 0) != len(p['tabs']):
+        fail('product', pid, f'{len(live_tabs)} tabs live ({p.get("empty_tabs", 0)} empty), {len(p["tabs"])} sections here')
+    if '"@type": "Product"' not in page:
+        fail('product', pid, 'no Product structured data')
+    if re.search(r'Click the tabs below|CLICK HERE FOR MORE', page, re.I):
+        fail('product', pid, 'old-site instruction left in copy')
+    if re.search(r'href="https://www\.dakotadigital\.com/(cartimages|ThumbNails|img)/', page):
+        fail('product', pid, 'photo link still points at the old site')
+    if p.get('fit') and 'id="fit"' not in page:
+        fail('product', pid, 'fit data but no fit strip')
     for pdf in set(re.findall(r'href="([^"]+\.pdf)"', frag, re.I)):
         name = pdf.rsplit('/', 1)[-1]
         if name not in page:
@@ -155,7 +171,7 @@ for pid, p in catalog['products'].items():
     listed_anywhere = any(int(pid) in c['products'] for c in catalog['cats'].values())
     if home and listed_anywhere and int(pid) not in home['products']:
         fail('product', pid, f'breadcrumb category {p["cat"]} does not list this product')
-    lw = words(text_of(re.sub(r'<div id="thmprdparent".*|<section class="product_divider">.*?</section>', '', frag_text, flags=re.S)))
+    lw = words(expected_text(text_of(re.sub(r'<div id="thmprdparent".*|<section class="product_divider">.*?</section>', '', frag_text, flags=re.S))))
     lw -= {'your', 'browser', 'must', 'support', 'iframes', 'purchase', 'this', 'product', 'click', 'image', 'text', 'view', 'details'}
     pw = words(text)
     if lw and len(lw & pw) / len(lw) < 0.9:

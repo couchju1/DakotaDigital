@@ -967,3 +967,91 @@ body.has-dock .site-footer { padding-bottom: 84px; }
 .ptab[open] > summary::after { content: "−"; }
 .ptab > .rich { padding: 0 20px 20px; }
 @media (max-width: 999px) { .shop-product .buy { order: -1; } }
+
+/* ---------- Proof in the buy box ---------- */
+.buy-proof { list-style: none; margin: 16px 0 0; padding: 14px 0 0; border-top: 1px solid var(--line); display: grid; gap: 10px; }
+.buy-proof li { position: relative; padding-left: 26px; font-size: 15px; line-height: 1.4; color: var(--text-2); }
+.buy-proof li::before { content: ""; position: absolute; left: 2px; top: 5px; width: 12px; height: 7px; border-left: 2px solid #3DDC84; border-bottom: 2px solid #3DDC84; transform: rotate(-45deg); }
+.buy-proof strong { color: var(--text); }
+
+/* ---------- Lighting theme switcher ---------- */
+.themes { margin: 0 0 28px; padding: 18px; background: #05070A; border: 1px solid var(--line); border-radius: var(--radius-lg); }
+.rich .themes-title { margin: 0 0 12px; font-size: 22px; text-transform: uppercase; letter-spacing: .04em; }
+.theme-stage { border-radius: var(--radius); overflow: hidden; background: #000; }
+.rich .theme-stage img { display: block; width: 100%; max-height: 460px; object-fit: contain; border-radius: 0; }
+.theme-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 6px; }
+.theme-chip {
+  min-height: 44px; padding: 8px 16px; border-radius: 999px;
+  border: 1px solid var(--line-3); background: transparent; color: var(--text);
+  font: 600 15px/1.2 var(--font-body); cursor: pointer;
+}
+.theme-chip:hover { border-color: var(--muted-2); }
+.theme-chip[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+.themes .fine { margin: 6px 0 0; }
+
+/* ---------- Product detail sections (were tabs) ---------- */
+.psecs { display: grid; gap: 14px; }
+.psec-nav { position: sticky; top: var(--sticky-top, 120px); z-index: 5; background: rgba(14,15,17,.94); backdrop-filter: blur(8px); padding: 8px 0; border-bottom: 1px solid var(--line); }
+.psec-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; }
+.psec-nav a {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; white-space: nowrap;
+  border: 1px solid var(--line-3); border-radius: 999px; color: var(--text); text-decoration: none; font-weight: 600; font-size: 15px;
+}
+.psec-nav a:hover { border-color: var(--blue); color: var(--text); }
+.psec { padding: 22px; background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius-lg); scroll-margin-top: 190px; }
+.psec > h2 { margin: 0 0 14px; font-size: 26px; }
+
+/* ---------- Fit badges and filter ---------- */
+.shop-card a { position: relative; }
+.card-fit {
+  position: absolute; top: 8px; left: 8px; z-index: 1;
+  padding: 5px 9px; border-radius: var(--radius); background: #10251A; border: 1px solid #2E8B57; color: #3DDC84;
+  font: 700 13px/1 var(--font-display); letter-spacing: .06em; text-transform: uppercase;
+}
+.fit-filter { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 16px; margin: 0 0 16px; padding: 12px 16px; background: var(--panel-2); border: 1px solid #2E8B57; border-radius: var(--radius-lg); }
+.fit-filter p { margin: 0; }
+.fit-filter .btn { min-height: 44px; font-size: 17px; }
+.shop-hero .fit { margin-top: 14px; }
+
+/* ---------- Dock call button ---------- */
+.dock-call { display: inline-flex; gap: 6px; padding: 0 12px; }
+.dock-call svg { width: 20px; height: 20px; }
+@media (max-width: 559px) { .dock-call span { display: none; } .dock-call { width: 48px; padding: 0; } }
+
+/* ---------- 40th anniversary ---------- */
+.anniv {
+  display: grid; gap: 24px 36px; align-items: center;
+  margin-top: 40px; padding-top: 28px; padding-bottom: 28px;
+  background: radial-gradient(circle at 10% 20%, #2A2010, var(--panel) 55%); border: 1px solid #8A6512; border-radius: var(--radius-lg);
+  width: calc(100% - 32px); max-width: calc(var(--wrap) - 48px);
+}
+@media (min-width: 768px) { .anniv { width: calc(100% - 48px); padding-left: 32px; padding-right: 32px; } }
+@media (min-width: 1000px) { .anniv { grid-template-columns: auto 1fr 380px; } }
+.anniv-mark { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 132px; height: 132px; border-radius: 50%; border: 3px solid var(--amber); color: var(--amber); }
+.anniv-mark span { font: 700 64px/1 var(--font-display); }
+.anniv-mark small { font: 600 13px/1 var(--font-display); letter-spacing: .1em; }
+.anniv-copy h2 { font-size: clamp(28px, 3.4vw, 40px); }
+.anniv-copy p:not(.eyebrow) { color: var(--muted); }
+.anniv-signup { padding: 20px; background: var(--panel-2); border: 1px solid var(--line-2); border-radius: var(--radius-lg); }
+.anniv-signup h3 { font-size: 24px; margin-bottom: 6px; }
+.anniv-offer { font-size: 15px; color: var(--text-2); }
+.anniv-offer .fine { display: block; margin-top: 4px; }
+.anniv-signup label { display: block; font-weight: 600; margin-bottom: 6px; }
+.anniv-row { display: flex; gap: 8px; }
+.anniv-row input { flex: 1; min-width: 0; height: 48px; padding: 0 12px; background: var(--bg); color: var(--text); border: 1px solid var(--line-3); border-radius: var(--radius); font: inherit; }
+.anniv-row input:focus { border-color: var(--blue); outline: none; }
+.anniv-row .btn { min-height: 48px; }
+.build-forty { counter-reset: none; }
+.build-num { position: relative; }
+.build-n { position: absolute; top: 10px; left: 10px; padding: 4px 8px; border-radius: var(--radius); background: rgba(14,15,17,.85); color: var(--amber); font: 700 18px/1 var(--font-display); }
+
+/* ---------- Tap targets: every standalone link or control at least 44px tall ---------- */
+.site-footer nav a, .site-footer address a, .social a, .crumbs a, .downloads a, .sitemap a,
+.link, .cmp-jump, .spec-table a, .shop-intro a:only-child,
+.rich > a, .rich p > a:only-child, .rich li > a:only-child, .rich td > a:only-child, .rich h2 > a, .rich h3 > a, .rich h4 > a {
+  display: inline-flex; align-items: center; min-height: 44px;
+}
+.logo { display: inline-flex; align-items: center; min-height: 44px; }
+.search input, .search button { height: 44px; }
+.footer-bottom .social { gap: 4px 20px; }
+.crumbs ol { row-gap: 0; }

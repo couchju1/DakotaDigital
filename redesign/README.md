@@ -68,6 +68,23 @@ Pipeline (run from the repo root; `<cache>` is any scratch folder):
 Add to cart on catalog pages is a prototype: it confirms the selection and links to the product on
 dakotadigital.com.
 
+## Conversion features (catalog-wide)
+
+- **Proof in the buy box**: lifetime warranty (full systems only, per the FAQ), built in Sioux Falls
+  since 1986, and the two 2024 SEMA Show awards, with a link to SEMA's announcement.
+- **Lighting themes**: on the 154 products with "Theme:" photos, a switcher shows the real photo for
+  each factory theme (`shop.js`).
+- **My Garage fit** (`fit.js`): with a saved car, product pages say whether they fit, product cards
+  get a "Fits your car" badge, and vehicle category pages filter to the car (with "Show all").
+- **Phone buy bar** (`buy-dock.js`): price, Add to cart and a Call button on every product page.
+- **40th anniversary**: homepage band, `builds-40.html`, and a mailing-list signup. The signup is a
+  prototype and the offer copy is a placeholder until Dakota Digital sets the offer.
+- **Copy**: the 26 most repeated old-site paragraphs are rewritten in `tools/content/rewrites.json`
+  (facts kept); old instructions like "Click the tabs below" are removed; tabs became always-visible
+  sections with a jump menu.
+- **Structured data**: Product schema on every product page; FAQPage on the FAQ and the RTX page;
+  Organization logo points at this site. Absolute URLs use `SITE_URL` in `tools/build_pages.py`.
+
 ## Built with Dakota Digital
 
 The homepage shows real feature builds from the live site (Ring Brothers, Kindig-It, Revology,

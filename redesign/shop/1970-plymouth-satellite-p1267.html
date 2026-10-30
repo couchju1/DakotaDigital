@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -86,15 +86,16 @@
       </div>
 
     </div>
-    <section class="wrap page-section ptabs" aria-label="Product details">
-      <details class="ptab" open>
-        <summary>Manuals</summary>
+    <div class="wrap page-section psecs">
+      <nav class="psec-nav" aria-label="On this page"><ul><li><a href="#sec-manuals">Manuals</a></li></ul></nav>
+      <section class="psec" id="sec-manuals" aria-labelledby="sec-manuals-h">
+        <h2 id="sec-manuals-h">Manuals</h2>
         <div class="rich">
 <h2><a href="../shop/technical-support-manuals-c255.html"><strong><img src="../img/shop/faq-icon-81ba14.webp" alt="" loading="lazy">Technical Support</strong> </a></h2>
 <br><br>
         </div>
-      </details>
-    </section>
+      </section>
+    </div>
     <div class="wrap"><p class="fine">Also on <a href="https://www.dakotadigital.com/index.cfm/page/ptype=product/product_id=1267/mode=prod/prd1267.htm">dakotadigital.com</a>.</p></div>
   </main>
 
@@ -125,7 +126,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -165,6 +168,8 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "1970 Plymouth Satellite", "description": "No Fear An Angry Plymouth To Take On All Comers Randy Weaver is a man without fear. Running a hot rod shop with your wife requires one to be courageous on ", "brand": {"@type": "Brand", "name": "Dakota Digital"}, "url": "https://dakotadigital-ten.vercel.app/shop/1970-plymouth-satellite-p1267.html", "image": ["https://dakotadigital-ten.vercel.app/img/shop/prd-1267-d60d11.webp", "https://dakotadigital-ten.vercel.app/img/shop/prdp-4771-95e235.webp", "https://dakotadigital-ten.vercel.app/img/shop/prdp-4772-4077f3.webp", "https://dakotadigital-ten.vercel.app/img/shop/prdp-4773-53c6d3.webp", "https://dakotadigital-ten.vercel.app/img/shop/faq-icon-81ba14.webp"]}</script>
   <script src="../shop.js"></script>
+  <script src="../fit.js"></script>
 </body>
 </html>

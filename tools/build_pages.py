@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / 'redesign'
 CONTENT = ROOT / 'tools' / 'content'
 LIVE = 'https://www.dakotadigital.com/'
+# Where this redesign is published (used for absolute URLs in structured data). Change at launch.
+SITE_URL = 'https://dakotadigital-ten.vercel.app/'
 
 
 def load(name):
@@ -76,8 +78,8 @@ NAV = [
 FOOTER = [
     ('Shop', [('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'), ('universal.html', 'Universal gauges'),
               ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'), ('sitemap.html', 'Site map')]),
-    ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('media.html', 'Media coverage'),
-                 ('careers.html', 'Careers'), ('contact.html', 'Contact us')]),
+    ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('builds-40.html', '40 builds for 40 years'), ('media.html', 'Media coverage'),
+                 ('builds-40.html', '40 builds for 40 years'), ('careers.html', 'Careers'), ('contact.html', 'Contact us')]),
     ('Help', [('support.html', 'Manuals and support'), ('faq.html', 'FAQ'), ('shipping.html', 'Shipping and returns'),
               ('dealers.html', 'Find a dealer'), ('privacy.html', 'Privacy and Prop 65'), ('terms.html', 'Terms and copyright')]),
 ]
@@ -104,11 +106,11 @@ def header(active=''):
       </form>
 
       <div class="header-actions">
-        <a href="{LIVE}index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="{LIVE}index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="{LIVE}index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="{LIVE}index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -635,8 +637,14 @@ def media():
                 '', body, cat(804))
 
 
+def fix_typos(t):
+    return t.replace('Sqaurebody', 'Squarebody')
+
+
 def builds():
     items = load('builds')
+    for b in items:
+        b['name'] = fix_typos(b['name'])
     for b in items:
         index('Build', b['name'], prd(b['id'], 643), 'Feature build')
     cards = '\n'.join(f'''        <li class="build build-sm">
@@ -658,6 +666,33 @@ def builds():
     return page('builds', 'Feature Builds Running Dakota Digital Gauges',
                 'Custom cars, trucks and bikes from Ring Brothers, Kindig-It, ICON, Revology and more, all running Dakota Digital instruments.',
                 '', body, cat(643))
+
+
+def builds40():
+    """40th anniversary: 40 feature builds, newest first."""
+    items = [dict(b, name=fix_typos(b['name'])) for b in load('builds') if b['img']][:40]
+    cards = '\n'.join(f'''        <li class="build build-sm build-num">
+          <img src="{b["img"]}" alt="" loading="lazy">
+          <span class="build-n" aria-hidden="true">{i:02d}</span>
+          <div class="build-body">
+            <h3><a href="{prd(b['id'], 643)}"><span class="sr-only">Build {i}: </span>{esc(b['name'])}</a></h3>
+          </div>
+        </li>''' for i, b in enumerate(items, 1))
+    body = '\n'.join([
+        hero('1986 to 2026', '40 builds for 40 years',
+             'Dakota Digital has built gauges in Sioux Falls since 1986. To mark 40 years, here are 40 of our favorite feature builds from the shops and owners who run our instruments.',
+             '<a class="btn btn-primary" href="index.html#finder">Find gauges for my car</a><a class="btn btn-ghost" href="about.html">Our story</a>'),
+        f'''    <section class="wrap page-section" aria-label="The 40 builds">
+      <ol class="build-grid build-forty">
+{cards}
+      </ol>
+    </section>''',
+        help_band(),
+    ])
+    index('Page', '40 builds for 40 years', 'builds-40.html', '40th anniversary', 'anniversary 40 years 1986 builds')
+    return page('builds-40', '40 Builds for 40 Years | Dakota Digital 40th Anniversary',
+                'Dakota Digital turns 40: 40 feature builds from the shops and owners who run our gauges, from 1986 to 2026.',
+                '', body, f'{LIVE}index.cfm/page/ptype=results/category_id=643/mode=cat/cat643.htm')
 
 
 def shipping():
@@ -757,7 +792,7 @@ def sitemap(pages):
                   ('camaro-1969-rtx.html', '1969 Camaro RTX instruments')]),
         ('Help', [('support.html', 'Manuals and support'), ('faq.html', 'FAQ'), ('dealers.html', 'Find a dealer'),
                   ('shipping.html', 'Shipping and returns'), ('contact.html', 'Contact us')]),
-        ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('media.html', 'Media coverage'),
+        ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('builds-40.html', '40 builds for 40 years'), ('media.html', 'Media coverage'),
                      ('careers.html', 'Careers'), ('privacy.html', 'Privacy and Prop 65'), ('terms.html', 'Terms and copyright')]),
     ]
     cols = '\n'.join(f'''        <div>
@@ -797,7 +832,7 @@ def sync_chrome():
 
 if __name__ == '__main__':
     built = [automotive(), motorcycle(), universal(), efi(), clearance(), support(), faq(), contact(), about(),
-             careers(), media(), builds(), shipping(), privacy(), terms()]
+             careers(), media(), builds(), builds40(), shipping(), privacy(), terms()]
     built.append(sitemap(built))
     sync_chrome()
     pages = [('index.html#finder', 'Find gauges for your car', 'Dash Finder', 'shop by vehicle fitment fit'),

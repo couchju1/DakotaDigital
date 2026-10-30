@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -73,6 +73,7 @@
     </div>
     <section class="wrap page-section" aria-labelledby="prods">
       <h2 id="prods">2 products</h2>
+      <div class="fit-filter" hidden></div>
       <ul class="shop-grid">
         <li class="shop-card"><a href="../shop/odyssey-series-i-digital-clock-p344.html"><img src="../img/shop/prd-lg-344-de9a5f.webp" alt="" loading="lazy"><span class="card-body"><span class="card-name">Odyssey Series I, Digital Clock</span><span class="card-sku">ODY-16-1</span><span class="card-price">$120.00</span></span></a></li>
         <li class="shop-card"><a href="../shop/ion-series-digital-clock-p505.html"><img src="../img/shop/prd-lg-505-86c2a0.webp" alt="" loading="lazy"><span class="card-body"><span class="card-name">Ion Series, Digital Clock</span><span class="card-sku">ION-16-1, ION-16-1-C</span><span class="card-price">$120.00</span></span></a></li>
@@ -117,7 +118,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -157,5 +160,6 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script src="../fit.js"></script>
 </body>
 </html>

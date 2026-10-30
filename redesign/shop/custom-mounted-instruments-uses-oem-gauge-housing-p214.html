@@ -33,11 +33,11 @@
       </form>
 
       <div class="header-actions">
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=account&amp;mode=user" class="icon-link" aria-label="Account">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
           <span>Account</span>
         </a>
-        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link">
+        <a href="https://www.dakotadigital.com/index.cfm?ptype=results_w&amp;mode=cart_list" class="icon-link" aria-label="Cart, 0 items">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.8L21 7H6.2"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg>
           <span>Cart</span>
           <span class="badge" aria-label="0 items">0</span>
@@ -149,7 +149,7 @@
 			<td><img src="../img/shop/vfdcustom-4fe094.webp" alt="" loading="lazy"></td>
 		</tr>
 		<tr>
-			<td><a href="https://www.dakotadigital.com/img/comparison_chart_HDX-VFD.png"><strong>VIEW FEATURES COMPARISON</strong></a><br>
+			<td><a href="../img/shop/comparison-chart-hdx-vfd-47ba11.webp"><strong>VIEW FEATURES COMPARISON</strong></a><br>
 			<em>See pricing and more details below.</em></td>
 		</tr>
 	</tbody>
@@ -171,9 +171,10 @@
       </div>
 
     </div>
-    <section class="wrap page-section ptabs" aria-label="Product details">
-      <details class="ptab" open>
-        <summary>Ordering</summary>
+    <div class="wrap page-section psecs">
+      <nav class="psec-nav" aria-label="On this page"><ul><li><a href="#sec-ordering">Ordering</a></li><li><a href="#sec-hdx-details">HDX details</a></li><li><a href="#sec-vfd-details">VFD details</a></li></ul></nav>
+      <section class="psec" id="sec-ordering" aria-labelledby="sec-ordering-h">
+        <h2 id="sec-ordering-h">Ordering</h2>
         <div class="rich">
 <table>
 	<tbody>
@@ -190,9 +191,9 @@
 </table>
 <p><a href="https://www.dakotadigital.com/index.cfm?ptype=input_form&amp;data_header_id=9"><img src="../img/shop/hdx-order-button-21aa3e.webp" alt="Order Custom HDX" loading="lazy"></a><a href="https://www.dakotadigital.com/index.cfm?ptype=input_form&amp;data_header_id=8"><img src="../img/shop/vfd-order-button-91a7fd.webp" alt="Order Custom VFD" loading="lazy"></a><a href="../contact.html"><img src="../img/shop/existing-order-button-8acaac.webp" alt="" loading="lazy"><img src="../img/shop/questions-order-button-120c80.webp" alt="" loading="lazy"></a></p>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>HDX details</summary>
+      </section>
+      <section class="psec" id="sec-hdx-details" aria-labelledby="sec-hdx-details-h">
+        <h2 id="sec-hdx-details-h">HDX details</h2>
         <div class="rich">
 <p><a href="https://www.dakotadigital.com/index.cfm?ptype=input_form&amp;data_header_id=9"><img src="../img/shop/hdx-order-button-21aa3e.webp" alt="Order Custom HDX" loading="lazy"></a></p>
 	<figure><img src="../img/shop/prd-ssh-4885-10556-6c572a.webp" alt="1995 Ford Thunderbird" loading="lazy"><img src="../img/shop/prd-ssh-4885-10558-cd7558.webp" alt="Lincoln" loading="lazy"><img src="../img/shop/prd-ssh-4885-10560-c0b909.webp" alt="Dodge Pickup" loading="lazy"><img src="../img/shop/prd-ssh-4885-10561-b20902.webp" alt="1969 Cadillac" loading="lazy"><img src="../img/shop/prd-ssh-4885-10557-6db0c5.webp" alt="1959 Cadillac" loading="lazy"><img src="../img/shop/prd-ssh-4885-10562-c534d8.webp" alt="1955 Buick" loading="lazy"><img src="../img/shop/prd-ssh-4885-10563-39848f.webp" alt="1976 Ford Falcon" loading="lazy"><img src="../img/shop/prd-ssh-4885-10565-fdbc70.webp" alt="1979 Pontiac Grand Prix" loading="lazy"></figure>
@@ -593,9 +594,9 @@
 	</tbody>
 </table>
         </div>
-      </details>
-      <details class="ptab">
-        <summary>VFD details</summary>
+      </section>
+      <section class="psec" id="sec-vfd-details" aria-labelledby="sec-vfd-details-h">
+        <h2 id="sec-vfd-details-h">VFD details</h2>
         <div class="rich">
 <p><a href="https://www.dakotadigital.com/index.cfm?ptype=input_form&amp;data_header_id=8"><img src="../img/shop/vfd-order-button-91a7fd.webp" alt="Order Custom VFD" loading="lazy"></a></p>
 	<figure><img src="../img/shop/prd-ssh-4884-10551-e3acc9.webp" alt="Mitsubishi FTO" loading="lazy"><img src="../img/shop/prd-ssh-4884-10553-b4329d.webp" alt="1966 Dodge Charger" loading="lazy"><img src="../img/shop/prd-ssh-4884-10554-8fff19.webp" alt="1949 Chrysler New Yorker" loading="lazy"><img src="../img/shop/prd-ssh-4884-10555-590438.webp" alt="1956 Ford" loading="lazy"></figure>
@@ -898,8 +899,8 @@
 </table>
 <br><br>
         </div>
-      </details>
-    </section>
+      </section>
+    </div>
     <section class="wrap page-section" aria-labelledby="rel">
       <h2 id="rel">Related products</h2>
       <ul class="shop-grid">
@@ -947,7 +948,9 @@
         <ul>
           <li><a href="../about.html">About and shop tour</a></li>
           <li><a href="../builds.html">Feature builds</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../media.html">Media coverage</a></li>
+          <li><a href="../builds-40.html">40 builds for 40 years</a></li>
           <li><a href="../careers.html">Careers</a></li>
           <li><a href="../contact.html">Contact us</a></li>
         </ul>
@@ -987,6 +990,8 @@
       nav.classList.toggle('open', !open);
     });
   </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Custom Mounted Instruments -Uses OEM Gauge Housing", "description": "From Dakota Digital CUSTOM INSTRUMENTATION Couldn't find the right fit in a stock system? Or maybe you have an idea for a custom system. Our craftsmen can ", "brand": {"@type": "Brand", "name": "Dakota Digital"}, "url": "https://dakotadigital-ten.vercel.app/shop/custom-mounted-instruments-uses-oem-gauge-housing-p214.html", "image": ["https://dakotadigital-ten.vercel.app/img/shop/custom-64comet-64121e.webp", "https://dakotadigital-ten.vercel.app/img/shop/custom-fit-e263c1.webp", "https://dakotadigital-ten.vercel.app/img/shop/custom-color-9be4cb.webp", "https://dakotadigital-ten.vercel.app/img/shop/custom-graphics-90ac5a.webp", "https://dakotadigital-ten.vercel.app/img/shop/hdxcustom-b5779d.webp"]}</script>
   <script src="../shop.js"></script>
+  <script src="../fit.js"></script>
 </body>
 </html>
