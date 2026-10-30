@@ -792,3 +792,382 @@ Water temperature, oil pressure and speed sensors come in the box with 10 ft har
 | Sensors with 10 ft harnesses; pushbuttons for calibration and message centers | Specifications tab | Included Sensors "with a 10 ft harness"; Pushbutton calibration |
 
 **Flags:** The description says "Full 5 Gauge", but the Specifications tab lists six readings. The rewrite names the six readings and gives no count. CALR-37 (the radio panel) is one of the two items the offer classifier could not type, so it is not a schema offer.
+
+# Batch 3
+
+Each product: the rewrite, the original description as it was on the page, and every fact in the rewrite with where it came from. Sources: Description (the main copy), Description footnote (the * notes), Specifications / Extra Items / Pictures tabs, Options and Versions in the buy box, and the product title. FLAG marks anything to double-check.
+
+## RTX-55C-PU-X: 1955-59 Chevy Pickup RTX Instruments
+
+Page: `redesign/shop/1955-59-chevy-pickup-rtx-instruments-p1135.html` (product 1135)
+
+### Rewrite
+
+It looks like a stock take-out cluster from a 1955-59 Chevy pickup, but it's all new and fully electronic. A tachometer now matches the small gauges up top, and the speedometer reads to 120 mph. A single TFT message center is set into a mesh pattern behind the speedometer needle, and the LED backlighting comes on in your colors with the key.
+
+It fits your stock or reproduction chrome bezel, which is sold separately. It doesn't fit GMC trucks. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come in the box, and one central control box keeps setup simple.
+
+### Original
+
+> Make ‘em do a double take! What looks like a stock take-out gauge cluster from a 1955-59 Chevy pickup is actually an all-new, fully electronic technological wonder! We snuck in a tachometer to match the small gauges up top and bumped the speedo to 120mph and finished it off with a single TFT message center surrounded by a mesh pattern behind the speedometer needle. Fits stock or reproduction chrome bezel, available separately. Sorry, not for GMC.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Looks like a stock take-out 1955-59 Chevy pickup cluster, all new and fully electronic | Description | "What looks like a stock take-out gauge cluster from a 1955-59 Chevy pickup is actually an all-new, fully electronic technological wonder" |
+| Tachometer matches the small gauges up top; speedometer reads to 120 mph | Description / Specifications tab | "We snuck in a tachometer to match the small gauges up top and bumped the speedo to 120mph"; Speedometer 0-120 MPH |
+| Single TFT message center in a mesh pattern behind the speedometer needle | Description | "a single TFT message center surrounded by a mesh pattern behind the speedometer needle" |
+| LED backlighting in your colors with the key | Description (RTX series paragraph) | "right up until you turn the key and the LED backlighting comes on in your colors" |
+| Stock or reproduction chrome bezel, sold separately | Description / Description footnote | "Fits stock or reproduction chrome bezel, available separately" |
+| Doesn't fit GMC | Description | "Sorry, not for GMC" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| CNC machined housings, in-house electronics | Description (RTX series paragraph) | "Every RTX housing is CNC machined, and the electronics are designed and built in-house" |
+| Water temperature, oil pressure and speed sensors included, 10 ft harnesses | Specifications tab | Included Sensors: water temperature, oil pressure, cable driven speed sensor, each "with a 10 ft harness" |
+| One central control box keeps setup simple | Description (RTX series paragraph) | "one central control box keeps installation and setup simple" |
+
+**Flags:** None.
+
+## RTX-73C-PU-X: 1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans RTX Instruments
+
+Page: `redesign/shop/1973-87-chevy-pickup-1973-91-chevy-blazer-gmc-jimmy-and-subu-p1138.html` (product 1138)
+
+### Rewrite
+
+Pick the face that matches your square-body: 1973-75, 1976-78 or 1979-87 styling. All three keep the Chevy and GMC look, with late-model features underneath. Twin TFT message centers look like a vintage tumbler odometer but can add extra readings, and the LED backlighting comes on in your colors.
+
+It bolts in with your stock or aftermarket front bezel, which isn't supplied. It also fits 1973-91 Chevy Blazer, GMC Jimmy and Suburban. Factory turn signal indicators switch to LED lighting. Keep the OEM gear indicator, or show gear position digitally by adding a GSS-3000. Metric versions are a special order.
+
+Housings are CNC machined, and the electronics are designed and built in-house. One central control box keeps installation and setup simple.
+
+### Original
+
+> Paying tribute to all three gauge designs available over the years (1973-75, 1976-78, 1979-87 Pickups and '73-91 Blazer, Jimmy and Suburban), the RTX series maintains the beloved Chevy and GMC square-body look while bringing in late-model elements. A bolt-in affair with your stock or aftermarket front bezel (not supplied), the twin TFT message centers give the look of a vintage tumbler odometer, but can be expanded with auxiliary readings to keep you informed. Factory turn signal indicators will be converted to modern LED lighting, and the OEM gear-indicator can be retained, or can be shown digitally with the addition of a GSS-3000.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Three face styles: 1973-75, 1976-78, 1979-87 | Description / Versions (buy box) | "Paying tribute to all three gauge designs available over the years (1973-75, 1976-78, 1979-87 Pickups"; versions RTX-73C, RTX-76C, RTX-79C |
+| Keeps the Chevy and GMC look with late-model features | Description | "maintains the beloved Chevy and GMC square-body look while bringing in late-model elements" |
+| Twin TFT message centers look like a tumbler odometer, can add readings | Description | "the twin TFT message centers give the look of a vintage tumbler odometer, but can be expanded with auxiliary readings" |
+| LED backlighting in your colors | Description (RTX series paragraph) | "the LED backlighting comes on in your colors" |
+| Bolts in with stock or aftermarket front bezel, not supplied | Description / Description footnote | "A bolt-in affair with your stock or aftermarket front bezel (not supplied)" |
+| Also fits 1973-91 Chevy Blazer, GMC Jimmy and Suburban | Title / Description | "1973-91 Chevy Blazer, GMC Jimmy and Suburbans"; "'73-91 Blazer, Jimmy and Suburban" |
+| Factory turn signal indicators switch to LED | Description | "Factory turn signal indicators will be converted to modern LED lighting" |
+| Keep the OEM gear indicator or add a GSS-3000 for a digital readout | Description | "the OEM gear-indicator can be retained, or can be shown digitally with the addition of a GSS-3000" |
+| Metric versions are a special order | Versions (buy box) | MTX-73C, MTX-76C and MTX-79C: "KM/H and degrees CELSIUS/ *Special Order*" |
+| CNC machined housings, in-house electronics, one control box | Description (RTX series paragraph) | "Every RTX housing is CNC machined ... one central control box keeps installation and setup simple" |
+
+**Flags:** The 1979-87 style version also names '79-91 Blazer, Jimmy and Suburban. The page does not say which face a 1973-78 Blazer, Jimmy or Suburban takes, so the rewrite does not either.
+
+## HDX-55C-PU: 1955-59 Chevy Pickup HDX Instruments
+
+Page: `redesign/shop/1955-59-chevy-pickup-hdx-instruments-p1037.html` (product 1037)
+
+### Rewrite
+
+Builders have put the V-shaped 1955-59 Chevy pickup cluster in plenty of custom dashes, and it still looks right in the trucks it came in. This HDX system fills it with six analog gauges and a single TFT display in the center that shows exactly the information you want. You pick black or silver alloy faces and separate lighting colors for the readings, needles and message centers.
+
+Mount it with a stock or reproduction bezel, sold separately. It doesn't fit GMC. A metric version is a special order.
+
+Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Indicators stay hidden until they light, and each gauge has its own red warning light you can set. A central control box connects the included solid-state senders, which keeps the install simple.
+
+### Original
+
+> This V-shaped instrument cluster has found its way into more than a few custom dashboards, and still looks good in the 1955-59 Chevy pickup trucks it came in! Use a stock or reproduction bezel (available separately) to mount this all-inclusive package. A single TFT display in the center allows the user to see exactly the information they desire. Does not fit GMC.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| V-shaped cluster used in many custom dashes, still looks right in its own trucks | Description | "This V-shaped instrument cluster has found its way into more than a few custom dashboards, and still looks good in the 1955-59 Chevy pickup trucks it came in" |
+| Six analog gauges | Specifications tab | Analog Gauges: Speedometer, Tachometer, Oil Pressure, Water Temperature, Fuel Level, Voltmeter |
+| Single TFT display in the center shows exactly what you want | Description | "A single TFT display in the center allows the user to see exactly the information they desire" |
+| Black or silver alloy faces, separate lighting colors | Description (HDX series paragraph) / Options (buy box) | "HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers" |
+| Stock or reproduction bezel, sold separately | Description / Description footnote | "Use a stock or reproduction bezel (available separately)" |
+| Doesn't fit GMC | Description | "Does not fit GMC" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Touch buttons or Bluetooth app for iPhone and Android | Description (HDX series paragraph) | "Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android" |
+| Hidden indicators; settable red warning light per gauge | Description (HDX series paragraph) | "Indicators stay hidden until they light up ... every gauge has its own settable red warning light" |
+| Central control box with included solid-state senders keeps install simple | Description (HDX series paragraph) | "A central control box ... connects the included solid-state senders, which keeps installation simple" |
+
+**Flags:** None.
+
+## HDX-64C-PU: 1964-66 Chevy Pickup HDX Instruments
+
+Page: `redesign/shop/1964-66-chevy-pickup-hdx-instruments-p1038.html` (product 1038)
+
+### Rewrite
+
+Finish off your 1964-66 C10 with six analog gauge sweeps and a large TFT display in the middle. It mixes classic looks with modern readouts, so you always know what's going on under the hood. Faces come in black or silver alloy, with lighting colors you choose.
+
+This one-piece system bolts to your stock or reproduction bezel with the supplied hardware. The bezel isn't included, and it doesn't fit GMC models. A metric version is a special order.
+
+Touch buttons on the face, or the Bluetooth app for iPhone and Android, handle setup. The needle hubs are black nickel-plated spun aluminum. A central control box takes signals from the truck's harness and connects the included solid-state senders.
+
+### Original
+
+> The once forgotten 1964-66 Chevy pickups have stepped into the limelight, and this direct-fit instrument system is the perfect way to finish off your C10. Six analog gauge sweeps with a large TFT display taking center stage offer a blend of high-tech functionality and classic looks while keeping the driver informed of under-hood activities. This one-piece system bolts to your stock or reproduction bezel using supplied hardware but does not fit GMC.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Bezel not included, shown for visual/presentation purposes. ** Does not fit GMC Models System uses OEM or reproduction style bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Finish off a 1964-66 C10 | Description | "the perfect way to finish off your C10" |
+| Six analog gauge sweeps, large TFT display center stage | Description | "Six analog gauge sweeps with a large TFT display taking center stage" |
+| Classic looks with modern readouts, keeps you informed of under-hood activity | Description | "a blend of high-tech functionality and classic looks while keeping the driver informed of under-hood activities" |
+| Black or silver alloy faces, your lighting colors | Description (HDX series paragraph) / Options (buy box) | "HDX comes with black or silver alloy faces, and you choose separate lighting colors" |
+| One-piece system bolts to stock or reproduction bezel with supplied hardware | Description | "This one-piece system bolts to your stock or reproduction bezel using supplied hardware" |
+| Bezel not included; doesn't fit GMC | Description / Description footnote | "does not fit GMC"; "*Bezel not included ... ** Does not fit GMC Models" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Touch buttons or Bluetooth app | Description (HDX series paragraph) | "Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android" |
+| Needle hubs black nickel-plated spun aluminum | Description (HDX series paragraph) | "Needle hubs are black nickel-plated spun aluminum to match the buttons" |
+| Central control box, harness signals, included senders | Description (HDX series paragraph) | "A central control box takes signals from the vehicle harness and connects the included solid-state senders" |
+
+**Flags:** None.
+
+## VHX-47C-PU: 1947-53 Chevy/ GMC Pickup VHX Instruments
+
+Page: `redesign/shop/1947-53-chevy-gmc-pickup-vhx-instruments-p723.html` (product 723)
+
+### Rewrite
+
+The dual-round gauge layout in 1947-53 Chevy and GMC trucks has always made it hard to get more information. This VHX system puts six analog instruments and two LCD message centers in those two openings. The needles are fully lit, the faces are backlit, and the LCDs are easy to see.
+
+Custom-machined chrome bezels are included and fit directly into the stock gauge openings of both Chevy and GMC trucks. The system needs a 5.2 inch opening and measures 5.95 inches overall. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
+
+Micro-controlled stepper motors move the needles, and the sensors are solid state. It's engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+
+### Original
+
+> These classic trucks strike a nerve with people everywhere, yet the simple dual-round gauge layout has long posed a challenge for rodders seeking more information. Dakota Digital offers six analog instruments and two LCD message centers in custom-machined and chromed bezels that fit directly into the stock gauge openings of both Chevy and GMC trucks.
+>
+> Fully lit needles, backlit faces, and highly visible LCD message centers are a few of the things that you can see which set the VHX Series apart from yesterday’s traditional approach to instrumentation. A few of the features which you don’t normally see are the micro-controlled precision stepper motors, solid state sensors for unparalleled accuracy, and user-customizable display feedback, all supported by an unrivaled limited lifetime warranty which has become the standard for Dakota Digital instrumentation systems . Completely engineered and manufactured at our facility in Sioux Falls, South Dakota, the VHX Series has completely revolutionized the instrumentation industry.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Dual-round layout made it hard to get more information | Description | "the simple dual-round gauge layout has long posed a challenge for rodders seeking more information" |
+| Six analog instruments and two LCD message centers | Description | "six analog instruments and two LCD message centers" |
+| Fully lit needles, backlit faces, easy-to-see LCDs | Description (VHX series paragraph) | "Fully lit needles, backlit faces, and highly visible LCD message centers" |
+| Custom-machined chrome bezels included, fit stock openings of Chevy and GMC | Description | "in custom-machined and chromed bezels that fit directly into the stock gauge openings of both Chevy and GMC trucks" (FLAG: "included" is inferred from the bezels being part of the system) |
+| 5.2 inch opening, 5.95 inches overall | Specifications tab | "Required opening: 5.2\" Overall Dimensions: 5.95\"" |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Stepper motors and solid-state sensors | Description (VHX series paragraph) | "micro-controlled precision stepper motors, solid state sensors" |
+| Built in Sioux Falls, limited lifetime warranty | Description (VHX series paragraph) | "limited lifetime warranty"; "engineered and manufactured at our facility in Sioux Falls, South Dakota" |
+
+**Flags:** The description puts the gauges "in custom-machined and chromed bezels" but does not say "included" in so many words. Blue/Red option not explained.
+
+## VHX-54C-PU: 1954 Chevy Pickup VHX Instruments
+
+Page: `redesign/shop/1954-chevy-pickup-vhx-instruments-p724.html` (product 724)
+
+### Rewrite
+
+The curvy lines of the 1954 Chevy pickup made it an instant classic. VHX adds real needles that light up, backlit faces and easy-to-read LCD message centers, with displays you can customize.
+
+Fully machined, show-chromed bezels are included, so installation is easy. It also fits the 1955 first-series pickup, but not GMC. It needs a 6.15 inch opening and measures 6.4 inches overall. Pick black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
+
+Under the faces are micro-controlled stepper motors and solid-state sensors. Like every Dakota Digital system, it's built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> For GM Truck enthusiasts, the curvy lines of this model made it an instant classic just begging for modern upgrades like the VHX Series. Fully machined, show chromed bezels are included, making installation effortless. Does not fit GMC.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> Also fits 1955 1st Series Pickup.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Curvy lines made the 1954 Chevy pickup an instant classic | Description | "the curvy lines of this model made it an instant classic" |
+| Lit needles, backlit faces, LCD message centers, customizable displays | Description (VHX series paragraph) | "real needles that light up, backlit faces and easy-to-read LCD message centers ... displays you can customize" |
+| Fully machined, show-chromed bezels included, easy install | Description | "Fully machined, show chromed bezels are included, making installation effortless" |
+| Also fits the 1955 first-series pickup | Description footnote | "Also fits 1955 1st Series Pickup" |
+| Doesn't fit GMC | Description | "Does not fit GMC" |
+| 6.15 inch opening, 6.4 inches overall | Specifications tab | "Required opening: 6.150\" Overall Dimensions: 6.4\"" |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Stepper motors and solid-state sensors; built in Sioux Falls; limited lifetime warranty | Description (VHX series paragraph) | "micro-controlled precision stepper motors, solid-state sensors ... engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty" |
+
+**Flags:** Blue/Red option not explained.
+
+## GRFX-47C-PU: GRFX-47C-PU: 1947-53 Chevy/GMC Pickup GRFX Instruments
+
+Page: `redesign/shop/grfx-47c-pu-1947-53-chevy-gmc-pickup-grfx-instruments-p1389.html` (product 1389)
+
+### Rewrite
+
+Bright new chrome bezels fill the two round openings in a 1947-53 Chevy or GMC truck, with GRFX graphic gauges under the lenses. Every gauge position can show an analog, digital or bar-graph readout, and you set the theme, colors and warning modes. A G-force meter shows the forces as you corner, launch and brake.
+
+It works with anything from an old-school engine to the latest fuel injection. The sensors are in the box, each with a full-length harness. The largest screen can show a backup camera, sold separately with a full-length harness and a universal mount.
+
+Built-in GPS calibrates the speedometer for your tire size and gearing. Bluetooth connects the Dakota Digital app for setup and live data, and the USB port takes updates. A separate control module keeps wiring tidy. It's engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> It doesn’t get much cleaner than the dual round openings in those 47-53 Chevy/ GMC trucks. Let the GRFX system from Dakota Digital fill the stock holes with bright, new chrome bezels surrounding the latest technology under the lenses. Compatible with an old school engine, to the latest fuel injection powerplant out there, this kit will light up your dash and keep an eye on the vitals.
+>
+> With GRFX you can change nearly everything: pick a graphic theme, then set colors and warning modes for each element. Each gauge position can show an analog, digital or bar-graph readout, one reading at a time, two at once, or a different reading entirely.
+>
+> GRFX can also show a backup camera on its largest screen, right in the cluster. Dakota Digital backup cameras are sold separately and come with a full-length harness and a universal mount.
+>
+> Built-in GPS calibrates the speedometer automatically, whatever your tire size or gearing. A wired speed signal keeps the reading live while GPS serves as the reference, so there's nothing to calibrate by hand. Bluetooth connects the Dakota Digital app on your phone or tablet for setup, calibration, customization and troubleshooting with live gauge and sensor data. A USB port takes updates, including new graphic themes and future features.
+>
+> A built-in G-force meter shows the forces at work as you corner, launch and brake.
+>
+> Like every Dakota Digital system, it uses a separate control module, so wiring stays tidy and less of it runs to the cluster. The sensors are included, each with a full-length harness: a water temperature probe with adapter bushings, a solid-state oil pressure sender and a speedometer pulse generator.
+>
+> Every Dakota Digital instrument system is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Chrome bezels fill the two round openings of 1947-53 Chevy and GMC trucks | Description | "Let the GRFX system ... fill the stock holes with bright, new chrome bezels" (FLAG: "included" not stated in so many words) |
+| Analog, digital or bar-graph readout per position; theme, colors, warning modes | Description (GRFX series paragraphs) | "pick a graphic theme, then set colors and warning modes ... analog, digital or bar-graph readout" |
+| G-force meter for cornering, launch and braking | Description (GRFX series paragraphs) | "A built-in G-force meter shows the forces at work as you corner, launch and brake" |
+| Old-school engine to the latest fuel injection | Description | "Compatible with an old school engine, to the latest fuel injection powerplant out there" |
+| Sensors included with full-length harnesses | Description (GRFX series paragraphs) | "The sensors are included, each with a full-length harness" |
+| Backup camera on the largest screen; cameras sold separately with harness and universal mount | Description (GRFX series paragraphs) | "backup cameras are sold separately and come with a full-length harness and a universal mount" |
+| GPS calibrates for tire size and gearing; Bluetooth app; USB updates | Description (GRFX series paragraphs) | "Built-in GPS calibrates the speedometer automatically"; "Bluetooth connects the Dakota Digital app"; "A USB port takes updates" |
+| Separate control module; built in Sioux Falls; limited lifetime warranty | Description (GRFX series paragraphs) | "uses a separate control module"; "engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty" |
+
+**Flags:** The chrome bezels are described as part of the system, but "included" is not stated outright.
+
+## GRFX-57C: GRFX-57C: 1957 Chevy Car GRFX Instruments
+
+Page: `redesign/shop/grfx-57c-1957-chevy-car-grfx-instruments-p1390.html` (product 1390)
+
+### Rewrite
+
+Got a big-fin '57 Chevy? The GRFX dash fits your stock bezels and gives one of the most iconic cars ever built a modern inside. Each gauge position can show one reading, two at once, or something else, as a needle, a number or a bar graph.
+
+Add the matching GLC-57C clock for the passenger side, sold separately. Backup cameras are sold separately too, and the largest screen can show one. Water temperature, oil pressure and speed sensors come in the box with full-length harnesses.
+
+GPS calibrates the speedometer on its own, so there's nothing to set by hand. The Dakota Digital app connects over Bluetooth, and a USB port takes updates, including new graphic themes. A separate control module keeps the wiring tidy, and the system is built in Sioux Falls, South Dakota.
+
+### Original
+
+> Got a big fin ’57 Chevy? The revolutionary new GRFX dash from Dakota Digital will fit into your stock bezels and add a modern touch to the inside one of the most iconic cars ever produced. Top it off with a matching GLC Clock on the passenger side while you’re at it.
+>
+> With GRFX you can change nearly everything: pick a graphic theme, then set colors and warning modes for each element. Each gauge position can show an analog, digital or bar-graph readout, one reading at a time, two at once, or a different reading entirely.
+>
+> GRFX can also show a backup camera on its largest screen, right in the cluster. Dakota Digital backup cameras are sold separately and come with a full-length harness and a universal mount.
+>
+> Built-in GPS calibrates the speedometer automatically, whatever your tire size or gearing. A wired speed signal keeps the reading live while GPS serves as the reference, so there's nothing to calibrate by hand. Bluetooth connects the Dakota Digital app on your phone or tablet for setup, calibration, customization and troubleshooting with live gauge and sensor data. A USB port takes updates, including new graphic themes and future features.
+>
+> A built-in G-force meter shows the forces at work as you corner, launch and brake.
+>
+> Like every Dakota Digital system, it uses a separate control module, so wiring stays tidy and less of it runs to the cluster. The sensors are included, each with a full-length harness: a water temperature probe with adapter bushings, a solid-state oil pressure sender and a speedometer pulse generator.
+>
+> Every Dakota Digital instrument system is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Big-fin '57 Chevy; fits your stock bezels; modern inside for an iconic car | Description | "Got a big fin '57 Chevy? The revolutionary new GRFX dash ... will fit into your stock bezels and add a modern touch to the inside one of the most iconic cars ever produced" |
+| One reading, two at once, or something else; needle, number or bar graph | Description (GRFX series paragraphs) | "analog, digital or bar-graph readout, one reading at a time, two at once, or a different reading entirely" |
+| Matching GLC-57C clock for the passenger side, sold separately | Description / Versions (buy box) | "Top it off with a matching GLC Clock on the passenger side"; GLC-57C listed separately |
+| Backup cameras sold separately; largest screen can show one | Description (GRFX series paragraphs) | "GRFX can also show a backup camera on its largest screen ... sold separately" |
+| Sensors with full-length harnesses | Description (GRFX series paragraphs) | "The sensors are included, each with a full-length harness" |
+| GPS calibrates the speedometer, nothing by hand | Description (GRFX series paragraphs) | "Built-in GPS calibrates the speedometer automatically ... nothing to calibrate by hand" |
+| Bluetooth app; USB updates including new graphic themes | Description (GRFX series paragraphs) | "A USB port takes updates, including new graphic themes and future features" |
+| Separate control module; built in Sioux Falls | Description (GRFX series paragraphs) | "uses a separate control module"; "engineered and built in Sioux Falls, South Dakota" |
+
+**Flags:** None.
+
+## VFD3-39C: 1939 Chevy Digital Instrument System
+
+Page: `redesign/shop/1939-chevy-digital-instrument-system-p99.html` (product 99)
+
+### Rewrite
+
+Speed, rpm, oil pressure, water temp, fuel and volts read out in bright blue or teal digits in this 1939 Chevy system. The vacuum fluorescent displays are easy to read, and the message centers add trip meters, a 0-60 timer and quarter-mile time and trap speed.
+
+A billet aluminum dash housing made to fit the 1939 Chevy is included. A matching aluminum glove box door is sold separately, plain or with a digital clock, and the handle is separate too. The covers may need some modification. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. Mount the pushbuttons where you can reach them for calibration and the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 5 Gauge Instrument System includes Billet Aluminum dash housing to fit 1939 Chevy.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Speed, rpm, oil pressure, water temp, fuel and volts in blue or teal | Specifications tab / Options (buy box) | Digital Gauges list; Standard Colors: Blue or Teal |
+| Vacuum fluorescent displays, easy to read | Description | "bright vacuum fluorescent displays: easy to read" |
+| Trip meters, 0-60 timer, quarter-mile time and trap speed | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time; 1/4 mile end speed |
+| Billet aluminum dash housing included, made for the 1939 Chevy | Description | "includes Billet Aluminum dash housing to fit 1939 Chevy" |
+| Glove box door sold separately, plain or with digital clock; handle separate | Extra Items tab / Options (buy box) / Versions (buy box) | CALG-39C, CALG-39-CLK; Glove Box: Plain, with Digital Clock; ALH handle |
+| Covers may need modification | Extra Items tab | "Some modification to aluminum glove box covers may be required" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors included, 10 ft harnesses | Specifications tab | Included Sensors: water temperature, oil pressure, cable driven speed sensor, each "with a 10 ft harness" |
+| Pushbuttons mounted within reach for calibration and message centers | Specifications tab | "mount the included pushbuttons ... in a convenient and easily accessible location" |
+
+**Flags:** The description says "Full 5 Gauge", but the Specifications tab lists six readings. The rewrite names the six and gives no count.
+
+## VFD3-32F: 1932 Ford Digital Instrument System
+
+Page: `redesign/shop/1932-ford-digital-instrument-system-p132.html` (product 132)
+
+### Rewrite
+
+For a 1932 Ford, this kit pairs a billet aluminum dash housing with bright vacuum fluorescent gauges in blue or teal. You can read speed, rpm, oil pressure, water temp, fuel and volts at a glance, and the message centers add trip meters, a 0-60 timer and quarter-mile times.
+
+The billet housing is made to fit the 1932 Ford and comes in the kit. The speed sensor replaces a Ford or GM style speedometer cable and needs about 5 inches of clearance. Water temperature and oil pressure sensors are included too, each with a 10 ft harness. A metric version is a special order.
+
+Pushbuttons you mount within reach calibrate the speedometer and fuel gauge and set the cylinder count. The same buttons page through the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 5 Gauge Instrument System includes Billet Aluminum dash housing to fit 1932 Ford.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1932 Ford; billet aluminum housing included | Title / Description | "includes Billet Aluminum dash housing to fit 1932 Ford" |
+| Bright vacuum fluorescent gauges in blue or teal | Description / Specifications tab / Options (buy box) | "bright vacuum fluorescent displays"; Standard Colors: Blue or Teal |
+| Speed, rpm, oil pressure, water temp, fuel and volts, easy to read | Specifications tab / Description | Digital Gauges list; "easy to read" |
+| Trip meters, 0-60 timer, quarter-mile times | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time |
+| Speed sensor replaces Ford or GM cable, needs about 5 inches clearance | Specifications tab | "Replaces Ford and/ or GM style speedometer cables"; "approximately 5\" clearance" |
+| Water temp and oil pressure sensors, 10 ft harnesses | Specifications tab | "with a 10 ft harness" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Pushbuttons calibrate speedometer and fuel gauge, set cylinder count, page the message centers | Specifications tab | "These buttons are used to calibrate your speedometer, set the cylinder count and the fuel level gauge ... access ... the Digital Message Centers" |
+
+**Flags:** The description says "Full 5 Gauge", but the Specifications tab lists six readings. The rewrite names the six and gives no count.
