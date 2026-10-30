@@ -580,3 +580,55 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .fit-unknown svg { color: var(--blue); }
 .fit-add { padding: 0; border: 0; background: none; color: var(--link); font: inherit; font-weight: 600; text-decoration: underline; cursor: pointer; }
 .fit a, .fit-add { display: inline-block; min-height: 24px; }
+
+/* ---------- Compare all systems ---------- */
+.cmp-jump { display: inline-block; margin: -8px 0 18px; padding: 6px 0; font-weight: 600; font-size: 16px; }
+.compare { padding: 24px 0 80px; border-top: 1px solid var(--line); scroll-margin-top: 140px; }
+.compare h2 { font-size: clamp(32px, 4.5vw, 52px); margin: 0 0 8px; }
+.compare-lede { color: var(--muted); font-size: 19px; max-width: 40em; margin-bottom: 28px; }
+.compare-fine { margin: 20px 0 0; color: var(--muted-2); font-size: 15px; }
+
+/* Phones: swipeable cards. Desktop: five aligned columns. */
+.cmp {
+  display: grid; grid-auto-flow: column; grid-auto-columns: 82%;
+  gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding-bottom: 12px; margin: 0 -16px; padding-left: 16px; padding-right: 16px;
+  scroll-padding: 0 16px;
+}
+@media (min-width: 640px) { .cmp { grid-auto-columns: 44%; } }
+.cmp-card {
+  position: relative; scroll-snap-align: start;
+  display: grid; grid-template-rows: auto auto auto auto 1fr auto; align-content: start;
+  background: var(--panel-2); border: 1px solid var(--line-2); border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.cmp-card > *:not(img):not(.cmp-flag) { margin-left: 18px; margin-right: 18px; }
+.cmp-card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: #000; }
+.cmp-card header { display: flex; align-items: baseline; gap: 10px; margin-top: 16px; }
+.cmp-card h3 { margin: 0; font-size: 30px; }
+.cmp-card header p { margin: 0; color: var(--muted-2); }
+.cmp-price { margin: 6px 0 0; font: 700 34px/1 var(--font-display); }
+.cmp-best { margin: 8px 0 12px; color: var(--amber); font-weight: 600; font-size: 15px; }
+.cmp-card dl { margin: 0 0 18px; display: grid; gap: 2px; font-size: 15px; }
+.cmp-card dt { color: var(--muted-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; margin-top: 10px; }
+.cmp-card dd { margin: 0; line-height: 1.35; }
+.cmp-card .btn { margin-bottom: 18px; min-height: 46px; font-size: 18px; }
+.cmp-card.is-current { border: 2px solid var(--blue); background: var(--selected); }
+.cmp-flag {
+  position: absolute; top: 12px; left: 12px; z-index: 1;
+  padding: 6px 10px; border-radius: var(--radius);
+  background: var(--blue); color: var(--bg);
+  font: 700 14px/1 var(--font-display); letter-spacing: .08em; text-transform: uppercase;
+}
+@media (min-width: 1100px) {
+  .cmp {
+    grid-auto-flow: row; grid-template-columns: repeat(5, minmax(0, 1fr));
+    overflow: visible; margin: 0; padding: 0;
+  }
+  /* Align rows across cards so specs line up like a table */
+  @supports (grid-template-rows: subgrid) {
+    .cmp { grid-template-rows: repeat(6, auto); row-gap: 0; }
+    .cmp-card { grid-row: span 6; grid-template-rows: subgrid; }
+  }
+  .cmp-card.is-current { transform: translateY(-8px); box-shadow: 0 18px 40px rgba(0,0,0,.45); }
+}

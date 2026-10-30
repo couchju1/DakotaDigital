@@ -15,6 +15,12 @@ no build step, no frameworks.
 Shared files: `styles.css` (all styles), `garage.js` (My Garage and the shared fitment data),
 `dash-finder.js` (finder logic), `img/` (WebP images).
 
+## Compare all five looks
+
+The product page ends with "Every system for the 1969 Camaro": GRFX, RTX, HDX, VHX and VFD3
+side by side with real prices, photos and specs from the live product pages (Oct 2026).
+Desktop shows five aligned columns; phones get swipeable cards. A link under the price jumps there.
+
 ## My Garage
 
 Every page has a garage button in the header. Pick a car once (in the finder or from the
