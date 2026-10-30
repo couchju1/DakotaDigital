@@ -31,6 +31,7 @@ def expected_text(t):
     for old, new in REWRITES.items():
         t = t.replace(old, new)
     t = re.sub(r'Click the tabs below[^.!]*[.!]|Click Here to See More\.?|CLICK HERE FOR MORE INFORMATION|Click here for more information|Click Here', ' ', t)
+    t = re.sub(r'From Dakota Digital(?: (?:VHX|RTX|HDX|GRFX|VFD3?|MLX|Retrotech|Odyssey|Solarix|Ion))?\b', ' ', t, count=1)  # brand label, removed on purpose
     return t.replace('Sqaurebody', 'Squarebody')
 
 
