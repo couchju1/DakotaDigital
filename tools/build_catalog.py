@@ -633,20 +633,42 @@ SERIES_LINES = [
 SERIES_RE = 'VHX|RTX|HDX|GRFX|VFD3?|MLX|Retrotech|Odyssey|Solarix|Ion'
 
 
-SYSTEM_PREFIXES = {'VFD3', 'MFD3', 'VFD', 'MFD', 'RTX', 'MTX', 'HDX', 'MDX', 'VHX', 'MHX', 'GRFX', 'STR', 'RET'}
+# Product types by part-number prefix. Gauge systems (and their metric "M" twins) are the kit
+# versions; companions are sold alongside a kit but aren't a version of it.
+SYSTEM_PREFIXES = {'VFD3', 'MFD3', 'VFD', 'MFD', 'RTX', 'MTX', 'HDX', 'MDX', 'VHX', 'MHX', 'GRFX', 'MGRFX', 'STR', 'RET', 'MRT'}
+COMPANION_PREFIXES = {
+    'ICM',                                    # instrument carriers
+    'BZL', 'SPKR', 'LNS',                     # bezels, speaker bezels, lenses
+    'RLC', 'HLC', 'VLC', 'CLK', 'VL',          # matching clocks
+    'SEN', 'BKT',                             # senders, brackets
+    'ALC', 'ALH', 'ALG', 'ALR', 'CALG',       # dash panels, handles, glove box and radio covers
+}
+OFFER_REPORT = {'unclassified': []}
 
 
-def is_version(it, main):
-    """True when an item is a version of the product itself (same part-number family, its metric
-    twin, or another gauge system), not a companion such as a carrier, bezel, clock or sender."""
+def sku_type(sku):
+    p = sku.split('-')[0].strip().upper()
+    if p in SYSTEM_PREFIXES:
+        return 'system'
+    if p in COMPANION_PREFIXES or re.fullmatch(r'61\d{4}', p):  # 61xxxx: carrier and bezel part numbers
+        return 'companion'
+    return 'unknown'
+
+
+def is_version(it, main, pid=None):
+    """True when an item is a version of the product itself, decided by product type."""
     if it is main:
         return True
     if it.get('companion'):
         return False
+    if sku_type(main['sku']) == 'system':
+        kind = sku_type(it['sku'])
+        if kind == 'unknown' and pid is not None:
+            OFFER_REPORT['unclassified'].append({'product': pid, 'sku': it['sku'], 'name': it['name']})
+        return kind == 'system'
+    # Accessories and parts: versions share the main item's part-number family (or its metric twin)
     a, b = it['sku'].split('-')[0].upper(), main['sku'].split('-')[0].upper()
-    if a == b or (a[:1] == 'M' and a[1:] == b[1:]) or (b[:1] == 'M' and b[1:] == a[1:]):
-        return True
-    return a in SYSTEM_PREFIXES and b in SYSTEM_PREFIXES
+    return a == b or (a[:1] == 'M' and a[1:] == b[1:]) or (b[:1] == 'M' and b[1:] == a[1:])
 
 
 def series_line(title, skus):
@@ -804,7 +826,7 @@ def build_product(p):
     if items:
         offers = [{'@type': 'Offer', 'sku': it['sku'], 'name': it['name'] or info['title'], 'price': f'{it["price"]:.2f}',
                    'priceCurrency': 'USD', 'url': SITE_URL + info['path']}
-                  for it in items if it['price'] and is_version(it, items[0])]  # gauge versions only, not carriers/bezels/clocks
+                  for it in items if it['price'] and is_version(it, items[0], p)]  # gauge versions only, by product type
         if offers:
             ld['offers'] = offers if len(offers) > 1 else offers[0]
     script = f'  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n  <script src="shop.js"></script>\n  <script src="fit.js"></script>\n'
@@ -862,5 +884,7 @@ vj = ROOT / 'vercel.json'
 conf = json.loads(vj.read_text(encoding='utf-8'))
 conf['redirects'] = [{'source': s, 'destination': d, 'permanent': True} for s, d in sorted(REDIRECTS.items())]
 vj.write_text(json.dumps(conf, indent=2) + '\n', encoding='utf-8')
+(CONTENT / 'offer_report.json').write_text(json.dumps(OFFER_REPORT, indent=1, ensure_ascii=False), encoding='utf-8')
+print(f'Offers: {len(OFFER_REPORT["unclassified"])} kit items left out because their type is unclassified (see tools/content/offer_report.json)')
 print(f'Built {len(CATALOG["cats"])} category pages and {len(CATALOG["products"])} product pages; {len(IMAGES)} images referenced; '
       f'{len(PRICES)} products priced')

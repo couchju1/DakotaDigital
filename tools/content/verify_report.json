@@ -2,31 +2,5 @@
  "categories": 212,
  "products": 811,
  "images": 9771,
- "failures": [
-  {
-   "kind": "product",
-   "id": "113",
-   "msg": "only 8/9 words carried over: missing ['from']"
-  },
-  {
-   "kind": "product",
-   "id": "120",
-   "msg": "only 5/6 words carried over: missing ['from']"
-  },
-  {
-   "kind": "product",
-   "id": "121",
-   "msg": "only 7/8 words carried over: missing ['from']"
-  },
-  {
-   "kind": "product",
-   "id": "716",
-   "msg": "only 8/9 words carried over: missing ['from']"
-  },
-  {
-   "kind": "product",
-   "id": "83",
-   "msg": "only 7/8 words carried over: missing ['from']"
-  }
- ]
+ "failures": []
 }
