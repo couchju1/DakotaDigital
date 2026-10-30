@@ -148,11 +148,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 /* ---------- Dash Finder ---------- */
 .finder {
-  display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;
+  display: flex; flex-direction: column; gap: 32px;
   padding-top: 48px; padding-bottom: 40px;
   scroll-margin-top: 80px;
 }
-.finder-pick { flex: 1 1 520px; min-width: 0; }
+.finder-pick { min-width: 0; }
 .finder h1 {
   margin: 0;
   font-size: clamp(44px, 6vw, 76px); line-height: .95; text-transform: uppercase;
@@ -189,10 +189,24 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .look span { font-size: 14px; color: var(--muted); }
 
 .preview {
-  flex: 1 1 420px; min-width: 0;
+  min-width: 0;
   display: flex; flex-direction: column; gap: 20px;
   background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-lg);
   padding: 28px;
+}
+/* Under the pickers on wide screens: gauge on the left, its controls and details on the right */
+@media (min-width: 860px) {
+  .preview {
+    display: grid; gap: 20px 40px; align-content: start;
+    grid-template-columns: minmax(280px, 380px) 1fr;
+    grid-template-areas: "gauge head" "gauge speed" "gauge lights" "gauge info";
+    grid-template-rows: auto auto auto 1fr;
+  }
+  .preview-head { grid-area: head; }
+  .preview .gauge { grid-area: gauge; align-self: center; }
+  .preview .speed { grid-area: speed; }
+  .preview .lights { grid-area: lights; }
+  .preview-info { grid-area: info; }
 }
 .preview-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px; }
 .preview-head p { margin: 0; }
