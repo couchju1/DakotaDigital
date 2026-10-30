@@ -714,12 +714,17 @@ def describe(title, body_html, skus):
     return short, long
 
 
-def load_rewrite(sku):
-    """Paragraphs of data/descriptions/<sku>.md (front matter dropped), or None when there is no rewrite."""
+def load_rewrite(sku, pid):
+    """Paragraphs of data/descriptions/<sku>.md (front matter dropped), or None when there is no rewrite.
+    Some kits are sold on more than one product page; the file's "product:" line says which page it is for."""
     f = DESCRIPTIONS / f'{sku}.md'
     if not sku or not f.exists():
         return None
-    text = re.sub(r'\A---\n.*?\n---\n', '', f.read_text(encoding='utf-8').replace('\r\n', '\n'), flags=re.S)
+    text = f.read_text(encoding='utf-8').replace('\r\n', '\n')
+    meant_for = re.search(r'\A---\n.*?^product:\s*(\d+)\s*$', text, flags=re.S | re.M)
+    if meant_for and meant_for.group(1) != str(pid):
+        return None
+    text = re.sub(r'\A---\n.*?\n---\n', '', text, flags=re.S)
     return [' '.join(p.split()) for p in re.split(r'\n\s*\n', text.strip()) if p.strip()]
 
 
@@ -819,7 +824,7 @@ def build_product(p):
         body = ('<p>This product is no longer listed on dakotadigital.com. It may have been discontinued or replaced.</p>'
                 '<p>Search above for a current part, or <a href="contact.html">ask the people who build these</a> what replaced it.</p>')
     skus = [it['sku'] for it in items if it['sku']]
-    rewrite = load_rewrite(skus[0] if skus else '')
+    rewrite = load_rewrite(skus[0] if skus else '', p)
     if rewrite:
         body = apply_rewrite(body, rewrite)
     themes = theme_switcher(body + tabs)
