@@ -160,6 +160,18 @@
 
   speedInput.value = state.speed;
   keepSeries(codes());
+  // Let other sections (the builds gallery) load a car + look into the finder.
+  window.DDFinder = {
+    show(pid, ri, s) {
+      state.s = s;
+      if (state.pid === pid && state.ri === ri) render();
+      window.DDGarage.set({ pid, ri });
+      root.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      const picked = list('looks').querySelector('[aria-pressed="true"]');
+      if (picked) picked.focus({ preventScroll: true });
+    }
+  };
+
   // Follow garage changes made from the header dialog too.
   window.DDGarage.onChange((c) => {
     if (c && (c.pid !== state.pid || c.ri !== state.ri)) { state.pid = c.pid; state.ri = c.ri; keepSeries(codes()); }

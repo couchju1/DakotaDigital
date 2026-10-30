@@ -15,6 +15,13 @@ no build step, no frameworks.
 Shared files: `styles.css` (all styles), `garage.js` (My Garage and the shared fitment data),
 `dash-finder.js` (finder logic), `img/` (WebP images).
 
+## Built with Dakota Digital
+
+The homepage shows real feature builds from the live site (Ring Brothers, Kindig-It, Revology,
+ICON and others), each tagged with the system it uses. "Put this dash in my car" loads that car
+and system into the Dash Finder and saves the car to My Garage. Builds that match the saved car
+move to the front with a "Your car" badge. Data lives in `index.html`, behavior in `builds.js`.
+
 ## Compare all five looks
 
 The product page ends with "Every system for the 1969 Camaro": GRFX, RTX, HDX, VHX and VFD3
