@@ -572,15 +572,28 @@ def build_tabs(frag):
 # ---------- My Garage fit data ----------
 
 PLATFORM_CATS = {int(c) for c in re.findall(r'cat: (\d+)', (SITE / 'garage.js').read_text(encoding='utf-8'))}
+FULL_SIZE_TRUCK_CATS = {421, 784}  # Dash Finder: Chevy / GMC truck, Square body truck
+NOT_FULL_SIZE_TRUCK = re.compile(r'Monte Carlo|Malibu|Chevelle|El Camino|Caballero|S-10|S-15', re.I)
 
 
-def product_platforms(p):
+def listed_platforms(p):
     cats = set(GRID_LISTED.get(p, [])) | set(LISTED_IN.get(p, []))
     cats -= SHOWCASE
     full = set()
     for c in cats:
         full |= {c, *chain(c)}
-    return sorted(full & PLATFORM_CATS)
+    return full & PLATFORM_CATS
+
+
+def not_for(p):
+    """Truck platforms the store lists a car-based or S-10 kit under, though it doesn't fit those trucks."""
+    if not NOT_FULL_SIZE_TRUCK.search(PRD_INFO[p]['title']):
+        return set()
+    return listed_platforms(p) & FULL_SIZE_TRUCK_CATS
+
+
+def product_platforms(p):
+    return sorted(listed_platforms(p) - not_for(p))
 
 
 def title_years(t):
@@ -600,10 +613,12 @@ def title_years(t):
 
 def fit_attrs(p):
     cats = product_platforms(p)
+    skip = sorted(not_for(p))
+    out = f' data-not="{",".join(map(str, skip))}"' if skip else ''
     if not cats:
-        return ''
+        return out
     ys = title_years(PRD_INFO[p]['title'])
-    return f' data-cats="{",".join(map(str, cats))}" data-years="{",".join(map(str, ys))}"'
+    return f' data-cats="{",".join(map(str, cats))}" data-years="{",".join(map(str, ys))}"' + out
 
 
 # ---------- Proof, themes ----------

@@ -15,10 +15,12 @@
   };
   const read = (el) => ({
     cats: (el.dataset.cats || '').split(',').filter(Boolean).map(Number),
-    years: (el.dataset.years || '').split(',').filter(Boolean).map(Number)
+    years: (el.dataset.years || '').split(',').filter(Boolean).map(Number),
+    not: (el.dataset.not || '').split(',').filter(Boolean).map(Number)
   });
   // 'yes' | 'maybe' (right car, no years to check) | 'no' | '' (not car-specific)
   const verdict = (data, car) => {
+    if (car && data.not.includes(car.platform.cat)) return 'no'; // listed under this truck, but doesn't fit it
     if (!data.cats.length || !car) return '';
     if (!data.cats.includes(car.platform.cat)) return 'no';
     if (!data.years.length) return 'maybe';
@@ -53,7 +55,7 @@
   };
 
   // ---- Product cards + category filter ----
-  const cards = [...document.querySelectorAll('.shop-card[data-cats]')];
+  const cards = [...document.querySelectorAll('.shop-card[data-cats], .shop-card[data-not]')];
   const allCards = [...document.querySelectorAll('.shop-card')];
   const bar = document.querySelector('.fit-filter');
   // The "31 products" heading above the grid: keep its number in step with what is shown.
@@ -95,6 +97,7 @@
     if (!lineOf(card).startsWith(line)) return false;
     if (!car) return true;
     const data = read(card);
+    if (data.not.includes(car.platform.cat)) return false;
     if (data.cats.length && !data.cats.includes(car.platform.cat)) return false;
     const ys = cardYears(card);
     const mine = yearsOf(car.years);
@@ -110,7 +113,7 @@
       if (v) relevant += 1;
       card.hidden = !showAll && car && v === 'no';
     });
-    allCards.forEach((c) => { if (!c.dataset.cats) c.hidden = false; });
+    allCards.forEach((c) => { if (!c.dataset.cats && !c.dataset.not) c.hidden = false; });
     if (!bar) return;
     if (!car || !relevant || !fits) { bar.hidden = true; cards.forEach((c) => { c.hidden = false; }); setCount(allCards.length); return; }
     bar.hidden = false;
