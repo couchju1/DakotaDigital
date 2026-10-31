@@ -20,7 +20,8 @@
   });
   // 'yes' | 'maybe' (right car, no years to check) | 'no' | '' (not car-specific)
   const verdict = (data, car) => {
-    if (car && data.not.includes(car.platform.cat)) return 'no'; // listed under this truck, but doesn't fit it
+    // Listed under a truck it doesn't fit, or made only for a car the finder doesn't list (S-10s).
+    if (car && (data.not.includes(car.platform.cat) || (data.not.length && !data.cats.length))) return 'no';
     if (!data.cats.length || !car) return '';
     if (!data.cats.includes(car.platform.cat)) return 'no';
     if (!data.years.length) return 'maybe';
@@ -97,7 +98,7 @@
     if (!lineOf(card).startsWith(line)) return false;
     if (!car) return true;
     const data = read(card);
-    if (data.not.includes(car.platform.cat)) return false;
+    if (data.not.includes(car.platform.cat) || (data.not.length && !data.cats.length)) return false;
     if (data.cats.length && !data.cats.includes(car.platform.cat)) return false;
     const ys = cardYears(card);
     const mine = yearsOf(car.years);
@@ -113,12 +114,18 @@
       if (v) relevant += 1;
       card.hidden = !showAll && car && v === 'no';
     });
-    allCards.forEach((c) => { if (!c.dataset.cats && !c.dataset.not) c.hidden = false; });
+    // Untagged cards: a kit for a model year belongs to some other car, so it can't fit this one;
+    // anything without years (universal panels, clocks) stays.
+    const untagged = allCards.filter((c) => !c.dataset.cats && !c.dataset.not);
+    untagged.forEach((c) => { c.hidden = Boolean(!showAll && car && cardYears(c).length); });
     if (!bar) return;
-    if (!car || !relevant || !fits) { bar.hidden = true; cards.forEach((c) => { c.hidden = false; }); setCount(allCards.length); return; }
+    if (!car || !relevant || !fits) { bar.hidden = true; allCards.forEach((c) => { c.hidden = false; }); setCount(allCards.length); return; }
     bar.hidden = false;
     setCount(allCards.filter((c) => !c.hidden).length);
-    bar.innerHTML = `<p>${showAll ? `Showing all ${allCards.length}. <strong>${fits}</strong> fit your ${car.label}.` : `Showing <strong>${fits}</strong> that fit your ${car.label}.`}</p>
+    // Products with no fit data (universal panels, clocks) stay in the list; say so, so the count adds up.
+    const general = untagged.filter((c) => !cardYears(c).length).length;
+    const plus = general ? `, plus ${general} universal ${general === 1 ? 'product' : 'products'}` : '';
+    bar.innerHTML = `<p>${showAll ? `Showing all ${allCards.length}. <strong>${fits}</strong> fit your ${car.label}.` : `Showing <strong>${fits}</strong> that fit your ${car.label}${plus}.`}</p>
       <button type="button" class="btn btn-ghost fit-toggle" aria-pressed="${!showAll}">${showAll ? 'Show only my car' : 'Show all products'}</button>`;
     bar.querySelector('.fit-toggle').addEventListener('click', () => { showAll = !showAll; renderCards(window.DDGarage.get()); });
   };

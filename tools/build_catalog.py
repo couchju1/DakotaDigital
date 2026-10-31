@@ -527,6 +527,54 @@ def build_category(c):
           '\n'.join(parts), f'{LIVE}index.cfm/page/ptype=results/category_id={c}/mode=cat/cat{c}.htm', script='  <script src="fit.js"></script>\n')
 
 
+# Series pages the store has no category for: every product with a SKU in that line.
+SERIES_PAGES = [
+    ('grfx', 'GRFX Series', ('GRFX',), 'img/cmp/grfx.webp', [
+        'GRFX fills the cluster with full-color screens. Pick a graphic theme, then set the colors and warning modes for each reading. Each gauge position can show an analog, digital or bar-graph readout.',
+        'Built-in GPS calibrates the speedometer for any tire size or gearing. Setup, calibration and updates run through the Dakota Digital app over Bluetooth, and the largest screen can show a backup camera, sold separately.',
+        'The sensors are included, and every system is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.',
+    ]),
+    ('vhx', 'VHX Series', ('VHX',), 'img/cmp/vhx.webp', [
+        'VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize.',
+        'Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.',
+    ]),
+    ('vfd3', 'VFD3 Series', ('VFD3',), 'img/cmp/vfd3.webp', [
+        'Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.',
+        'Direct-fit kits use the stock bezel of many classic cars and trucks, and universal panels fit custom dashes. Displays come in blue or teal.',
+    ]),
+]
+
+
+def build_series(slug, title, prefixes, img, paras):
+    def in_line(p):
+        return any(k.upper().startswith(prefixes) for k in CATALOG['products'][p]['skus'])
+    ids = [p for p in CATALOG['products'] if p in GRID_ITEM and in_line(p)]
+    # Direct-fit kits (titles start with model years) first, then universal and add-on pieces.
+    ids.sort(key=lambda p: (not re.match(r'\d{4}', CATALOG['products'][p]['title']), CATALOG['products'][p]['title']))
+    path = f'shop/{slug}-series.html'
+    INDEX.append({'k': 'Category', 't': title, 'u': path, 's': f'{len(ids)} products', 'x': slug})
+    intro = f'<img src="{img}" alt="{html.escape(title)} gauges" loading="lazy">\n' + '\n'.join(f'<p>{html.escape(t)}</p>' for t in paras)
+    cards = '\n'.join(thumb_card(GRID_ITEM[p]) for p in ids)
+    body = f'''    <div class="wrap page-hero shop-hero">
+{crumbs_html([], title)}
+      <h1>{html.escape(title)}</h1>
+    </div>
+    <div class="wrap shop-intro rich">
+{intro}
+    </div>
+    <section class="wrap page-section" aria-labelledby="prods">
+      <h2 id="prods">{len(ids)} products</h2>
+      <div class="fit-filter" hidden></div>
+      <ul class="shop-grid">
+{cards}
+      </ul>
+    </section>
+{bp.help_band()}'''
+    write(path, f'{title} | Dakota Digital', f'Shop every {title} gauge system from Dakota Digital: direct-fit kits for classic cars and trucks plus universal panels.',
+          body, LIVE, script='  <script src="fit.js"></script>\n')
+    return path
+
+
 ACRONYMS = {'hdx', 'vhx', 'rtx', 'grfx', 'vfd', 'vfd3', 'mlx', 'mcl', 'bim', 'faq', 'pdf', 'led', 'obd', 'gps', 'efi', 'tpms', 'ls', 'gm', 'usb', 'app', 'diy'}
 
 
@@ -919,11 +967,13 @@ CATALOG = {'cats': {}, 'products': {}}
 INDEX = []
 # Where each product lives: categories that show it in their product grid
 GRID_LISTED = {}
+GRID_ITEM = {}  # first product-grid card for each product, reused on series pages
 for c in CATS:
     _, block = cut_block(main_content(raw(f'cat{c}')), r'<div id="thmprdparent"')
     for it in grid_items(block):
         if it['kind'] == 'p':
             GRID_LISTED.setdefault(it['id'], []).append(c)
+            GRID_ITEM.setdefault(it['id'], it)
 for p in PRD_INFO:
     PRD_INFO[p]['cat'] = home_cat(p)
 # Prices first, so category cards can show them
@@ -940,6 +990,8 @@ for p in PRODS:
     build_product(p)
 for c in CATS:
     build_category(c)
+for args in SERIES_PAGES:
+    build_series(*args)
 (CONTENT / 'catalog.json').write_text(json.dumps(CATALOG, ensure_ascii=False, indent=0), encoding='utf-8')
 (CONTENT / 'catalog_index.json').write_text(json.dumps(INDEX, ensure_ascii=False), encoding='utf-8')
 img_map_path.write_text(json.dumps(IMAGES, indent=0), encoding='utf-8')

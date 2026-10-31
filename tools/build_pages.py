@@ -810,6 +810,8 @@ def sitemap(pages):
         ('Shop', [('index.html', 'Home and Dash Finder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'),
                   ('universal.html', 'Universal gauges'), ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'),
                   ('camaro-1969-rtx.html', '1969 Camaro RTX instruments')]),
+        ('Gauge series', [('shop/grfx-series.html', 'GRFX'), ('shop/rtx-series-c706.html', 'RTX'), ('shop/hdx-series-c689.html', 'HDX'),
+                          ('shop/vhx-series.html', 'VHX'), ('shop/vfd3-series.html', 'VFD3')]),
         ('Help', [('support.html', 'Manuals and support'), ('faq.html', 'FAQ'), ('dealers.html', 'Find a dealer'),
                   ('shipping.html', 'Shipping and returns'), ('contact.html', 'Contact us')]),
         ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('builds-40.html', '40 builds for 40 years'), ('media.html', 'Media coverage'),
