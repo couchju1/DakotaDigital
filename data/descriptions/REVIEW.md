@@ -11783,3 +11783,699 @@ Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and
 | Pushbuttons calibrate and scroll the message centers | Specifications tab | Pushbutton calibration section |
 
 **Flags:** The description says "Full 5 Gauge" but the spec tab lists six readings. The rewrite names the six and gives no count. The metric version costs more ($865 vs $815).
+
+# Batch 25
+
+Each product: the rewrite, the original description as it was on the page, and every fact in the rewrite with where it came from. Sources: Description (the main copy), Description footnote (the * notes), Specifications / Extra Items / Pictures tabs, Options and Versions in the buy box, and the product title. FLAG marks anything to double-check.
+
+## RTX-87F-PU-X: 1987-91 Ford Pickup and Bronco RTX Instruments
+
+Page: `redesign/shop/1987-91-ford-pickup-and-bronco-rtx-instruments-p1406.html` (product 1406)
+
+### Rewrite
+
+Six analog gauges, twin TFT message centers and a row of LEDs for the warning indicators bolt into a 1987-91 Ford F-Series truck. It also fits the 1987-91 Bronco, but not the Bronco II.
+
+It uses your existing OEM front bezel, which isn't included. It works with stock drivetrains or custom swaps, and the speedometer runs from a mechanical drive or an existing vehicle speed sensor. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.
+
+### Original
+
+> Upgrade your 1987-91 Ford F-Series truck or SUV with this RTX direct-fit instrument system! Bolt in six analog gauges with twin TFT message centers and a row of LED’s to update the warning indicators. Kit utilizes your existing front bezel for a seamless upgrade. Compatible with stock drivetrains or a custom conversion, the speedometer can be used in mechanical applications or with a pre-existing VSS. Also fits 1987-91 Bronco ( does not fit Bronco II ).
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six analog gauges, twin TFT, LED warning indicators; bolts into a 1987-91 F-Series | Description | "Bolt in six analog gauges with twin TFT message centers and a row of LED's to update the warning indicators" |
+| Also fits 1987-91 Bronco, not Bronco II | Description | "Also fits 1987-91 Bronco ( does not fit Bronco II )" |
+| Uses the existing OEM bezel, not included | Description / Description footnote | "Kit utilizes your existing front bezel"; "*Bezel not included ... uses your OEM bezel" |
+| Stock or custom drivetrains; mechanical speedo or existing VSS | Description | "Compatible with stock drivetrains or a custom conversion, the speedometer can be used in mechanical applications or with a pre-existing VSS" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| CNC machined housing, in-house electronics, rocker switch, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** The description calls this a "seamless upgrade", a banned word; the rewrite does not use it.
+
+## RTX-82C-CAM-X: 1982-89 Camaro RTX Instruments
+
+Page: `redesign/shop/1982-89-camaro-rtx-instruments-p1407.html` (product 1407)
+
+### Rewrite
+
+Third-gen Camaros are turning into collector cars, and this RTX system updates the 1982-89 dash. It keeps the factory look until the key turns and the LED backlighting comes on in your colors, and TFT message centers show just about any reading you want.
+
+It doesn't fit the Berlinetta digital dash. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup.
+
+### Original
+
+> Third gen Camaro’s were a completely redesigned platform that was unlike any previous Camaro from GM. New body lines, new suspension and the all-new revolutionary fuel injection! Third gens are quickly becoming highly sought after and dare we say, a “collectors’ item?” Update that dash with the new RTX from Dakota Digital. Does not fit Berlinetta digital dash.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included, shown for visual/presentation purposes. **System uses OEM or reproduction style bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Third-gen Camaros becoming collector cars; RTX updates the 1982-89 dash | Description | "Third gens are quickly becoming highly sought after and dare we say, a \"collectors' item?\" Update that dash with the new RTX" |
+| Factory look until LED backlighting; TFT message centers | Description (RTX series paragraph) | RTX paragraphs |
+| Not the Berlinetta digital dash; bezel not included | Description / Description footnote | "Does not fit Berlinetta digital dash"; "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| CNC machined housing, in-house electronics, rocker switch, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-90C-CAM-X: 1990-92 Camaro RTX Instruments
+
+Page: `redesign/shop/1990-92-camaro-rtx-instruments-p1408.html` (product 1408)
+
+### Rewrite
+
+The 1990-92 Camaros closed out the third-gen era, and this RTX system helps keep them on the road. It looks like the factory cluster until the LED backlighting comes on in your colors, with TFT message centers for extra readings.
+
+It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+
+### Original
+
+> The end of the third gen era came with the 90-92 Camaros rounding out the lineup. IROC’s were on the way out, but RS and Z28’s were still available until 1992. The lines of a third gen Camaro were unmistakable and still carry on to today. Get yourself the new RTX for your dash and keep the third gens alive for many more years.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1990-92 closed the third-gen era; keep them on the road | Description | "The end of the third gen era came with the 90-92 Camaros ... keep the third gens alive for many more years" |
+| Factory look until LED backlighting; TFT message centers | Description (RTX series paragraph) | RTX paragraphs |
+| OEM or reproduction bezel, not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| CNC machined housing, in-house electronics, rocker switch, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-71I-SCT-X: 1971-80 International Scout II/ 1969-75 D Series Pickup and Travelall RTX Instruments
+
+Page: `redesign/shop/1971-80-international-scout-ii-1969-75-d-series-pickup-and-t-p1409.html` (product 1409)
+
+### Rewrite
+
+The Scout II has climbed the popularity mountain, and this RTX system makes a 1971-80 Scout even cooler. A bar-graph tach joins the speedometer, oil, water, fuel and volt gauges, and the LED backlighting comes on in your colors.
+
+It also fits 1969-75 D Series pickups and the 1969-75 Travelall. It uses your OEM bezel, which isn't included. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup.
+
+### Original
+
+> The often over looked Scout II has crawled up the proverbial mountain of popularity and exploded onto the scene. With 4 Low engaged in the transfer case, it’s kept it’s 35-inch tires spinning and is becoming more and more popular in the SUV scene. Sure, there are “other” SUVs from the 70’s, but how cool is a Scout? Make it even cooler with the new RTX for 71-80 Scout II’s.
+>
+> Also fits: 1969- 75 D Series Pickup 1969- 75 Travelall
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Scout II popularity; RTX for 1971-80 Scout II | Description | "The often over looked Scout II has crawled up the proverbial mountain of popularity ... Make it even cooler with the new RTX for 71-80 Scout II's" |
+| Bar-graph tach with speedometer, oil, water, fuel, volts | Specifications tab | Analog list; Digital Bar Graph Gauges: Tachometer |
+| Also fits 1969-75 D Series pickup and Travelall | Description | "Also fits: 1969- 75 D Series Pickup 1969- 75 Travelall" |
+| OEM bezel, not included | Description footnote | "*Bezel not included ... uses your OEM bezel" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| CNC machined housing, in-house electronics, rocker switch, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## HDX-2024: HDX-2024: Universal 6 Gauge Round, Analog HDX Instruments
+
+Page: `redesign/shop/hdx-2024-universal-6-gauge-round-analog-hdx-instruments-p1201.html` (product 1201)
+
+### Rewrite
+
+Common aftermarket openings of 4-5/8 and 2-1/16 inches take this universal six-gauge HDX package, with chrome-plated billet aluminum housings. Upgrading an existing dash panel has never been easier.
+
+The gauges drop in from the front. The front bezels measure 5 inches across for the speedometer and tach and 2-5/16 inches for the satellites, and all need about 2-1/4 inches of depth. You get 30 backlighting colors, TFT displays and the control box. Faces come in black or silver alloy. A metric version is a special order.
+
+Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Water temperature, oil pressure and speed sensors come with 10 ft harnesses.
+
+### Original
+
+> Check out this universal six gauge package. The billet aluminum housings have been chrome plated after being sized to fit common aftermarket openings measuring 4 5/8” and 2 1/16” in diameter. Upgrading your existing dash panel has never been easier, or more attractive! 30 backlighting colors, TFT displays and the fool-proof control box you’ve come to expect from Dakota Digital make this an easy decision! Instruments drop in from front of dash; front bezel O.D. measures 5” for speed and tach and 2 5/16” for the satellites; all require approximately 2 ¼” depth.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Universal six-gauge; chrome billet housings fit 4-5/8 and 2-1/16 openings | Description | "Check out this universal six gauge package. The billet aluminum housings have been chrome plated after being sized to fit common aftermarket openings measuring 4 5/8\" and 2 1/16\" in diameter" |
+| Drop in from the front; 5 inch and 2-5/16 inch bezels; 2-1/4 inch depth | Description | "Instruments drop in from front of dash; front bezel O.D. measures 5\" for speed and tach and 2 5/16\" for the satellites; all require approximately 2 ¼\" depth" |
+| 30 colors, TFT displays, control box | Description | "30 backlighting colors, TFT displays and the fool-proof control box" |
+| Black or silver alloy | Options (buy box) | Style options |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Touch buttons or Bluetooth app; warning lights; control box | Description (HDX series paragraph) | HDX paragraph |
+
+**Flags:** None.
+
+## HDX-87F-MUS: 1987-89 Ford Mustang HDX Instruments
+
+Page: `redesign/shop/1987-89-ford-mustang-hdx-instruments-p1315.html` (product 1315)
+
+### Rewrite
+
+A 1987-89 Fox Body Mustang gets six analog instruments and a large, full-color TFT message center you can program, all in the stock cluster and housing. There are 30 LED backlighting colors to choose from.
+
+Faces come in black or silver alloy. The bezel isn't included, so use an OEM or reproduction one. A metric version is a special order.
+
+Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables.
+
+### Original
+
+> Check out the new HDX for your 87-89 Fox Body Mustang! Six analog instruments with a large full color TFT message center that can be programmed to your choosing. 30 LED backlighting color options, all fitting into your stock cluster and housing.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six analog instruments and a programmable TFT; fits the stock 1987-89 Fox cluster and housing; 30 colors | Description | "Check out the new HDX for your 87-89 Fox Body Mustang! Six analog instruments with a large full color TFT message center that can be programmed to your choosing. 30 LED backlighting color options, all fitting into your stock cluster and housing" |
+| Black or silver alloy | Options (buy box) | Style options |
+| Bezel not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Touch buttons or Bluetooth app; warning lights; control box | Description (HDX series paragraph) | HDX paragraph |
+
+**Flags:** The metric version name says "RTX Analog Instruments" on this HDX page, likely a typo on the live site.
+
+## HDX-90F-MUS: 1990-93 Ford Mustang HDX Instruments
+
+Page: `redesign/shop/1990-93-ford-mustang-hdx-instruments-p1317.html` (product 1317)
+
+### Rewrite
+
+Late Fox Body Mustangs from 1990-93 get six analog instruments and a large, programmable TFT message center, all fitting the stock cluster and housing. Pick from 30 LED backlighting colors.
+
+Faces come in black or silver alloy. The bezel isn't included, so use an OEM or reproduction one. A metric version is a special order.
+
+Use the built-in touch buttons or the Bluetooth app for iPhone and Android for setup. Indicators stay hidden until they light. Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor works with Ford or GM style cables. A central control box keeps the wiring simple.
+
+### Original
+
+> Check out the new HDX for your 90- 93 Fox Body Mustang! Six analog instruments with a large full color TFT message center that can be programmed to your choosing. 30 LED backlighting color options, all fitting into your stock cluster and housing.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six analog instruments and a programmable TFT; fits the stock 1990-93 Fox cluster and housing; 30 colors | Description | "Check out the new HDX for your 90- 93 Fox Body Mustang! Six analog instruments with a large full color TFT message center that can be programmed to your choosing. 30 LED backlighting color options, all fitting into your stock cluster and housing" |
+| Black or silver alloy | Options (buy box) | Style options |
+| Bezel not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Touch buttons or Bluetooth app; warning lights; control box | Description (HDX series paragraph) | HDX paragraph |
+
+**Flags:** None.
+
+## VHX-68B-SKY: 1968-69 Buick Skylark VHX Instruments
+
+Page: `redesign/shop/1968-69-buick-skylark-vhx-instruments-p998.html` (product 998)
+
+### Rewrite
+
+A 1968-69 Buick Skylark keeps its factory gauge bezel with this direct-fit VHX system. Fully lit needles, backlit faces and highly visible LCD message centers replace the stock gauges.
+
+The factory bezel is required and isn't included. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. Micro-controlled stepper motors move the needles, and the displays are customizable. It's engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> The VHX-68B-SKY fits directly into the stock dash of a 1968-69 Buick Skylark, utilizing the factory gauge bezel. Fully lit needles, backlit faces, and highly visible LCD message centers are a few of the things that you can see which set the VHX Series apart from yesterday’s traditional approach to instrumentation. A few of the features which you don’t normally see are the micro-controlled precision stepper motors, solid state sensors for unparalleled accuracy, and user-customizable display feedback, all supported by an unrivaled limited lifetime warranty which has become the standard for Dakota Digital instrumentation systems . Completely engineered and manufactured at our facility in Sioux Falls, South Dakota, the VHX Series has completely revolutionized the instrumentation industry!
+>
+> * Requires the use of the factory gauge bezel. New bezel not included.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Fits the stock dash of a 1968-69 Skylark using the factory bezel | Description | "The VHX-68B-SKY fits directly into the stock dash of a 1968-69 Buick Skylark, utilizing the factory gauge bezel" |
+| Lit needles, backlit faces, LCD message centers; customizable displays | Description | VHX text in the description |
+| Factory bezel required, not included | Description footnote | "* Requires the use of the factory gauge bezel. New bezel not included" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Stepper motors; built in Sioux Falls; warranty | Description | VHX text in the description |
+
+**Flags:** None.
+
+## VHX-66o-CUT: 1966-67 Oldsmobile Cutlass VHX Instruments
+
+Page: `redesign/shop/1966-67-oldsmobile-cutlass-vhx-instruments-p1000.html` (product 1000)
+
+### Rewrite
+
+Twin round gauges used to mean hanging extra gauges under the dash of a 1966-67 Cutlass. This direct-fit VHX package uses the stock bezel and gives you six analog readings with lit needles and backlit faces.
+
+Some changes are needed inside the stock instrument housing, and the included manual explains them. The bezel isn't included. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Oldsmobile hit the ground running with the 1966 redesign of the A body platform. Graceful lines, arching wheel openings and a selection of underhood weaponry kept Olds on the front lines of the musclecar wars. With twin round gauges in the dash, your only options were hanging auxiliary instruments under the dash, until now. This direct fit package uses the stock bezel yet affords six analog readings. Choose from Black or Silver Alloy faces and keep the Chevy boys on their toes!
+>
+> The new VHX Systems fit directly into the stock instrument bezel of the 1966-67 Oldsmobile Cutlass. Some modification is required to the inside of the stock instrument housing, but is clearly outlined in the included manual.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> **Uses stock bezel. Bezel shown for demonstration purposes only.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Twin round gauges meant hanging extra gauges; direct fit uses the stock bezel; six analog readings | Description | "With twin round gauges in the dash, your only options were hanging auxiliary instruments under the dash, until now. This direct fit package uses the stock bezel yet affords six analog readings" |
+| Modification inside the stock housing, explained in the manual | Description | "Some modification is required to the inside of the stock instrument housing, but is clearly outlined in the included manual" |
+| Bezel not included | Description footnote | "**Uses stock bezel. Bezel shown for demonstration purposes only" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** None.
+
+## VHX-42F: 1942-48 Ford/ Mercury Car VHX Instruments
+
+Page: `redesign/shop/1942-48-ford-mercury-car-vhx-instruments-p1003.html` (product 1003)
+
+### Rewrite
+
+The 1942 Ford dash was put on hold for WWII, then came back for 1946-48. This direct-fit VHX system fits it with a chrome-plated billet aluminum round gauge bezel, six analog readings and a pair of LCD message centers.
+
+The new chrome bezel for the speedometer and clock is included. Keep your stock trim panel for the rectangular satellite gauges. A matching clock for the passenger side is sold separately. It also fits 1942-48 Mercury cars. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Released in 1942, this exciting dash layout was put on hold for WWII, then came right back into action for 1946-48. We’ve crafted a direct-fit instrument system to fit the stock dash with chrome plated, billet aluminum round gauge bezel, six analog readings, and a pair of LCD message centers. Keep your original trim panel for the rectangular satellite gauges, and don’t forget the matching VLC-42F clock for the passenger side! Also fits 1942-48 Mercury cars.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Includes new chrome bezel for Speedometer and Clock only (shown). * Uses stock accessory gauge bezel for Fuel, Oil Pressure, Volts, Water Temp. (shown)
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1942 dash, paused for WWII, back for 1946-48; chrome billet round bezel, six readings, two LCD | Description | "Released in 1942, this exciting dash layout was put on hold for WWII, then came right back into action for 1946-48 ... chrome plated, billet aluminum round gauge bezel, six analog readings, and a pair of LCD message centers" |
+| New chrome bezel for speedometer and clock included; keep the stock trim panel for the satellites | Description footnote / Description | "*Includes new chrome bezel for Speedometer and Clock only"; "Keep your original trim panel for the rectangular satellite gauges" |
+| Matching passenger-side clock sold separately; also fits 1942-48 Mercury | Description / Versions (buy box) | "don't forget the matching VLC-42F clock for the passenger side! Also fits 1942-48 Mercury cars" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Built in Sioux Falls, warranty | Description (VHX series paragraph) | VHX paragraph |
+
+**Flags:** None.
+
+## VHX-57F-PU: 1957-60 Ford Pickup & 1961-67 Econoline Van VHX Instruments
+
+Page: `redesign/shop/1957-60-ford-pickup-and-1961-67-econoline-van-vhx-instrument-p1010.html` (product 1010)
+
+### Rewrite
+
+The small cluster in the first Fleetside Fords is begging for an upgrade. This direct-fit, six-gauge VHX system installs with your stock 1957-60 steel front bezel and comes with sending units.
+
+The factory bezel isn't included. It works with everything from a Y-block to a 4.6 modular engine. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Each sender has a 10 ft harness, and the speed sensor works with Ford or GM style cables. Lit needles ride on stepper motors, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> 1957 brought us the first fleetside Ford pickup, along with a new dash. The small instrument cluster is just begging for an upgrade, and this direct-fit package is just the ticket! Use your stock 1957- 60 steel front bezel to install this six-gauge-system, complete with sending units in your choice of Black or Silver Alloy face styling. Drivetrains upgrades are not an issue; it’s compatible with everything from a Y-Block to a 4.6 modular motor!
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> * Fits factory bezel, not included.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| First Fleetside; small cluster; direct-fit six-gauge with sending units; stock 1957-60 steel bezel | Description | "1957 brought us the first fleetside Ford pickup ... The small instrument cluster is just begging for an upgrade ... Use your stock 1957- 60 steel front bezel to install this six-gauge-system, complete with sending units" |
+| Factory bezel not included | Description footnote | "* Fits factory bezel, not included" |
+| Y-block to 4.6 modular | Description | "compatible with everything from a Y-Block to a 4.6 modular motor" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** The title includes the 1961-67 Econoline van, but the description and version name cover only 1957-60 pickups. The rewrite does not mention the Econoline.
+
+## VHX-61F-GAL: 1961 Ford Galaxie, 1961 Mercury Monterey and Meteor 600 VHX Instruments
+
+Page: `redesign/shop/1961-ford-galaxie-1961-mercury-monterey-and-meteor-600-vhx-i-p1023.html` (product 1023)
+
+### Rewrite
+
+Space-age 1961 Fords and Mercurys get modern instruments with this direct-fit VHX system. Solid-state sensors, an LCD message center full of information and LED backlighting bring your cruiser up to date.
+
+Use your stock 1961 instrument housing and bezel, which isn't included. It fits the 1961 Ford Galaxie and the 1961 Mercury Monterey and Meteor 600. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. The voltmeter reads in the message center. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> The full-size cars from FoMoCo in 1961 were a result our nation’s fascination with space travel. From the fins and rocket-booster taillights to their very names; Galaxie, Sunliner, Meteor, Starliner. This direct-fit instrument system brings your space-cruiser up to 21st-centrury specs with solid state sensors, an LCD message center offering a plethora of information, as well as LED backlighting. Use your stock ’61 instrument housing and bezel for an out-of-this-world upgrade! Fits 1961 Ford Galaxie and 1961 Mercury Monterey and Meteor 600.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Space-age 1961 Fords and Mercurys; solid-state sensors, LCD message center, LED backlighting | Description | "The full-size cars from FoMoCo in 1961 were a result our nation's fascination with space travel ... solid state sensors, an LCD message center offering a plethora of information, as well as LED backlighting" |
+| Stock 1961 housing and bezel; bezel not included | Description / Description footnote | "Use your stock '61 instrument housing and bezel"; "*Bezel not included" |
+| Fits 1961 Galaxie, Monterey and Meteor 600 | Description | "Fits 1961 Ford Galaxie and 1961 Mercury Monterey and Meteor 600" |
+| Voltmeter in the message center | Specifications tab | "Voltmeter Shown in ..." message center |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Built in Sioux Falls, warranty | Description (VHX series paragraph) | VHX paragraph |
+
+**Flags:** None.
+
+## VHX-66F-FAR: 1966-67 Ford Fairlane VHX Instruments
+
+Page: `redesign/shop/1966-67-ford-fairlane-vhx-instruments-p1030.html` (product 1030)
+
+### Rewrite
+
+Ford's answer to the Chevelle gets a direct-fit, six-gauge VHX system. It bolts into the stock 1966-67 Fairlane bezel and replaces the original clear lens, with lit needles over backlit faces.
+
+The required sending units are included. Supplied aluminum plates let you delete the radio, keep a stock shaft radio, or cut the blank plate for a DIN radio. The bezel isn't included. Choose black or silver alloy faces with red, blue or white LED backlighting. A metric version is a special order.
+
+Each sender has a 10 ft harness, and the speed sensor works with Ford or GM style cables. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Ford’s answer to the Chevelle was the stout, boxy Fairlane. With as many as 427 cubes crammed under the hood, there was little that could touch the new-for ’66 mid-size. If your dash is ripe for an upgrade, check out this direct-fit, six gauge system. It bolts into the stock 1966-67 bezel, replaces the original clear lens, and includes required sending units. Supplied aluminum plates allow for radio-delete, a stock shafted or a DIN radio (cut opening in blank plate). Choose from Black or Silver alloy face styling, with red, blue or white LED backlighting.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> * Bezel not included.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Ford's answer to the Chevelle; direct-fit six-gauge; bolts into the stock 1966-67 bezel; replaces the clear lens | Description | "Ford's answer to the Chevelle was the stout, boxy Fairlane ... this direct-fit, six gauge system. It bolts into the stock 1966-67 bezel, replaces the original clear lens" |
+| Sending units included; plates for radio delete, shaft or DIN | Description | "includes required sending units. Supplied aluminum plates allow for radio-delete, a stock shafted or a DIN radio (cut opening in blank plate)" |
+| Bezel not included; black or silver; red, blue or white | Description footnote / Description | "* Bezel not included"; "Choose from Black or Silver alloy face styling, with red, blue or white LED backlighting" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Lit needles, backlit faces, built in Sioux Falls, warranty | Description (VHX series paragraph) | VHX paragraph |
+
+**Flags:** None.
+
+## VHX-63F-GAL: 1963-64 Ford Galaxie VHX Instruments
+
+Page: `redesign/shop/1963-64-ford-galaxie-vhx-instruments-p1043.html` (product 1043)
+
+### Rewrite
+
+The 1963-64 Galaxie dash is unique but hard to expand, until now. This direct-fit VHX system puts every vital reading up front without changing the original style, with six analog readings and twin LCD message centers.
+
+You choose the backlighting and face styling when you order. The bezel isn't included, so use an OEM or reproduction one. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. Lit needles ride on stepper motors over backlit faces, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> By the early sixties, factory performance was a hot topic and the big Fords were starting to bulk up under the hood while streamlining the exterior. The original ’63-64 Galaxie dash layout is unique but hard to expand upon, until now! Our direct fit instrument system brings all of the vitals to the forefront without compromising the original style. Bolt in six analog gauge readings, complete with twin LCD message centers with your choice of backlighting and face styling.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Unique 1963-64 Galaxie dash hard to expand; direct fit; six readings and twin LCD | Description | "The original '63-64 Galaxie dash layout is unique but hard to expand upon, until now! Our direct fit instrument system brings all of the vitals to the forefront without compromising the original style. Bolt in six analog gauge readings, complete with twin LCD message centers" |
+| Choose backlighting and face styling | Description / Options (buy box) | "with your choice of backlighting and face styling" |
+| Bezel not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** The buy box shows two Style and two Color options (one with carbon fiber and Blue/Red, one with Blue/Red/White), so the rewrite just says you choose when you order.
+
+## VHX-73J-WAG: 1973-85 Jeep Wagoneer/ Cherokee & J Trucks VHX Instrument System
+
+Page: `redesign/shop/1973-85-jeep-wagoneer-cherokee-and-j-trucks-vhx-instrument-s-p1048.html` (product 1048)
+
+### Rewrite
+
+There's no easier way to put six analog instruments and two LCD message centers in a 1973-83 Wagoneer, 1974-83 Cherokee, 1984-85 Grand Wagoneer or 1973-85 J-Truck. This drop-in VHX system uses the stock gauge bezel.
+
+The stock turn signal locations get LEDs, and the supplied senders work with nearly any drivetrain. The stock dash, bezel, fascia and trim aren't included. Choose black or silver alloy faces with blue, red or white lighting. A metric version is a special order.
+
+Each sender has a 10 ft harness. Lit needles ride on stepper motors, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Check out this direct fit, drop in instrument system designed to utilize the stock gauge bezel in 1973- 83 Jeep Wagoneers, 1974- 83 Cherokee, ‘84- 85 Grand Wagoneers and 1973- 85 Jeep J-Trucks. There is no easier way to have six analog instruments plus two LCD message centers in your rig. The stock turn signal locations are updated with LEDs, and the supplied sending units allow this package to interface with nearly any drivetrain, stock or otherwise! Choose from Black or Silver Alloy face styling and blue, red or white illumination.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> VHX-73J-WAG fits original stock dash/ bezel/ fascia/ trim, not included. Image shown for reference only.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Drop-in using the stock bezel of 1973-83 Wagoneer, 1974-83 Cherokee, 1984-85 Grand Wagoneer, 1973-85 J-Truck; six analog and two LCD | Description | "designed to utilize the stock gauge bezel in 1973- 83 Jeep Wagoneers, 1974- 83 Cherokee, '84- 85 Grand Wagoneers and 1973- 85 Jeep J-Trucks. There is no easier way to have six analog instruments plus two LCD message centers" |
+| Turn signals get LEDs; senders for nearly any drivetrain | Description | "The stock turn signal locations are updated with LEDs, and the supplied sending units allow this package to interface with nearly any drivetrain" |
+| Stock dash, bezel, fascia, trim not included | Description footnote | "VHX-73J-WAG fits original stock dash/ bezel/ fascia/ trim, not included" |
+| Black or silver; blue, red or white | Description | "Choose from Black or Silver Alloy face styling and blue, red or white illumination" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** None.
+
+## VFD3-51F-PU: 1951-1952 Ford Pickup Digital Instrument System
+
+Page: `redesign/shop/1951-1952-ford-pickup-digital-instrument-system-p231.html` (product 231)
+
+### Rewrite
+
+A chrome housing made for the 1951-52 Ford pickup comes with this Series III system. Bright vacuum fluorescent readouts show speed, rpm, oil pressure, water temp, fuel and volts in blue or teal.
+
+The housing is included. The message centers add trip meters and a 0-60 timer. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor works with Ford or GM style cables. Mount the included pushbuttons within reach to calibrate the system and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 5 Gauge Instrument System includes chrome housing to fit 1951-52 Ford Pickup.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Chrome housing for the 1951-52 Ford pickup included | Description | "Full 5 Gauge Instrument System includes chrome housing to fit 1951-52 Ford Pickup" |
+| Speed, rpm, oil, water, fuel, volts in blue or teal | Specifications tab / Description (Series III paragraph) | Digital Gauges list; Blue or Teal; "bright vacuum fluorescent displays" |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Pushbuttons calibrate and scroll the message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** The description says "Full 5 Gauge" but the spec tab lists six readings. The rewrite names the six and gives no count.
+
+## VFD3-70C-MAL: 1970-72 Chevy Malibu/ non SS Chevelle/ El Camino Digital Instrument System
+
+Page: `redesign/shop/1970-72-chevy-malibu-non-ss-chevelle-el-camino-digital-instr-p232.html` (product 232)
+
+### Rewrite
+
+Non-SS 1970-72 Chevelles, Malibus and El Caminos can run six bright vacuum fluorescent gauges in the OEM bezel. This Series III system reads in blue or teal.
+
+It fits directly into your existing bezel, which isn't included. You no longer have to send in your stock gauge cluster. The message centers add trip meters and a 0-60 timer. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. The included pushbuttons calibrate the speedometer and fuel gauge and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System fits into OEM bezel for 1970- 72 non SS Chevy Chevelle, Malibu and El Camino.
+>
+> Fits directly into existing bezel (not included). *No longer requires the stock gauge cluster to be sent in to Dakota Digital.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six bright vacuum fluorescent gauges in the OEM bezel of non-SS 1970-72 Chevelle, Malibu, El Camino | Description / Description (Series III paragraph) | "Full 6 Gauge Instrument System fits into OEM bezel for 1970- 72 non SS Chevy Chevelle, Malibu and El Camino" |
+| Blue or teal | Specifications tab | Blue or Teal |
+| Existing bezel not included; no longer need to send in the cluster | Description | "Fits directly into existing bezel (not included). *No longer requires the stock gauge cluster to be sent in to Dakota Digital" |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Pushbuttons calibrate speedometer and fuel gauge, scroll message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
+
+## VFD3-82C-S10: 1982-1985 Chevy/ GMC S-10, S-15 Pickups and Blazers Digital Instrument System
+
+Page: `redesign/shop/1982-1985-chevy-gmc-s-10-s-15-pickups-and-blazers-digital-in-p233.html` (product 233)
+
+### Rewrite
+
+Early Chevy and GMC S-10 and S-15 pickups and Blazers from 1982-85 get six bright vacuum fluorescent gauges in the OEM bezel. They read in blue or teal.
+
+It fits trucks with stock oil pressure and water temp gauges and no factory tach. The bezel isn't included, so use an OEM or reproduction one. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor needs about 5 inches of clearance. The message centers add trip meters and a 0-60 timer, and pushbuttons you mount within reach handle calibration.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System fits into OEM bezel for 1982- 1985 Chevy/ GMC S-10, S-15 Pickups and Blazers.
+>
+> *System fits trucks with stock oil pressure and water temp gauges and without factory tachometer.
+>
+> **Bezel not included, shown for visual/presentation purposes. System uses OEM or reproduction style bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six bright vacuum fluorescent gauges in the OEM bezel of 1982-85 S-10, S-15 pickups and Blazers; blue or teal | Description / Description (Series III paragraph) / Specifications tab | "Full 6 Gauge Instrument System fits into OEM bezel for 1982- 1985 Chevy/ GMC S-10, S-15 Pickups and Blazers"; Blue or Teal |
+| Fits trucks with stock oil and water gauges and no factory tach | Description | "*System fits trucks with stock oil pressure and water temp gauges and without factory tachometer" |
+| Bezel not included | Description footnote | "**Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Pushbuttons | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
+
+## VFD3-VW: 1958-77 Volkswagen Beetle Digital Instruments
+
+Page: `redesign/shop/1958-77-volkswagen-beetle-digital-instruments-p235.html` (product 235)
+
+### Rewrite
+
+Billet aluminum bezels come with this six-gauge Series III system for the 1958-77 Volkswagen Beetle. Bright vacuum fluorescent readouts in blue or teal show speed, rpm, oil pressure, oil temperature, fuel and volts.
+
+Head temperature can be shown in the display by adding a BIM-12-2 module. The message centers add trip meters and a 0-60 timer. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor attaches to a VW style cable. The included pushbuttons calibrate the speedometer and fuel gauge, set the cylinder count and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System includes Billet Aluminum bezels for 1958-77 Volkswagen Beetle models. Head temperature can be monitored within the VFD3 system with the use of a BIM-12-2, seen here:
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Billet aluminum bezels included; six gauges; 1958-77 Beetle | Description | "Full 6 Gauge Instrument System includes Billet Aluminum bezels for 1958-77 Volkswagen Beetle models" |
+| Speed, rpm, oil pressure, oil temperature, fuel, volts; blue or teal | Specifications tab | Digital Gauges: ... Oil Temperature ...; Blue or Teal |
+| BIM-12-2 adds head temperature | Description | "Head temperature can be monitored within the VFD3 system with the use of a BIM-12-2" |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Sensors with 10 ft harnesses; speed sensor attaches to VW style cable | Specifications tab | "with a 10 ft harness"; "Attaches to VW style speedometer cables" |
+| Pushbuttons calibrate, set cylinder count, scroll message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** The gauge list shows oil temperature, but the Included Sensors list names a water temperature sender. The rewrite repeats both as the page states them.
+
+## VFD3-CNTR-5: VFD3-CNTR-5: Universal 4" x 14.5" Street Rod Panel, Digital Instrument
+
+Page: `redesign/shop/vfd3-cntr-5-universal-4-x-14-5-street-rod-panel-digital-inst-p370.html` (product 370)
+
+### Rewrite
+
+Street rod builders can drop this universal 4 by 14.5 inch panel of five bright vacuum fluorescent gauges into a custom dash. The Series III displays read in blue or teal and are easy to see.
+
+The message centers add trip meters and a 0-60 timer. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor needs about 5 inches of clearance. Mount the included pushbuttons within reach to calibrate the speedometer and fuel gauge, set the cylinder count and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Unit Dimensions: 4" x 14.5"
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Universal 4 by 14.5 street rod panel; five gauges | Description / Versions (buy box) | "Unit Dimensions: 4\" x 14.5\""; "5 Gauge Universal Street Rod Panel" |
+| Bright vacuum fluorescent, blue or teal, easy to see | Description (Series III paragraph) / Specifications tab | Series III; Blue or Teal |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Pushbuttons calibrate, set cylinder count, scroll message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** This page gives no cutout size.
