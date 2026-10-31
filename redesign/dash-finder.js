@@ -134,7 +134,8 @@
     out('body').textContent = cur.body;
     const shop = out('shop');
     shop.textContent = `See ${cur.name} for your ${p.label}`;
-    shop.href = PRODUCT_PAGES[`${p.id}|${years}|${state.s}`] || CAT_PATHS[p.cat] ||
+    shop.href = PRODUCT_PAGES[`${p.id}|${years}|${state.s}`] ||
+      (CAT_PATHS[p.cat] ? `${CAT_PATHS[p.cat]}?line=${cur.name}` : '') ||
       `https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=${p.cat}/mode=cat/cat${p.cat}.htm`;
     speedInput.style.accentColor = state.light;
 

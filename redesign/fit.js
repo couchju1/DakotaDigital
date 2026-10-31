@@ -55,7 +55,20 @@
   const cards = [...document.querySelectorAll('.shop-card[data-cats]')];
   const bar = document.querySelector('.fit-filter');
   let showAll = false;
+  // ?line=RTX (from the Dash Finder) narrows the list to one gauge line, matched on the card's SKU.
+  const LINES = ['GRFX', 'RTX', 'HDX', 'VHX', 'VFD3'];
+  const lineOf = (card) => ((card.querySelector('.card-sku') || {}).textContent || '').trim().toUpperCase();
+  let line = (new URLSearchParams(location.search).get('line') || '').toUpperCase();
+  if (!LINES.includes(line) || !cards.some((c) => lineOf(c).startsWith(line))) line = '';
+  const clearLine = () => {
+    line = '';
+    const url = new URL(location.href);
+    url.searchParams.delete('line');
+    history.replaceState(null, '', url);
+    renderCards(window.DDGarage.get());
+  };
   const renderCards = (car) => {
+    if (line) return renderLine(car);
     let fits = 0, relevant = 0;
     cards.forEach((card) => {
       const v = verdict(read(card), car);
@@ -78,6 +91,31 @@
     bar.innerHTML = `<p>${showAll ? `Showing all ${cards.length}. <strong>${fits}</strong> fit your ${car.label}.` : `Showing <strong>${fits}</strong> that fit your ${car.label}.`}</p>
       <button type="button" class="btn btn-ghost fit-toggle" aria-pressed="${!showAll}">${showAll ? 'Show only my car' : 'Show all products'}</button>`;
     bar.querySelector('.fit-toggle').addEventListener('click', () => { showAll = !showAll; renderCards(window.DDGarage.get()); });
+  };
+  const renderLine = (car) => {
+    let shown = 0;
+    cards.forEach((card) => {
+      const v = verdict(read(card), car);
+      let badge = card.querySelector('.card-fit');
+      if (v === 'yes' || v === 'maybe') {
+        if (!badge) {
+          badge = document.createElement('span');
+          badge.className = 'card-fit';
+          card.querySelector('a').prepend(badge);
+        }
+        badge.textContent = v === 'yes' ? 'Fits your car' : `For your ${car.platform.label}`;
+      } else if (badge) badge.remove();
+      card.hidden = !lineOf(card).startsWith(line) || (car && v === 'no');
+      if (!card.hidden) shown += 1;
+    });
+    // Nothing in this line for the saved car: show the whole line rather than an empty page.
+    if (!shown) cards.forEach((card) => { card.hidden = !lineOf(card).startsWith(line); if (!card.hidden) shown += 1; });
+    if (!bar) return;
+    bar.hidden = false;
+    const fitsCar = car && cards.some((c) => !c.hidden && verdict(read(c), car) !== 'no');
+    bar.innerHTML = `<p>Showing <strong>${shown} ${line}</strong> ${shown === 1 ? 'system' : 'systems'}${fitsCar ? ` that fit your ${car.label}` : ''}.</p>
+      <button type="button" class="btn btn-ghost fit-toggle">Show all lines</button>`;
+    bar.querySelector('.fit-toggle').addEventListener('click', clearLine);
   };
 
   window.DDGarage.onChange((car) => { renderStrip(car); renderCards(car); });
