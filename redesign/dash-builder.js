@@ -9,8 +9,8 @@
   const ORDER = ['R', 'H', 'V', 'G', 'D'];
   const money = (n) => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: n % 1 ? 2 : 0 });
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  // Analytics is wired up later. Calls mark the moments worth measuring.
-  const track = (eventName, data) => {};
+  // Sends a GA4 event when the site has a GA4 ID (site.config.json); otherwise does nothing.
+  const track = (eventName, data) => { if (typeof window.gtag === 'function') window.gtag('event', eventName, data); };
 
   const carSel = $('car');
   const yearSel = $('years');
@@ -226,7 +226,8 @@
     const on = has && isPilot() && !failed && !reduceMotion.matches && hasWebGL();
     stage.hidden = !on;
     $('note').hidden = !has || on;
-    if (!on) { view.inert = false; return; }
+    // No 3D stage: the dash view shows at once, so a picked car has reached it.
+    if (!on) { if (has) reach(); else view.inert = false; return; }
     if (!reached) view.inert = true;
     load3d();
     onScroll();
@@ -283,7 +284,10 @@
     view.scrollIntoView({ behavior: 'instant', block: 'start' });
     $('count').focus({ preventScroll: true });
   });
-  $('see').addEventListener('click', () => track('click_see_system', { sku: $('sku').textContent }));
+  $('see').addEventListener('click', () => track('click_see_system', {
+    sku: $('sku').textContent, car: state.pid, years: range() ? range()[0] : '', system: state.s ? G.SERIES[state.s].name : '',
+    view: stage.hidden ? 'photo' : '3d',
+  }));
 
   track('builder_open', { car: state.pid, years: range() ? range()[0] : '' });
   render();

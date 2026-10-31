@@ -15,8 +15,24 @@ LIVE = 'https://www.dakotadigital.com/'
 # Where this redesign is published (used for absolute URLs in structured data). Change at launch.
 SITE_URL = 'https://dakotadigital-ten.vercel.app/'
 # Launch switch (site.config.json): while false, every page says noindex and robots.txt blocks crawlers.
-INDEXABLE = json.loads((ROOT / 'site.config.json').read_text(encoding='utf-8')).get('indexable', False)
+CONFIG = json.loads((ROOT / 'site.config.json').read_text(encoding='utf-8'))
+INDEXABLE = CONFIG.get('indexable', False)
 ROBOTS_META = '' if INDEXABLE else '  <meta name="robots" content="noindex, nofollow">\n'
+# Google Analytics 4 (site.config.json "ga4", a measurement ID like G-XXXXXXXXXX). Empty: no tag on any page.
+GA4 = CONFIG.get('ga4', '')
+if GA4 and not re.fullmatch(r'G-[A-Z0-9]+', GA4):
+    raise SystemExit(f'site.config.json: "ga4" must look like G-XXXXXXXXXX, got {GA4!r}')
+GA_HEAD = f'''  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={GA4}"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag() {{ dataLayer.push(arguments); }} gtag('js', new Date()); gtag('config', '{GA4}');</script>
+  <!-- /GA4 -->
+''' if GA4 else ''
+
+
+def with_ga(s):
+    """Put the current GA4 tag (or none) before the page's <title>."""
+    s = re.sub(r'  <!-- GA4 -->.*?<!-- /GA4 -->\n', '', s, flags=re.S)
+    return s.replace('  <title>', GA_HEAD + '  <title>', 1)
 
 
 def load(name):
@@ -188,7 +204,7 @@ def page(slug, title, desc, active, body, canonical, script=''):
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-{ROBOTS_META}  <title>{esc(title)}</title>
+{ROBOTS_META}{GA_HEAD}  <title>{esc(title)}</title>
   <meta name="description" content="{esc(desc)}">
   <link rel="canonical" href="{esc(canonical)}">
   <meta name="theme-color" content="#0E0F11">
@@ -991,12 +1007,12 @@ def sync_chrome():
         s = re.sub(r'  <meta name="robots"[^>]*>\n', '', s)
         viewport = '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
         s = s.replace(viewport, viewport + ROBOTS_META, 1)
-        p.write_text(localize_links(s), encoding='utf-8')
-    # Catalog pages share the footer. Their bodies need the crawl cache (build_catalog.py), the footer doesn't.
+        p.write_text(localize_links(with_ga(s)), encoding='utf-8')
+    # Catalog pages share the footer and the GA4 tag. Their bodies need the crawl cache (build_catalog.py), these don't.
     shop_footer = re.sub(r'\b(href|src)="(?!https?:|#|tel:|mailto:|data:|/)([^"]*)"', lambda m: f'{m.group(1)}="../{m.group(2)}"', footer())
     for f in sorted((SITE / 'shop').glob('*.html')):
         s = f.read_text(encoding='utf-8')
-        new = re.sub(r'  <footer class="site-footer">.*?</footer>', lambda m: shop_footer, s, count=1, flags=re.S)
+        new = with_ga(re.sub(r'  <footer class="site-footer">.*?</footer>', lambda m: shop_footer, s, count=1, flags=re.S))
         if new != s:
             f.write_text(new, encoding='utf-8')
     # Dash Finder: car category -> local catalog page

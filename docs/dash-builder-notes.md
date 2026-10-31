@@ -173,6 +173,26 @@ license, and have the artist follow the rules above.
 
 ## Tracking
 
-`track(eventName, data)` in `dash-builder.js` does nothing yet. It is called on `builder_open`,
-`car_selected`, `reached_dash`, `system_selected`, `theme_selected` and `click_see_system`.
-Wire it to analytics later.
+Google Analytics 4. Turn it on by putting the measurement ID in `site.config.json` (`"ga4":
+"G-XXXXXXXXXX"`) and running `python tools/build_pages.py`. The build adds the GA4 tag to every
+page (generated, hand-built and `shop/`); an empty `"ga4"` removes it everywhere. It is empty now, so
+the preview sends nothing.
+
+`track(eventName, data)` in `dash-builder.js` sends a GA4 event when the tag is on and does nothing
+otherwise.
+
+| Event | When | Parameters |
+| --- | --- | --- |
+| `builder_open` | Page load | `car`, `years` |
+| `car_selected` | A car and years are picked (or pre-filled) | `car`, `years` |
+| `reached_dash` | The dash view is reached: end of the 3D stage, "Skip to the dash", or at once for cars without 3D | `car`, `years`, `view` (`3d` or `photo`) |
+| `system_selected` | A system button | `system` |
+| `theme_selected` | A theme swatch | `theme` |
+| `click_see_system` | "See this system" (to the product page) | `sku`, `car`, `years`, `system`, `view` |
+
+Is the 3D pilot worth more cars? Compare `click_see_system` per `reached_dash` with `view` = `3d`
+against `photo`. GA4 reports custom parameters only after they are registered: in GA4 Admin, Custom
+definitions, add event-scoped dimensions for `car`, `years`, `view`, `system`, `theme` and `sku`.
+
+Before turning GA4 on: the privacy page (`tools/content/legal.json`, "Cookies") says the site's
+cookies only keep orders secure. GA4 sets analytics cookies, so that text needs updating first.
