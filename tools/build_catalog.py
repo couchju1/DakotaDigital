@@ -589,6 +589,8 @@ def title_years(t):
         if m.group(1):
             a, b = int(m.group(1)), m.group(2)
             b = int(b) if len(b) == 4 else int(str(a)[:2] + b)
+            if b < a and len(m.group(2)) == 2:
+                b += 100  # 1997-02 crosses into the 2000s
             if a <= b <= a + 60:
                 years.update(range(a, b + 1))
         else:

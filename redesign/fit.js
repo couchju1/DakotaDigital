@@ -7,7 +7,8 @@
   const yearsOf = (range) => {
     const [a, b] = range.split('-');
     const start = Number(a);
-    const end = b ? Number(a.slice(0, 4 - b.length) + b) : start;
+    let end = b ? Number(a.slice(0, 4 - b.length) + b) : start;
+    if (end < start) end += 100; // 1994-04 crosses into the 2000s
     const out = [];
     for (let y = start; y <= end; y++) out.push(y);
     return out;
@@ -53,13 +54,28 @@
 
   // ---- Product cards + category filter ----
   const cards = [...document.querySelectorAll('.shop-card[data-cats]')];
+  const allCards = [...document.querySelectorAll('.shop-card')];
   const bar = document.querySelector('.fit-filter');
+  // The "31 products" heading above the grid: keep its number in step with what is shown.
+  const countHead = document.getElementById('prods');
+  const setCount = (n) => { if (countHead) countHead.textContent = `${n} ${n === 1 ? 'product' : 'products'}`; };
   let showAll = false;
+  const badge = (card, v, car) => {
+    let el = card.querySelector('.card-fit');
+    if (v === 'yes' || v === 'maybe') {
+      if (!el) {
+        el = document.createElement('span');
+        el.className = 'card-fit';
+        card.querySelector('a').prepend(el);
+      }
+      el.textContent = v === 'yes' ? 'Fits your car' : `For your ${car.platform.label}`;
+    } else if (el) el.remove();
+  };
   // ?line=RTX (from the Dash Finder) narrows the list to one gauge line, matched on the card's SKU.
   const LINES = ['GRFX', 'RTX', 'HDX', 'VHX', 'VFD3'];
   const lineOf = (card) => ((card.querySelector('.card-sku') || {}).textContent || '').trim().toUpperCase();
   let line = (new URLSearchParams(location.search).get('line') || '').toUpperCase();
-  if (!LINES.includes(line) || !cards.some((c) => lineOf(c).startsWith(line))) line = '';
+  if (!LINES.includes(line) || !allCards.some((c) => lineOf(c).startsWith(line))) line = '';
   const clearLine = () => {
     line = '';
     const url = new URL(location.href);
@@ -67,52 +83,55 @@
     history.replaceState(null, '', url);
     renderCards(window.DDGarage.get());
   };
+  // Years for a card: data-years, or the years in its name when the card has no fit data.
+  const cardYears = (card) => {
+    const data = read(card);
+    if (data.years.length) return data.years;
+    const name = (card.querySelector('.card-name') || {}).textContent || '';
+    const m = name.match(/\b((?:19|20)\d\d)(?:\s*-\s*(\d{2,4}))?/);
+    return m ? yearsOf(m[2] ? `${m[1]}-${m[2]}` : m[1]) : [];
+  };
+  const fitsLine = (card, car) => {
+    if (!lineOf(card).startsWith(line)) return false;
+    if (!car) return true;
+    const data = read(card);
+    if (data.cats.length && !data.cats.includes(car.platform.cat)) return false;
+    const ys = cardYears(card);
+    const mine = yearsOf(car.years);
+    return !ys.length || ys.some((y) => mine.includes(y));
+  };
   const renderCards = (car) => {
     if (line) return renderLine(car);
     let fits = 0, relevant = 0;
     cards.forEach((card) => {
       const v = verdict(read(card), car);
-      let badge = card.querySelector('.card-fit');
-      if (v === 'yes' || v === 'maybe') {
-        if (!badge) {
-          badge = document.createElement('span');
-          badge.className = 'card-fit';
-          card.querySelector('a').prepend(badge);
-        }
-        badge.textContent = v === 'yes' ? 'Fits your car' : `For your ${car.platform.label}`;
-        fits += 1;
-      } else if (badge) badge.remove();
+      badge(card, v, car);
+      if (v === 'yes' || v === 'maybe') fits += 1;
       if (v) relevant += 1;
       card.hidden = !showAll && car && v === 'no';
     });
+    allCards.forEach((c) => { if (!c.dataset.cats) c.hidden = false; });
     if (!bar) return;
-    if (!car || !relevant || !fits) { bar.hidden = true; cards.forEach((c) => { c.hidden = false; }); return; }
+    if (!car || !relevant || !fits) { bar.hidden = true; cards.forEach((c) => { c.hidden = false; }); setCount(allCards.length); return; }
     bar.hidden = false;
-    bar.innerHTML = `<p>${showAll ? `Showing all ${cards.length}. <strong>${fits}</strong> fit your ${car.label}.` : `Showing <strong>${fits}</strong> that fit your ${car.label}.`}</p>
+    setCount(allCards.filter((c) => !c.hidden).length);
+    bar.innerHTML = `<p>${showAll ? `Showing all ${allCards.length}. <strong>${fits}</strong> fit your ${car.label}.` : `Showing <strong>${fits}</strong> that fit your ${car.label}.`}</p>
       <button type="button" class="btn btn-ghost fit-toggle" aria-pressed="${!showAll}">${showAll ? 'Show only my car' : 'Show all products'}</button>`;
     bar.querySelector('.fit-toggle').addEventListener('click', () => { showAll = !showAll; renderCards(window.DDGarage.get()); });
   };
   const renderLine = (car) => {
     let shown = 0;
-    cards.forEach((card) => {
-      const v = verdict(read(card), car);
-      let badge = card.querySelector('.card-fit');
-      if (v === 'yes' || v === 'maybe') {
-        if (!badge) {
-          badge = document.createElement('span');
-          badge.className = 'card-fit';
-          card.querySelector('a').prepend(badge);
-        }
-        badge.textContent = v === 'yes' ? 'Fits your car' : `For your ${car.platform.label}`;
-      } else if (badge) badge.remove();
-      card.hidden = !lineOf(card).startsWith(line) || (car && v === 'no');
+    allCards.forEach((card) => {
+      badge(card, verdict(read(card), car), car);
+      card.hidden = !fitsLine(card, car);
       if (!card.hidden) shown += 1;
     });
     // Nothing in this line for the saved car: show the whole line rather than an empty page.
-    if (!shown) cards.forEach((card) => { card.hidden = !lineOf(card).startsWith(line); if (!card.hidden) shown += 1; });
+    const fitsCar = Boolean(car && shown);
+    if (!shown) allCards.forEach((card) => { card.hidden = !lineOf(card).startsWith(line); if (!card.hidden) shown += 1; });
+    setCount(shown);
     if (!bar) return;
     bar.hidden = false;
-    const fitsCar = car && cards.some((c) => !c.hidden && verdict(read(c), car) !== 'no');
     bar.innerHTML = `<p>Showing <strong>${shown} ${line}</strong> ${shown === 1 ? 'system' : 'systems'}${fitsCar ? ` that fit your ${car.label}` : ''}.</p>
       <button type="button" class="btn btn-ghost fit-toggle">Show all lines</button>`;
     bar.querySelector('.fit-toggle').addEventListener('click', clearLine);

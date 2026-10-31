@@ -41,7 +41,8 @@
   const yearsOf = (range) => {
     const [a, b] = range.split('-');
     const start = Number(a);
-    const end = b ? Number(a.slice(0, 4 - b.length) + b) : start;
+    let end = b ? Number(a.slice(0, 4 - b.length) + b) : start;
+    if (end < start) end += 100; // 1994-04 crosses into the 2000s
     const out = [];
     for (let y = start; y <= end && out.length < 40; y++) out.push(String(y), String(y).slice(2));
     return out;
