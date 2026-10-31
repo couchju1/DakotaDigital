@@ -88,7 +88,8 @@ Pre-fill order: URL, then the car saved in My Garage, then empty. Changes update
   scrolls, taps or presses a key. The picker and photos never wait on it.
 - Size: three.js, GLTFLoader, DRACOLoader and the decoder come to about 280 KB gzipped (budget 700 KB).
   `GLTFLoader` and the decoder load only when a real model exists.
-- Until `redesign/models/camaro-69.glb` exists, the page builds a stand-in car from simple shapes.
+- The page loads `redesign/models/camaro-69.glb` (see "The model" below). If that file is missing
+  or fails, it builds a stand-in car from simple shapes.
 
 ### Rules for camaro-69.glb (for the 3D artist)
 
@@ -104,6 +105,23 @@ Pre-fill order: URL, then the car saved in My Garage, then empty. Changes update
   solid parts behind it on the path to `DriverEye`. Faces should be single sided so the camera can
   see out from inside.
 - If `DriverEye` or `Cluster` is missing, or the file fails to load, the page uses the stand-in car.
+
+### The model (camaro-69.glb)
+
+- Source: "Chevrolet Camaro 1969" from CGTrader (TODO: add the model page URL). License: Royalty
+  Free (commercial use allowed). The model shows the car's own badges (Camaro script, SS and RS emblems).
+- Built by `tools/build_camaro_glb.py` with Blender 4.5 headless from the source `.blend`, which is
+  not kept in the repo (127 MB). To rebuild, get the file from the source page and run the command
+  at the top of that script, then `python tools/build_pages.py`.
+- What the script changes: rebuilds the procedural (node group) materials as plain PBR materials
+  glTF can carry, names the body paint `Paint`, makes faces single sided (glass stays double sided),
+  keeps one layer of each window (the source stacks two or three), scales to 4.72 m long, converts
+  textures to WebP at 1024 px or less, and adds `DriverEye` and `Cluster`.
+- Detail: the body, glass and cabin keep every triangle. The cuts come from the wheels; the brake
+  discs alone were half the source's 1.3 million triangles and sit behind the wheel covers.
+- Result: 2.97 MB, about 278,000 triangles, 7 WebP textures. Body 1.80 m wide (2.25 m with mirrors),
+  1.26 m tall. `Cluster` is the center of the gauge faces; `DriverEye` is in line with it, just ahead
+  of the seat back, 1.03 m above the ground and 0.70 m behind the cluster.
 
 ### Scroll stage
 
@@ -139,6 +157,10 @@ license, and have the artist follow the rules above.
 ## Checks run (October 31, 2026)
 
 - `?car=camaro&years=1969`: full 3D flow at 1280x800 and 390x844, no console errors or warnings.
+- Same check again with the real `camaro-69.glb` (Playwright 1.64.1, Chromium): the model, loader
+  and Draco decoder load, the car turns from front 3/4 to rear, the camera passes through the back
+  glass above the seats and ends at `DriverEye` looking at `Cluster`. No console errors or warnings
+  at either size.
 - `?car=corvette&years=1968-77`: no 3D files requested, four systems with real photos.
 - Reduced motion and no WebGL: no stage, dash view shown at once, no 3D files requested.
 - Theme round trip: a swatch changes the photo, "See this system" opens the product page on that
