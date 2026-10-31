@@ -627,7 +627,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .garage-head h2 { margin: 0; font-size: 30px; }
 .garage-close { width: 44px; height: 44px; border: 0; background: none; color: var(--text); font-size: 28px; cursor: pointer; border-radius: 50%; }
 .garage-lede { color: var(--muted); margin: 6px 0 18px; }
-.garage-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }
+.garage-foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 16px; margin-top: 14px; }
 .garage-foot a { padding: 10px 0; font-weight: 600; }
 .garage-remove { min-height: 44px; border: 0; background: none; color: var(--muted-2); font: inherit; font-size: 15px; text-decoration: underline; cursor: pointer; }
 
@@ -1177,6 +1177,8 @@ body.has-dock .site-footer { padding-bottom: 84px; }
 .db-panel .price { margin-bottom: 4px; }
 .db-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .db-actions .btn { flex: 1 1 200px; }
+/* "See this in your car" under the product page's Add to cart */
+.see-in-car { margin-top: 10px; }
 /* 3D stage: a tall scroll track with a pinned canvas */
 .db-stage { position: relative; height: 420vh; }
 .db-sticky { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: var(--bg); }

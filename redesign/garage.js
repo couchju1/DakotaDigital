@@ -98,6 +98,7 @@
       <button type="submit" class="btn btn-primary btn-block" id="g-save" disabled>Save my car</button>
       <div class="garage-foot">
         <a href="${BASE}index.html#finder" id="g-shop">See gauges that fit</a>
+        <a href="${BASE}dash-builder.html" id="g-dash">See it in your dash</a>
         <button type="button" class="garage-remove" id="g-remove">Remove car</button>
       </div>
     </form>`;
@@ -122,6 +123,7 @@
     gCar.value = c ? c.pid : '';
     fillYears(gCar.value, c ? c.ri : null);
     dlg.querySelector('.garage-foot').hidden = !c;
+    if (c) dlg.querySelector('#g-dash').href = `${BASE}dash-builder.html?car=${c.pid}&years=${encodeURIComponent(c.years)}`;
     dlg.showModal();
   });
   dlg.querySelector('.garage-close').addEventListener('click', () => dlg.close());

@@ -131,6 +131,10 @@
     shop.href = PRODUCT_PAGES[`${p.id}|${years}|${state.s}`] ||
       (CAT_PATHS[p.cat] ? `${CAT_PATHS[p.cat]}?line=${cur.name}` : '') ||
       `https://www.dakotadigital.com/index.cfm/page/ptype=results/category_id=${p.cat}/mode=cat/cat${p.cat}.htm`;
+    // Once a car is picked (and saved), offer the Dash Builder for it.
+    const dash = out('dash');
+    dash.hidden = !window.DDGarage.get();
+    dash.href = `dash-builder.html?car=${p.id}&years=${encodeURIComponent(years)}&system=${cur.name}`;
     speedInput.style.accentColor = state.light;
 
     if (focusKey) {

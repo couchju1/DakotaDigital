@@ -84,7 +84,10 @@ Pre-fill order: URL, then the car saved in My Garage, then empty. Changes update
   `GLTFLoader.min.js`, `DRACOLoader.min.js` and the Draco decoder (`draco/`). Three.js no longer
   ships a minified module build, so the script minifies with esbuild (also pinned). No CDN.
 - The page's import map points `three` at the vendored file. `dash-builder-3d.js` is imported only
-  when the picker holds a 1969 Camaro, WebGL works and reduced motion is off.
+  when the picker holds a 1969 Camaro, WebGL works, reduced motion is off and the visitor first
+  scrolls, taps or presses a key. The picker and photos never wait on it.
+- Size: three.js, GLTFLoader, DRACOLoader and the decoder come to about 280 KB gzipped (budget 700 KB).
+  `GLTFLoader` and the decoder load only when a real model exists.
 - Until `redesign/models/camaro-69.glb` exists, the page builds a stand-in car from simple shapes.
 
 ### Rules for camaro-69.glb (for the 3D artist)
@@ -123,6 +126,27 @@ once with the line "3D view is coming for more cars."
 Free models on sites like CGTrader often carry an editorial-only license, which doesn't allow use on
 a store page, and many show a real car maker's badges. Buy or commission a model with a commercial
 license, and have the artist follow the rules above.
+
+## Where the builder is linked
+
+- Homepage Dash Finder: "See it in your dash" next to "See systems", once a car is picked (saved).
+- My Garage dialog: "See it in your dash" for the saved car.
+- 1969 Camaro product pages (pilot): "See this in your car" under Add to cart, with the system,
+  current theme and console flag (`shop.js` adds it on catalog pages; `camaro-1969-rtx.html` has it
+  in the markup).
+- Footer (Shop column) on every page, `sitemap.html` and the site search.
+
+## Checks run (October 31, 2026)
+
+- `?car=camaro&years=1969`: full 3D flow at 1280x800 and 390x844, no console errors or warnings.
+- `?car=corvette&years=1968-77`: no 3D files requested, four systems with real photos.
+- Reduced motion and no WebGL: no stage, dash view shown at once, no 3D files requested.
+- Theme round trip: a swatch changes the photo, "See this system" opens the product page on that
+  theme, and its "See this in your car" link carries the theme back.
+- Keyboard only: picker, Skip to the dash, system buttons, console checkbox, swatches and links.
+- Lighthouse 13.5 mobile (local server): Performance 85 (Camaro) and 86 (Corvette), Accessibility
+  100 on both, CLS 0, TBT 0 ms. The main cost left is site-wide: the Google Fonts CSS and
+  `styles.css` block rendering on every page.
 
 ## Tracking
 

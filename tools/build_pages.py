@@ -80,7 +80,7 @@ NAV = [
 ]
 
 FOOTER = [
-    ('Shop', [('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'), ('universal.html', 'Universal gauges'),
+    ('Shop', [('dash-builder.html', 'Dash Builder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'), ('universal.html', 'Universal gauges'),
               ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'), ('sitemap.html', 'Site map')]),
     ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('builds-40.html', '40 builds for 40 years'), ('media.html', 'Media coverage'),
                  ('careers.html', 'Careers'), ('contact.html', 'Contact us')]),
@@ -810,7 +810,7 @@ def terms():
 
 def sitemap(pages):
     groups = [
-        ('Shop', [('index.html', 'Home and Dash Finder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'),
+        ('Shop', [('index.html', 'Home and Dash Finder'), ('dash-builder.html', 'Dash Builder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'),
                   ('universal.html', 'Universal gauges'), ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'),
                   ('camaro-1969-rtx.html', '1969 Camaro RTX instruments')]),
         ('Gauge series', [('shop/grfx-series.html', 'GRFX'), ('shop/rtx-series-c706.html', 'RTX'), ('shop/hdx-series-c689.html', 'HDX'),
@@ -992,6 +992,13 @@ def sync_chrome():
         viewport = '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
         s = s.replace(viewport, viewport + ROBOTS_META, 1)
         p.write_text(localize_links(s), encoding='utf-8')
+    # Catalog pages share the footer. Their bodies need the crawl cache (build_catalog.py), the footer doesn't.
+    shop_footer = re.sub(r'\b(href|src)="(?!https?:|#|tel:|mailto:|data:|/)([^"]*)"', lambda m: f'{m.group(1)}="../{m.group(2)}"', footer())
+    for f in sorted((SITE / 'shop').glob('*.html')):
+        s = f.read_text(encoding='utf-8')
+        new = re.sub(r'  <footer class="site-footer">.*?</footer>', lambda m: shop_footer, s, count=1, flags=re.S)
+        if new != s:
+            f.write_text(new, encoding='utf-8')
     # Dash Finder: car category -> local catalog page
     df = SITE / 'dash-finder.js'
     paths = {int(k): v['path'] for k, v in CATALOG['cats'].items()}
@@ -1007,6 +1014,7 @@ if __name__ == '__main__':
     sync_chrome()
     write_robots()
     pages = [('index.html#finder', 'Find gauges for your car', 'Dash Finder', 'shop by vehicle fitment fit'),
+             ('dash-builder.html', 'See the gauges in your car', 'Dash Builder', 'dash builder preview lighting theme 3d'),
              ('automotive.html', 'Automotive', 'All makes', 'car truck'), ('motorcycle.html', 'Motorcycle', 'Harley and custom bikes', 'bike'),
              ('universal.html', 'Universal gauges', 'Custom dashes', 'custom street rod'), ('efi.html', 'EFI and add-ons', 'BIM expansion modules', 'efi obd'),
              ('support.html', 'Manuals and support', 'Install help', 'manual install wiring video tech support help warranty repair'),
