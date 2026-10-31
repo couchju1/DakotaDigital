@@ -7625,3 +7625,694 @@ Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and
 | Pushbuttons calibrate and scroll the message centers | Specifications tab | Pushbutton calibration section |
 
 **Flags:** None.
+
+# Batch 19
+
+Each product: the rewrite, the original description as it was on the page, and every fact in the rewrite with where it came from. Sources: Description (the main copy), Description footnote (the * notes), Specifications / Extra Items / Pictures tabs, Options and Versions in the buy box, and the product title. FLAG marks anything to double-check.
+
+## RTX-70P-FIR-X: 1970-81 Pontiac Firebird RTX Instruments
+
+Page: `redesign/shop/1970-81-pontiac-firebird-rtx-instruments-p1280.html` (product 1280)
+
+### Rewrite
+
+The dash is part of why the second-gen Firebird has a cult following, and this direct-fit RTX package keeps its original styling. Matte black machined aluminum bezels hold full-color TFT message centers and precision stepper motor gauges, plus an analog clock.
+
+The kit has five gauges. In a three-gauge dash, you can leave out the oil and temp gauges and still see that data in the message centers. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.
+
+### Original
+
+> Pontiac’s take on the second gen pony car has risen to cult status over the decades, and surely the dashboard has played a part in the popularity. For this direct fit package, we studied the stock instruments to capture the original styling while adding a fist full of modern features. Machined aluminum gauge bezels are given the matte black treatment before the electronics, including full-color TFT message centers and precision stepper motors, are stuffed inside. Kit includes five gauges; forgo the oil and temp gauges in your three-gauge dash and the data will still be available in the message centers!
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Second-gen Firebird dash, cult status; direct fit; original styling | Description | "Pontiac's take on the second gen pony car has risen to cult status ... For this direct fit package, we studied the stock instruments to capture the original styling" |
+| Matte black machined bezels; TFT message centers; stepper motors; analog clock | Description / Specifications tab | "Machined aluminum gauge bezels are given the matte black treatment before the electronics, including full-color TFT message centers and precision stepper motors"; Clock: 12 Hr Analog |
+| Five gauges; leave out oil and temp in a three-gauge dash, data still in message centers | Description | "Kit includes five gauges; forgo the oil and temp gauges in your three-gauge dash and the data will still be available in the message centers" |
+| OEM or reproduction bezel, not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| CNC machined housing, in-house electronics, rocker switch, control box, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-49F-X: 1949-50 Ford Car RTX Instrument System
+
+Page: `redesign/shop/1949-50-ford-car-rtx-instrument-system-p1283.html` (product 1283)
+
+### Rewrite
+
+It looks stock, but this direct-fit RTX system for the 1949-50 Ford car marries the original gauge design with a full-color TFT message center and LED backlighting. A spun aluminum housing holds it all together, and it talks to nearly any drivetrain.
+
+A chrome-plated billet aluminum bezel comes with it. A matching RLC clock is sold separately. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+
+### Original
+
+> How about a direct-fit instrument upgrade that looks stock, comes with a chrome plated, billet aluminum bezel, and will talk to nearly any drivetrain combination in your 1949-50 Ford car? After studying up on the design of the stock gauge, we went to work marrying the look with a full color TFT message center, LED backlighting and spun up an aluminum housing to keep it all together. The result is decidedly stock, yet modern in all the right places.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Looks stock; direct fit; TFT message center, LED backlighting; spun aluminum housing; nearly any drivetrain | Description | "a direct-fit instrument upgrade that looks stock ... will talk to nearly any drivetrain combination ... marrying the look with a full color TFT message center, LED backlighting and spun up an aluminum housing" |
+| Chrome-plated billet aluminum bezel included | Description | "comes with a chrome plated, billet aluminum bezel" |
+| Matching RLC clock sold separately | Versions (buy box) | RLC-49F-X |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| CNC machined housing, in-house electronics, rocker switch, control box, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-49C-X: 1949-50 Chevy Car RTX Instruments
+
+Page: `redesign/shop/1949-50-chevy-car-rtx-instruments-p1286.html` (product 1286)
+
+### Rewrite
+
+Designed for the 1949-50 Chevy dash, this RTX system drops right into place in a billet aluminum gauge housing. The faces carry over the original instrument style, and inside are LED backlighting, stepper motor needle movements and a full-color TFT message center.
+
+It bolts in with stock hardware and keeps the OEM crimp-on front bezel, which isn't included. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+
+### Original
+
+> We started by designing our own billet aluminum gauge housing to fit the '49-50 dash, allowing this to fit directly into place. Next, our engineering team studied the original instrument style and translated that timeless look, while adding LED backlighting, stepper motors needle movements, a full-color TFT message center, and a host of other late model features. Never before have you seen such a stylish and capable instrument system upgrade that bolts into a 1949-50 Chevy car dashboard using stock hardware and retaining the OEM crimp-on front bezel.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Billet aluminum housing designed for the 1949-50 Chevy dash; fits directly | Description | "designing our own billet aluminum gauge housing to fit the '49-50 dash, allowing this to fit directly into place" |
+| Original instrument style; LED backlighting, stepper motors, TFT message center | Description | "studied the original instrument style ... adding LED backlighting, stepper motors needle movements, a full-color TFT message center" |
+| Bolts in with stock hardware; keeps the OEM crimp-on bezel, not included | Description / Description footnote | "bolts into a 1949-50 Chevy car dashboard using stock hardware and retaining the OEM crimp-on front bezel"; "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| CNC machined housing, in-house electronics, rocker switch, control box, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-51F-X: 1951 Ford Car RTX Instruments
+
+Page: `redesign/shop/1951-ford-car-rtx-instruments-p1287.html` (product 1287)
+
+### Rewrite
+
+Give the stock, body-colored instrument bezel in your 1951 Ford car a facelift. This bolt-in RTX kit is all new from the lens back but keeps the stock appearance, with a full-color TFT message center at the bottom and a bar-graph tach alongside the speedometer.
+
+It uses your OEM bezel, which isn't included. A matching RLC clock is sold separately. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.
+
+### Original
+
+> Take the stock, body colored instrument bezel in your 1951 Ford car, and give it a facelift with this bolt in kit! All new from the lens back with the appearance of the stock unit, our RTX-51F is the perfect blend of classic look at modern functionality. The full color TFT message center at the bottom will keep you informed, which the balance won’t look out of place in your ‘50s sled.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Facelift for the stock body-colored bezel of a 1951 Ford car; bolt-in | Description | "Take the stock, body colored instrument bezel in your 1951 Ford car, and give it a facelift with this bolt in kit" |
+| All new from the lens back; stock appearance; TFT message center at the bottom | Description | "All new from the lens back with the appearance of the stock unit ... The full color TFT message center at the bottom" |
+| Bar-graph tach | Specifications tab | Digital Bar Graph Gauges: Tachometer |
+| OEM bezel not included; matching RLC clock sold separately | Description footnote / Versions (buy box) | "*Bezel not included"; RLC-51F-X |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| CNC machined housing, in-house electronics, rocker switch, control box, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-58C-IMP-X: 1958 Chevy Impala RTX Instruments
+
+Page: `redesign/shop/1958-chevy-impala-rtx-instruments-p1290.html` (product 1290)
+
+### Rewrite
+
+The 1958 Chevy full-size dash is defined by its long, sweeping speedometer, and this RTX cluster recreates it. Hidden tach, voltage and oil pressure gauges sit just under the speedometer sweep, and full-color TFT message centers sit just inside the OEM-style turn signals at each end.
+
+You'll need your stock instrument housing and front bezel trim. The bezel isn't included. A matching RLC clock is sold separately. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+
+### Original
+
+> There’s just something about a long, sweeping speedometer in an old car; this is not lost on us! Our engineers jumped at the chance to recreate the stock 1958 Chevy full-size car instrument cluster, which is no simple task when modern technology is also a requirement. Hidden tachometer, voltage and oil pressure instruments are located just under the speedometer sweep, while full-color TFT message centers are located just inside the OEM-appearing turn signals on each end. Requires your stock instrument housing and front bezel trim for installation.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Long sweeping speedometer of the 1958 Chevy full-size dash, recreated | Description | "There's just something about a long, sweeping speedometer ... recreate the stock 1958 Chevy full-size car instrument cluster" |
+| Hidden tach, voltage and oil gauges under the sweep; TFT message centers inside the turn signals | Description | "Hidden tachometer, voltage and oil pressure instruments are located just under the speedometer sweep, while full-color TFT message centers are located just inside the OEM-appearing turn signals on each end" |
+| Needs stock housing and front bezel trim; bezel not included | Description / Description footnote | "Requires your stock instrument housing and front bezel trim for installation"; "*Bezel not included" |
+| Matching RLC clock sold separately | Versions (buy box) | RLC-58C-IMP-X |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| CNC machined housing, in-house electronics, rocker switch, control box, LED backlighting in your colors | Description (RTX series paragraph) / Specifications tab | RTX paragraphs; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## HDX-53C: 1953-54 Chevy Car HDX Instruments
+
+Page: `redesign/shop/1953-54-chevy-car-hdx-instruments-p1087.html` (product 1087)
+
+### Rewrite
+
+One large TFT message center sits between six analog instruments in this all-in-one HDX system for the 1953-54 Chevy car. A machined housing is made to fit the stock instrument bezel. Choose black or silver alloy faces.
+
+You'll need to open up a small section of the stock dash. The bezel isn't included, so use an OEM or reproduction one. The supplied sensors connect to your drivetrain. A metric version is a special order.
+
+Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android, and pick your lighting colors. Every gauge has its own settable red warning light, and a central control box takes signals from the car's harness.
+
+### Original
+
+> One large TFT message center is flanked by six analog instruments nestled into a machined housing designed to fit a stock instrument bezel. After opening up a small section in your stock dash, this all-in-one instrumentation solution fits right in! Choose between black or silver for the gauge face, and use the supplied sensors to link up with your drivetrain.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| One large TFT between six analog instruments; machined housing fits the stock bezel; 1953-54 Chevy car | Description / Title | "One large TFT message center is flanked by six analog instruments nestled into a machined housing designed to fit a stock instrument bezel" |
+| Black or silver faces | Description | "Choose between black or silver for the gauge face" |
+| Open up a small section of the stock dash | Description | "After opening up a small section in your stock dash" |
+| Bezel not included; supplied sensors | Description footnote / Description | "*Bezel not included"; "use the supplied sensors to link up with your drivetrain" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Touch buttons or Bluetooth app; warning lights; control box with included senders | Description (HDX series paragraph) | HDX paragraph |
+
+**Flags:** The version names say "1953 Chevy Car" only; the title says 1953-54. This page's spec tab has no sensor section, so the rewrite does not give harness lengths.
+
+## HDX-2060: HDX-2060: Universal 6 Gauge Round, Analog HDX Instruments
+
+Page: `redesign/shop/hdx-2060-universal-6-gauge-round-analog-hdx-instruments-p1088.html` (product 1088)
+
+### Rewrite
+
+Updating an existing panel or building one from scratch? This universal six-gauge HDX set gives you plenty of flexibility. The speedometer, tach and full-color TFT message center each drop into 3-3/8 inch holes, and the matching satellite gauges use 2-1/16 inch holes.
+
+It needs 2 inches of depth behind the panel. Machined mounting cups hold the gauges to the panel with the supplied thumb nuts. Large gauges measure 3.55 inches overall and small ones 2.225 inches. Faces come in black or silver alloy.
+
+Calibrate it with the built-in touch buttons or the Bluetooth app for Apple and Android. Indicators stay hidden until they light, each gauge has its own settable red warning light, and a central control box connects the supplied senders.
+
+### Original
+
+> HDX technology in a timeless arrangement! Whether you have an existing panel that needs to be updated, or you’re scratch building your dream, this six-gauge set offers the utmost in flexibility! The speedometer/tach and TFT message center each drop into 3 3/8” holes, while their matching satellites spec out at 2 1/16”; the HDX-2060 requires 2” of depth behind your panel. Machined mounting cups secure the gauges to your panel, attached with supplied thumb nuts. That full-color TFT message center can display as much information as you like!
+>
+> Available with your choice of black or silver alloy gauge-face styling, each HDX system allows the user to select independent illumination colors for the gauge readings and needles, as well as the message centers. Calibration and personal settings are manipulated with the built-in, capacitive-touch buttons, or the available Bluetooth app for Apple and Android devices. Each needle hub is black nickel plated spun-aluminum to match the buttons. All HDX instrument systems feature dead-faced indicators (turn signals, high beam, check engine, cruise control, parking brake, plus two user-definable), and a red, settable warning light for each gauge. With our central control box, installation is greatly simplified with vehicle-harness sourced signals and supplied, solid state sending units connecting cleanly to their respective terminal. Large gauge cutout size measure 3.35", and 3.55" overall. Small gauge cutout size measures 2.0625", and 2.225" overall.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Universal six-gauge set for an existing panel or a scratch build | Description | "Whether you have an existing panel that needs to be updated, or you're scratch building your dream, this six-gauge set offers the utmost in flexibility" |
+| Speedo, tach and TFT use 3-3/8 inch holes; satellites 2-1/16 | Description | "The speedometer/tach and TFT message center each drop into 3 3/8\" holes, while their matching satellites spec out at 2 1/16\"" |
+| 2 inches depth; machined mounting cups with supplied thumb nuts | Description | "the HDX-2060 requires 2\" of depth behind your panel. Machined mounting cups secure the gauges to your panel, attached with supplied thumb nuts" |
+| Large 3.55 overall, small 2.225 overall | Description | "Large gauge cutout size measure 3.35\", and 3.55\" overall. Small gauge cutout size measures 2.0625\", and 2.225\" overall" |
+| Black or silver alloy | Description | "black or silver alloy gauge-face styling" |
+| Touch buttons or Bluetooth app; hidden indicators; warning lights; control box with supplied senders | Description | HDX text in the description |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+
+**Flags:** The description gives the large-gauge hole as 3-3/8 inches and the cutout as 3.35 inches (3-3/8 is 3.375). The rewrite uses 3-3/8.
+
+## HDX-63C-VET: 1963-67 Chevy Corvette HDX Instruments
+
+Page: `redesign/shop/1963-67-chevy-corvette-hdx-instruments-p1089.html` (product 1089)
+
+### Rewrite
+
+Mid-year Vettes get an all-in-one, direct-fit HDX system with customizable, full-color TFT message centers. Pick black or silver alloy faces and separate lighting colors for the readings, needles and message centers.
+
+This one-piece system uses your stock front bezel, OEM or reproduction, and installs just like the factory assembly did. The bezel isn't included. The matching HLC-63C-VET clock for the center console is sold separately. A metric version is a special order.
+
+Calibrate it with the built-in touch buttons or the Bluetooth app for Apple and Android. The needle hubs are black nickel-plated spun aluminum, and every gauge has its own red warning light. A central control box connects the supplied solid-state senders.
+
+### Original
+
+> Mid-year Vettes are always in style, and there’s nothing more stylish than this all-in-one, direct-fit instrument system! Making use of your stock front bezel, this one-piece system installs just as the factory assembly did. Choose from black or silver face styling, and enjoy the customizable, full-color TFT message centers for additional readings. Pick up the matching HLC-63C-VET clock to finish off your center console. Available with your choice of black or silver alloy gauge-face styling, each HDX system allows the user to select independent illumination colors for the gauge readings and needles, as well as the message centers. Calibration and personal settings are manipulated with the built-in, capacitive-touch buttons, or the available Bluetooth app for Apple and Android devices. Each needle hub is black nickel plated spun-aluminum to match the buttons. All HDX instrument systems feature dead-faced indicators (turn signals, high beam, check engine, cruise control, parking brake, plus two user-definable), and a red, settable warning light for each gauge. With our central control box, installation is greatly simplified with vehicle-harness sourced signals and supplied, solid state sending units connecting cleanly to their respective terminal.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Mid-year Vettes; all-in-one, direct fit; customizable TFT message centers | Description | "Mid-year Vettes are always in style ... this all-in-one, direct-fit instrument system ... enjoy the customizable, full-color TFT message centers" |
+| Black or silver alloy; separate lighting colors | Description | "Choose from black or silver face styling ... independent illumination colors" |
+| One-piece system uses the stock front bezel; installs like the factory | Description | "Making use of your stock front bezel, this one-piece system installs just as the factory assembly did" |
+| Bezel not included; HLC-63C-VET clock for the console sold separately | Description footnote / Description | "*Bezel not included"; "Pick up the matching HLC-63C-VET clock to finish off your center console" |
+| Touch buttons or Bluetooth app; black nickel hubs; warning lights; control box with supplied senders | Description | HDX text in the description |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+
+**Flags:** None.
+
+## VHX-66C-IMP: 1966 Chevy Caprice/ Impala VHX Instruments
+
+Page: `redesign/shop/1966-chevy-caprice-impala-vhx-instruments-p861.html` (product 861)
+
+### Rewrite
+
+Skip the trio of cheap gauges under the dash. This VHX system fits the stock bezel of a 1966 Chevy Caprice or Impala and brings six sweeping analog readouts to the original design, with lit needles and backlit faces.
+
+It uses your factory bezel, dash, trim and fascia, which aren't included. Sensors for the vital readings come with it, whatever engine you run. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+The water temperature, oil pressure and speed sensors each have a 10 ft harness. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> This whale of a car was a whale of a success, and we just couldn’t resist creating a VHX system to fit the stock bezel. No longer are you confined to a trio of cheap gauges under the dash, this system brings six sweeping-analog readouts to the original design and includes sensors for vital stats, regardless of your choice in motorvation.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> Uses factory bezel/ dash/ trim/ fascia (not included), image with dash shown for demonstration purposes only.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| No more cheap gauges under the dash; fits the stock bezel of a 1966 Caprice or Impala; six sweeping analog readouts | Description | "No longer are you confined to a trio of cheap gauges under the dash, this system brings six sweeping-analog readouts to the original design" |
+| Lit needles, backlit faces | Description (VHX series paragraph) | VHX paragraph |
+| Factory bezel, dash, trim and fascia not included | Description footnote | "Uses factory bezel/ dash/ trim/ fascia (not included)" |
+| Sensors for vital stats, any engine | Description | "includes sensors for vital stats, regardless of your choice in motorvation" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** None.
+
+## VHX-67C-IMP: 1967 Chevy Caprice/ Impala VHX Instruments
+
+Page: `redesign/shop/1967-chevy-caprice-impala-vhx-instruments-p862.html` (product 862)
+
+### Rewrite
+
+With no modification, this VHX system fits right into the stock instrument bezel of a 1967 Chevy Caprice or Impala. Real needles light up over backlit faces, and LCD message centers add trip meters and a 0-60 timer.
+
+It uses your factory bezel, trim and fascia, which aren't included. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. Stepper motors move the needles, and the included pushbuttons handle calibration. VHX is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> The new VHX Systems fit directly into the stock instrument bezel of a 1967 Chevy Caprice and Impala without modification, adding a wealth of features to this iconic vehicle.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Uses your factory bezel, trim and fascia (not included; shown for demonstration).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Fits the stock bezel of a 1967 Caprice or Impala without modification | Description | "The new VHX Systems fit directly into the stock instrument bezel of a 1967 Chevy Caprice and Impala without modification" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Factory bezel, trim and fascia, not included | Description footnote | "*Uses your factory bezel, trim and fascia (not included)" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** None.
+
+## VHX-68C-IMP: 1968 Chevy Caprice/ Impala VHX Instruments
+
+Page: `redesign/shop/1968-chevy-caprice-impala-vhx-instruments-p863.html` (product 863)
+
+### Rewrite
+
+A 1968 Chevy Caprice or Impala gets a wealth of features with this VHX system, and it fits the stock instrument bezel without modification. The 140 mph speedometer and the other analog gauges light up over backlit faces.
+
+It uses your factory bezel, trim and fascia, which aren't included. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. LCD message centers add trip meters and a 0-60 timer. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> The new VHX Systems fit directly into the stock instrument bezel of a 1968 Chevy Caprice and Impala without modification, adding a wealth of features to this iconic vehicle.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Uses your factory bezel, trim and fascia (not included; shown for demonstration).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Wealth of features; fits the stock bezel of a 1968 Caprice or Impala without modification | Description | "fit directly into the stock instrument bezel of a 1968 Chevy Caprice and Impala without modification, adding a wealth of features" |
+| 140 mph speedometer; lit needles, backlit faces | Specifications tab / Description (VHX series paragraph) | Speedometer 0-140 MPH; VHX paragraph |
+| Factory bezel, trim and fascia, not included | Description footnote | "*Uses your factory bezel, trim and fascia (not included)" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** None.
+
+## VHX-69C-IMP: 1969-70 Chevy Caprice/Impala VHX Instruments
+
+Page: `redesign/shop/1969-70-chevy-caprice-impala-vhx-instruments-p864.html` (product 864)
+
+### Rewrite
+
+Fitting the stock instrument bezel of a 1969-70 Chevy Impala or Caprice without modification, this VHX system adds lit needles, backlit faces and LCD message centers.
+
+It uses your factory bezel, trim and fascia, which aren't included. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the included pushbuttons calibrate the speedometer and fuel gauge. The message centers show trip meters and a 0-60 timer. Micro-controlled stepper motors move the needles. VHX is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> The new VHX Systems fit directly into the stock instrument bezel of a 1969- 70 Chevy Impala without modification, adding a wealth of features to this iconic vehicle.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Uses your factory bezel, trim and fascia (not included; shown for demonstration).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Fits the stock bezel of a 1969-70 Impala or Caprice without modification | Description / Title | "fit directly into the stock instrument bezel of a 1969- 70 Chevy Impala without modification" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Factory bezel, trim and fascia, not included | Description footnote | "*Uses your factory bezel, trim and fascia (not included)" |
+| Black or silver alloy; blue, red or white | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Pushbuttons calibrate speedometer and fuel gauge | Specifications tab | Pushbutton calibration section |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Stepper motors, lit needles, backlit faces, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** The description names only the Impala; the title adds Caprice.
+
+## VHX-71C-CAP: 1971-76 Chevy Caprice/ Impala VHX Instruments
+
+Page: `redesign/shop/1971-76-chevy-caprice-impala-vhx-instruments-p865.html` (product 865)
+
+### Rewrite
+
+Bolt in the new VHX display, put your stock bezel back on top, and your 1971-76 Chevy full-size is done. No cutting or fiberglass work is needed. Lit needles sit over backlit faces, and LCD message centers add more readings.
+
+Sensors for oil pressure, water temp and speed are included, and you can keep the stock fuel level sensor. Choose silver or black alloy faces and blue, red or white LED backlighting. The factory bezel, trim and fascia aren't included. A metric version is a special order.
+
+Each included sensor has a 10 ft harness. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Put the streets on notice with this hot instrument system. It’s as easy as bolting in the new VHX display and placing your stock bezel back on top; no cutting or fiberglass work required! Sensors for Oil Pressure, Water Temp and Speed are included, while the stock Fuel Level sensor can be retained. Choose between Silver or Black Alloy gauge face styling, and blue, red or white LED backlighting. Put your 1971-76 Chevy fullsize back on top!
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Uses your factory bezel, trim and fascia (not included; shown for demonstration).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Bolt in the display, put the stock bezel back; no cutting or fiberglass; 1971-76 full-size | Description | "It's as easy as bolting in the new VHX display and placing your stock bezel back on top; no cutting or fiberglass work required! ... Put your 1971-76 Chevy fullsize back on top" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Sensors for oil, water temp and speed included; keep the stock fuel sensor | Description | "Sensors for Oil Pressure, Water Temp and Speed are included, while the stock Fuel Level sensor can be retained" |
+| Silver or black alloy; blue, red or white LED backlighting | Description | "Choose between Silver or Black Alloy gauge face styling, and blue, red or white LED backlighting" |
+| Factory bezel, trim and fascia, not included | Description footnote | "*Uses your factory bezel, trim and fascia (not included)" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| 10 ft harnesses; stepper motors; pushbuttons; built in Sioux Falls; warranty | Specifications tab / Description (VHX series paragraph) | Included Sensors; VHX paragraph |
+
+**Flags:** The buy box has no Style or Color option, so the choices come from the description.
+
+## VHX-77C-CAP: 1977-90 Chevy Caprice/Impala & 1984-86 Pontiac Parisienne VHX Instruments
+
+Page: `redesign/shop/1977-90-chevy-caprice-impala-and-1984-86-pontiac-parisienne--p866.html` (product 866)
+
+### Rewrite
+
+Get your 1977-90 Impala or Caprice riding right with a fresh VHX system for the stock dash. It also fits the 1984-86 Pontiac Parisienne without modification. Lit needles sit over backlit faces, with LCD message centers for extra readings.
+
+This bolt-in kit needs the stock gauge bezel and clear lens, which aren't included. Sensors for oil pressure, water temp and speed come with it, and you can keep the stock fuel sensor. Choose silver or black alloy faces and blue, red or white LED backlighting. A metric version is a special order.
+
+Each sensor has a 10 ft harness. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Get your 1977-90 Impala or Caprice ridin’ right with a fresh instrument system for the stock dash. Installation for this bolt-in kit requires the stock gauge bezel and clear lens. Sensors for Oil Pressure, Water Temp and Speed are included, while the stock Fuel Level sensor can be retained. Choose between Silver or Black Alloy gauge face styling, and blue, red or white LED backlighting. Get your Chevy official with Dakota Digital; also fits 1984-86 Pontiac Parisienne without modification!
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Uses factory bezel/ trim/ fascia (not included, for demonstration purposes only).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Fresh system for the stock dash of a 1977-90 Impala or Caprice; also fits 1984-86 Parisienne | Description | "Get your 1977-90 Impala or Caprice ridin' right with a fresh instrument system for the stock dash ... also fits 1984-86 Pontiac Parisienne without modification" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Bolt-in; needs the stock gauge bezel and clear lens; not included | Description / Description footnote | "Installation for this bolt-in kit requires the stock gauge bezel and clear lens"; "*Uses factory bezel/ trim/ fascia (not included)" |
+| Sensors included; keep the stock fuel sensor; silver or black; blue, red or white | Description | "Sensors for Oil Pressure, Water Temp and Speed are included, while the stock Fuel Level sensor can be retained. Choose between Silver or Black Alloy gauge face styling, and blue, red or white LED backlighting" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| 10 ft harnesses; stepper motors; pushbuttons; built in Sioux Falls; warranty | Specifications tab / Description (VHX series paragraph) | Included Sensors; VHX paragraph |
+
+**Flags:** The page says the stock clear lens is needed but does not say whether it is included; the rewrite groups it with the bezel as not included, per the footnote.
+
+## VHX-94C-CAP: 1994-96 Chevy Caprice/ Impala SS VHX Instruments
+
+Page: `redesign/shop/1994-96-chevy-caprice-impala-ss-vhx-instruments-p869.html` (product 869)
+
+### Rewrite
+
+The 1994-96 Impala SS and Caprice make tough family haulers, and this bolt-in VHX system gives them modern instruments. Lit needles sit over backlit faces, and LCD message centers add more readings.
+
+The required sensors are included. Installation means hardwiring, since it isn't a plug-in, and you reuse the stock instrument bezel. It doesn't fit the Buick Roadmaster or Olds Custom Cruiser. Choose blue, red or white LED lighting with black or silver alloy faces. A metric version is a special order.
+
+Each included sensor has a 10 ft harness. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> Lord Vader, your instruments are ready.
+>
+> 1994-96 Chevy Impala SS and Caprice make bad-to-the-bone family haulers that can also haul the mail. This bolt-in instrument system brings 21st century tech to the bulbous cruiser and includes required sensors. Installation requires hardwiring; this is not a plug-in affair, and the stock instrument bezel must be reused. Choose from blue, red or white LED lighting with Black or Silver Alloy face styling. Does not fit not Buick Roadmaster/Olds Custom Cruiser.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1994-96 Impala SS and Caprice; bolt-in; modern instruments | Description | "1994-96 Chevy Impala SS and Caprice make bad-to-the-bone family haulers ... This bolt-in instrument system brings 21st century tech" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Required sensors included; hardwired, not plug-in; reuse the stock bezel | Description | "includes required sensors. Installation requires hardwiring; this is not a plug-in affair, and the stock instrument bezel must be reused" |
+| Not Roadmaster or Custom Cruiser | Description | "Does not fit not Buick Roadmaster/Olds Custom Cruiser" |
+| Blue, red or white; black or silver alloy | Description | "Choose from blue, red or white LED lighting with Black or Silver Alloy face styling" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| 10 ft harnesses; stepper motors; pushbuttons; built in Sioux Falls; warranty | Specifications tab / Description (VHX series paragraph) | Included Sensors; VHX paragraph |
+
+**Flags:** The description opens with a one-line joke ("Lord Vader, your instruments are ready."); the rewrite leaves it out.
+
+## VFD3-67C-IMP: 1967 Chevy Caprice/Impala Digital Instrument System
+
+Page: `redesign/shop/1967-chevy-caprice-impala-digital-instrument-system-p176.html` (product 176)
+
+### Rewrite
+
+The OEM bezel of a 1967 Chevy Impala or Caprice holds six bright vacuum fluorescent gauges with this Series III system. They read in blue or teal and are easy to see. The message centers add trip meters and a 0-60 timer.
+
+It uses your factory bezel, trim and fascia, which aren't included. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. Mount the included pushbuttons where you can reach them to calibrate the speedometer and fuel gauge and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System fits into OEM bezel for 1967 Chevy Impala/ Caprice.
+>
+> *Uses your factory bezel, trim and fascia (not included; shown for demonstration).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six bright vacuum fluorescent gauges in the OEM bezel of a 1967 Impala or Caprice; blue or teal; easy to see | Description / Description (Series III paragraph) / Specifications tab | "Full 6 Gauge Instrument System fits into OEM bezel for 1967 Chevy Impala/ Caprice"; "easy to read"; Blue or Teal |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Factory bezel, trim and fascia, not included | Description footnote | "*Uses your factory bezel, trim and fascia (not included)" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Pushbuttons calibrate and scroll the message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
+
+## VFD3-68C-IMP: 1968 Chevy Caprice/Impala Digital Instrument System
+
+Page: `redesign/shop/1968-chevy-caprice-impala-digital-instrument-system-p177.html` (product 177)
+
+### Rewrite
+
+Inside the OEM bezel of a 1968 Chevy Impala or Caprice, six digital gauges glow in blue or teal. The Series III vacuum fluorescent displays are bright and easy to read, and the message centers add trip meters and a 0-60 timer.
+
+It uses your factory bezel, trim and fascia, which aren't included. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. The included pushbuttons calibrate the speedometer and fuel gauge, set the cylinder count and page through the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System fits into OEM bezel for 1968 Chevy Impala/ Caprice.
+>
+> *Uses factory bezel/ trim/ fascia (not included.for demonstration purposes only ).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six digital gauges in blue or teal in the OEM bezel of a 1968 Impala or Caprice | Description / Specifications tab | "Full 6 Gauge Instrument System fits into OEM bezel for 1968 Chevy Impala/ Caprice"; Blue or Teal |
+| Bright vacuum fluorescent, easy to read | Description (Series III paragraph) | "bright vacuum fluorescent displays: easy to read" |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Factory bezel, trim and fascia, not included | Description footnote | "*Uses factory bezel/ trim/ fascia (not included)" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Pushbuttons calibrate, set cylinder count, page message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
+
+## VFD3-64C-CVL: 1964-65 Chevy Chevelle/ El Camino Digital Instrument System
+
+Page: `redesign/shop/1964-65-chevy-chevelle-el-camino-digital-instrument-system-p180.html` (product 180)
+
+### Rewrite
+
+This six-gauge Series III system for the 1964-65 Chevelle and El Camino comes with a new reproduction bezel. Bright vacuum fluorescent displays read in blue or teal, and the message centers add trip meters and a 0-60 timer.
+
+Order the 1964 or 1965 version, with or without A/C vents. A metric version of each is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. Mount the included pushbuttons within reach to calibrate the system and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System includes new reproduction bezel for 1964- 65 Chevy Chevelle/ El Camino.
+>
+> ** System shown is 1965 Chevelle without A/C.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| New reproduction bezel included; six gauges; 1964-65 Chevelle and El Camino | Description | "Full 6 Gauge Instrument System includes new reproduction bezel for 1964- 65 Chevy Chevelle/ El Camino" |
+| Bright vacuum fluorescent, blue or teal | Description (Series III paragraph) / Specifications tab | "bright vacuum fluorescent displays"; Blue or Teal |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| 1964 or 1965 version, with or without A/C vents | Versions (buy box) / Options (buy box) | VFD3-64C-CVL, VFD3-65C-CVL; A/C Vents: No, Yes |
+| Metric version of each is a special order | Versions (buy box) | MFD3-64C-CVL, MFD3-65C-CVL |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Pushbuttons calibrate and scroll the message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
+
+## VFD3-66C-CVL: 1966-67 Chevy Chevelle/El Camino Digital Instrument System
+
+Page: `redesign/shop/1966-67-chevy-chevelle-el-camino-digital-instrument-system-p181.html` (product 181)
+
+### Rewrite
+
+For the 1966-67 Chevelle and El Camino, this six-gauge Series III system comes with a new reproduction bezel. Bright vacuum fluorescent displays in blue or teal are easy to read, and the message centers add trip meters and a 0-60 timer.
+
+The new bezel is included. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor needs about 5 inches of clearance. The included pushbuttons calibrate the speedometer and fuel gauge, set the cylinder count and scroll the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System includes new reproduction bezel for 1966- 67 Chevy Chevelle/ El Camino.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six-gauge Series III with a new reproduction bezel for 1966-67 Chevelle and El Camino | Description | "Full 6 Gauge Instrument System includes new reproduction bezel for 1966- 67 Chevy Chevelle/ El Camino" |
+| Bright, easy to read, blue or teal | Description (Series III paragraph) / Specifications tab | "bright vacuum fluorescent displays: easy to read"; Blue or Teal |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Pushbuttons calibrate, set cylinder count, scroll message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
+
+## VFD3-68C-CVL: 1968 Chevy Chevelle/ El Camino Digital Instrument System
+
+Page: `redesign/shop/1968-chevy-chevelle-el-camino-digital-instrument-system-p182.html` (product 182)
+
+### Rewrite
+
+Fit six bright vacuum fluorescent gauges into the OEM bezel of a 1968 Chevelle, El Camino or Malibu with this Series III system. They read in blue or teal, and the message centers add trip meters and a 0-60 timer.
+
+It fits directly into your existing bezel, which isn't included. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. Pushbuttons you mount within reach handle calibration and the message centers.
+
+### Original
+
+> Series III systems use bright vacuum fluorescent displays: easy to read, accurate, and built for years of trouble-free driving.
+>
+> Full 6 Gauge Instrument System fits into OEM bezel for 1968 Chevy Chevelle/ El Camino/ Malibu.
+>
+> Fits directly into existing bezel (not included).
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six bright vacuum fluorescent gauges in the OEM bezel of a 1968 Chevelle, El Camino or Malibu; blue or teal | Description / Description (Series III paragraph) / Specifications tab | "Full 6 Gauge Instrument System fits into OEM bezel for 1968 Chevy Chevelle/ El Camino/ Malibu"; Blue or Teal |
+| Trip meters and a 0-60 timer | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer |
+| Existing bezel, not included | Description | "Fits directly into existing bezel (not included)" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor needs about 5 inches of clearance | Specifications tab | "approximately 5\" clearance" |
+| Pushbuttons calibrate and scroll the message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** None.
