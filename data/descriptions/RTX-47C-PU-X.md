@@ -6,4 +6,4 @@ Chrome-plated billet aluminum bezels give this dual-round 1947-53 Chevy and GMC 
 
 The machined aluminum and chrome bezels are included. Oil pressure, water temp, fuel and volts round out the readings. Water temperature, oil pressure and speed sensors come in the box, each with a 10 ft harness. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. A two-sided rocker switch handles setup, and one central control box keeps the install simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. A two-sided rocker switch handles setup, and one central control box keeps the install simple.

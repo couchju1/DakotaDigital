@@ -2,7 +2,7 @@
 product: 949
 title: "1970-72 Buick Skylark VHX Instruments"
 ---
-A 1970-72 Buick Skylark gets six analog gauges with real needles that light up, backlit faces and easy-to-read LCD message centers. You can customize what the displays show.
+A 1970-72 Buick Skylark gets six analog gauges with lit needles, backlit faces and easy-to-read LCD message centers. You can customize what the displays show.
 
 It needs the factory bezel, which isn't included. Faces come in black or silver alloy, and you can order blue, red or white. A metric version is a special order.
 

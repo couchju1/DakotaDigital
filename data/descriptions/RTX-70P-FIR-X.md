@@ -6,4 +6,4 @@ The dash is part of why the second-gen Firebird has a cult following, and this d
 
 The kit has five gauges. In a three-gauge dash, you can leave out the oil and temp gauges and still see that data in the message centers. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.

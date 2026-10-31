@@ -6,4 +6,4 @@ You don't have to choose between the arch-shaped speedometer of a '56 F100 and m
 
 It's a bolt-in kit that uses your OEM bezel, which isn't included. No drilling holes for round gauges. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.

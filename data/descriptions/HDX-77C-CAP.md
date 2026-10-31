@@ -6,4 +6,4 @@ Get your box Chevy looking right with this bolt-in HDX system. No cutting is nee
 
 It fits 1977-90 Chevy B-bodies and the 1984-86 Pontiac Parisienne, with a stock drivetrain or an LS swap. The bezel isn't included. Pick black or silver alloy faces. A metric version is a special order.
 
-Calibrate it with the built-in touch buttons or the Bluetooth app for Apple and Android. The needle hubs are black nickel-plated spun aluminum, and every gauge has its own settable red warning light. A central control box connects the supplied solid-state senders.
+Calibrate it with the built-in touch buttons or the Bluetooth app for Apple and Android. The needle hubs are black nickel-plated spun aluminum, and each gauge gets its own red warning light you can set. A central control box connects the supplied solid-state senders.

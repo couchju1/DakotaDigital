@@ -6,4 +6,4 @@ Part jewelry, part car part: brushed faces sit in a chrome bezel with an engine-
 
 The billet aluminum housing matches the raised stamped section of a 1933-34 Ford car dash. Cutting is required to install it. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.

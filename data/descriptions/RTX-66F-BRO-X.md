@@ -6,4 +6,4 @@ Orange needles and spun-aluminum accents on the face give this 1966-77 Bronco cl
 
 It fits your stock steel instrument bezel, which isn't included. It also fits 1961-66 Ford pickups with the stock bezel, except Custom Cab. A metric version in km/h and Celsius is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

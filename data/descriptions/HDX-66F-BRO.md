@@ -6,4 +6,4 @@ The early Bronco's flat dash has one round instrument on the left, and this bolt
 
 The bezel isn't included, so use an OEM or reproduction one. Tying it into the drivetrain of your choice is easy. A metric version is a special order.
 
-Calibrate it with the built-in touch buttons or the Bluetooth app for iPhone and Android, and choose separate lighting colors for the readings and needles. Every gauge has its own red warning light you can set. A central control box connects the included solid-state senders.
+Calibrate it with the built-in touch buttons or a Bluetooth app on iPhone or Android, and choose separate lighting colors for the readings and needles. Every gauge has its own red warning light you can set. A central control box connects the included solid-state senders.

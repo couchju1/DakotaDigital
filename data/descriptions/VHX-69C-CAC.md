@@ -6,4 +6,4 @@ For a 1969 Camaro with the console gauge option, this VHX system modernizes the 
 
 It attaches directly to the back of the stock instrument cluster and center console housing, so installation is simple. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
 
-Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.

@@ -6,4 +6,4 @@ Add a touch of elegance to a WWII-era Ford or Mercury car. These RTX gauges are 
 
 The '42-48 face colors shift the color-selectable backlighting a bit. That trims the 31 color choices, and pure white looks like a warm incandescent. A matching RLC clock is sold separately. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.

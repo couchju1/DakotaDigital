@@ -2,7 +2,7 @@
 product: 1083
 title: "1953-55 Ford Pickup HDX Instruments"
 ---
-The trapezoid-shaped cluster of a 1953-55 F100 finally has an answer. A new bezel is milled from a solid block of aluminum to fit the stock dash exactly, chromed, then filled with six analog instruments and a large TFT message center. Faces come in black or silver alloy.
+The trapezoid-shaped cluster of a 1953-55 F100 finally has an answer. A new bezel is milled from solid aluminum to match the stock dash, then chromed. It holds six analog instruments and a large TFT message center. Faces come in black or silver alloy.
 
 The reproduction chrome bezel is included. The included sensors let it monitor your choice of drivetrain. A metric version is a special order.
 

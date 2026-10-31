@@ -6,4 +6,4 @@ Keeping a 1990-93 Fox body alive? This direct-fit RTX gauge system keeps an eye 
 
 It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

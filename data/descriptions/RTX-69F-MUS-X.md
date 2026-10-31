@@ -6,4 +6,4 @@ Bolted behind the stock bezel of a '69-70 Mustang, this RTX system keeps the OEM
 
 It's a direct fit that uses your OEM or reproduction bezel, which isn't included. Add the matching RLC clock for the passenger side, sold separately. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.

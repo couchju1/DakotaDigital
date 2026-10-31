@@ -6,4 +6,4 @@ Upgrade a 1970-72 Chevelle or El Camino with the SS-style dash to six analog gau
 
 It screws directly into an original or aftermarket gauge carrier, sold separately, and a 1970-72 Chevelle SS carrier is listed with this kit. The bezel isn't included, so use an OEM or reproduction one. It also fits the Monte Carlo and the 1971 GMC Sprint SP. A metric version is a special order.
 
-Use the touch buttons or the Bluetooth app for iPhone and Android to set lighting colors and calibrate. Every gauge has its own settable red warning light. A central control box takes signals from the car's harness and connects the included solid-state senders.
+Use the touch buttons or the Bluetooth app for iPhone and Android to set lighting colors and calibrate. Each gauge gets its own red warning light you can set. A central control box pulls signals from the car's harness and connects the included solid-state senders.

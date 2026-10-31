@@ -6,4 +6,4 @@ Only three gauges show on this stock-looking '57 Chevy cluster, but there are si
 
 It fits into your original cast housing. The gauge pod and chrome inserts aren't included, so you'll use OEM or reproduction parts. Replacement chrome inserts and the matching RLC-57C clock are sold separately. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. One central control box keeps installation and setup simple, and the LED backlighting comes on in the colors you choose.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. One central control box keeps installation and setup simple, and the LED backlighting comes on in the colors you choose.

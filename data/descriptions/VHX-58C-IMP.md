@@ -2,7 +2,7 @@
 product: 877
 title: "1958 Chevy Impala VHX Instruments"
 ---
-Recreating the American Graffiti Impala or building a modern bruiser? This bolt-in VHX system fits the 1958 Chevy Impala. Silver or black alloy faces are set off by red, blue or white LED backlighting, and billet pushbuttons stick out of the original odometer opening.
+Recreating the American Graffiti Impala or building a modern bruiser? This bolt-in VHX system fits the 1958 Chevy Impala. Red, blue or white LED backlighting sets off silver or black alloy faces, and billet pushbuttons stick out of the original odometer opening.
 
 The OEM dash, trim, bezel and fascia aren't included. Add the matching VLC-58C analog clock for the passenger side. It can't be used alone. A metric version is a special order.
 

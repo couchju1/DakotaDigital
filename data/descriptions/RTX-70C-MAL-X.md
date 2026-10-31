@@ -6,4 +6,4 @@ Think twice before swapping out the sweep-style dash in your 1970-72 Malibu, non
 
 The fully machined aluminum housing is powdercoated black. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

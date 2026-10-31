@@ -6,4 +6,4 @@ Here's an all-in-one analog system with a large TFT message center, made to fit 
 
 It uses your existing bezel, which isn't included, and it doesn't fit Custom Cab models. It connects to just about any drivetrain combination. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and a central control box keeps the wiring simple.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Each gauge gets its own red warning light you can set. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and a central control box keeps the wiring simple.

@@ -6,4 +6,4 @@ Showroom stock is how this 1966-67 Nova dash looks with the key off. Admirers ha
 
 It's a direct fit for your stock 1966-67 Nova gauge bezel, OEM or reproduction, which isn't included. Drag racers, autocross fans and street machiners all use it. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

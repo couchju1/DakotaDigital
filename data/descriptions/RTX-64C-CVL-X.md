@@ -6,4 +6,4 @@ Spun aluminum accents and a layered, multi-depth face finish off a 1964-65 Chevy
 
 It bolts in with your OEM or reproduction bezel, which isn't included. Choose your car's year and whether it has the A/C vent when you order. Reproduction bezels for 1964 and 1965 cars, with or without A/C, are listed with this kit. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

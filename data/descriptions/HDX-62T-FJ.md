@@ -6,4 +6,4 @@ Made for the stock gauge bezel in 1962-84 Toyota FJ models, this HDX system drop
 
 It works with nearly any drivetrain. The bezel isn't included, so use an OEM or reproduction one. A custom 4,000 rpm tach for diesels and metric units are available on request, so contact Dakota Digital about those.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Each gauge gets its own red warning light you can set. A central control box pulls signals from the vehicle harness and hooks up the included solid-state senders.

@@ -6,4 +6,4 @@ The five-pod 1959-60 Chevy dash has become an icon, showing up in everything fro
 
 It fits the 1959-60 Impala and El Camino. You'll need the stock gauge pods, which Dakota Digital doesn't sell, and your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. One central control box keeps installation and setup simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. One central control box keeps installation and setup simple.

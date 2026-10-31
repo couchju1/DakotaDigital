@@ -6,4 +6,4 @@ The 1958 Chevy, first of the X-frame cars, got an all-new dash, and this HDX sys
 
 You'll need your stock instrument housing and front bezel trim. The bezel isn't included. A matching HLC clock is sold separately. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. A central control box connects the included solid-state senders.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Each gauge gets its own red warning light you can set. A central control box connects the included solid-state senders.

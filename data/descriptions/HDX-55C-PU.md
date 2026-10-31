@@ -6,4 +6,4 @@ Builders have put the V-shaped 1955-59 Chevy pickup cluster in plenty of custom 
 
 Mount it with a stock or reproduction bezel, sold separately. It doesn't fit GMC. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Indicators stay hidden until they light, and each gauge has its own red warning light you can set. A central control box connects the included solid-state senders, which keeps the install simple.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Indicators stay hidden until they light, and each gauge has its own red warning light you can set. A central control box connects the included solid-state senders, which keeps the install simple.

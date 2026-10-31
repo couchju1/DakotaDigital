@@ -6,4 +6,4 @@ Two round gauges with chrome-plated billet aluminum bezels give a 1954 Chevy pic
 
 The machined aluminum and chrome bezel is included. Oil pressure, water temp, fuel and volts round out the readings. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in the colors you choose.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in the colors you choose.

@@ -6,4 +6,4 @@ Finish off your 1964-66 C10 with six analog gauge sweeps and a large TFT display
 
 This one-piece system bolts to your stock or reproduction bezel with the supplied hardware. The bezel isn't included, and it doesn't fit GMC models. A metric version is a special order.
 
-Touch buttons on the face, or the Bluetooth app for iPhone and Android, handle setup. The needle hubs are black nickel-plated spun aluminum. A central control box takes signals from the truck's harness and connects the included solid-state senders.
+Touch buttons on the face, or the Bluetooth app for iPhone and Android, handle setup. The needle hubs are black nickel-plated spun aluminum. A central control box pulls signals from the truck's harness and connects the included solid-state senders.

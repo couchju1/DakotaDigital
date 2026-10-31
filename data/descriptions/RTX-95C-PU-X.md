@@ -6,4 +6,4 @@ GM gave its 1995 trucks and SUVs a rounder, driver-oriented dash for the last ru
 
 It fits 1995-98 full-size pickups and 1995-2000 SUV and HD models. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup, and TFT message centers show extra readings.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup, and TFT message centers show extra readings.

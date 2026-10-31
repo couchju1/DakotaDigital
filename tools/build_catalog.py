@@ -783,11 +783,13 @@ def load_rewrite(sku, pid):
     """Paragraphs of the product's rewrite (front matter dropped), or None when there is no rewrite.
     Some kits are sold on more than one product page: data/descriptions/<sku>-p<id>.md is for that one
     page, and <sku>.md applies only to the page its "product:" line names."""
-    if not sku:
-        return None
-    f = DESCRIPTIONS / f'{sku}-p{pid}.md'
-    if not f.exists():
+    # Pages without a usable SKU (none, or one with a slash) use p<id>.md.
+    ok = sku and '/' not in sku
+    f = DESCRIPTIONS / (f'{sku}-p{pid}.md' if ok else f'p{pid}.md')
+    if ok and not f.exists():
         f = DESCRIPTIONS / f'{sku}.md'
+    if not f.exists():
+        f = DESCRIPTIONS / f'p{pid}.md'
     if not f.exists():
         return None
     text = f.read_text(encoding='utf-8').replace('\r\n', '\n')
@@ -894,6 +896,10 @@ def build_product(p):
         body = ('<p>This product is no longer listed on dakotadigital.com. It may have been discontinued or replaced.</p>'
                 '<p>Search above for a current part, or <a href="contact.html">ask the people who build these</a> what replaced it.</p>')
     skus = [it['sku'] for it in items if it['sku']]
+    # The original description paragraphs (the ones a rewrite replaces), for the copy lint.
+    ORIGINALS[p] = {'title': info['title'], 'skus': skus, 'path': info['path'],
+                    'build': FEATURE_BUILDS in (info['cat'], *chain(info['cat'])),
+                    'original': [t for t in (_norm(m) for m in re.findall(r'<p>((?:(?!<img|<iframe|<p>).)*?)</p>', body, flags=re.S)) if t]}
     rewrite = load_rewrite(skus[0] if skus else '', p)
     if rewrite:
         body = apply_rewrite(body, rewrite)
@@ -964,6 +970,8 @@ SHOP.mkdir(exist_ok=True)
 for old in SHOP.glob('*.html'):
     old.unlink()
 CATALOG = {'cats': {}, 'products': {}}
+ORIGINALS = {}
+FEATURE_BUILDS = 643  # "Built with Dakota Digital" showcase category
 INDEX = []
 # Where each product lives: categories that show it in their product grid
 GRID_LISTED = {}
@@ -993,6 +1001,7 @@ for c in CATS:
 for args in SERIES_PAGES:
     build_series(*args)
 (CONTENT / 'catalog.json').write_text(json.dumps(CATALOG, ensure_ascii=False, indent=0), encoding='utf-8')
+(CONTENT / 'originals.json').write_text(json.dumps(ORIGINALS, ensure_ascii=False, indent=0), encoding='utf-8')
 (CONTENT / 'catalog_index.json').write_text(json.dumps(INDEX, ensure_ascii=False), encoding='utf-8')
 img_map_path.write_text(json.dumps(IMAGES, indent=0), encoding='utf-8')
 # Old (misspelled) URLs -> new ones, as permanent redirects on Vercel

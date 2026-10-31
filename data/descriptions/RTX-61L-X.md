@@ -6,4 +6,4 @@ New aluminum bezels dripping with chrome surround OE-inspired RTX faces in this 
 
 The new chromed aluminum bezels are included. The stock housings and mounting plate aren't. Installation requires a permanent change inside the stock cluster to make room, so check the installation manual first. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.

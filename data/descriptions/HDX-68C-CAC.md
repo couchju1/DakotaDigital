@@ -6,4 +6,4 @@ Those four little gauges in the center console tell people your '68 Camaro means
 
 It's a complete package and can't be split up. The dash and console bezels aren't supplied, so use OEM or reproduction ones. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. A central control box takes signals from the car's harness and connects the included solid-state senders.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Each gauge gets its own red warning light you can set. A central control box pulls signals from the car's harness and connects the included solid-state senders.

@@ -6,4 +6,4 @@ At first look it's a simple speedometer and tach combo, styled after the stock 1
 
 The 1967 and 1968 graphic styles differ, but both fit either year, so pick the period-correct look or the one you like. It fits directly into a stock or reproduction gauge bezel, sold separately, and a replacement bezel is listed with this kit. A metric version of each style is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

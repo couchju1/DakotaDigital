@@ -6,4 +6,4 @@ There's no need to cut up a 1961-62 Impala dash for round gauges. This direct-fi
 
 New chrome housings and bezels for the round gauges are included, and you reuse the rectangular speedometer trim piece. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android, and choose separate lighting colors for the readings, needles and message centers. Every gauge has its own settable red warning light. A central control box connects the included solid-state senders.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android, and choose separate lighting colors for the readings, needles and message centers. Each gauge gets its own red warning light you can set. A central control box connects the included solid-state senders.

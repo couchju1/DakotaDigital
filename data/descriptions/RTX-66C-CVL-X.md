@@ -6,4 +6,4 @@ A long, sweeping speedometer flanked by dual gauges keeps the factory feel of a 
 
 It uses your OEM or reproduction bezel, which isn't included. A reproduction bezel for the 1966-67 Chevelle is listed with this kit. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

@@ -6,4 +6,4 @@ An LED bar-graph tach above the speedometer and twin TFT message centers keep a 
 
 This bolt-in upgrade uses your stock plastic or metal gauge bezel, which isn't included. Sensors for oil pressure, coolant temp and speed come in the kit. For a Lightning or Coyote drivetrain, the BIM-01-2 OBD-II/CAN interface makes hookup simple. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. One central control box keeps installation and setup simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. One central control box keeps installation and setup simple.

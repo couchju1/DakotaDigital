@@ -6,4 +6,4 @@ Street builds and drag racers keep the 1994-2004 SN95 Mustang popular. This RTX 
 
 It uses your OEM or reproduction bezel, which isn't included. A metric version of each is a special order. The required oil pressure, water temperature and speed sensors are included, so in many cases you won't need extra parts.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. The gauges keep a factory look until the LED backlighting comes on in your colors, and TFT message centers show extra readings.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. The gauges keep a factory look until the LED backlighting comes on in your colors, and TFT message centers show extra readings.

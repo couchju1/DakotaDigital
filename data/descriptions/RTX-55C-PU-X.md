@@ -6,4 +6,4 @@ It looks like a stock take-out cluster from a 1955-59 Chevy pickup, but it's all
 
 It fits your stock or reproduction chrome bezel, which is sold separately. It doesn't fit GMC trucks. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come in the box, and one central control box keeps setup simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come in the box, and one central control box keeps setup simple.

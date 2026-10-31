@@ -6,4 +6,4 @@ Those two large squares in the 1968 Chevelle, Malibu and El Camino dash have lon
 
 It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Indicators stay hidden until they light, and every gauge has its own settable red warning light. A central control box takes signals from the car's harness and connects the included solid-state senders, which keeps installation simple.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Indicators stay hidden until they light, and each gauge gets its own red warning light you can set. A central control box pulls signals from the car's harness and hooks up the included solid-state senders to keep installation simple.

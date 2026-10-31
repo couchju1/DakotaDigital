@@ -6,4 +6,4 @@ One large TFT message center sits between six analog instruments in this all-in-
 
 You'll need to open up a small section of the stock dash. The bezel isn't included, so use an OEM or reproduction one. The supplied sensors connect to your drivetrain. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android, and pick your lighting colors. Every gauge has its own settable red warning light, and a central control box takes signals from the car's harness.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android, and pick your lighting colors. Each gauge gets its own red warning light you can set, and a central control box takes signals from the car's harness.

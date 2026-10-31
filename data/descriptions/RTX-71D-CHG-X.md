@@ -6,4 +6,4 @@ Third-gen Chargers kept the Rallye style of mixed-size round gauges, and this RT
 
 It mounts right into the steel dash structure, and the OEM front gauge bezel goes over it. The bezel isn't included. It covers the 1971-74 Plymouth GTX, Road Runner and Dodge Charger and the '71 Super Bee. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and TFT message centers show the extra readings.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and TFT message centers show the extra readings.

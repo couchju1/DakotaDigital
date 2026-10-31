@@ -6,4 +6,4 @@ In a bone stock cab or a full custom interior, this RTX system looks right at ho
 
 It fits 1992-94 Chevy and GMC pickups, plus the Suburban, Tahoe and Yukon. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup.

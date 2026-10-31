@@ -6,4 +6,4 @@ Most aftermarket gauges won't fit the long, narrow instrument housing of a 1966-
 
 Faces come in black or silver alloy. It uses your OEM or reproduction bezel, which isn't included, and a replacement bezel is listed with this kit. A metric version is a special order.
 
-Set it up with the touch buttons or the Bluetooth app for iPhone and Android, and choose separate lighting colors for the readings, needles and message center. Indicators stay hidden until they light. A central control box connects the included solid-state senders, which keeps installation simple.
+Set it up with the touch buttons or the Bluetooth app for iPhone and Android, and choose separate lighting colors for the readings, needles and message center. Indicators stay hidden until they light. A central control box hooks up the included solid-state senders to keep installation simple.

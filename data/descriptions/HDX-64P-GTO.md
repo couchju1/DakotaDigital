@@ -6,4 +6,4 @@ Two TFT message centers and six analog gauge sweeps fill the four openings of a 
 
 The fully machined housing attaches directly to the stock gauge bezel of the GTO, LeMans and Tempest, including the 1963 Tempest. The bezel, trim and fascia aren't included. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. A central control box takes signals from the car's harness and connects the included solid-state senders, which keeps installation simple.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android. Each gauge gets its own red warning light you can set. A central control box pulls signals from the car's harness and hooks up the included solid-state senders to keep installation simple.

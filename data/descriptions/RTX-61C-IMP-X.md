@@ -6,4 +6,4 @@ This RTX system follows the shapes of the 1961-62 Chevy dash and drops right in.
 
 New aluminum chrome bezels come with it for the round gauges, and your stock stamped speedometer trim gets reused. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps the install simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps the install simple.

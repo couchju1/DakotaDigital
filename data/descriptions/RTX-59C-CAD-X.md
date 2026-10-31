@@ -6,4 +6,4 @@ Billboard tail fins and acres of chrome make the 1959 Cadillac impossible to mis
 
 It connects simply to OEM or aftermarket engines. The bezel isn't included, so use an OEM or reproduction one. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor needs about 5 inches of clearance. A two-sided rocker switch handles setup.

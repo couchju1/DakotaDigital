@@ -6,4 +6,4 @@ People will look twice at the dash of your 1961-66 F100. This factory look-alike
 
 It fits your existing bezel and needs a stock steel bezel, which isn't included. It doesn't fit Custom Cab models. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.

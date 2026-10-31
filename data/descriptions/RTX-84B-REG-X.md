@@ -6,4 +6,4 @@ A large, sweeping horizontal speedometer recalls the Buick design in this stock-
 
 The bezel isn't included. Adding the SEN-09-7 puts boost in the message center, and a Grand National version with it is listed. Grand National ignitions may need the SGI-17 for the tach. Metric versions are a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and one central control box keeps installation simple.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and one central control box keeps installation simple.

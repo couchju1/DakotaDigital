@@ -6,4 +6,4 @@ Skip adapter rings and "good enough." Custom-machined billet aluminum bezels fit
 
 Mounting hardware is supplied. It doesn't fit GMC. A metric version is a special order.
 
-Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android, and pick your lighting colors. Every gauge has its own settable red warning light. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and a central control box keeps the wiring simple.
+Set it up with the built-in touch buttons or a Bluetooth app on iPhone or Android, and pick your lighting colors. Each gauge gets its own red warning light you can set. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and a central control box keeps the wiring simple.

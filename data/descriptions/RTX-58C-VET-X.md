@@ -6,4 +6,4 @@ Love the stock 1958-62 Corvette interior but want better accuracy and visibility
 
 Chrome-plated billet gauge bezels are included. It needs the stock cast-metal dash pods, and the dash housing isn't included. A matching RLC clock is sold separately. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and the LED backlighting comes on in your colors.

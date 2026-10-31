@@ -6,4 +6,4 @@ The 1940 Ford dash is an icon in street rods, and this RTX kit keeps its OEM sty
 
 It fits the stock dash opening in 1940 Ford cars and 1940-47 Ford pickups. A chrome-plated, machined bezel comes with the kit. A matching clock is sold separately. A metric version is a special order.
 
-Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors are included with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+Each RTX housing is CNC machined, with electronics Dakota Digital designs and builds in-house. Water temperature, oil pressure and speed sensors are included with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
