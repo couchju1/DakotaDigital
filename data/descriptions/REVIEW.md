@@ -5196,3 +5196,350 @@ Water temperature, oil pressure and speed sensors come in the box with 10 ft har
 | Pushbuttons calibrate speedometer and fuel gauge, page message centers | Specifications tab | Pushbutton calibration section |
 
 **Flags:** The Extra Items name the bezels for "Chevy pickup" only, while the system fits Chevy and GMC.
+
+# Batch 15
+
+Each product: the rewrite, the original description as it was on the page, and every fact in the rewrite with where it came from. Sources: Description (the main copy), Description footnote (the * notes), Specifications / Extra Items / Pictures tabs, Options and Versions in the buy box, and the product title. FLAG marks anything to double-check.
+
+## RTX-66C-NOV-X: 1966-67 Chevy Nova RTX Instruments
+
+Page: `redesign/shop/1966-67-chevy-nova-rtx-instruments-p1235.html` (product 1235)
+
+### Rewrite
+
+Showroom stock is how this 1966-67 Nova dash looks with the key off. Admirers have to look twice to spot the full-color TFT message centers and the LED bar graphs for oil pressure and volts. With it on, the driver gets clear readings for speed, rpm, water temp and fuel too.
+
+It's a direct fit for your stock 1966-67 Nova gauge bezel, OEM or reproduction, which isn't included. Drag racers, autocross fans and street machiners all use it. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+
+### Original
+
+> The Chevy II/Nova has developed a fierce following of drag racers, pro-touring/autocross crazies and street machiners. Whichever category you fall in to, this direct-fit instrument system will keep your interior looking showroom-stock with a myriad of sneaky, 21-Century features and upgrades. Designed to fit your stock 1966-67 Chevy Nova gauge bezel, admirers will have to look twice to see the full-color TFT message centers and LED bar graph displays for oil pressure and volts. All were designed to maintain a stock appearance with the key off, but provide incredible visibility for the driver while in use.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Looks showroom stock with the key off | Description | "keep your interior looking showroom-stock"; "designed to maintain a stock appearance with the key off" |
+| TFT message centers and LED bar graphs for oil pressure and volts that admirers look twice to spot | Description | "admirers will have to look twice to see the full-color TFT message centers and LED bar graph displays for oil pressure and volts" |
+| Speed, rpm, water temp and fuel | Specifications tab | Analog Gauges: Speedometer, Tachometer, Water Temperature, Fuel Level |
+| Direct fit for the stock 1966-67 Nova bezel, not included | Description / Description footnote | "Designed to fit your stock 1966-67 Chevy Nova gauge bezel"; "*Bezel not included" |
+| Drag racers, autocross fans and street machiners | Description | "a fierce following of drag racers, pro-touring/autocross crazies and street machiners" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| CNC machined housing, in-house electronics, rocker switch, control box | Description (RTX series paragraph) / Specifications tab | RTX paragraph; "two-sided rocker switch" |
+
+**Flags:** None.
+
+## RTX-64P-GTO-X: 1964-67 Pontiac GTO/ LeMans/ Tempest RTX Instruments
+
+Page: `redesign/shop/1964-67-pontiac-gto-lemans-tempest-rtx-instruments-p1237.html` (product 1237)
+
+### Rewrite
+
+One Pontiac cluster fits the 1964-67 GTO, Tempest and Le Mans, and so does this RTX system. Twin TFT message centers and LED backlighting keep you informed, while the original styling cues stay intact. Even a straight restoration can run it.
+
+A machined aluminum housing gives an accurate fit. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses. A two-sided rocker switch handles setup, and one central control box keeps installation simple.
+
+### Original
+
+> Thanks to Pontiac engineers, one instrument cluster fits 1964-67 GTO, Tempest and Le Mans. Out direct-fit system features a machined aluminum housing for an accurate fit, while the twin TFT message centers and LED backlighting ensure the driver is well informed at all times. Every effort was made to keep the original styling cues intact, so even a straight restoration can have the best instruments available.
+>
+> RTX keeps the stock look and adds the late-model features you want. The layout, faces and indicators follow the original design so closely that most people will take it for factory, right up until you turn the key and the LED backlighting comes on in your colors.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message centers show just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| One Pontiac cluster fits 1964-67 GTO, Tempest and Le Mans | Description | "Thanks to Pontiac engineers, one instrument cluster fits 1964-67 GTO, Tempest and Le Mans" |
+| Twin TFT message centers and LED backlighting; original styling cues intact; fine for a restoration | Description | "the twin TFT message centers and LED backlighting ensure the driver is well informed ... Every effort was made to keep the original styling cues intact, so even a straight restoration can have the best instruments" |
+| Machined aluminum housing for an accurate fit | Description | "Our direct-fit system features a machined aluminum housing for an accurate fit" |
+| OEM or reproduction bezel, not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| CNC machined housing, in-house electronics, rocker switch, control box | Description (RTX series paragraph) / Specifications tab | RTX paragraph; "two-sided rocker switch" |
+
+**Flags:** The version name says only "1964-67 Pontiac GTO".
+
+## RTX-33F-X: 1933-34 Ford Car RTX Instruments
+
+Page: `redesign/shop/1933-34-ford-car-rtx-instruments-p1240.html` (product 1240)
+
+### Rewrite
+
+Part jewelry, part car part: brushed faces sit in a chrome bezel with an engine-turned aluminum insert. An LED bar-graph tach wraps around the outside of the speedometer, and a full-color TFT message center shows more than the standard six readings.
+
+The billet aluminum housing matches the raised stamped section of a 1933-34 Ford car dash. Cutting is required to install it. A metric version is a special order.
+
+Every RTX housing is CNC machined, and the electronics are designed and built in-house. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. A two-sided rocker switch handles setup.
+
+### Original
+
+> Walking the line between jewelry and car part, the RTX-33F is a sight to behold. From the brushed instrument faces to the chrome bezel with engine-turned aluminum insert, our engineering team really got a work out with this one. Engine RPM is displayed by an LED bar graph that wraps around the outside of the speedometer, and the full-color TFT message center allows additional information to be displayed above and beyond the standard six. The billet aluminum housing matches the stamped raised section in a 1933-34 Ford car dash; cutting is required. The RTX series is the latest from Dakota Digital, focused on retaining that stock look without sacrificing the late-model features you love. Every effort has been put forth to incorporate OEM design elements regarding the layout, face styling and indicators. A casual glance may dismiss these as original equipment, but once you hit the switch and the LED backlighting comes on in your favorite color scheme, all doubts will be removed.
+>
+> Every RTX housing is CNC machined, and the electronics are designed and built in-house. The high-definition TFT message center shows just about any reading you want, and one central control box keeps installation and setup simple. Full details are in the sections below.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Between jewelry and car part; brushed faces; chrome bezel with engine-turned aluminum insert | Description | "Walking the line between jewelry and car part ... From the brushed instrument faces to the chrome bezel with engine-turned aluminum insert" |
+| LED bar-graph tach around the speedometer; TFT message center beyond the standard six | Description | "Engine RPM is displayed by an LED bar graph that wraps around the outside of the speedometer, and the full-color TFT message center allows additional information to be displayed above and beyond the standard six" |
+| Billet housing matches the raised stamped section of a 1933-34 Ford car dash; cutting required | Description | "The billet aluminum housing matches the stamped raised section in a 1933-34 Ford car dash; cutting is required" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| CNC housing, in-house electronics, rocker switch | Description / Specifications tab | "Every RTX housing is CNC machined ..."; "two-sided rocker switch" |
+
+**Flags:** The chrome bezel reads as part of the kit, but the page does not say "included"; the rewrite does not either.
+
+## HDX-40F: 1940 Ford Car and 1940-47 Ford Truck HDX Instruments
+
+Page: `redesign/shop/1940-ford-car-and-1940-47-ford-truck-hdx-instruments-p1079.html` (product 1079)
+
+### Rewrite
+
+A chrome-plated, machined bezel comes with this HDX kit for the iconic 1940 Ford dash. A full-color TFT message center sits in the OEM-styled layout, and you pick black or silver alloy faces with your own lighting colors.
+
+It fits the stock dash opening of 1940 Ford cars and 1940-47 Ford pickups. The matching HLC-40F clock, sold separately, has a chrome bezel made for the stock '40 glove box. It isn't a stand-alone unit and plugs into the HDX control box. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. Set it up with the touch buttons or the Bluetooth app for iPhone and Android.
+
+### Original
+
+> The 1940 Ford dashboard has become an icon in its own right, finding its way into many street rods over the years. This kit comes complete with a chrome plated, machined bezel and a look that can’t be beat! The full-color TFT message center finds a home in an OEM-styled system that fits the stock dash opening of 1940 cars as well as 1940-47 Ford pickups. This HLC-40F clock is the finishing touch for your HDX installation. The machined, chrome plated bezel is designed to fit a stock ’40 glove box and the face styling matches the required parent system. Not a stand-alone unit, easy plug-in connectivity to the HDX control box leaves you no reason to skimp!
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Chrome-plated machined bezel included; iconic 1940 Ford dash | Description | "The 1940 Ford dashboard has become an icon ... This kit comes complete with a chrome plated, machined bezel" |
+| TFT message center in an OEM-styled layout | Description | "The full-color TFT message center finds a home in an OEM-styled system" |
+| Black or silver alloy faces; lighting colors | Description (HDX series paragraph) / Options (buy box) | Style options; HDX paragraph |
+| Fits 1940 Ford cars and 1940-47 Ford pickups | Description | "fits the stock dash opening of 1940 cars as well as 1940-47 Ford pickups" |
+| HLC-40F clock sold separately; chrome bezel fits the stock glove box; not stand-alone; plugs into the HDX control box | Description / Versions (buy box) | "This HLC-40F clock ... The machined, chrome plated bezel is designed to fit a stock '40 glove box ... Not a stand-alone unit, easy plug-in connectivity to the HDX control box"; HLC-40F listed |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Touch buttons or Bluetooth app | Description (HDX series paragraph) | HDX series paragraph |
+
+**Flags:** The description mixes in the HLC-40F clock's own description ("This HLC-40F clock is the finishing touch ..."). The rewrite presents the clock as a separate add-on.
+
+## HDX-58C-VET: 1958-62 Chevy Corvette HDX Instruments
+
+Page: `redesign/shop/1958-62-chevy-corvette-hdx-instruments-p1080.html` (product 1080)
+
+### Rewrite
+
+The one-of-a-kind 1958-62 Corvette dash gets twin TFT message centers with this direct-fit HDX package. Chrome bezels are included, and you choose black or silver alloy faces.
+
+You reuse your painted, cast dash housing, which isn't included. It connects to nearly any engine and transmission combination. The matching HLC-58C-VET clock, sold separately, fits the factory clock housing and plugs into the HDX control box. It can't be used alone. A metric version is a special order.
+
+Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Every gauge has its own settable red warning light. A central control box takes signals from the car's harness and connects the included solid-state senders.
+
+### Original
+
+> America’s sports car lives on! The unique dash found in 1958-62 Chevy Corvette requires a high tech, graceful instrument system; look no further than this direct fit package, complete with chrome bezels. You’ll reuse your painted, cast dash housing when installing this kit and enjoy twin TFT message centers plus the ability to connect to nearly any engine/transmission combination.
+>
+> The perfect complement to your HDX-58C-VET system, the HLC-58C-VET clock unit fits the factory clock housing and connects to the main HDX control box. Cannot be used alone.
+>
+> HDX comes with black or silver alloy faces, and you choose separate lighting colors for the readings, needles and message centers. Set it up with the built-in touch buttons or the Bluetooth app for iPhone and Android. Needle hubs are black nickel-plated spun aluminum to match the buttons. Indicators stay hidden until they light up (turn signals, high beam, check engine, cruise control, parking brake and two you define), and every gauge has its own settable red warning light. A central control box takes signals from the vehicle harness and connects the included solid-state senders, which keeps installation simple. Full details are in the sections below.
+>
+> *Dash housing not included, shown for visual/presentation purposes. System uses OEM or reproduction style instrument housing.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Unique 1958-62 Corvette dash; direct fit; twin TFT message centers; chrome bezels included | Description | "The unique dash found in 1958-62 Chevy Corvette ... this direct fit package, complete with chrome bezels ... enjoy twin TFT message centers" |
+| Black or silver alloy faces | Description (HDX series paragraph) / Options (buy box) | Style options |
+| Reuse the painted cast dash housing, not included | Description / Description footnote | "You'll reuse your painted, cast dash housing"; "*Dash housing not included" |
+| Nearly any engine and transmission | Description | "the ability to connect to nearly any engine/transmission combination" |
+| HLC-58C-VET clock fits the factory clock housing, plugs into the HDX control box, cannot be used alone | Description / Versions (buy box) | "the HLC-58C-VET clock unit fits the factory clock housing and connects to the main HDX control box. Cannot be used alone" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Touch buttons or Bluetooth app; warning lights; control box with included senders | Description (HDX series paragraph) | HDX series paragraph |
+
+**Flags:** None.
+
+## VHX-66C-NOV: 1966-67 Chevy Nova VHX Analog Instruments
+
+Page: `redesign/shop/1966-67-chevy-nova-vhx-analog-instruments-p814.html` (product 814)
+
+### Rewrite
+
+A 1966-67 Nova comes up to date with six analog gauge readouts and a single LCD message center that shows two readings at once. The needles light up over backlit faces.
+
+There's no cutting. Use a stock or reproduction bezel, which isn't included. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
+
+Stepper motors drive the needles, and the sensors are solid state. Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the included pushbuttons handle calibration. VHX is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> 1966-67 Novas will never go out of style. Bring yours up to date with all-new instrumentation without cutting up a classic! Use a stock or reproduction bezel to freshen up the dash while six analog gauge readouts plus a single LCD message center able to display two readings at once keep you informed..
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six analog readouts and a single LCD message center showing two readings at once; 1966-67 Nova | Description | "six analog gauge readouts plus a single LCD message center able to display two readings at once" |
+| Lit needles, backlit faces | Description (VHX series paragraph) | VHX paragraph |
+| No cutting; stock or reproduction bezel, not included | Description / Description footnote | "without cutting up a classic! Use a stock or reproduction bezel"; "*Bezel not included" |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Stepper motors, solid-state sensors, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** Blue/Red option not explained.
+
+## VHX-56F-PU: 1956 Ford Pickup VHX Instruments
+
+Page: `redesign/shop/1956-ford-pickup-vhx-instruments-p818.html` (product 818)
+
+### Rewrite
+
+The one-year-only 1956 F100 gets modern function without losing its timeless look. Lit needles over backlit faces and LCD message centers show trip meters, a 0-60 timer and quarter-mile times.
+
+It bolts into the stock dash with an original or reproduction bezel. The factory bezel isn't included. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. The included pushbuttons handle calibration. VHX is built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+
+### Original
+
+> Taking a good thing and making it better, the one-year-only ’56 F100 is the high water mark for fifties trucks. Such an icon deserves an iconic instrument system, and Dakota Digital delivers! Easily bolting into the stock dash with an original or reproduction bezel, VHX-56F-PU adds function in the midst of timeless form.
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> * Fits factory bezel, not included.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| One-year-only 1956 F100; function with a timeless look | Description | "the one-year-only '56 F100 ... adds function in the midst of timeless form" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Trip meters, 0-60 timer, quarter-mile times | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time |
+| Bolts into the stock dash with an original or reproduction bezel; factory bezel not included | Description / Description footnote | "Easily bolting into the stock dash with an original or reproduction bezel"; "* Fits factory bezel, not included" |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Pushbuttons; built in Sioux Falls; warranty | Specifications tab / Description (VHX series paragraph) | Pushbutton calibration; VHX paragraph |
+
+**Flags:** Blue/Red option not explained.
+
+## VHX-53F-PU: 1953-55 Ford Pickup VHX Instruments
+
+Page: `redesign/shop/1953-55-ford-pickup-vhx-instruments-p820.html` (product 820)
+
+### Rewrite
+
+A chrome bezel machined from 6061 aluminum comes with this VHX system for the 1953-55 Ford F100. It fits the stock dash and adds lit needles, backlit faces and LCD message centers.
+
+The chromed, machined aluminum dash bezel is included. Faces come in black alloy, silver alloy or a carbon fiber look, in blue or red. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses, and the speed sensor works with Ford or GM style cables. Stepper motors drive the needles, and the included pushbuttons handle calibration. VHX is engineered and built in Sioux Falls, South Dakota, with a limited lifetime warranty.
+
+### Original
+
+> The designers at Ford got it right when they penned the 1953-55 F100 lineup. Fitting the stock dash and complete with a chrome bezel machined from 6061 aluminum, this system is sure to bring your Effie to a new level!
+>
+> VHX gives you real needles that light up, backlit faces and easy-to-read LCD message centers. Underneath are micro-controlled precision stepper motors, solid-state sensors and displays you can customize. Like every Dakota Digital system, VHX is engineered and built in Sioux Falls, South Dakota, and carries a limited lifetime warranty.
+>
+> *Chromed, machined-aluminum dash bezel included*
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Chrome bezel machined from 6061 aluminum, included; fits the stock dash of a 1953-55 F100 | Description / Description footnote | "Fitting the stock dash and complete with a chrome bezel machined from 6061 aluminum"; "*Chromed, machined-aluminum dash bezel included*" |
+| Lit needles, backlit faces, LCD message centers | Description (VHX series paragraph) | VHX paragraph |
+| Black alloy, silver alloy or carbon fiber look, in blue or red | Options (buy box) | Style and Color options (FLAG: color not explained) |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor works with Ford or GM cables | Specifications tab | "Replaces Ford and/ or GM style speedometer cables" |
+| Stepper motors, pushbuttons, built in Sioux Falls, warranty | Description (VHX series paragraph) / Specifications tab | VHX paragraph; pushbutton calibration |
+
+**Flags:** Blue/Red option not explained.
+
+## VFD3-73C-PU: 1973-87 Chevy Pickup, 1973-91 Chevy Blazer, GMC Jimmy and Suburbans Digital Instrument System
+
+Page: `redesign/shop/1973-87-chevy-pickup-1973-91-chevy-blazer-gmc-jimmy-and-subu-p158.html` (product 158)
+
+### Rewrite
+
+Square-body Chevy and GMC trucks get six digital gauges in the OEM bezel with this system. Speed, rpm, oil pressure, water temp, fuel and volts read out in blue or teal, and the message centers add trip meters, a 0-60 timer and quarter-mile times.
+
+It fits 1973-87 full-size Chevy and GMC pickups. It uses your OEM or reproduction bezel, which isn't included. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors are included, each with a 10 ft harness, and the speed sensor needs about 5 inches of clearance. Mount the included pushbuttons within reach to calibrate the system and scroll the message centers.
+
+### Original
+
+> Full 6 Gauge Instrument System fits into OEM bezel for 1973- 1987 Full-size Chevy and GMC Pickups.
+>
+> *Bezel not included; it's shown for presentation. The system uses your OEM or reproduction bezel.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| Six digital gauges in the OEM bezel of 1973-87 full-size Chevy and GMC pickups | Description | "Full 6 Gauge Instrument System fits into OEM bezel for 1973- 1987 Full-size Chevy and GMC Pickups" |
+| Speed, rpm, oil, water, fuel, volts in blue or teal | Specifications tab / Options (buy box) | Digital Gauges list; Blue or Teal |
+| Trip meters, 0-60 timer, quarter-mile times | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time |
+| OEM or reproduction bezel, not included | Description footnote | "*Bezel not included" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Speed sensor about 5 inches clearance; pushbuttons | Specifications tab | "approximately 5\" clearance"; pushbutton calibration |
+
+**Flags:** The title also names the 1973-91 Blazer, Jimmy and Suburban, but the description names only pickups. The rewrite names only pickups. This page has no Series III paragraph, so the rewrite does not say "vacuum fluorescent".
+
+## VFD3-88C-PU-U: 1988-91 Chevy/ GMC Pickup Digital Instrument System
+
+Page: `redesign/shop/1988-91-chevy-gmc-pickup-digital-instrument-system-p159.html` (product 159)
+
+### Rewrite
+
+For 1988-91 full-size Chevy and GMC pickups with factory gauges but no factory tach, this system fits right into the OEM instrument cluster. Six digital gauges read in blue or teal, and the message centers add trip meters, a 0-60 timer and quarter-mile times.
+
+It won't fit trucks with indicator lights instead of gauges, or trucks with a factory tach. On automatic trucks it removes the gear indicator in the stock cluster. Add the GSS-3000 gear shift sensor to show the shifter position in the display. A metric version is a special order.
+
+Water temperature, oil pressure and speed sensors come with 10 ft harnesses. The included pushbuttons handle calibration and the message centers.
+
+### Original
+
+> Full 6 Gauge Instrument System fits into OEM instrument cluster for 1988- 91 Chevy & GMC Fullsize Pickup.
+>
+> Fits directly into existing instrument cluster of 1988- 91 Fullsize trucks which have factory gauges (not indicator lights) but do NOT have a factory tachometer. *System eliminates the gear indicator found in the OEM instrument cluster of models which had an automatic transmission. To add a shifter detent readout within the VFD3 display, add GSS-3000 Gear Shift Sensor.
+
+### Facts and sources
+
+| Fact in the rewrite | Source | What the page says |
+| --- | --- | --- |
+| 1988-91 full-size Chevy and GMC pickups with factory gauges and no factory tach; fits the OEM cluster | Description | "Fits directly into existing instrument cluster of 1988- 91 Fullsize trucks which have factory gauges (not indicator lights) but do NOT have a factory tachometer" |
+| Six digital gauges in blue or teal | Description / Specifications tab | "Full 6 Gauge Instrument System"; Blue or Teal |
+| Trip meters, 0-60 timer, quarter-mile times | Specifications tab | Dual (A/B) Trip Meter; 0-60 MPH Timer; 1/4 mile time |
+| Removes the automatic gear indicator; GSS-3000 shows shifter position | Description | "*System eliminates the gear indicator found in the OEM instrument cluster of models which had an automatic transmission. To add a shifter detent readout within the VFD3 display, add GSS-3000 Gear Shift Sensor" |
+| A metric version (km/h and Celsius) is a special order | Versions (buy box) | "Metric: ... in KM/H and degrees CELSIUS/ *Special Order*" |
+| Water temperature, oil pressure and speed sensors, 10 ft harnesses | Specifications tab | Included Sensors: each "with a 10 ft harness" |
+| Pushbuttons for calibration and message centers | Specifications tab | Pushbutton calibration section |
+
+**Flags:** This page has no Series III paragraph, so the rewrite does not say "vacuum fluorescent".
