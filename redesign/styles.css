@@ -141,9 +141,15 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .icon-link .badge { position: static; }
   .menu-btn { display: none; }
   .main-nav { display: block; }
-  .main-nav ul { display: flex; flex-wrap: wrap; gap: 0 22px; padding-top: 0; padding-bottom: 0; }
+  .main-nav ul { display: flex; flex-wrap: wrap; gap: 0 13px; padding-top: 0; padding-bottom: 0; }
+  .main-nav a { font-size: 16px; letter-spacing: .03em; }
   .main-nav a { border: 0; padding: 10px 0; }
   .main-nav .nav-more { margin-left: auto; }
+}
+
+@media (min-width: 1200px) {
+  .main-nav ul { gap: 0 22px; }
+  .main-nav a { font-size: 18px; letter-spacing: .04em; }
 }
 
 /* ---------- Dash Finder ---------- */

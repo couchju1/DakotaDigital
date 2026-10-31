@@ -73,6 +73,7 @@ NAV = [
     ('efi.html', 'EFI and add-ons', 'efi'),
     ('support.html', 'Manuals and support', 'support'),
     ('dealers.html', 'Find a dealer', 'dealers'),
+    ('careers.html', 'Careers', 'careers'),
 ]
 
 FOOTER = [
@@ -628,7 +629,7 @@ def careers():
     ])
     return page('careers', 'Careers at Dakota Digital | Sioux Falls, SD',
                 'Work on a hands-on team building digital instrumentation for custom cars and motorcycles. Health, vision, dental, PTO and 401k.',
-                '', body, cat(373))
+                'careers', body, cat(373))
 
 
 def media():
