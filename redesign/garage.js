@@ -14,6 +14,24 @@
     { id: 'mustang', label: 'Mustang / Falcon', cat: 434, r: [['1960-63', 'V'], ['1964-65', 'RHV'], ['1965-66', 'RHVD'], ['1967-68', 'RHVD'], ['1969-70', 'RHVD'], ['1971-73', 'VD'], ['1979-86', 'RV'], ['1987-93', 'RHV'], ['1994-04', 'RV']] },
     { id: 'fordtruck', label: 'Ford truck / Bronco', cat: 830, r: [['1967-72', 'RHVD'], ['1973-79', 'RD'], ['1980-86', 'RV'], ['1987-91', 'RV'], ['1992-96', 'R'], ['1997-04', 'R']] }
   ];
+  // Gauge lines, keyed by the series codes in PLATFORMS.
+  const SERIES = {
+    G: { name: 'GRFX', tag: 'Full screen', body: 'One color screen fills the whole cluster. Pick it if you want the dash to look as new as the drivetrain.' },
+    R: { name: 'RTX', tag: 'Factory look', body: 'Looks like the original cluster until you turn the key. Behind the stock style you get a color message center, lighting you can change and setup from your phone.' },
+    H: { name: 'HDX', tag: 'Custom modern', body: 'Custom faces, sweeping needles and full color message centers. Change the lighting and settings from your phone.' },
+    V: { name: 'VHX', tag: 'Classic analog', body: 'Real needles with a simple digital readout in the center. A clean upgrade that costs less than RTX or HDX.' },
+    D: { name: 'VFD3', tag: 'All digital', body: 'Bright digital numbers and no needles. The look Dakota Digital started with.' }
+  };
+  // '1968-77' -> [1968, ..., 1977]
+  const yearsOf = (range) => {
+    const [a, b] = range.split('-');
+    const start = Number(a);
+    let end = b ? Number(a.slice(0, 4 - b.length) + b) : start;
+    if (end < start) end += 100; // 1994-04 crosses into the 2000s
+    const out = [];
+    for (let y = start; y <= end; y++) out.push(y);
+    return out;
+  };
   const KEY = 'dd-garage';
   const listeners = [];
 
@@ -40,6 +58,8 @@
 
   window.DDGarage = {
     PLATFORMS,
+    SERIES,
+    yearsOf,
     get: () => describe(car),
     set,
     onChange: (fn) => { listeners.push(fn); fn(describe(car)); }

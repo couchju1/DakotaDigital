@@ -61,11 +61,17 @@
   const img = box.querySelector('[data-theme-img]');
   const chips = [...box.querySelectorAll('.theme-chip')];
   chips.forEach((c) => { const pre = new Image(); pre.src = c.dataset.src; });
-  box.addEventListener('click', (e) => {
-    const chip = e.target.closest('.theme-chip');
-    if (!chip) return;
+  const show = (chip) => {
     img.src = chip.dataset.src;
     img.alt = `Lit up in the ${chip.textContent} theme`;
     chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+  };
+  box.addEventListener('click', (e) => {
+    const chip = e.target.closest('.theme-chip');
+    if (chip) show(chip);
   });
+  // ?theme=Emerald (from the Dash Builder) opens on that theme's photo.
+  const wanted = (new URLSearchParams(location.search).get('theme') || '').toLowerCase();
+  const start = wanted && chips.find((c) => c.textContent.trim().toLowerCase() === wanted);
+  if (start) show(start);
 })();

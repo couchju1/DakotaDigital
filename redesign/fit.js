@@ -4,15 +4,7 @@
 (() => {
   if (!window.DDGarage) return;
   const BASE = new URL('.', document.currentScript.src).href;
-  const yearsOf = (range) => {
-    const [a, b] = range.split('-');
-    const start = Number(a);
-    let end = b ? Number(a.slice(0, 4 - b.length) + b) : start;
-    if (end < start) end += 100; // 1994-04 crosses into the 2000s
-    const out = [];
-    for (let y = start; y <= end; y++) out.push(y);
-    return out;
-  };
+  const yearsOf = window.DDGarage.yearsOf;
   const read = (el) => ({
     cats: (el.dataset.cats || '').split(',').filter(Boolean).map(Number),
     years: (el.dataset.years || '').split(',').filter(Boolean).map(Number),

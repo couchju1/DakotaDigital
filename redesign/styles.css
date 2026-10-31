@@ -1124,3 +1124,56 @@ body.has-dock .site-footer { padding-bottom: 84px; }
 
 /* Honeypot: off screen for people, still in the form for bots */
 .hp { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* ---------- Dash Builder ---------- */
+.db-hero h1 { max-width: 20ch; }
+.db-picker { display: grid; gap: 0 16px; max-width: 640px; }
+@media (min-width: 600px) { .db-picker { grid-template-columns: 1fr 1fr; } }
+.db-note { margin: 4px 0 0; color: var(--muted-2); font-size: 15px; }
+.db-empty { padding-bottom: 64px; color: var(--muted); }
+.db-view { display: grid; gap: 28px; padding-top: 24px; padding-bottom: 72px; align-items: start; }
+@media (min-width: 960px) { .db-view { grid-template-columns: 1.35fr 1fr; gap: 48px; } .db-dash { position: sticky; top: 140px; } }
+/* Dash frame: a dark bezel around the real product photo */
+.db-frame {
+  position: relative; overflow: hidden; aspect-ratio: 16 / 9;
+  padding: clamp(12px, 3vw, 28px); border-radius: 18px;
+  background: radial-gradient(120% 90% at 50% 0%, #1E2228 0%, #07090C 70%);
+  border: 1px solid var(--line-2);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,.05), inset 0 -18px 40px rgba(0,0,0,.6), 0 30px 60px rgba(0,0,0,.45);
+  display: grid; place-items: center;
+}
+.db-frame img { width: 100%; height: 100%; object-fit: contain; }
+.db-frame .db-bg { position: absolute; inset: 0; object-fit: cover; padding: 0; }
+.db-frame.has-bg .db-cluster { position: relative; width: 62%; height: auto; filter: drop-shadow(0 10px 18px rgba(0,0,0,.6)); }
+.db-photo-cap { margin: 10px 0 0; color: var(--muted-2); font-size: 15px; }
+.db-count { scroll-margin-top: 140px; font-size: clamp(1.7rem, 3vw, 2.2rem); }
+.db-count:focus { outline: none; }
+.db-systems { display: grid; gap: 8px; margin: 16px 0; }
+@media (min-width: 480px) { .db-systems { grid-template-columns: 1fr 1fr; } }
+.db-sys {
+  display: grid; gap: 2px; min-height: 64px; padding: 10px 14px; text-align: left;
+  background: var(--panel); color: var(--text); border: 1px solid var(--line-3); border-radius: var(--radius);
+  font: 500 15px/1.25 var(--font-body); cursor: pointer;
+}
+.db-sys strong { font: 700 22px/1 var(--font-display); letter-spacing: .04em; }
+.db-sys span { color: var(--text-2); }
+.db-sys .db-sys-price { color: var(--muted-2); font-size: 14px; }
+.db-sys:hover { border-color: var(--muted-2); }
+.db-sys[aria-pressed="true"] { background: var(--selected); border-color: var(--blue); box-shadow: inset 0 0 0 1px var(--blue); }
+.db-check { display: flex; align-items: center; gap: 12px; min-height: 44px; margin: 0 0 12px; font-weight: 600; cursor: pointer; }
+.db-check input { width: 22px; height: 22px; accent-color: var(--blue); }
+.db-name { margin: 8px 0 4px; font-size: 1.5rem; }
+.db-sku { margin: 0 0 14px; color: var(--muted-2); font-size: 15px; }
+.db-themes { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.db-theme {
+  display: grid; justify-items: center; gap: 4px; min-width: 44px; min-height: 44px; padding: 4px 4px 6px;
+  background: transparent; color: var(--text-2); border: 1px solid var(--line-3); border-radius: var(--radius);
+  font: 500 13px/1.1 var(--font-body); cursor: pointer;
+}
+.db-theme img { width: 72px; height: 40px; object-fit: cover; border-radius: 2px; background: #000; }
+.db-theme:hover { border-color: var(--muted-2); }
+.db-theme[aria-pressed="true"] { border-color: var(--text); color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
+.db-no-themes { margin: 0 0 18px; color: var(--muted); }
+.db-panel .price { margin-bottom: 4px; }
+.db-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.db-actions .btn { flex: 1 1 200px; }

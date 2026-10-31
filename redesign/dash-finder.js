@@ -6,13 +6,7 @@
 
   // Fitment data lives in garage.js so every page shares it.
   const PLATFORMS = window.DDGarage.PLATFORMS;
-  const SERIES = {
-    G: { name: 'GRFX', tag: 'Full screen', body: 'One color screen fills the whole cluster. Pick it if you want the dash to look as new as the drivetrain.' },
-    R: { name: 'RTX', tag: 'Factory look', body: 'Looks like the original cluster until you turn the key. Behind the stock style you get a color message center, lighting you can change and setup from your phone.' },
-    H: { name: 'HDX', tag: 'Custom modern', body: 'Custom faces, sweeping needles and full color message centers. Change the lighting and settings from your phone.' },
-    V: { name: 'VHX', tag: 'Classic analog', body: 'Real needles with a simple digital readout in the center. A clean upgrade that costs less than RTX or HDX.' },
-    D: { name: 'VFD3', tag: 'All digital', body: 'Bright digital numbers and no needles. The look Dakota Digital started with.' }
-  };
+  const SERIES = window.DDGarage.SERIES;
   // Redesigned product pages, keyed by platform|years|series. Everything else goes to the category page.
   const PRODUCT_PAGES = { 'camaro|1969|R': 'camaro-1969-rtx.html' };
   // Local catalog page for each store category (filled in by tools/build_pages.py)

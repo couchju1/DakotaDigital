@@ -836,6 +836,109 @@ def sitemap(pages):
                 f'{LIVE}index.cfm/page/ptype=results_w/mode=cat_directory/home.htm')
 
 
+# ---------- Dash Builder ----------
+
+BUILDER_SERIES = ('GRFX', 'RTX', 'HDX', 'VHX', 'VFD3')
+
+
+def builder_data():
+    """Gauge systems for the Dash Builder, read from the built product pages (shop/*.html).
+
+    Which series fit which car and years stays in garage.js; this only says which product page
+    sells each series for a car line, with its price and real photos. Products without car fit
+    data (data-cats) are left out, since the builder can't place them on a car.
+    """
+    prods = []
+    for f in sorted((SITE / 'shop').glob('*-p*.html')):
+        s = f.read_text(encoding='utf-8')
+        items = re.search(r'<script type="application/json" data-b="items">(.*?)</script>', s, re.S)
+        fit = re.search(r'<div class="fit" id="fit"([^>]*)>', s)
+        if not items or not fit:
+            continue
+        main = json.loads(items.group(1))[0]
+        series = next((x for x in BUILDER_SERIES if main['sku'].upper().startswith(x)), None)
+        attrs = dict(re.findall(r'data-(\w+)="([^"]*)"', fit.group(1)))
+        if not series or not attrs.get('cats'):
+            continue
+        pid = int(re.search(r'-p(\d+)\.html$', f.name).group(1))
+        title = html.unescape(re.search(r'<h1>(.*?)</h1>', s).group(1))
+        title = re.sub(r'^[A-Z0-9-]+:\s*', '', title)  # "GRFX-69C-CAM: 1969 Camaro GRFX Instruments"
+        main_img = re.search(rf'<img src="\.\./(img/shop/prd-{pid}-[^"]+)"', s) or re.search(r'<img src="\.\./(img/shop/[^"]+)"', s)
+        themes = [[html.unescape(name), src] for src, name in
+                  re.findall(r'class="theme-chip" data-src="\.\./([^"]+)"[^>]*>([^<]*)<', s)]
+        prods.append({
+            'id': pid, 't': title, 'u': f'shop/{f.name}', 's': series, 'k': main['sku'], 'p': main['price'],
+            'img': main_img.group(1) if main_img else '',
+            'c': [int(x) for x in attrs['cats'].split(',')],
+            'y': [int(x) for x in attrs.get('years', '').split(',') if x],
+            'x': 'console' in title.lower(),
+            'th': themes,
+        })
+    # Optional files the page uses only when they exist, so it never requests a missing one.
+    dash = sorted(f.stem for f in (SITE / 'img' / 'dash').glob('*.webp'))
+    models = sorted(f.stem for f in (SITE / 'models').glob('*.glb'))
+    data = {'products': prods, 'dash': dash, 'models': models}
+    (SITE / 'dash-builder-data.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    return len(prods)
+
+
+def dash_builder():
+    body = '''    <div class="wrap page-hero db-hero">
+      <p class="eyebrow">Dash Builder</p>
+      <h1>See the gauges in your car</h1>
+      <p class="lede">Pick your car to see every system that fits it, in real photos of the gauges lit up.</p>
+      <form class="db-picker" data-db="picker" aria-label="Your car">
+        <div class="qfield">
+          <label for="db-car">Car</label>
+          <select id="db-car" data-db="car"><option value="">Choose your car</option></select>
+        </div>
+        <div class="qfield">
+          <label for="db-years">Years</label>
+          <select id="db-years" data-db="years" disabled><option value="">Choose years</option></select>
+        </div>
+      </form>
+      <p class="db-note" data-db="note" hidden>3D view is coming for more cars.</p>
+    </div>
+
+    <section id="dash" class="wrap db-view" data-db="view" aria-labelledby="db-count" hidden>
+      <div class="db-dash">
+        <div class="db-frame" data-db="frame">
+          <img class="db-bg" alt="" data-db="bg" hidden>
+          <img class="db-cluster" alt="" data-db="photo">
+        </div>
+        <p class="db-photo-cap" data-db="photo-cap"></p>
+      </div>
+      <div class="db-panel">
+        <h2 id="db-count" class="db-count" data-db="count" tabindex="-1"></h2>
+        <div class="db-systems" role="group" aria-label="Gauge system" data-db="systems"></div>
+        <label class="db-check" data-db="console-wrap" hidden><input type="checkbox" data-db="console"> My car has console gauges</label>
+        <div class="qfield" data-db="version-wrap" hidden>
+          <label for="db-version">Version</label>
+          <select id="db-version" data-db="version"></select>
+        </div>
+        <h3 class="db-name" data-db="name"></h3>
+        <p class="db-sku">SKU <span data-db="sku"></span></p>
+        <div class="db-themes" role="group" aria-label="Lighting theme" data-db="themes"></div>
+        <p class="db-no-themes" data-db="no-themes" hidden>Lighting color for this system is chosen when you order.</p>
+        <p class="price" data-db="price"></p>
+        <ul class="buy-proof"><li><strong>Lifetime warranty</strong> on full gauge systems. <a href="faq.html#q4">Details</a></li><li><strong>Built in Sioux Falls</strong>, South Dakota, since 1986</li></ul>
+        <div class="db-actions">
+          <a class="btn btn-primary" data-db="see" href="#">See this system</a>
+          <a class="btn btn-ghost" href="contact.html">Ask us what fits</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap db-empty" data-db="empty">
+      <p>Pick your car and years above to see every gauge system that fits it.</p>
+    </div>'''
+    script = '''  <script src="dash-builder.js"></script>
+'''
+    return page('dash-builder', 'Dash Builder: See the Gauges in Your Car | Dakota Digital',
+                'Pick your car and years to see every Dakota Digital gauge system that fits it, in real photos of each lighting theme.',
+                '', body, f'{SITE_URL}dash-builder.html', script)
+
+
 # ---------- Hand-built pages: keep their header/footer in sync ----------
 
 HAND_BUILT = {'index.html': '', 'camaro-1969-rtx.html': '', 'dealers.html': 'dealers'}
@@ -878,7 +981,8 @@ def sync_chrome():
 
 if __name__ == '__main__':
     built = [automotive(), motorcycle(), universal(), efi(), clearance(), support(), faq(), contact(), about(),
-             careers(), media(), builds(), builds40(), shipping(), privacy(), terms()]
+             careers(), media(), builds(), builds40(), shipping(), privacy(), terms(), dash_builder()]
+    print(f'Dash Builder: {builder_data()} products')
     built.append(sitemap(built))
     sync_chrome()
     write_robots()
