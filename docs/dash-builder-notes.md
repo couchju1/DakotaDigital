@@ -108,8 +108,9 @@ Pre-fill order: URL, then the car saved in My Garage, then empty. Changes update
 
 ### The model (camaro-69.glb)
 
-- Source: "Chevrolet Camaro 1969" from CGTrader (TODO: add the model page URL). License: Royalty
-  Free (commercial use allowed). The model shows the car's own badges (Camaro script, SS and RS emblems).
+- Source: "Chevrolet Camaro 1969" from CGTrader, item 6761347, downloaded through a CGTrader
+  subscription: https://www.cgtrader.com/items/6761347/subscription-download-page (needs a CGTrader
+  login). License: Royalty Free (commercial use allowed). The model shows the car's own badges (Camaro script, SS and RS emblems).
 - Built by `tools/build_camaro_glb.py` with Blender 4.5 headless from the source `.blend`, which is
   not kept in the repo (127 MB). To rebuild, get the file from the source page and run the command
   at the top of that script, then `python tools/build_pages.py`.
