@@ -15,6 +15,8 @@
   const carSel = $('car');
   const yearSel = $('years');
   const view = $('view');
+  const stage = $('stage');
+  const THREE_BASE = new URL(`${document.currentScript.dataset.three}/`, document.baseURI).href;
   let data = null;
   const state = { pid: '', ri: -1, s: '', theme: '', console: false, version: 0 };
 
@@ -95,10 +97,13 @@
 
   // ---- Dash view ----
   function render() {
-    const has = Boolean(data && range());
+    // Lay out for the car right away (no shift when the data arrives), fill in once it has.
+    const has = Boolean(range());
     $('empty').hidden = has;
     view.hidden = !has;
-    if (!has) { syncUrl(null, null); return; }
+    view.classList.toggle('is-loading', has && !data);
+    if (!has) syncUrl(null, null);
+    if (!has || !data) { updateStage(); return; }
 
     const p = platform();
     const carName = `${range()[0]} ${p.label}`;
@@ -139,7 +144,7 @@
 
     const photo = $('photo');
     const src = theme ? theme[1] : prod.img;
-    if (photo.getAttribute('src') !== src) photo.src = src;
+    if (photo.getAttribute('src') !== src) { photo.src = src; $('fade-img').src = src; }
     photo.alt = theme ? `${prod.t}, lit up in the ${theme[0]} theme` : prod.t;
     $('photo-cap').textContent = `Real photo of the ${prod.k}${theme ? ` in the ${theme[0]} theme` : ''}.`;
     const dashKey = `${p.id}-${range()[0]}`;
@@ -152,7 +157,83 @@
     see.href = prod.u + (theme ? `?theme=${encodeURIComponent(theme[0])}` : '');
     preload(prod);
     syncUrl(prod, theme);
+    updateStage();
   }
+
+  // ---- 3D pilot stage (1969 Camaro only) ----
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let webgl = null;
+  const hasWebGL = () => {
+    if (webgl === null) {
+      try {
+        const c = document.createElement('canvas');
+        webgl = Boolean(c.getContext('webgl2') || c.getContext('webgl'));
+      } catch { webgl = false; }
+    }
+    return webgl;
+  };
+  let loading = null;
+  let scene = null;
+  let failed = false;
+  let reached = false;
+  let caption = '';
+  const isPilot = () => state.pid === 'camaro' && range() && range()[0] === '1969';
+
+  const reach = () => {
+    view.inert = false;
+    if (reached) return;
+    reached = true;
+    track('reached_dash', { car: state.pid, years: range()[0], view: stage.hidden ? 'photo' : '3d' });
+  };
+
+  const onScroll = () => {
+    if (stage.hidden) return;
+    const total = stage.offsetHeight - window.innerHeight;
+    const p = total > 0 ? Math.min(1, Math.max(0, -stage.getBoundingClientRect().top / total)) : 1;
+    if (scene) scene.setProgress(p);
+    const theme = $('themes').querySelector('[aria-pressed="true"]');
+    const text = p < 0.42 ? 'Your 1969 Camaro. Scroll to walk around.'
+      : p < 0.46 ? 'Around back.'
+        : p < 0.82 ? 'Now climb in through the back glass.'
+          : `Your dash${state.s ? `, with ${G.SERIES[state.s].name}` : ''}${theme ? ` in ${theme.dataset.theme}` : ''}.`;
+    if (text !== caption) { caption = text; $('caption').textContent = text; }
+    const step = p < 0.46 ? 0 : p < 0.82 ? 1 : 2;
+    $('rail').querySelectorAll('li').forEach((li, i) => (i === step ? li.setAttribute('aria-current', 'step') : li.removeAttribute('aria-current')));
+    $('fade').style.opacity = String(Math.min(1, Math.max(0, (p - 0.82) / 0.1)));
+    if (p >= 0.82) reach();
+  };
+
+  // 3D only for the pilot car, with WebGL and motion allowed. Everyone else gets the dash view at once.
+  // The 3D code loads on the visitor's first scroll, tap or key press, so the picker and photos
+  // paint first and phones don't parse three.js for a visit that never scrolls.
+  let wanted = false;
+  const load3d = () => {
+    if (loading || !wanted || !data || stage.hidden) return;
+    loading = import('./dash-builder-3d.js')
+      .then((m) => m.mount({ canvas: $('canvas'), stage, base: THREE_BASE, model: data.models.includes('camaro-69') ? 'models/camaro-69.glb' : null }))
+      .then((api) => { scene = api; onScroll(); })
+      .catch(() => { failed = true; updateStage(); });
+  };
+  const intent = () => {
+    wanted = true;
+    load3d();
+    ['scroll', 'pointerdown', 'keydown'].forEach((t) => window.removeEventListener(t, intent));
+  };
+  ['scroll', 'pointerdown', 'keydown'].forEach((t) => window.addEventListener(t, intent, { passive: true }));
+
+  function updateStage() {
+    const has = Boolean(range());
+    const on = has && isPilot() && !failed && !reduceMotion.matches && hasWebGL();
+    stage.hidden = !on;
+    $('note').hidden = !has || on;
+    if (!on) { view.inert = false; return; }
+    if (!reached) view.inert = true;
+    load3d();
+    onScroll();
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  reduceMotion.addEventListener('change', updateStage);
 
   // Keep keyboard focus on the button that was pressed after a re-render.
   const refocus = (group, attr, value) => {
@@ -197,9 +278,15 @@
   });
   $('console').addEventListener('change', () => { state.console = $('console').checked; state.version = 0; render(); });
   $('version').addEventListener('change', () => { state.version = Number($('version').value); render(); });
+  $('skip').addEventListener('click', () => {
+    reach();
+    view.scrollIntoView({ behavior: 'instant', block: 'start' });
+    $('count').focus({ preventScroll: true });
+  });
   $('see').addEventListener('click', () => track('click_see_system', { sku: $('sku').textContent }));
 
   track('builder_open', { car: state.pid, years: range() ? range()[0] : '' });
+  render();
   fetch('dash-builder-data.json')
     .then((r) => r.json())
     .then((d) => {

@@ -1177,3 +1177,27 @@ body.has-dock .site-footer { padding-bottom: 84px; }
 .db-panel .price { margin-bottom: 4px; }
 .db-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .db-actions .btn { flex: 1 1 200px; }
+/* 3D stage: a tall scroll track with a pinned canvas */
+.db-stage { position: relative; height: 420vh; }
+.db-sticky { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: var(--bg); }
+.db-canvas { display: block; width: 100%; height: 100%; }
+.db-skip { position: absolute; top: 140px; right: 16px; z-index: 3; min-height: 44px; background: rgba(14,15,17,.75); }
+.db-rail { position: absolute; z-index: 2; left: 16px; bottom: 112px; margin: 0; padding: 0; list-style: none; display: flex; gap: 16px; }
+.db-rail li { position: relative; padding-left: 16px; color: var(--muted-2); font: 600 15px/1 var(--font-display); letter-spacing: .12em; text-transform: uppercase; }
+.db-rail li::before { content: ""; position: absolute; left: 0; top: 3px; width: 8px; height: 8px; border-radius: 50%; background: var(--line-3); }
+.db-rail li[aria-current] { color: var(--amber); }
+.db-rail li[aria-current]::before { background: var(--amber); box-shadow: 0 0 0 4px rgba(255,176,32,.2); }
+@media (min-width: 900px) {
+  .db-rail { left: 24px; top: 50%; bottom: auto; transform: translateY(-50%); flex-direction: column; }
+  .db-skip { right: 24px; }
+}
+.db-caption {
+  position: absolute; z-index: 2; left: 50%; bottom: 36px; transform: translateX(-50%);
+  width: min(calc(100% - 32px), 720px); margin: 0; text-align: center;
+  font: 700 clamp(24px, 4vw, 42px)/1.05 var(--font-display); text-transform: uppercase; letter-spacing: .02em;
+  text-shadow: 0 2px 16px #000;
+}
+.db-fade { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 120px 16px 140px; background: var(--bg); opacity: 0; pointer-events: none; }
+.db-fade .db-frame { width: min(100%, 980px); }
+.db-view { scroll-margin-top: 120px; }
+.db-view.is-loading { min-height: 100vh; }

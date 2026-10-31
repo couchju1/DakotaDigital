@@ -882,7 +882,11 @@ def builder_data():
     return len(prods)
 
 
+THREE_VERSION = json.loads((ROOT / 'package.json').read_text(encoding='utf-8'))['devDependencies']['three']
+
+
 def dash_builder():
+    three = f'js/vendor/three/{THREE_VERSION}'
     body = '''    <div class="wrap page-hero db-hero">
       <p class="eyebrow">Dash Builder</p>
       <h1>See the gauges in your car</h1>
@@ -899,6 +903,20 @@ def dash_builder():
       </form>
       <p class="db-note" data-db="note" hidden>3D view is coming for more cars.</p>
     </div>
+
+    <section class="db-stage" data-db="stage" aria-label="Climb into a 1969 Camaro" hidden>
+      <div class="db-sticky">
+        <button type="button" class="btn btn-ghost db-skip" data-db="skip">Skip to the dash</button>
+        <canvas class="db-canvas" data-db="canvas" role="img" aria-label="A red 1969 Camaro. Scroll to turn it around and climb into the driver's seat."></canvas>
+        <ol class="db-rail" data-db="rail" aria-label="Steps">
+          <li data-step="0">Walk around</li>
+          <li data-step="1">Climb in</li>
+          <li data-step="2">Your dash</li>
+        </ol>
+        <p class="db-caption" data-db="caption" aria-live="polite"></p>
+        <div class="db-fade" data-db="fade" aria-hidden="true"><div class="db-frame"><img alt="" data-db="fade-img"></div></div>
+      </div>
+    </section>
 
     <section id="dash" class="wrap db-view" data-db="view" aria-labelledby="db-count" hidden>
       <div class="db-dash">
@@ -932,7 +950,9 @@ def dash_builder():
     <div class="wrap db-empty" data-db="empty">
       <p>Pick your car and years above to see every gauge system that fits it.</p>
     </div>'''
-    script = '''  <script src="dash-builder.js"></script>
+    # The import map lets the 3D module and the vendored loaders import 'three'. Nothing loads until the module asks.
+    script = f'''  <script type="importmap">{{"imports":{{"three":"./{three}/three.module.min.js"}}}}</script>
+  <script src="dash-builder.js" data-three="{three}"></script>
 '''
     return page('dash-builder', 'Dash Builder: See the Gauges in Your Car | Dakota Digital',
                 'Pick your car and years to see every Dakota Digital gauge system that fits it, in real photos of each lighting theme.',
