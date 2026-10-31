@@ -4,6 +4,17 @@ A working mock-up of dakotadigital.com, built from the "Dash Finder" design
 (PDF + design export) and the live site's content. Plain HTML, CSS and JavaScript:
 no frameworks.
 
+## Search engines (launch switch)
+
+`site.config.json` at the repo root has one setting, `"indexable"`. While it is
+`false`, the build adds `<meta name="robots" content="noindex, nofollow">` to every
+page, writes a `robots.txt` that disallows everything and keeps the `X-Robots-Tag:
+noindex` header in `vercel.json`. Set it to `true` and rebuild (`build_catalog.py`,
+then `build_pages.py`) to drop all three and allow crawling, with a Sitemap line in
+`robots.txt`.
+
+**Before launch, set indexable to true.**
+
 ## Pages
 
 Hand-built (edit these files directly):

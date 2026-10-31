@@ -14,6 +14,9 @@ CONTENT = ROOT / 'tools' / 'content'
 LIVE = 'https://www.dakotadigital.com/'
 # Where this redesign is published (used for absolute URLs in structured data). Change at launch.
 SITE_URL = 'https://dakotadigital-ten.vercel.app/'
+# Launch switch (site.config.json): while false, every page says noindex and robots.txt blocks crawlers.
+INDEXABLE = json.loads((ROOT / 'site.config.json').read_text(encoding='utf-8')).get('indexable', False)
+ROBOTS_META = '' if INDEXABLE else '  <meta name="robots" content="noindex, nofollow">\n'
 
 
 def load(name):
@@ -185,7 +188,7 @@ def page(slug, title, desc, active, body, canonical, script=''):
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{esc(title)}</title>
+{ROBOTS_META}  <title>{esc(title)}</title>
   <meta name="description" content="{esc(desc)}">
   <link rel="canonical" href="{esc(canonical)}">
   <meta name="theme-color" content="#0E0F11">
@@ -838,12 +841,33 @@ def sitemap(pages):
 HAND_BUILT = {'index.html': '', 'camaro-1969-rtx.html': '', 'dealers.html': 'dealers'}
 
 
+def write_robots():
+    """robots.txt and the X-Robots-Tag header on Vercel follow the indexable switch."""
+    if INDEXABLE:
+        txt = 'User-agent: *\nAllow: /\n\nSitemap: https://www.dakotadigital.com/sitemap.xml\n'
+    else:
+        txt = 'User-agent: *\nDisallow: /\n'
+    (SITE / 'robots.txt').write_text(txt, encoding='utf-8')
+    vj = ROOT / 'vercel.json'
+    conf = json.loads(vj.read_text(encoding='utf-8'))
+    headers = [h for h in conf.get('headers', []) if not any(x['key'] == 'X-Robots-Tag' for x in h.get('headers', []))]
+    if not INDEXABLE:
+        headers.insert(0, {'source': '/(.*)', 'headers': [{'key': 'X-Robots-Tag', 'value': 'noindex, nofollow'}]})
+    conf.pop('headers', None)
+    if headers:  # keep headers ahead of the redirects, where they've always been
+        conf = {**{k: v for k, v in conf.items() if k != 'redirects'}, 'headers': headers, **({'redirects': conf['redirects']} if 'redirects' in conf else {})}
+    vj.write_text(json.dumps(conf, indent=2) + '\n', encoding='utf-8')
+
+
 def sync_chrome():
     for name, active in HAND_BUILT.items():
         p = SITE / name
         s = p.read_text(encoding='utf-8')
         s = re.sub(r'  <header class="site-header">.*?</header>', lambda m: header(active), s, count=1, flags=re.S)
         s = re.sub(r'  <footer class="site-footer">.*?</footer>', lambda m: footer(), s, count=1, flags=re.S)
+        s = re.sub(r'  <meta name="robots"[^>]*>\n', '', s)
+        viewport = '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        s = s.replace(viewport, viewport + ROBOTS_META, 1)
         p.write_text(localize_links(s), encoding='utf-8')
     # Dash Finder: car category -> local catalog page
     df = SITE / 'dash-finder.js'
@@ -857,6 +881,7 @@ if __name__ == '__main__':
              careers(), media(), builds(), builds40(), shipping(), privacy(), terms()]
     built.append(sitemap(built))
     sync_chrome()
+    write_robots()
     pages = [('index.html#finder', 'Find gauges for your car', 'Dash Finder', 'shop by vehicle fitment fit'),
              ('automotive.html', 'Automotive', 'All makes', 'car truck'), ('motorcycle.html', 'Motorcycle', 'Harley and custom bikes', 'bike'),
              ('universal.html', 'Universal gauges', 'Custom dashes', 'custom street rod'), ('efi.html', 'EFI and add-ons', 'BIM expansion modules', 'efi obd'),
