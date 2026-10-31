@@ -61,11 +61,45 @@
   const img = box.querySelector('[data-theme-img]');
   const chips = [...box.querySelectorAll('.theme-chip')];
   chips.forEach((c) => { const pre = new Image(); pre.src = c.dataset.src; });
-  box.addEventListener('click', (e) => {
-    const chip = e.target.closest('.theme-chip');
-    if (!chip) return;
+  const show = (chip) => {
     img.src = chip.dataset.src;
     img.alt = `Lit up in the ${chip.textContent} theme`;
     chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+  };
+  box.addEventListener('click', (e) => {
+    const chip = e.target.closest('.theme-chip');
+    if (chip) show(chip);
   });
+  // ?theme=Emerald (from the Dash Builder) opens on that theme's photo.
+  const wanted = (new URLSearchParams(location.search).get('theme') || '').toLowerCase();
+  const start = wanted && chips.find((c) => c.textContent.trim().toLowerCase() === wanted);
+  if (start) show(start);
+})();
+
+// Dash Builder pilot: products for the 1969 Camaro link to the builder with this system and theme.
+(() => {
+  const fit = document.getElementById('fit');
+  const sku = document.querySelector('.shop-buy [data-b="sku"]');
+  const G = window.DDGarage;
+  if (!fit || !sku || !G) return;
+  const BASE = new URL('.', document.currentScript.src).href;
+  const camaro = G.PLATFORMS.find((p) => p.id === 'camaro');
+  const cats = (fit.dataset.cats || '').split(',').map(Number);
+  const years = (fit.dataset.years || '').split(',').map(Number);
+  const series = Object.values(G.SERIES).map((s) => s.name).find((n) => sku.textContent.trim().toUpperCase().startsWith(n));
+  if (!series || !cats.includes(camaro.cat) || !years.includes(1969)) return;
+  const link = document.createElement('a');
+  link.className = 'btn btn-ghost btn-block see-in-car';
+  link.textContent = 'See this in your car';
+  const hasConsole = /console/i.test(document.querySelector('h1').textContent);
+  const update = () => {
+    const theme = document.querySelector('.theme-chip[aria-pressed="true"]');
+    const q = new URLSearchParams({ car: 'camaro', years: '1969', system: series });
+    if (theme) q.set('theme', theme.textContent.trim());
+    if (hasConsole) q.set('console', '1');
+    link.href = `${BASE}dash-builder.html?${q}`;
+  };
+  document.querySelector('.shop-buy [data-b="note"]').after(link);
+  update();
+  document.addEventListener('click', (e) => { if (e.target.closest('.theme-chip')) update(); });
 })();

@@ -4,9 +4,14 @@
   "type": "module",
   "description": "Static redesign in redesign/, plus api/submit.js which saves form entries to Neon.",
   "scripts": {
-    "lint:copy": "node scripts/lint-descriptions.mjs"
+    "lint:copy": "node scripts/lint-descriptions.mjs",
+    "vendor:three": "node scripts/vendor-three.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "1.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.186.1"
   }
 }

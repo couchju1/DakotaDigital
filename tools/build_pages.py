@@ -80,7 +80,7 @@ NAV = [
 ]
 
 FOOTER = [
-    ('Shop', [('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'), ('universal.html', 'Universal gauges'),
+    ('Shop', [('dash-builder.html', 'Dash Builder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'), ('universal.html', 'Universal gauges'),
               ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'), ('sitemap.html', 'Site map')]),
     ('Company', [('about.html', 'About and shop tour'), ('builds.html', 'Feature builds'), ('builds-40.html', '40 builds for 40 years'), ('media.html', 'Media coverage'),
                  ('careers.html', 'Careers'), ('contact.html', 'Contact us')]),
@@ -810,7 +810,7 @@ def terms():
 
 def sitemap(pages):
     groups = [
-        ('Shop', [('index.html', 'Home and Dash Finder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'),
+        ('Shop', [('index.html', 'Home and Dash Finder'), ('dash-builder.html', 'Dash Builder'), ('automotive.html', 'Automotive'), ('motorcycle.html', 'Motorcycle'),
                   ('universal.html', 'Universal gauges'), ('efi.html', 'EFI and add-ons'), ('clearance.html', 'Clearance'),
                   ('camaro-1969-rtx.html', '1969 Camaro RTX instruments')]),
         ('Gauge series', [('shop/grfx-series.html', 'GRFX'), ('shop/rtx-series-c706.html', 'RTX'), ('shop/hdx-series-c689.html', 'HDX'),
@@ -834,6 +834,129 @@ def sitemap(pages):
     ])
     return page('sitemap', 'Site Map | Dakota Digital', 'Every page on the Dakota Digital site.', '', body,
                 f'{LIVE}index.cfm/page/ptype=results_w/mode=cat_directory/home.htm')
+
+
+# ---------- Dash Builder ----------
+
+BUILDER_SERIES = ('GRFX', 'RTX', 'HDX', 'VHX', 'VFD3')
+
+
+def builder_data():
+    """Gauge systems for the Dash Builder, read from the built product pages (shop/*.html).
+
+    Which series fit which car and years stays in garage.js; this only says which product page
+    sells each series for a car line, with its price and real photos. Products without car fit
+    data (data-cats) are left out, since the builder can't place them on a car.
+    """
+    prods = []
+    for f in sorted((SITE / 'shop').glob('*-p*.html')):
+        s = f.read_text(encoding='utf-8')
+        items = re.search(r'<script type="application/json" data-b="items">(.*?)</script>', s, re.S)
+        fit = re.search(r'<div class="fit" id="fit"([^>]*)>', s)
+        if not items or not fit:
+            continue
+        main = json.loads(items.group(1))[0]
+        series = next((x for x in BUILDER_SERIES if main['sku'].upper().startswith(x)), None)
+        attrs = dict(re.findall(r'data-(\w+)="([^"]*)"', fit.group(1)))
+        if not series or not attrs.get('cats'):
+            continue
+        pid = int(re.search(r'-p(\d+)\.html$', f.name).group(1))
+        title = html.unescape(re.search(r'<h1>(.*?)</h1>', s).group(1))
+        title = re.sub(r'^[A-Z0-9-]+:\s*', '', title)  # "GRFX-69C-CAM: 1969 Camaro GRFX Instruments"
+        main_img = re.search(rf'<img src="\.\./(img/shop/prd-{pid}-[^"]+)"', s) or re.search(r'<img src="\.\./(img/shop/[^"]+)"', s)
+        themes = [[html.unescape(name), src] for src, name in
+                  re.findall(r'class="theme-chip" data-src="\.\./([^"]+)"[^>]*>([^<]*)<', s)]
+        prods.append({
+            'id': pid, 't': title, 'u': f'shop/{f.name}', 's': series, 'k': main['sku'], 'p': main['price'],
+            'img': main_img.group(1) if main_img else '',
+            'c': [int(x) for x in attrs['cats'].split(',')],
+            'y': [int(x) for x in attrs.get('years', '').split(',') if x],
+            'x': 'console' in title.lower(),
+            'th': themes,
+        })
+    # Optional files the page uses only when they exist, so it never requests a missing one.
+    dash = sorted(f.stem for f in (SITE / 'img' / 'dash').glob('*.webp'))
+    models = sorted(f.stem for f in (SITE / 'models').glob('*.glb'))
+    data = {'products': prods, 'dash': dash, 'models': models}
+    (SITE / 'dash-builder-data.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    return len(prods)
+
+
+THREE_VERSION = json.loads((ROOT / 'package.json').read_text(encoding='utf-8'))['devDependencies']['three']
+
+
+def dash_builder():
+    three = f'js/vendor/three/{THREE_VERSION}'
+    body = '''    <div class="wrap page-hero db-hero">
+      <p class="eyebrow">Dash Builder</p>
+      <h1>See the gauges in your car</h1>
+      <p class="lede">Pick your car to see every system that fits it, in real photos of the gauges lit up.</p>
+      <form class="db-picker" data-db="picker" aria-label="Your car">
+        <div class="qfield">
+          <label for="db-car">Car</label>
+          <select id="db-car" data-db="car"><option value="">Choose your car</option></select>
+        </div>
+        <div class="qfield">
+          <label for="db-years">Years</label>
+          <select id="db-years" data-db="years" disabled><option value="">Choose years</option></select>
+        </div>
+      </form>
+      <p class="db-note" data-db="note" hidden>3D view is coming for more cars.</p>
+    </div>
+
+    <section class="db-stage" data-db="stage" aria-label="Climb into a 1969 Camaro" hidden>
+      <div class="db-sticky">
+        <button type="button" class="btn btn-ghost db-skip" data-db="skip">Skip to the dash</button>
+        <canvas class="db-canvas" data-db="canvas" role="img" aria-label="A red 1969 Camaro. Scroll to turn it around and climb into the driver's seat."></canvas>
+        <ol class="db-rail" data-db="rail" aria-label="Steps">
+          <li data-step="0">Walk around</li>
+          <li data-step="1">Climb in</li>
+          <li data-step="2">Your dash</li>
+        </ol>
+        <p class="db-caption" data-db="caption" aria-live="polite"></p>
+        <div class="db-fade" data-db="fade" aria-hidden="true"><div class="db-frame"><img alt="" data-db="fade-img"></div></div>
+      </div>
+    </section>
+
+    <section id="dash" class="wrap db-view" data-db="view" aria-labelledby="db-count" hidden>
+      <div class="db-dash">
+        <div class="db-frame" data-db="frame">
+          <img class="db-bg" alt="" data-db="bg" hidden>
+          <img class="db-cluster" alt="" data-db="photo">
+        </div>
+        <p class="db-photo-cap" data-db="photo-cap"></p>
+      </div>
+      <div class="db-panel">
+        <h2 id="db-count" class="db-count" data-db="count" tabindex="-1"></h2>
+        <div class="db-systems" role="group" aria-label="Gauge system" data-db="systems"></div>
+        <label class="db-check" data-db="console-wrap" hidden><input type="checkbox" data-db="console"> My car has console gauges</label>
+        <div class="qfield" data-db="version-wrap" hidden>
+          <label for="db-version">Version</label>
+          <select id="db-version" data-db="version"></select>
+        </div>
+        <h3 class="db-name" data-db="name"></h3>
+        <p class="db-sku">SKU <span data-db="sku"></span></p>
+        <div class="db-themes" role="group" aria-label="Lighting theme" data-db="themes"></div>
+        <p class="db-no-themes" data-db="no-themes" hidden>Lighting color for this system is chosen when you order.</p>
+        <p class="price" data-db="price"></p>
+        <ul class="buy-proof"><li><strong>Lifetime warranty</strong> on full gauge systems. <a href="faq.html#q4">Details</a></li><li><strong>Built in Sioux Falls</strong>, South Dakota, since 1986</li></ul>
+        <div class="db-actions">
+          <a class="btn btn-primary" data-db="see" href="#">See this system</a>
+          <a class="btn btn-ghost" href="contact.html">Ask us what fits</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap db-empty" data-db="empty">
+      <p>Pick your car and years above to see every gauge system that fits it.</p>
+    </div>'''
+    # The import map lets the 3D module and the vendored loaders import 'three'. Nothing loads until the module asks.
+    script = f'''  <script type="importmap">{{"imports":{{"three":"./{three}/three.module.min.js"}}}}</script>
+  <script src="dash-builder.js" data-three="{three}"></script>
+'''
+    return page('dash-builder', 'Dash Builder: See the Gauges in Your Car | Dakota Digital',
+                'Pick your car and years to see every Dakota Digital gauge system that fits it, in real photos of each lighting theme.',
+                '', body, f'{SITE_URL}dash-builder.html', script)
 
 
 # ---------- Hand-built pages: keep their header/footer in sync ----------
@@ -869,6 +992,13 @@ def sync_chrome():
         viewport = '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
         s = s.replace(viewport, viewport + ROBOTS_META, 1)
         p.write_text(localize_links(s), encoding='utf-8')
+    # Catalog pages share the footer. Their bodies need the crawl cache (build_catalog.py), the footer doesn't.
+    shop_footer = re.sub(r'\b(href|src)="(?!https?:|#|tel:|mailto:|data:|/)([^"]*)"', lambda m: f'{m.group(1)}="../{m.group(2)}"', footer())
+    for f in sorted((SITE / 'shop').glob('*.html')):
+        s = f.read_text(encoding='utf-8')
+        new = re.sub(r'  <footer class="site-footer">.*?</footer>', lambda m: shop_footer, s, count=1, flags=re.S)
+        if new != s:
+            f.write_text(new, encoding='utf-8')
     # Dash Finder: car category -> local catalog page
     df = SITE / 'dash-finder.js'
     paths = {int(k): v['path'] for k, v in CATALOG['cats'].items()}
@@ -878,11 +1008,13 @@ def sync_chrome():
 
 if __name__ == '__main__':
     built = [automotive(), motorcycle(), universal(), efi(), clearance(), support(), faq(), contact(), about(),
-             careers(), media(), builds(), builds40(), shipping(), privacy(), terms()]
+             careers(), media(), builds(), builds40(), shipping(), privacy(), terms(), dash_builder()]
+    print(f'Dash Builder: {builder_data()} products')
     built.append(sitemap(built))
     sync_chrome()
     write_robots()
     pages = [('index.html#finder', 'Find gauges for your car', 'Dash Finder', 'shop by vehicle fitment fit'),
+             ('dash-builder.html', 'See the gauges in your car', 'Dash Builder', 'dash builder preview lighting theme 3d'),
              ('automotive.html', 'Automotive', 'All makes', 'car truck'), ('motorcycle.html', 'Motorcycle', 'Harley and custom bikes', 'bike'),
              ('universal.html', 'Universal gauges', 'Custom dashes', 'custom street rod'), ('efi.html', 'EFI and add-ons', 'BIM expansion modules', 'efi obd'),
              ('support.html', 'Manuals and support', 'Install help', 'manual install wiring video tech support help warranty repair'),

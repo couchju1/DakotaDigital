@@ -627,7 +627,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .garage-head h2 { margin: 0; font-size: 30px; }
 .garage-close { width: 44px; height: 44px; border: 0; background: none; color: var(--text); font-size: 28px; cursor: pointer; border-radius: 50%; }
 .garage-lede { color: var(--muted); margin: 6px 0 18px; }
-.garage-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }
+.garage-foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 16px; margin-top: 14px; }
 .garage-foot a { padding: 10px 0; font-weight: 600; }
 .garage-remove { min-height: 44px; border: 0; background: none; color: var(--muted-2); font: inherit; font-size: 15px; text-decoration: underline; cursor: pointer; }
 
@@ -1124,3 +1124,82 @@ body.has-dock .site-footer { padding-bottom: 84px; }
 
 /* Honeypot: off screen for people, still in the form for bots */
 .hp { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+
+/* ---------- Dash Builder ---------- */
+.db-hero h1 { max-width: 20ch; }
+.db-picker { display: grid; gap: 0 16px; max-width: 640px; }
+@media (min-width: 600px) { .db-picker { grid-template-columns: 1fr 1fr; } }
+.db-note { margin: 4px 0 0; color: var(--muted-2); font-size: 15px; }
+.db-empty { padding-bottom: 64px; color: var(--muted); }
+.db-view { display: grid; gap: 28px; padding-top: 24px; padding-bottom: 72px; align-items: start; }
+@media (min-width: 960px) { .db-view { grid-template-columns: 1.35fr 1fr; gap: 48px; } .db-dash { position: sticky; top: 140px; } }
+/* Dash frame: a dark bezel around the real product photo */
+.db-frame {
+  position: relative; overflow: hidden; aspect-ratio: 16 / 9;
+  padding: clamp(12px, 3vw, 28px); border-radius: 18px;
+  background: radial-gradient(120% 90% at 50% 0%, #1E2228 0%, #07090C 70%);
+  border: 1px solid var(--line-2);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,.05), inset 0 -18px 40px rgba(0,0,0,.6), 0 30px 60px rgba(0,0,0,.45);
+  display: grid; place-items: center;
+}
+.db-frame img { width: 100%; height: 100%; object-fit: contain; }
+.db-frame .db-bg { position: absolute; inset: 0; object-fit: cover; padding: 0; }
+.db-frame.has-bg .db-cluster { position: relative; width: 62%; height: auto; filter: drop-shadow(0 10px 18px rgba(0,0,0,.6)); }
+.db-photo-cap { margin: 10px 0 0; color: var(--muted-2); font-size: 15px; }
+.db-count { scroll-margin-top: 140px; font-size: clamp(1.7rem, 3vw, 2.2rem); }
+.db-count:focus { outline: none; }
+.db-systems { display: grid; gap: 8px; margin: 16px 0; }
+@media (min-width: 480px) { .db-systems { grid-template-columns: 1fr 1fr; } }
+.db-sys {
+  display: grid; gap: 2px; min-height: 64px; padding: 10px 14px; text-align: left;
+  background: var(--panel); color: var(--text); border: 1px solid var(--line-3); border-radius: var(--radius);
+  font: 500 15px/1.25 var(--font-body); cursor: pointer;
+}
+.db-sys strong { font: 700 22px/1 var(--font-display); letter-spacing: .04em; }
+.db-sys span { color: var(--text-2); }
+.db-sys .db-sys-price { color: var(--muted-2); font-size: 14px; }
+.db-sys:hover { border-color: var(--muted-2); }
+.db-sys[aria-pressed="true"] { background: var(--selected); border-color: var(--blue); box-shadow: inset 0 0 0 1px var(--blue); }
+.db-check { display: flex; align-items: center; gap: 12px; min-height: 44px; margin: 0 0 12px; font-weight: 600; cursor: pointer; }
+.db-check input { width: 22px; height: 22px; accent-color: var(--blue); }
+.db-name { margin: 8px 0 4px; font-size: 1.5rem; }
+.db-sku { margin: 0 0 14px; color: var(--muted-2); font-size: 15px; }
+.db-themes { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.db-theme {
+  display: grid; justify-items: center; gap: 4px; min-width: 44px; min-height: 44px; padding: 4px 4px 6px;
+  background: transparent; color: var(--text-2); border: 1px solid var(--line-3); border-radius: var(--radius);
+  font: 500 13px/1.1 var(--font-body); cursor: pointer;
+}
+.db-theme img { width: 72px; height: 40px; object-fit: cover; border-radius: 2px; background: #000; }
+.db-theme:hover { border-color: var(--muted-2); }
+.db-theme[aria-pressed="true"] { border-color: var(--text); color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
+.db-no-themes { margin: 0 0 18px; color: var(--muted); }
+.db-panel .price { margin-bottom: 4px; }
+.db-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.db-actions .btn { flex: 1 1 200px; }
+/* "See this in your car" under the product page's Add to cart */
+.see-in-car { margin-top: 10px; }
+/* 3D stage: a tall scroll track with a pinned canvas */
+.db-stage { position: relative; height: 420vh; }
+.db-sticky { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; background: var(--bg); }
+.db-canvas { display: block; width: 100%; height: 100%; }
+.db-skip { position: absolute; top: 140px; right: 16px; z-index: 3; min-height: 44px; background: rgba(14,15,17,.75); }
+.db-rail { position: absolute; z-index: 2; left: 16px; bottom: 112px; margin: 0; padding: 0; list-style: none; display: flex; gap: 16px; }
+.db-rail li { position: relative; padding-left: 16px; color: var(--muted-2); font: 600 15px/1 var(--font-display); letter-spacing: .12em; text-transform: uppercase; }
+.db-rail li::before { content: ""; position: absolute; left: 0; top: 3px; width: 8px; height: 8px; border-radius: 50%; background: var(--line-3); }
+.db-rail li[aria-current] { color: var(--amber); }
+.db-rail li[aria-current]::before { background: var(--amber); box-shadow: 0 0 0 4px rgba(255,176,32,.2); }
+@media (min-width: 900px) {
+  .db-rail { left: 24px; top: 50%; bottom: auto; transform: translateY(-50%); flex-direction: column; }
+  .db-skip { right: 24px; }
+}
+.db-caption {
+  position: absolute; z-index: 2; left: 50%; bottom: 36px; transform: translateX(-50%);
+  width: min(calc(100% - 32px), 720px); margin: 0; text-align: center;
+  font: 700 clamp(24px, 4vw, 42px)/1.05 var(--font-display); text-transform: uppercase; letter-spacing: .02em;
+  text-shadow: 0 2px 16px #000;
+}
+.db-fade { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 120px 16px 140px; background: var(--bg); opacity: 0; pointer-events: none; }
+.db-fade .db-frame { width: min(100%, 980px); }
+.db-view { scroll-margin-top: 120px; }
+.db-view.is-loading { min-height: 100vh; }
