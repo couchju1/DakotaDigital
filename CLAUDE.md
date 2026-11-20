@@ -36,6 +36,7 @@ A working mock-up of dakotadigital.com (Dakota Digital makes gauge clusters for 
 - No secrets in git. `DATABASE_URL` goes in `.env.local` (git-ignored) or in Vercel's settings.
 - The repo is public on GitHub. Don't commit anything private.
 - Don't add dependencies or scripts without telling me why.
+- For any work on how the site looks, its layout, motion or interactions, load the `ui-ux-pro-max` skill first (skip it for data, crawl or API work). Its suggestions are recommendations: the existing `styles.css` tokens and the client's real content come first, and don't add anything it suggests without asking.
 
 ## Search engines
 - `site.config.json` has `"indexable": false`. While it is false, every page is `noindex`, `robots.txt` disallows everything and `vercel.json` sends an `X-Robots-Tag: noindex` header.
