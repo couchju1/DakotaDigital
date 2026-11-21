@@ -43,6 +43,33 @@
   </script>
 </head>
 <body>
+  <!-- Intro video. Hidden by default; the script below shows it once per visit.
+       Without JavaScript, with reduced motion or with Save-Data on, the homepage shows straight away. -->
+  <div class="intro" id="intro" role="dialog" aria-modal="true" aria-label="Intro video" hidden>
+    <video class="intro-video" id="intro-video" muted playsinline preload="auto"></video>
+    <div class="intro-controls">
+      <button class="intro-btn" type="button" id="intro-sound" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4z"/><path class="intro-wave" d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/><path class="intro-x" d="m16 9 6 6m0-6-6 6"/></svg>
+        <span>Sound on</span>
+      </button>
+      <button class="intro-btn intro-skip" type="button" id="intro-skip">Skip intro
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 5 8 7-8 7M18 5v14"/></svg>
+      </button>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var intro = document.getElementById('intro');
+      var seen = false;
+      try { seen = sessionStorage.getItem('dd-intro-seen') === '1'; } catch (e) {}
+      var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var saveData = navigator.connection && navigator.connection.saveData;
+      if (seen || reduce || saveData) { intro.remove(); return; }
+      intro.hidden = false;
+      document.documentElement.classList.add('intro-on');
+      document.getElementById('intro-video').src = 'video/intro.mp4';
+    })();
+  </script>
   <a class="skip" href="#main">Skip to content</a>
 
   <header class="site-header">
@@ -540,6 +567,51 @@
     nav.addEventListener('click', (e) => {
       if (e.target.closest('a')) { menuBtn.setAttribute('aria-expanded', 'false'); nav.classList.remove('open'); }
     });
+
+    // Intro video: plays once per visit, then fades out to reveal the homepage
+    (function () {
+      const intro = document.getElementById('intro');
+      if (!intro || !intro.isConnected) return;
+      const video = document.getElementById('intro-video');
+      const sound = document.getElementById('intro-sound');
+      const others = [...document.body.children].filter((el) => el !== intro && el.tagName !== 'SCRIPT');
+      others.forEach((el) => { el.inert = true; });
+      let closed = false;
+
+      function close() {
+        if (closed) return;
+        closed = true;
+        try { sessionStorage.setItem('dd-intro-seen', '1'); } catch (e) {}
+        others.forEach((el) => { el.inert = false; });
+        document.removeEventListener('keydown', onKey);
+        intro.classList.add('intro-out');
+        document.documentElement.classList.remove('intro-on');
+        setTimeout(() => {
+          video.pause();
+          video.removeAttribute('src');
+          video.load(); // stops any further download
+          intro.remove();
+        }, 450);
+      }
+      function onKey(e) { if (e.key === 'Escape') close(); }
+
+      video.addEventListener('ended', close);
+      video.addEventListener('error', close);
+      document.getElementById('intro-skip').addEventListener('click', close);
+      document.addEventListener('keydown', onKey);
+      sound.addEventListener('click', () => {
+        video.muted = !video.muted;
+        sound.setAttribute('aria-pressed', String(!video.muted));
+        sound.querySelector('span').textContent = video.muted ? 'Sound on' : 'Sound off';
+      });
+
+      // Muted autoplay can still be refused (for example iOS Low Power Mode). Don't leave people stuck.
+      const p = video.play();
+      if (p) p.catch(close);
+      // If the video hasn't started after 6 seconds (slow connection), go straight to the homepage.
+      setTimeout(() => { if (video.currentTime === 0) close(); }, 6000);
+      document.getElementById('intro-skip').focus({ preventScroll: true });
+    })();
 
     // Mailing list signup, saved by api/submit.js
     document.getElementById('anniv-signup').addEventListener('submit', async (e) => {
